@@ -1,0 +1,96 @@
+/* Text Styles */
+#nsr
+ {
+ padding: 6px 6px 0px 6px;
+ border-bottom: none;
+ background: silver;
+ vertical-align: top;
+ z-index: 2;
+ visibility: visible;
+ left: 0;
+ top: 0;
+ /*position: absolute;*/
+ width: 100%;
+ height: 25px;
+ }
+#mainbody
+ {
+ left: 0;
+ top: 0px;
+ margin: 0;
+ /*position: absolute;*/
+ padding: 10px;
+ overflow: visible;
+ height: 100%;
+ z-index: 1;
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ background-attachment: fixed;
+ }
+
+#mainbody,#nsr table /* Normal */
+{
+ font-size: 10pt;
+ font-family: 'Arial';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 8pt;
+ font-family: 'Courier New';
+ color: #000000;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ font-weight: bold;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_Textforpopuptopics /* Text for popup topics */
+{
+ font-size: 9pt;
+}
+/* Paragraph styles */
+#mainbody p /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+#mainbody .p_CodeExample /* Code Example */
+{
+ white-space: nowrap;
+}
+#mainbody .p_Comment /* Comment */
+{
+}
+#mainbody .p_Heading1 /* Heading1 */
+{
+}
+#mainbody .p_ImageCaption /* Image Caption */
+{
+}
+#mainbody .p_Notes /* Notes */
+{
+}
+#mainbody .p_Textforpopuptopics /* Text for popup topics */
+{
+}
+#mainbody ul,li
+{
+}
