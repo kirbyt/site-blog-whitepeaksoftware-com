@@ -1,0 +1,8 @@
+<div class="grid_2 alpha">   
+<h2>{{ post.date | date: "%A, %B %d, %Y" }}</h2>
+</div>   
+<div class="grid_9 omega">   
+<h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+<div class="entry-content">{{ content }}</div>
+</div> 
+<div class="clear"></div>

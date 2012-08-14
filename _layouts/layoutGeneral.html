@@ -1,0 +1,31 @@
+---
+layout: layout960
+---
+
+<!-- Begin L2 Box -->
+<div id="l2Box">
+   <div id="l2BoxTop"></div>
+   <div id="l2BoxMid">
+      <div class="container_16" id="appsRow1">
+         <div class="grid_1">&nbsp;</div>
+         <div class="grid_10 suffix_1">
+         {{ content }}
+         </div>
+         <div class="grid_4">
+            {% include recent_posts.html %}
+            {% include twitter.html %}
+         </div>
+         <div class="clear">&nbsp;</div>
+      </div>
+   </div>
+   <div class="clear">&nbsp;</div>
+   <div id="l2BoxBot"></div>
+</div>
+<!-- End L2 Box -->
+
+<div class="clear">&nbsp;</div>
+<div class="container_16" id="copyright">
+   <div class="grid_16">
+   <p class="copied" style="text-align:center;">Copyright &copy; 2003-{{=request.now.year}} <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+   </div>
+</div>

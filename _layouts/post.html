@@ -1,0 +1,24 @@
+---
+layout: layoutGeneral
+---
+ 
+<h2>{{page.title}}</h2>
+ 
+{{ content }}
+
+<p class="postmetadata alt">
+    <small>
+    This entry was posted on {{ page.date | date: "%A, %B %d, %Y" }} at {{ page.date | date: "%I:%M %p" }}.
+    </small>
+</p>
+
+
+<p class="meta">
+  {% if page.previous.url %}
+    <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</p>
