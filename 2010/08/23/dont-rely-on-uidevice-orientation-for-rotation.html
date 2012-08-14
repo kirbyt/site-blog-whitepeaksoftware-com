@@ -4,11 +4,8 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="robots" content="index,follow" />
-   <meta name="author" lang="en" content="" />
-   <meta name="keywords" content="" />
-   <meta name="description" content="" />
 
-   <title></title>
+   <title>White Peak Software Blog &raquo; Don't Rely on UIDevice orientation for Rotation  </title>
 
    <link rel="stylesheet" media="all" type="text/css" href="/css/reset.css" />
    <link rel="stylesheet" media="all" type="text/css" href="/css/960.css" />
@@ -56,7 +53,7 @@
       <div class="container_16" id="appsRow1">
          <div class="grid_1">&nbsp;</div>
          <div class="grid_10 suffix_1">
-         <h2>Don't Rely on UIDevice orientation for Rotation</h2>
+         <h2><a href="/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation.html">Don't Rely on UIDevice orientation for Rotation</a></h2>
  
 <p>Last week I tweeted about having rotation issues with an iPad app I&#8217;m working on. This is the second time in recent weeks I&#8217;ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
 
@@ -128,22 +125,27 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
 
 <p>This has been an eye opener for me, and I now have a new rule of thumb. Never use <code>UIDevice orientation</code> in code that is responsible for the resizing and layouts of subviews and CALayers.</p>
 
-<p class="postmetadata alt">
+<p class="postmetadata">
     <small>
-    This entry was posted on Monday, August 23, 2010 at 12:00 AM.
+    This entry was posted on Monday, August 23, 2010.
     </small>
 </p>
 
-
-<p class="meta">
+<hr />
+<div class="clear"></div>
+<div class="grid_5 alpha">   
   
     <a class="basic-alignment left" href="/2010/08/21/new-safari-theme-for-hey-peanut.html" title="Previous Post: New Safari Theme for Hey Peanut">&laquo; New Safari Theme for Hey Peanut</a>
   
+</div>
+<div class="grid_1"></div>
+<div class="grid_5 omega">   
   
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a class="basic-alignment right" href="/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store.html" title="Next Post: ANN: Hey Peanut 1.3 is in the App Store">ANN: Hey Peanut 1.3 is in the App Store &raquo;</a>
   
-</p>
+</div> 
+<div class="clear"></div>
+
 
          </div>
          <div class="grid_4">
@@ -216,7 +218,7 @@ new TWTR.Widget({
 <div class="clear">&nbsp;</div>
 <div class="container_16" id="copyright">
    <div class="grid_16">
-   <p class="copied" style="text-align:center;">Copyright &copy; 2003- <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+   <p class="copied" style="text-align:center;">Copyright &copy; 2003-2012 <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
    </div>
 </div>
 
