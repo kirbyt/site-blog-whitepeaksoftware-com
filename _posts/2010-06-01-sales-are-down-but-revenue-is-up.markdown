@@ -15,9 +15,9 @@ The next big question now is, will Labor Mate revenue continue its slow but stea
 
 Meanwhile, for those of you who prefer looking at charts, I've included the sales and revenue charts for Labor Mate covering the time period between April 1, 2010, and May 31, 2010. There was a spike in mid-April but sales started dropping afterwards. The red-dash line is the first full day at the new, higher price. The spike on that day was almost as high as the spike in April.
 
-![20100601-LaborMate-Apr-May-Sales.jpg](http://blog.whitepeaksoftware.com/wp-content/uploads/2010/06/20100601-LaborMate-Apr-May-Sales.jpg)
+![20100601-LaborMate-Apr-May-Sales.jpg](/images/blog/20100601-LaborMate-Apr-May-Sales.jpg)
 
-![20100601-LaborMate-Apr-May-Revenue.jpg](http://blog.whitepeaksoftware.com/wp-content/uploads/2010/06/20100601-LaborMate-Apr-May-Revenue.jpg)
+![20100601-LaborMate-Apr-May-Revenue.jpg](/images/blog/20100601-LaborMate-Apr-May-Revenue.jpg)
 
   
 

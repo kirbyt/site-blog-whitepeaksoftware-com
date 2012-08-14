@@ -3,7 +3,9 @@ layout: post
 title: "Hey Peanut: A New App for the iPhone"
 published: 2010-03-02 14:58:01
 ---
-![HeyPeanut-alpha01.png](http://blog.whitepeaksoftware.com/wp-content/uploads/2010/03/HeyPeanut-alpha01.png)I have spent the last couple of months working on a new app for the iPhone called Hey Peanut. Hey Peanut is a photo browser app with a twist for toddlers.
+![HeyPeanut-alpha01.png](/images/blog/2010-03-02-HeyPeanut-alpha01.png)
+
+I have spent the last couple of months working on a new app for the iPhone called Hey Peanut. Hey Peanut is a photo browser app with a twist for toddlers.
 
 A while back my wife took pictures of family members and put them into a small photo album. Our son doesn't see his extended family as much as we would like so from time to time we sit with him and browse the family photo album. This gives him a chance to learn the faces of his grandparents, aunts, uncles, and cousins. One day I was watching my wife and son browse the photo album and I thought, "There should be an app for that." Thus the idea for Hey Peanut was born.
 

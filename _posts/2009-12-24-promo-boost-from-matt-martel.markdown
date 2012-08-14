@@ -3,7 +3,9 @@ layout: post
 title: "Promo Boost from Matt Martel "
 published: 2009-12-24 11:05:20
 ---
-[![LaborMate-reMovem](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/12/LaborMate-reMovem.PNG)](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/12/LaborMate-reMovem.PNG)To say [Matt Martel](http://twitter.com/mmartel) is a swell guy is an understatement. He is a super swell guy who does what he can to contribute to the iPhone development community, and he is somewhat a role model for me (though I doubt he knows it...yet). He started and ran a regular iPhone developer meet up group in the Boston metro area, he is willing to share his thoughts and feedback on the business of running an indie shop, and just this week he made a special offer to indie iPhone developers. 
+![LaborMate-reMovem](/images/blog/2009-12-24-LaborMate-reMovem.PNG)
+
+To say [Matt Martel](http://twitter.com/mmartel) is a swell guy is an understatement. He is a super swell guy who does what he can to contribute to the iPhone development community, and he is somewhat a role model for me (though I doubt he knows it...yet). He started and ran a regular iPhone developer meet up group in the Boston metro area, he is willing to share his thoughts and feedback on the business of running an indie shop, and just this week he made a special offer to indie iPhone developers. 
 
 I first met Matt, and his wife Trish, in September at [360iDev](http://www.360idev.com/) Denver. Turns out Matt and Trish lived in the Boston area too. I say "lived" because they recently moved to Colorado Springs, but that's a different story. 
 

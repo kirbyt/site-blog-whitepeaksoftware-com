@@ -7,4 +7,4 @@ Hey Peanut version 1.1 has just been released and is available in the App Store.
 
 Haven't bought Hey Peanut for your toddler? No worries. The price will remain $1.99 and will include both the iPhone and iPad versions. It's like getting 2 apps for the price of 1.
 
-![HeyPeanut-iPad-Sample.png](http://blog.whitepeaksoftware.com/wp-content/uploads/2010/04/HeyPeanut-iPad-Sample.png)
+![HeyPeanut-iPad-Sample.png](/images/blog/2010-04-02-HeyPeanut-iPad-Sample.png)

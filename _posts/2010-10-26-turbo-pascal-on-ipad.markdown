@@ -33,4 +33,4 @@ That's it. Happy coding!
 
 Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can [download the source code for DOSPad](http://code.google.com/p/dospad/) and build your own version. 
 
-![photo-4.PNG](http://blog.whitepeaksoftware.com/wp-content/uploads/2010/10/photo-41.PNG)
+![photo-4.PNG](/images/blog/2010-10-26-photo-41.PNG)

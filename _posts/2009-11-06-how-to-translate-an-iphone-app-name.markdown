@@ -3,7 +3,9 @@ layout: post
 title: "How to Translate an iPhone App Name"
 published: 2009-11-06 21:15:56
 ---
-[](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/iPhoneJapanese1.png)[![iphone-ja](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/iphone-ja.png)](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/iphone-ja.png)I recently went through the process of translating Labor Mate into 8 different languages. Unfortunately the phrase "Labor Mate" doesn't translate well into other languages such as Japanese and Germany so the translators came up with new localized app names. The problem I had though was displaying the translated app name on the iPhone's springboard. 
+![](/images/blog/2009-11-06-iPhoneJapanese1.png)
+
+I recently went through the process of translating Labor Mate into 8 different languages. Unfortunately the phrase "Labor Mate" doesn't translate well into other languages such as Japanese and Germany so the translators came up with new localized app names. The problem I had though was displaying the translated app name on the iPhone's springboard. 
 
 After a bit of experimenting I finally got the translated app name to display. Turns out the steps are fairly simple. Here are the steps I took to localize the app name: 
 
@@ -21,9 +23,9 @@ After a bit of experimenting I finally got the translated app name to display. T
 
 That's it. 
 
-[![Info.plist](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/Info.plist.png)](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/Info.plist.png)
+![Info.plist](/images/blog/2009-11-06-Info.plist.png)
 
-[![InfoPlist.strings](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/InfoPlist.strings.png)](http://blog.whitepeaksoftware.com/wp-content/uploads/2009/11/InfoPlist.strings.png)
+![InfoPlist.strings](/images/blog/2009-11-06-InfoPlist.strings.png)
 
 Speaking of language translation, I hired the fine folks over at [iphone-i18n.com](http://iphone-i18n.com/) to translate the app description, keywords, and in-app strings for Labor Mate. I met Chuck and Judith of iphone-i18n.com at [360iDev|Denver](http://www.360idev.com/). They impressed me with their knowledge of internationalizing and localizing applications as well as their specific technical how to knowledge for the iPhone. 
 
