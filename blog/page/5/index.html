@@ -58,6 +58,29 @@
   
     <article>
       <div class="grid_2 alpha">   
+<h2>Thursday, April 15, 2010</h2>
+</div>   
+<div class="grid_9 omega">   
+<h1 class="entry-title"><a href="/2010/04/15/another-360idev-comes-to-a-close.html">Another 360idev Comes to a Close</a></h1>
+<div class="entry-content"><p>Today was the last day for <a href='http://360idev.com'>360idev</a> and what a great 4 days it has been. Catching up with friends, making new friends, listening to great talks, and yes, having a beer or four. This 360idev was extra exciting me for because I got a chance to talk.</p>
+
+<p>My presentation &#8220;Building Web Service Powered Apps&#8221; didn&#8217;t start off great. There was a technical issue with my laptop and the projector that cause the talk to start late. Then as I tried to show an example of a web service call using the Twitter API I got a request limit reached error.</p>
+
+<p>Despite the bumpy start and the shorten time frame, I think the talk was okay. Not great but okay. I wasn&#8217;t able to talk through some of the points I had hoped to cover and I had to skip a couple of the demos. My plan is to record the skipped demos as a screen cast and post them here soon.</p>
+
+<p>Thanks to all who came to my talk, and big thanks to the 360idev team, other speakers and the attendees who made the last few days in San Jose great.</p></div>
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
 <h2>Friday, April 02, 2010</h2>
 </div>   
 <div class="grid_9 omega">   
@@ -276,31 +299,6 @@
     </div>
     <div class="clear"></div>
   
-  
-    <article>
-      <div class="grid_2 alpha">   
-<h2>Tuesday, February 02, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/02/02/switching-the-xcode-path-using-xcode-select.html">Switching the Xcode Path using xcode-select</a></h1>
-<div class="entry-content"><p>I currently have two versions of Xcode installed on my primary development machine. One version is the official release from Apple and the other version is a beta version. I install the latest release in the default directory /Developer and I install beta releases in a parallel directory, /Developer-n.n.n where &#8220;n.n.n&#8221; is the Xcode version number.</p>
-
-<p>I also have a number of different distribution certificates for making adhoc and distribution builds for my iPhone apps and client apps. I use different keychains to manage the multiple certificates. Because of this I rely on bash scripts to make adhoc and distribution builds of the different iPhone apps that I am responsible for.</p>
-
-<p>The latest Xcode beta release does not include iPhone OS SDK 2.2.1. Not really a big deal for me since the SDK is included in Xcode 3.2.1. However, to my surprise when I ran a script for a 2.2.1 app the build failed to find the 2.2.1 SDK. Turns out installing the latest beta release replaces the <em>/usr/bin/xcodebuild</em> command. Oh know! My build script no longer works for 2.2.1 apps.</p>
-
-<p>Thanks to a tip from <a href='http://twitter.com/joar_at_work'>@joar_at_work</a> on Twitter I was able to solve the problem. The magical command I needed was <em>/usr/bin/xcode-select</em>. This command allows you to change the Xcode directory used by xcodebuild. For instance, in my situation xcodebuild was looking at /Developer-3.2.2 which does not include iPhone OS SDK 2.2.1. By using xcode-select I was able to point xcodebuild to the /Developer directory.</p>
-
-<p>Switching directories is simple with xcode-select. Just use the -switch option. For example: <strong>xcode-select -switch /Developer</strong>. This did the trick for me and my build scripts were once again working with the correct Xcode environment.</p></div>
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
 </div>
 
 <div class="clear"></div>
@@ -328,6 +326,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice.html">Prolonging My Laptop's Battery with FruitJuice</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/07/31/first-impressions-macbook-pro-with-retina-display.html">First Impressions: MacBook Pro with Retina Display</a>
       </li>
     
@@ -341,10 +343,6 @@
     
       <li class="post">
         <a href="/2011/03/29/todays-email-outage.html">Today's Email Outage </a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic.html">Discoloration on the New iPad 2 is No Reason to Panic</a>
       </li>
     
   </ul>

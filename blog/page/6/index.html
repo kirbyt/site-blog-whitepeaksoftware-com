@@ -58,6 +58,31 @@
   
     <article>
       <div class="grid_2 alpha">   
+<h2>Tuesday, February 02, 2010</h2>
+</div>   
+<div class="grid_9 omega">   
+<h1 class="entry-title"><a href="/2010/02/02/switching-the-xcode-path-using-xcode-select.html">Switching the Xcode Path using xcode-select</a></h1>
+<div class="entry-content"><p>I currently have two versions of Xcode installed on my primary development machine. One version is the official release from Apple and the other version is a beta version. I install the latest release in the default directory /Developer and I install beta releases in a parallel directory, /Developer-n.n.n where &#8220;n.n.n&#8221; is the Xcode version number.</p>
+
+<p>I also have a number of different distribution certificates for making adhoc and distribution builds for my iPhone apps and client apps. I use different keychains to manage the multiple certificates. Because of this I rely on bash scripts to make adhoc and distribution builds of the different iPhone apps that I am responsible for.</p>
+
+<p>The latest Xcode beta release does not include iPhone OS SDK 2.2.1. Not really a big deal for me since the SDK is included in Xcode 3.2.1. However, to my surprise when I ran a script for a 2.2.1 app the build failed to find the 2.2.1 SDK. Turns out installing the latest beta release replaces the <em>/usr/bin/xcodebuild</em> command. Oh know! My build script no longer works for 2.2.1 apps.</p>
+
+<p>Thanks to a tip from <a href='http://twitter.com/joar_at_work'>@joar_at_work</a> on Twitter I was able to solve the problem. The magical command I needed was <em>/usr/bin/xcode-select</em>. This command allows you to change the Xcode directory used by xcodebuild. For instance, in my situation xcodebuild was looking at /Developer-3.2.2 which does not include iPhone OS SDK 2.2.1. By using xcode-select I was able to point xcodebuild to the /Developer directory.</p>
+
+<p>Switching directories is simple with xcode-select. Just use the -switch option. For example: <strong>xcode-select -switch /Developer</strong>. This did the trick for me and my build scripts were once again working with the correct Xcode environment.</p></div>
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
 <h2>Monday, February 01, 2010</h2>
 </div>   
 <div class="grid_9 omega">   
@@ -280,35 +305,6 @@
     </div>
     <div class="clear"></div>
   
-  
-    <article>
-      <div class="grid_2 alpha">   
-<h2>Wednesday, January 06, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/01/06/labor-mates-fail-from-grace.html">Labor Mate's Fail From Grace</a></h1>
-<div class="entry-content"><p>Labor Mate was originally release in October 2008. My expectations for it were low. If it sold 100 units in the first year then I would consider it a success. But my expectation were exceeded. Labor Mate sold 4997 units in the first year, and it has sold 9201 units in all as of yesterday.</p>
-
-<p>In January 2009 Labor Mate broke into the Top 100 for the Health and Fitness category in the U.S. store. It stayed in the Top 100 daily for nearly 11 straight months peaking at <a href='http://emberapp.com/kirbyt/images/labormate-rank34-us'>number 34</a> in the U.S. store. Labor Mate has also been in the Top 100 for the Health and Fitness category in a number of other stores including the U.K., Japan, Sweden, Netherlands, and Italy among others. All of this changed in mid-November. Labor Mate&#8217;s fall from grace had started.</p>
-
-<p>A couple of things happened in November bumping Labor Mate out of the Top 100 in its category. First, it received a couple of ridiculous, negative comments in iTunes. I&#8217;m not sure of the real impact but the slide from the Top 100 started at the time of the comments. Second and only a day or two later, <a href='http://click.linksynergy.com/fs-bin/stat?id=joxFicmfXq8&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbabybump-pregnancy-app%252Fid332366275%253Fmt%253D8%2526uo%253D6%2526partnerId%253D30'>BabyBump</a> made the What&#8217;s Hot list. I believe it is this second point that has taken the biggest toll on Labor Mate&#8217;s Top 100 streak.</p>
-
-<p>BabyBump was released in October 2009, just over a year since the initial release of Labor Mate. BabyBump includes features that I have long planned for Labor Mate but have yet to implement. And honestly it looks better than Labor Mate in my opinion. Creative design has always been a weak skill set of mine.</p>
-
-<p>At the end of the day, BabyBump did it better. This was a major wakeup call for me. I let Labor Mate, the one time market leader in its space, grow stale. I had a top ranking and it was mine to lose. And lose it I did.</p>
-
-<p>A major mistake I made in 2009 was to focus most of my attention on contract work and not enough time on my own company. This lack of focus was a setback but also a major kick in my ass. Unfortunately it took Labor Mate&#8217;s fall from grace to light the fire under me (and in me). I have learned from this lesson and will do better going forward. For starters, I have since hired a part-time designer as the &#8220;Creative Director&#8221; for White Peak Software and the first project we worked on together looks great. It will be in the app store soon.</p>
-
-<p>So what about Labor Mate? Is Labor Mate dead? No, far from it. Just a few weeks before the fall from grace, version 1.5 of Labor Mate was approved. This release added support for 8 additional languages, Dutch, French, German, Italian, Japanese, Spanish, Swedish, and Russian. So while sales in the U.S. have dropped, sales worldwide have improved and Labor Mate continues to sell an average of 31 units per day worldwide. So despite not being in the Top 100 of the Health and Fitness category in the U.S., sales remain steady. Also, I have big plans for Labor Mate 2, which I will start working on soon.</p></div>
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
 </div>
 
 <div class="clear"></div>
@@ -336,6 +332,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice.html">Prolonging My Laptop's Battery with FruitJuice</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/07/31/first-impressions-macbook-pro-with-retina-display.html">First Impressions: MacBook Pro with Retina Display</a>
       </li>
     
@@ -349,10 +349,6 @@
     
       <li class="post">
         <a href="/2011/03/29/todays-email-outage.html">Today's Email Outage </a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic.html">Discoloration on the New iPad 2 is No Reason to Panic</a>
       </li>
     
   </ul>
