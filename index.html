@@ -2,23 +2,35 @@
 layout: layoutBlogIndex
 ---
 
-<div class="blog-index">
+<div class="blog_index">
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
       {% include article.html %}
     </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
   {% endfor %}
-  <div class="pagination">
+</div>
+
+<div class="clear"></div>
+
+
+<div class="grid_2 alpha">   
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
     {% endif %}
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>   
+<div class="grid_7" align="center">
     <a href="/blog/archives">Blog Archives</a>
+</div>
+<div class="grid_2 omega">   
     {% if paginator.previous_page %}
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}
-  </div>
-</div>
+</div> 
+<div class="clear"></div>

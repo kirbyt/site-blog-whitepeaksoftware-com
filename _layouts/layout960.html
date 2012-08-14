@@ -4,11 +4,8 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="robots" content="index,follow" />
-   <meta name="author" lang="en" content="{{=response.author}}" />
-   <meta name="keywords" content="{{=response.keywords}}" />
-   <meta name="description" content="{{=response.description}}" />
 
-   <title>{{=response.title or 'White Peak Software Inc'}}</title>
+   <title>White Peak Software Blog{% if page.title %} &raquo; {{ page.title }}{% endif %}  </title>
 
    <link rel="stylesheet" media="all" type="text/css" href="/css/reset.css" />
    <link rel="stylesheet" media="all" type="text/css" href="/css/960.css" />
