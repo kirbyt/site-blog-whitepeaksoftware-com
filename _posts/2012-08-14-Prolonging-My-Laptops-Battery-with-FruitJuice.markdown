@@ -22,7 +22,7 @@ So now I'm faced with a dilemma. I have a shinny, new MacBook Pro that doesn't h
 
 [FruitJuice](http://fruitjuiceapp.com) is a combination Mac app and web service that helps extend the life of your laptop's battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.
 
-![][/images/blog/2012-08-14-FruitJuice.png]
+![](/images/blog/2012-08-14-FruitJuice.png)
 
 
 It's this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone.  The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.
