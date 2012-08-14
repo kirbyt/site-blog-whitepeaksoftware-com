@@ -1,0 +1,249 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="robots" content="index,follow" />
+   <meta name="author" lang="en" content="" />
+   <meta name="keywords" content="" />
+   <meta name="description" content="" />
+
+   <title></title>
+
+   <link rel="stylesheet" media="all" type="text/css" href="/css/reset.css" />
+   <link rel="stylesheet" media="all" type="text/css" href="/css/960.css" />
+   <link rel="stylesheet" media="all" type="text/css" href="/css/text.css" />
+   <link rel="stylesheet" media="all" type="text/css" href="/css/default.css" />
+   <link rel="stylesheet" media="all" type="text/css" href="/css/helpstyle.css" />
+   <link rel="stylesheet" media="all" type="text/css" href="/css/blogstyle.css" />
+   
+   <!--[if IE]>
+   <link rel="stylesheet" media="all" type="text/css" href="/css/ie.css')}}" />
+   <![endif]-->
+   
+   
+   <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.css" media="screen" />
+
+   
+</head>
+<body>
+   <!-- Begin Header -->
+   <div class="container_16" id="header">
+      <div class="grid_16">
+         <a href="http://www.whitepeaksoftware.com/"><img src="/images/headerUpdate.jpg" alt="White Peak Software" id="headerImg" border="0" /></a>
+      </div>
+   </div>
+   <!-- End Header -->
+   <div class="clear">&nbsp;</div>
+   <!-- Begin Global Nav -->
+   <div class="container_16" id="globalNav">
+      <div class="grid_15 prefix_1">
+         <ul>
+            <li><a href="http://www.whitepeaksoftware.com/">Home</a></li>
+            <li><a href="http://www.whitepeaksoftware.com/main/store/index">Store</a></li>
+            <li><a href="http://www.whitepeaksoftware.com/main/support/index">Support</a></li>
+            <li><a href="http://www.whitepeaksoftware.com/main/default/contact">Contact Us</a></li>
+            <li><a href="/">Blog</a></li>
+         </ul>
+      </div>
+   </div>
+   <!-- End Global Nav -->
+   <div class="clear">&nbsp;</div>
+   <!-- Begin L2 Box -->
+<div id="l2Box">
+   <div id="l2BoxTop"></div>
+   <div id="l2BoxMid">
+      <div class="container_16" id="appsRow1">
+         <div class="grid_1">&nbsp;</div>
+         <div class="grid_10 suffix_1">
+         <h2>Don't Rely on UIDevice orientation for Rotation</h2>
+ 
+<p>Last week I tweeted about having rotation issues with an iPad app I&#8217;m working on. This is the second time in recent weeks I&#8217;ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
+
+<p>For those who don&#8217;t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it&#8217;s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
+
+<p>As the device is rotated from portrait to landscape, or vice versa, my view must resize and adjust the layout of the CALayers. Because <code>UIView</code> does not receive the rotation notifications I decided to be smart and use the <a href='http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/doc/uid/TP40006902-CH3-SW3'>orientation property</a> from <code>UIDevice</code>. So in my view I had code similar to this:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>What I failed to realize, however, is that the property <code>orientation</code> will <strong>always</strong> return 0 unless orientation notifications are enabled. Here is a quote directly from the Developer Documentation:</p>
+
+<p>&#8220;The value of this property always returns 0 unless orientation notifications have been enabled by calling beginGeneratingDeviceOrientationNotifications.&#8221;</p>
+
+<p>Doh! Guess I should have RTFM sooner.</p>
+
+<p>Because the <code>orientation</code> property will return 0, sometimes the view in my app would not rotate. But I didn&#8217;t know this was the source of the problem at the time.</p>
+
+<p>After banging my head over and over on the wall, I decided to investigate exactly what was happening. I never suspected <code>[[UIDevice currentDevice] orientation]</code> but eventually I noticed it was returning 0. This seemed odd so I checked the Developer Documentation. I wasn&#8217;t expecting to learn anything new. Boy, was I wrong. I was surprised when I read the property always returns 0 when orientation notifications are not enabled.</p>
+
+<p>I now knew the source of my rotation problems, and a likely quick fix to the problem would have been to call <code>beginGeneratingDeviceOrientationNotifications</code>, get the device orientation, then call <code>endGeneratingDeviceOrientationNotifications</code>. But this just seemed wrong to me. The better fix, in my opinion, is to rely on the rotation notifications received by the view controller, so that&#8217;s exactly what I did.</p>
+
+<p>Now in my particular situation, there are two times I want to resize and layout the CALayers in the <code>UIView</code>. One of those times is when the device is rotated, which is when the view controller receives the <code>willRotateToInterfaceOrientation:duration:</code> message. This was easy to solve. I added an <code>adjustLayoutToInterfaceOrientation:</code> method to my <code>UIView</code> and I call the method inside the UIViewController&#8217;s <code>willRotateToInterfaceOrientation:duration:</code> method. For example:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+}</code></pre>
+
+<p>The other time my <em>UIView</em> needs to adjust the layout of the CALayers is when the <em>UIScrollView</em> scrolls. I&#8217;m using a modified version of Matt Gallagher&#8217;s <a href='http://cocoawithlove.com/2009/01/multiple-virtual-pages-in-uiscrollview.html'>virtual pages in a UIScrollView</a> approach, so the contents of my view changes as the user scrolls. This is where, previously, I was trying to be smart and use the <em>orientation</em> property from <em>UIDevice</em>. But what I really need is the current orientation as received in the most recent call to <code>willRotateToInterfaceOrientation:duration:</code>.</p>
+
+<p>My solution was to add the ivar currentOrientation to my view controller. My view already has a reference to the view controller. I exposed currentOrientation so my view can retrieve the property value. This allowed me to replace the <code>[[UIDevice currentDevice] orientation]</code> code with <code>[controller currentOrientation]</code>. Now the view always knows the current orientation and the app does not need to enable orientation notification in code.</p>
+
+<p>As a result, the first code snippet in this posting changes to:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [controller_ currentOrientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>And the <code>willRotateToInterfaceOrientation:duration:</code> implementation changes to:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+
+    currentOrientation_ = toInterfaceOrientation;
+
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+
+}</code></pre>
+
+<p>This has been an eye opener for me, and I now have a new rule of thumb. Never use <code>UIDevice orientation</code> in code that is responsible for the resizing and layouts of subviews and CALayers.</p>
+
+<p class="postmetadata alt">
+    <small>
+    This entry was posted on Monday, August 23, 2010 at 12:00 AM.
+    </small>
+</p>
+
+
+<p class="meta">
+  
+    <a class="basic-alignment left" href="/2010/08/21/new-safari-theme-for-hey-peanut.html" title="Previous Post: New Safari Theme for Hey Peanut">&laquo; New Safari Theme for Hey Peanut</a>
+  
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="basic-alignment right" href="/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store.html" title="Next Post: ANN: Hey Peanut 1.3 is in the App Store">ANN: Hey Peanut 1.3 is in the App Store &raquo;</a>
+  
+</p>
+
+         </div>
+         <div class="grid_4">
+            <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/07/31/first-impressions-macbook-pro-with-retina-display.html">First Impressions: MacBook Pro with Retina Display</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/06/28/wanted-beta-testers-for-killink-csv-editor.html">Wanted: Beta Testers for Killink CSV Editor</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/04/11/great-time-at-vtm.html">Great Time at VTM</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/03/29/todays-email-outage.html">Today's Email Outage </a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic.html">Discoloration on the New iPad 2 is No Reason to Panic</a>
+      </li>
+    
+  </ul>
+</section>
+
+            
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('whitepeak').start();
+</script>
+
+         </div>
+         <div class="clear">&nbsp;</div>
+      </div>
+   </div>
+   <div class="clear">&nbsp;</div>
+   <div id="l2BoxBot"></div>
+</div>
+<!-- End L2 Box -->
+
+<div class="clear">&nbsp;</div>
+<div class="container_16" id="copyright">
+   <div class="grid_16">
+   <p class="copied" style="text-align:center;">Copyright &copy; 2003- <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+   </div>
+</div>
+
+
+
+   <script src="/scripts/jquery.js" type="text/javascript"></script>
+   <script type="/fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+
+   <script type="text/javascript">
+      $(document).ready(function() {
+         //Activate FancyBox
+         $('div#screenshots a').fancybox({
+            'hideOnContentClick':true,
+            'padding': 0
+         });
+      });
+   </script>
+
+   <script type="text/javascript">
+   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+   try {
+   var pageTracker = _gat._getTracker("UA-167605-2");
+   pageTracker._trackPageview();
+   } catch(err) {}</script>
+
+</body>
+</html>
