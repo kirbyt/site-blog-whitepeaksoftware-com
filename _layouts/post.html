@@ -8,7 +8,8 @@ layout: layoutGeneral
 
 <p class="postmetadata">
     <small>
-    This entry was posted on {{ page.date | date: "%A, %B %d, %Y" }}.
+    This entry was posted on {{ page.date | date: "%A, %B %d, %Y" }}.<br />
+    {% if page.categories %} Posted in {{ page.categories | category_links }}.{% endif %}
     </small>
 </p>
 
