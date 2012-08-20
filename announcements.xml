@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2012-08-20T00:12:36-04:00</updated>
+  <updated>2012-08-20T01:17:14-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -14,7 +14,7 @@
   
   
   <entry>
-    <title type="html"><![CDATA[Office Closed August 22 Through End of September]]></title>
+    <title type="html"><![CDATA[ANN: Office Closed August 22 Through End of September]]></title>
     <link href="http://blog.whitepeaksoftware.com/2012/08/20/office-closed/"/>
     <published>2012-08-20T00:00:00-04:00</published>
     <updated>2012-08-20T00:00:00-04:00</updated>
@@ -28,6 +28,228 @@
 <p>If you have lost your license information and need it re-sent, click <a href='http://www.whitepeaksoftware.com/support/licenselookup'>here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
 
 <p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wanted: Beta Testers for Killink CSV Editor]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor/"/>
+    <published>2011-06-28T00:00:00-04:00</published>
+    <updated>2011-06-28T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor</id>
+    <content type="html"><![CDATA[<p>I posted a new beta for Killink CSV Editor v2 today. The big feature added to version 2 is Unicode support. This means Killink CSV Editor can now read and write not only ASCII files but UTF-8 and UTF-16 files.</p>
+
+<p>If you&#8217;re a Killink CSV Editor user and you want to live life on the edge, please <a href='http://cdn.whitepeaksoftware.com/downloads/setup-killinkcsv-250.exe'>download beta 2</a>, give it a test drive, and send email to <em>support at white peak software dot com</em> if you encounter any issues. Note this build of Killink CSV Editor installs, by default, in a separate directory allowing both Version 1.14 and Version 2.0 to co-exists on the same computer.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Hey Peanut 1.3 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store/"/>
+    <published>2010-08-26T00:00:00-04:00</published>
+    <updated>2010-08-26T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>Hey Peanut 1.3 is now available in the App Store. The 1.3 update to Hey Peanut includes a new safari theme and all new animal sound effects.</p>
+
+<p>What is Hey Peanut? Hey Peanut is a photo app for toddlers available on iPhone and iPad. Parents add pictures to Hey Peanut and optionally record a message on each picture. Then your 1 to 3 year old can flip through the pictures, touching each one to hear the recorded message. Hey Peanut also includes colorful themes with fun sound effects to entertain your child.</p>
+
+<p>Keep an eye on the <a href='http://twitter.com/heypeanutapp'>@HeyPeanutApp</a> and <a href='http://twitter.com/whitepeak'>@WhitePeak</a> Twitter feeds for free promo codes.</p>
+
+<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Hey Peanut 1.2 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store/"/>
+    <published>2010-07-07T00:00:00-04:00</published>
+    <updated>2010-07-07T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>I&#8217;m happy to announce version 1.2 of Hey Peanut, the photo app for toddlers available on the iPhone and iPad, is now available in the App Store. This update fixes bugs reported on iOS4 and adds new HD artwork for iPhone 4.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Labor Mate 1.7 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store/"/>
+    <published>2010-07-02T00:00:00-04:00</published>
+    <updated>2010-07-02T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The latest version of Labor Mate, the best dang labor contraction timer for the iPhone and iPod touch, is now available in the App Store. This update is FREE to existing user. The update includes a much improved UI, compatibility with iOS4 and multitasking, and support for the new retina display on iPhone 4.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hey Peanut - iPad App for Toddlers]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/04/02/hey-peanut-ipad-app-for-toddlers/"/>
+    <published>2010-04-02T00:00:00-04:00</published>
+    <updated>2010-04-02T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/04/02/hey-peanut-ipad-app-for-toddlers</id>
+    <content type="html"><![CDATA[<p>Hey Peanut version 1.1 has just been released and is available in the App Store. I&#8217;m very excited about this update because it adds support for the new iPad, which will be available for purchase tomorrow. Best of all the update is free to existing users, so if you already bought Hey Peanut and you are getting an iPad then you will get the iPad version of Hey Peanut for free as well.</p>
+
+<p>Haven&#8217;t bought Hey Peanut for your toddler? No worries. The price will remain $1.99 and will include both the iPhone and iPad versions. It&#8217;s like getting 2 apps for the price of 1.</p>
+
+<p><img alt='HeyPeanut-iPad-Sample.png' src='/images/blog/2010-04-02-HeyPeanut-iPad-Sample.png' /></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hey Peanut for the iPhone is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/03/17/hey-peanut-for-the-iphone-is-in-the-app-store/"/>
+    <published>2010-03-17T00:00:00-04:00</published>
+    <updated>2010-03-17T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/03/17/hey-peanut-for-the-iphone-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>I&#8217;m very excited to announce the immediate availability of Hey Peanut in the App Store. Hey Peanut is a new type of photo browser on the iPhone and iPod touch designed specifically for your toddler, ages 1 to 3 years old. Hey Peanut is kid tested and parent approve. It includes fun farm animals and sound effects to entertain your little one, but the best feature is the built-in voice recorder.</p>
+
+<p>Add photos of family and friends then have them record a voice message for your child. When you child touches the photo the voice recording will play. This is a great way for your child to see and hear love ones who might live or be out of town.</p>
+
+<p>My son Rowan, at the age of 20 months, helped me design Hey Peanut. He played with Hey Peanut at every stage. He hated it in the beginning, always saying &#8220;No, no!&#8221; But once all the pieces were in place, the music, farm scenes, and sound effects, he loved it. He now plays with Hey Peanut often and especially enjoys seeing and hearing his mom when she is out of town working.</p>
+
+<p>If you have love ones who live out of town, or a parent that travels often, then you toddler is going to love Hey Peanut.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Labor Mate 1.6 is Now Available]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/02/05/labor-mate-1-6-is-now-available/"/>
+    <published>2010-02-05T00:00:00-05:00</published>
+    <updated>2010-02-05T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/02/05/labor-mate-1-6-is-now-available</id>
+    <content type="html"><![CDATA[<p>Labor Mate 1.6 has been approved by Apple and is now available in the App Store. This version fixes the problem with the No button displayed after touching the Reset button.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Donating $150 to Haiti as Part of Indie+Relief]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/01/21/donating-150-to-haiti-as-part-of-indierelief/"/>
+    <published>2010-01-21T00:00:00-05:00</published>
+    <updated>2010-01-21T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/01/21/donating-150-to-haiti-as-part-of-indierelief</id>
+    <content type="html"><![CDATA[<p>The final sales numbers are in for White Peak Software. $150 was raised by our customers as part of <a href='http://www.indierelief.com/'>Indie+Relief</a>. A big THANKS to all who participated.</p>
+
+<p>Because it is such a good cause I decided to do something a little different. The original plan was to donate all proceeds from the sales on January 20. However, additional processing fees are taken out of each transaction - 30% to Apple and 15% to eSellerate. I decided I will donate the cost of the transaction fees myself.</p>
+
+<p>Here is a breakdown of sales for the donation:</p>
+
+<p>ProductUnits SoldUnit CostTotal</p>
+
+<p>Labor Mate 42 $0.99 $41.58</p>
+
+<p>Killink CSV Editor 3 $27.00 $81.00</p>
+
+<p>SMTP Diagnostics 2 $11.95 $23.90</p>
+
+<p><strong>Grand Total</strong></p>
+
+<p><strong>$146.48</strong></p>
+
+<p>I rounded the grand total up to <strong>$150</strong>. The money has been donated to <a href='http://www.doctorswithoutborders.org/'>Doctors Without Borders</a> as part of the emergency relief for Haiti.</p>
+
+<p>Finally, I want to send a big THANKS for <a href='http://twitter.com/justin'>Justin Williams</a> of <a href='http://www.secondgearsoftware.com/'>Second Gear Software</a> for coming up with the idea and <a href='http://twitter.com/garrettmurray'>Garrett Murray</a> who built the Indie+Relief web site. Both individuals put a great deal of time and effort to make this event happen in just a matter of days.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Donate to Haiti Relief Efforts and Get Great Software]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/01/14/donate-to-haiti-relief-efforts-and-get-great-software/"/>
+    <published>2010-01-14T00:00:00-05:00</published>
+    <updated>2010-01-14T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/01/14/donate-to-haiti-relief-efforts-and-get-great-software</id>
+    <content type="html"><![CDATA[<p>I will be donating all proceeds from White Peak Software product sales on Wednesday, January 20, 2010, as part of the <a href='http://www.indierelief.com/'>Indie+Relief</a> program. The proceeds will be donated to <a href='http://doctorswithoutborders.org/'>Doctors Without Borders</a> to assist with their efforts in Haiti.</p>
+
+<h2 id='how_can_you_help'>How can you help?</h2>
+
+<p>You can help by purchasing one of our products: Labor Mate, Killink CSV Editor, or SMTP Diagnostics. Don&#8217;t have a need for one of our products? Then visit the <a href='http://www.indierelief.com/'>Indie+Relief</a> website for a list of other independent software companies participating in this Haiti relief program.</p>
+
+<p><a href='http://www.indierelief.com/'>Get great software and help with efforts in Haiti at the same time.</a></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Coming Soon: NSiPhoneDevs]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/01/08/coming-soon-nsiphonedevs/"/>
+    <published>2010-01-08T00:00:00-05:00</published>
+    <updated>2010-01-08T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/01/08/coming-soon-nsiphonedevs</id>
+    <content type="html"><![CDATA[<p>Over the last few months I have been inspired by different iPhone developer community events including <a href='http://www.360idev.com/'>360iDev</a> and <a href='http://drinksontap.org/'>DrinksOnTap</a>. So much so I have decided to start my own monthly <a href='http://nsiphonedevs.org'>event for Boston area iPhone developers</a>.</p>
+
+<p>The opportunity to meet fellow iPhone developers and form new friendships is very exciting to me and it motivates me to do more with White Peak Software. Working from home is a wonderful perk of being an indie developer but it can be lonely at times. Meetup events, conferences, and so on are great ways for me to feel connected. And it gives my wife a needed break from my geek talk, which she doesn&#8217;t always understand but always happily smiles and acts like she is interested.</p>
+
+<p>The Boston area has a number of meetup events but it is not always possible for me to get into Boston. And let&#8217;s face it. <a href='http://mbta.com/'>MBTA</a> ain&#8217;t the <a href='http://mta.info/'>MTA</a>. I missed the 10:40 pm train to Salem at the last event I attended in Cambridge. This meant waiting until the 12:10 am train. I finally got home at 1 am.</p>
+
+<p>So what&#8217;s a North Shore iPhone developer who can&#8217;t always make it into Boston to do? Start a monthly gathering in the North Shore of course.</p>
+
+<p>Over the New Year&#8217;s weekend I <a href='http://twitter.com/kirbyt/status/7305792560'>tweeted</a> about a new group I&#8217;m creating called <a href='http://nsiphonedevs.org/'>NSiPhoneDevs</a>. The NS prefix is a fun play on the prefix for many of the foundation classes from Apple, but the NS prefix also stands for &#8220;North Shore&#8221;. The North Shore iPhone Developers or NSiPhoneDevs for short.</p>
+
+<p>I&#8217;m still working out the details including the exact location. What I do know is the events will be held in downtown Salem, the events will be monthly, and the first event will be this spring. Stay tune for more NSiPhoneDevs news from the official website (<a href='http://nsiphonedevs.org/'>http://nsiphonedevs.org/</a>) or follow <a href='http://twitter.com/nsiphonedevs'>@NSiPhoneDevs</a> on Twitter.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Selected as a 360iDev San Jose Speaker]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/01/07/selected-as-a-360idev-san-jose-speaker/"/>
+    <published>2010-01-07T00:00:00-05:00</published>
+    <updated>2010-01-07T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/01/07/selected-as-a-360idev-san-jose-speaker</id>
+    <content type="html"><![CDATA[<p>Yesterday I was having a very good day but around 5:45 pm my day got even better. I received an email from the fine folks at 360iDev that my topic &#8220;Building Web Service Powered iPhone Apps&#8221; has been selected. Yep, that&#8217;s right folks. I will be speaking at the upcoming <a href='http://www.360idev.com/'>360iDev San Jose</a> (April 11-14).</p>
+
+<p>I&#8217;m very excited about this opportunity for a number of reasons. First and foremost, speaking at the conference gives me a chance to share what I have learned over the recents months about leveraging web services within iPhone applications. I have worked with web services in some form for over a decade now so it&#8217;s only natural that I would gravitate towards using them in iPhone applications. I also plan to blog more on the topic as I prepare my materials for the conference.</p>
+
+<p>Another reason I&#8217;m excited about speaking at 360iDev this spring is I get to attend the conference. I was on the fence about going. I&#8217;m already registered for <a href='http://nsconference.com/'>NSConference 2010 USA</a> and I plan to attend this year&#8217;s WWDC. I actually was planning to email John at 360iDev to ask if there are plans for another event later in the year. 360iDev Denver was such an incredible experience I knew I didn&#8217;t want to go the entire year without attending at least one event. But before I got the chance to ask about another event this year I received the email accepting me as a speaker. This of course made my decision easy. Heck yeah I&#8217;m going in April!</p>
+
+<p>And the final reason I&#8217;m excited about this opportunity, 360iDev events are the best. Granted I have attended only 1 and that was last fall, but it was by far the best developer conference I have attended in recent years. And definitely one of the top conferences I have ever attended. I posted <a href='http://blog.whitepeaksoftware.com/2009/10/13/360idev-denver-a-personal-review/'>my comments about 360iDev Denver</a> back in October so I will not repeat myself here. What I will say, though, is if you are an iPhone developer then you should attend 360iDev San Jose. I guarantee you will pick up a trick or two or twelve and best of all you will get to meet other awesome iPhone developers.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Suport Forums to Move to Google Groups]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2009/12/31/suport-forums-to-move-to-google-groups/"/>
+    <published>2009-12-31T00:00:00-05:00</published>
+    <updated>2009-12-31T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2009/12/31/suport-forums-to-move-to-google-groups</id>
+    <content type="html"><![CDATA[<p>On January 1, 2010, the official support groups for all White Peak Software products will moving to Google Groups. The new URLs are below:</p>
+
+<p>Labor Mate</p>
+
+<p><a href='http://groups.google.com/group/whitepeaksoftware-labormate'>http://groups.google.com/group/whitepeaksoftware-labormate</a></p>
+
+<p>Killink CSV Editor</p>
+
+<p><a href='http://groups.google.com/group/whitepeaksoftware-killinkcsveditor'>http://groups.google.com/group/whitepeaksoftware-killinkcsveditor</a></p>
+
+<p>Why the move? The old forum software I used was becoming a pain to host and keep running. Also, almost all support questions and bug reports I receive come via email and not via the support forum. In other words, the this support forum was rarely used. And frankly I do not like web forums. I prefer email.</p>
+
+<p>Google Groups offers the best of both, web forums for those who prefer it and email for those who rather interact with a community via email. I know the move will be a pain for the select few who use this forum especially if don&#8217;t already have a Google Account. But the small pain outweighs the benefits of the move.</p>
+
+<p>Also, I hope this move will help the online community to grow. Time will tell if that happens or not.</p>
+
+<p>No support group URL for SMTP Diagnostics? Support for SMTP Diagnostics will be email only going forward. Use the <a href='http://whitepeaksoftware.com/main/default/contact'>contact us</a> page to send your questions and bug reports.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Labor Mate 1.5 in App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2009/11/18/ann-labor-mate-1-5-in-app-store/"/>
+    <published>2009-11-18T00:00:00-05:00</published>
+    <updated>2009-11-18T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2009/11/18/ann-labor-mate-1-5-in-app-store</id>
+    <content type="html"><![CDATA[<p>I&#8217;m pleased to announce the release of Labor Mate version 1.5, which is now available in the App Store. This release fixes a few bugs but more importantly it adds support for 8 new languages. Labor Mate now supports the following languages:</p>
+
+<ul>
+<li>Dutch</li>
+
+<li>French</li>
+
+<li>German</li>
+
+<li>Italian</li>
+
+<li>Japanese</li>
+
+<li>Spanish</li>
+
+<li>Swedish</li>
+
+<li>Russian</li>
+</ul>
+
+<p>Labor Mate is available for only $0.99 in the <a href='http://whitepeaksoftware.com/main/store/buy/labor-mate'>iTunes App Store</a>.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Labor Mate v1.4 Available in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2009/10/25/labor-mate-v1-4-available-in-the-app-store/"/>
+    <published>2009-10-25T00:00:00-04:00</published>
+    <updated>2009-10-25T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2009/10/25/labor-mate-v1-4-available-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The newest version of Labor Mate, version 1.4, is now available in the App Store. This new release includes an improved user interface as well as some bug fixes.</p>]]></content>
   </entry>
   
 </feed>

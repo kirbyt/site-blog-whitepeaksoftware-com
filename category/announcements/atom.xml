@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: announcements | White Peak Software Blog]]></title>
+  <link href="http://blog.whitepeaksoftware.com/category/announcements/atom.xml" rel="self"/>
+  <link href="http://blog.whitepeaksoftware.com/"/>
+  <updated>2012-08-20T01:17:14-04:00</updated>
+  <id>http://blog.whitepeaksoftware.com/</id>
+  <author>
+    <name><![CDATA[Kirby Turner]]></name>
+    
+  </author>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Office Closed August 22 Through End of September]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/08/20/office-closed/"/>
+    <updated>2012-08-20T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/08/20/office-closed</id>
+    <content type="html"><![CDATA[<p>The White Peak Software office will be closed from Wednesday, August 22, through the end of September.</p>
+
+<p>I am leaving for a month long backpacking trip starting on August 22, and I plan to return by the end of September. Unfortunately I will not have Internet access during this trip, which is why the office will be closed. I apologize in advance for any inconvenience this might cause.</p>
+
+<p>All support emails will be answered in the order they are received once I return.</p>
+
+<p>If you have lost your license information and need it re-sent, click <a href='http://www.whitepeaksoftware.com/support/licenselookup'>here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
+
+<p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wanted: Beta Testers for Killink CSV Editor]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor/"/>
+    <updated>2011-06-28T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor</id>
+    <content type="html"><![CDATA[<p>I posted a new beta for Killink CSV Editor v2 today. The big feature added to version 2 is Unicode support. This means Killink CSV Editor can now read and write not only ASCII files but UTF-8 and UTF-16 files.</p>
+
+<p>If you&#8217;re a Killink CSV Editor user and you want to live life on the edge, please <a href='http://cdn.whitepeaksoftware.com/downloads/setup-killinkcsv-250.exe'>download beta 2</a>, give it a test drive, and send email to <em>support at white peak software dot com</em> if you encounter any issues. Note this build of Killink CSV Editor installs, by default, in a separate directory allowing both Version 1.14 and Version 2.0 to co-exists on the same computer.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Hey Peanut 1.3 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store/"/>
+    <updated>2010-08-26T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>Hey Peanut 1.3 is now available in the App Store. The 1.3 update to Hey Peanut includes a new safari theme and all new animal sound effects.</p>
+
+<p>What is Hey Peanut? Hey Peanut is a photo app for toddlers available on iPhone and iPad. Parents add pictures to Hey Peanut and optionally record a message on each picture. Then your 1 to 3 year old can flip through the pictures, touching each one to hear the recorded message. Hey Peanut also includes colorful themes with fun sound effects to entertain your child.</p>
+
+<p>Keep an eye on the <a href='http://twitter.com/heypeanutapp'>@HeyPeanutApp</a> and <a href='http://twitter.com/whitepeak'>@WhitePeak</a> Twitter feeds for free promo codes.</p>
+
+<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Hey Peanut 1.2 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store/"/>
+    <updated>2010-07-07T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>I&#8217;m happy to announce version 1.2 of Hey Peanut, the photo app for toddlers available on the iPhone and iPad, is now available in the App Store. This update fixes bugs reported on iOS4 and adds new HD artwork for iPhone 4.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Labor Mate 1.7 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store/"/>
+    <updated>2010-07-02T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The latest version of Labor Mate, the best dang labor contraction timer for the iPhone and iPod touch, is now available in the App Store. This update is FREE to existing user. The update includes a much improved UI, compatibility with iOS4 and multitasking, and support for the new retina display on iPhone 4.</p>]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: labor mate | White Peak Software Blog]]></title>
+  <link href="http://blog.whitepeaksoftware.com/category/labor mate/atom.xml" rel="self"/>
+  <link href="http://blog.whitepeaksoftware.com/"/>
+  <updated>2012-08-20T01:17:14-04:00</updated>
+  <id>http://blog.whitepeaksoftware.com/</id>
+  <author>
+    <name><![CDATA[Kirby Turner]]></name>
+    
+  </author>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Labor Mate 1.7 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store/"/>
+    <updated>2010-07-02T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The latest version of Labor Mate, the best dang labor contraction timer for the iPhone and iPod touch, is now available in the App Store. This update is FREE to existing user. The update includes a much improved UI, compatibility with iOS4 and multitasking, and support for the new retina display on iPhone 4.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Labor Mate 1.6 is Now Available]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/02/05/labor-mate-1-6-is-now-available/"/>
+    <updated>2010-02-05T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/02/05/labor-mate-1-6-is-now-available</id>
+    <content type="html"><![CDATA[<p>Labor Mate 1.6 has been approved by Apple and is now available in the App Store. This version fixes the problem with the No button displayed after touching the Reset button.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Labor Mate 1.5 in App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2009/11/18/ann-labor-mate-1-5-in-app-store/"/>
+    <updated>2009-11-18T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2009/11/18/ann-labor-mate-1-5-in-app-store</id>
+    <content type="html"><![CDATA[<p>I&#8217;m pleased to announce the release of Labor Mate version 1.5, which is now available in the App Store. This release fixes a few bugs but more importantly it adds support for 8 new languages. Labor Mate now supports the following languages:</p>
+
+<ul>
+<li>Dutch</li>
+
+<li>French</li>
+
+<li>German</li>
+
+<li>Italian</li>
+
+<li>Japanese</li>
+
+<li>Spanish</li>
+
+<li>Swedish</li>
+
+<li>Russian</li>
+</ul>
+
+<p>Labor Mate is available for only $0.99 in the <a href='http://whitepeaksoftware.com/main/store/buy/labor-mate'>iTunes App Store</a>.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Labor Mate v1.4 Available in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2009/10/25/labor-mate-v1-4-available-in-the-app-store/"/>
+    <updated>2009-10-25T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2009/10/25/labor-mate-v1-4-available-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The newest version of Labor Mate, version 1.4, is now available in the App Store. This new release includes an improved user interface as well as some bug fixes.</p>]]></content>
+  </entry>
+  
+</feed>
