@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ANN: Hey Peanut 1.3 is in the App Store"
+categories: [announcements, hey peanut]
 published: 2010-08-26 07:45:10
 ---
 Hey Peanut 1.3 is now available in the App Store. The 1.3 update to Hey Peanut includes a new safari theme and all new animal sound effects.

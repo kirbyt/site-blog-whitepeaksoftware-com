@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Donating $150 to Haiti as Part of Indie+Relief"
+categories: announcements
 published: 2010-01-21 08:50:40
 ---
 The final sales numbers are in for White Peak Software. $150 was raised by our customers as part of [Indie+Relief](http://www.indierelief.com/). A big THANKS to all who participated. 

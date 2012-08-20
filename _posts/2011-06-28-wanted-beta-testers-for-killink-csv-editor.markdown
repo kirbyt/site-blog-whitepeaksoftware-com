@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wanted: Beta Testers for Killink CSV Editor"
+categories: [announcements, killink csv]
 published: 2011-06-28 23:04:40
 ---
 I posted a new beta for Killink CSV Editor v2 today. The big feature added to version 2 is Unicode support. This means Killink CSV Editor can now read and write not only ASCII files but UTF-8 and UTF-16 files.

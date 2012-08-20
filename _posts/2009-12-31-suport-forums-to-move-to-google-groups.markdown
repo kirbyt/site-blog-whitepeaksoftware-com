@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Suport Forums to Move to Google Groups"
+categories: announcements
 published: 2009-12-31 09:18:10
 ---
 On January 1, 2010, the official support groups for all White Peak Software products will moving to Google Groups. The new URLs are below:

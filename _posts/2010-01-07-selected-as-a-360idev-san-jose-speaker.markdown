@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Selected as a 360iDev San Jose Speaker"
+categories: announcements
 published: 2010-01-07 15:02:51
 ---
 Yesterday I was having a very good day but around 5:45 pm my day got even better. I received an email from the fine folks at 360iDev that my topic "Building Web Service Powered iPhone Apps" has been selected. Yep, that's right folks. I will be speaking at the upcoming [360iDev San Jose](http://www.360idev.com/) (April 11-14).

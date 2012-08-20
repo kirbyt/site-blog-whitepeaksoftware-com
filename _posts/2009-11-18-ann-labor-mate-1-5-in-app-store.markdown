@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ANN: Labor Mate 1.5 in App Store"
-category: announcements
+categories: [announcements, labor mate]
 published: 2009-11-18 08:20:27
 ---
 I'm pleased to announce the release of Labor Mate version 1.5, which is now available in the App Store. This release fixes a few bugs but more importantly it adds support for 8 new languages. Labor Mate now supports the following languages: 

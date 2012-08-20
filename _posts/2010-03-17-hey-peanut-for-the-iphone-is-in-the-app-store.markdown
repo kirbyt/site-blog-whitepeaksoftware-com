@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hey Peanut for the iPhone is in the App Store"
+categories: [announcements, hey peanut]
 published: 2010-03-17 22:51:07
 ---
 I'm very excited to announce the immediate availability of Hey Peanut in the App Store. Hey Peanut is a new type of photo browser on the iPhone and iPod touch designed specifically for your toddler, ages 1 to 3 years old. Hey Peanut is kid tested and parent approve. It includes fun farm animals and sound effects to entertain your little one, but the best feature is the built-in voice recorder.

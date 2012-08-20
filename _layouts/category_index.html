@@ -3,10 +3,21 @@ layout: layoutBlogIndex
 ---
 
 <h1 class="category">{{ page.title }}</h1>
-<ul class="posts">
+<div class="clear"></div>
+
 {% for post in site.categories[page.category] %}
-    <div>{{ post.date | date_to_html_string }}</div>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div class="categories">Filed under {{ post.categories | category_links }}</div>
+<div class="grid_2 alpha">   
+    <h2>{{ post.date | date_to_html_string }}</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+    {% if post.categories %} 
+    <p class="postmetadata">
+        <small>
+        Posted in {{ post.categories | category_links }}.
+        </small>
+    </p>
+    {% endif %}
+</div> 
+<div class="clear"></div>
 {% endfor %}
-</ul>

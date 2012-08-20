@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hey Peanut - iPad App for Toddlers"
+categories: [announcements, hey peanut]
 published: 2010-04-02 13:20:11
 ---
 Hey Peanut version 1.1 has just been released and is available in the App Store. I'm very excited about this update because it adds support for the new iPad, which will be available for purchase tomorrow. Best of all the update is free to existing users, so if you already bought Hey Peanut and you are getting an iPad then you will get the iPad version of Hey Peanut for free as well.

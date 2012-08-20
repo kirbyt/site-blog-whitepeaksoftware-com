@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coming Soon: NSiPhoneDevs"
+categories: announcements
 published: 2010-01-08 10:40:52
 ---
 Over the last few months I have been inspired by different iPhone developer community events including [360iDev](http://www.360idev.com/) and [DrinksOnTap](http://drinksontap.org/). So much so I have decided to start my own monthly [event for Boston area iPhone developers](http://nsiphonedevs.org).
