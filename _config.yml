@@ -1,6 +1,10 @@
 auto: false
 showGrid: false
 
+url: http://blog.whitepeaksoftware.com
+title: White Peak Software Blog
+author: Kirby Turner
+
 root: /
 
 paginate: 10          # Posts per page on the blog index
