@@ -21,6 +21,8 @@
    
    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.css" media="screen" />
 
+   <link rel="alternate" type="application/atom+xml" title="White Peak Software Blog Feed" href="http://blog.whitepeaksoftware.com/atom.xml/" />
+
    
 </head>
 <body>
@@ -58,11 +60,55 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Tuesday, June 01, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/06/01/sales-are-down-but-revenue-is-up/">Sales are Down but Revenue is Up</a></h1>
-<div class="entry-content"><p>A few weeks ago I was having some post-CocoaHeads beers with <a href='http://outerlevel.com/'>Jon Trainer</a> and <a href='http://www.red-sweater.com/'>Daniel Jalkut</a>. We were talking about the success I&#8217;ve had with Labor Mate. They both insisted I raise the price from $0.99 to something higher. Both had sound reasons why a price increase would work for Labor Mate. For instance, the price range for competing apps range is from free to $9.99. A higher price point will help Labor Mate stand out. Everything Jon and Daniel said made sense, but I was skeptical.</p>
+    <h2>Thursday, June 10, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/06/10/using-uipopovercontroller-with-ios-4/">Using UIPopoverController with iOS 4</a></h1>
+    <div class="entry-content"><p>I ran into an interesting bug today while testing Hey Peanut on iOS 4. For those who don&#8217;t know, Hey Peanut is a universal binary, which means it runs on both the iPhone and iPad. My iPhone has the GM version of iOS 4 installed on it, which I&#8217;m using to test my apps under iOS 4.</p>
+
+<p>Because Hey Peanut can run on both the iPhone and iPad, my code must include certain checks to avoid crashes. One check the code makes is to determine if the class UIPopoverController is available or not. Prior to iOS 4, this class was only available in iOS 3.2. The current release of iOS on the iPhone is version 3.1.3, and it does not include this class. To make use of the popover I use code such as the following:</p>
+
+<pre><code>   Class popoverControllerClass = NSClassFromString(@&quot;UIPopoverController&quot;);
+
+   if (popoverControllerClass) {
+
+      popoverController_ = [[UIPopoverController alloc] initWithContentViewController:[self imagePicker]];
+
+   }</code></pre>
+
+<p>Turns out there is a big problem with this code under iOS 4 causing Hey Peanut to crash each time. It wasn&#8217;t obvious to me at first why this code was failing but as I thought it more, and as I talked through the issue with an Apple engineer, I realized, &#8220;Duh! iOS 4 is running on the iPhone, not the iPad.&#8221; Simply checking for the existence of the class isn&#8217;t good enough any more. Instead, I need to also check the device type. So with a quick change to the code, shown below, I was able to fix the crash in Hey Peanut. The code now checks that the class is available and is running on a iPad.</p>
+
+<pre><code>   Class popoverControllerClass = NSClassFromString(@&quot;UIPopoverController&quot;);
+
+   if (popoverControllerClass **&amp;&amp; UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad**) {
+
+      popoverController_ = [[UIPopoverController alloc] initWithContentViewController:[self imagePicker]];
+
+   }</code></pre></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
+    <h2>Tuesday, June 01, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/06/01/sales-are-down-but-revenue-is-up/">Sales are Down but Revenue is Up</a></h1>
+    <div class="entry-content"><p>A few weeks ago I was having some post-CocoaHeads beers with <a href='http://outerlevel.com/'>Jon Trainer</a> and <a href='http://www.red-sweater.com/'>Daniel Jalkut</a>. We were talking about the success I&#8217;ve had with Labor Mate. They both insisted I raise the price from $0.99 to something higher. Both had sound reasons why a price increase would work for Labor Mate. For instance, the price range for competing apps range is from free to $9.99. A higher price point will help Labor Mate stand out. Everything Jon and Daniel said made sense, but I was skeptical.</p>
 
 <p>For those who don&#8217;t know, Labor Mate is a niche app for the iPhone. It has been in the Top 100 in the Health and Fitness category for multiple App Stores including the U.S. for more than a year. Back in November Labor Mate&#8217;s status in the Health and Fitness category started to drop due to two competitors being mentioned in the What&#8217;s Hot lists. Despite the drop in rankings Labor Mate continues to sale well, slowly and steadily earning more money per month. A big part of this success comes from international sales, which have steadily improved since translating Labor Mate into 8 other languages. Another part of the success comes from the fact that the app is rock solid. It doesn&#8217;t crash, and as one of the reviewers recently said about Labor Mate, &#8220;Maybe not the slickest looking app for counting contractions, but we didn&#8217;t want to risk crashing or accidentally losing data - we just wanted a reliable app that would work under pressure.&#8221;</p>
 
@@ -77,6 +123,13 @@
 <p><img alt='20100601-LaborMate-Apr-May-Sales.jpg' src='/images/blog/20100601-LaborMate-Apr-May-Sales.jpg' /></p>
 
 <p><img alt='20100601-LaborMate-Apr-May-Revenue.jpg' src='/images/blog/20100601-LaborMate-Apr-May-Revenue.jpg' /></p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -89,11 +142,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Friday, May 28, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/28/some-really-useful-xcode-plugins/">Some Really Useful Xcode Plugins</a></h1>
-<div class="entry-content"><p>Xcode is a suite of developer tools for Mac and iPhone programming. Xcode is also the IDE included in the developer tools. As far as IDEs go, Xcode has become my favorite over the years. It&#8217;s simple yet powerful. But as good as it is, there&#8217;s always room for improvement, so yesterday I <a href='http://twitter.com/kirbyt/status/14852962957'>asked on Twitter</a>, what plugins do other Xcode developers find useful? Turns out there are a number of really useful Xcode plugins. Here is the list of favorites based on responses to my tweet.</p>
+    <h2>Friday, May 28, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/28/some-really-useful-xcode-plugins/">Some Really Useful Xcode Plugins</a></h1>
+    <div class="entry-content"><p>Xcode is a suite of developer tools for Mac and iPhone programming. Xcode is also the IDE included in the developer tools. As far as IDEs go, Xcode has become my favorite over the years. It&#8217;s simple yet powerful. But as good as it is, there&#8217;s always room for improvement, so yesterday I <a href='http://twitter.com/kirbyt/status/14852962957'>asked on Twitter</a>, what plugins do other Xcode developers find useful? Turns out there are a number of really useful Xcode plugins. Here is the list of favorites based on responses to my tweet.</p>
 
 <p><a href='http://macoscope.net/en/mac/codepilot/'>Code Pilot</a> is by far the favorite based on the number of responses I received. Code Pilot provides easy navigation through your Xcode project. If you are a keyboard junkie like me than you owe it to yourself to try out Code Pilot.</p>
 
@@ -104,6 +157,13 @@
 <p><a href='http://www.obdev.at/products/completion-dictionary/index.html'>Completion Dictionary</a> is a free plugin that enhances Xcode&#8217;s own code completion. It allows you to define your own expansion macros. You type a few letters and press the completion shortcut. You instantly have new code added to the file. This plugin reminds me of Delphi Live Templates, which I used religiously back when I did lots of Delphi programming. Oh, and did I mention Completion Dictionary is free?</p>
 
 <p>What other Xcode plugins are out there? Which ones do you find useful? Post a comment if you have a favorite plugin not listed here.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -116,15 +176,22 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Friday, May 28, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/28/its-official-im-nuts/">It's Official. I'm Nuts.</a></h1>
-<div class="entry-content"><p>Turns out I&#8217;m nuts, and I can prove it. Last week a signed a contract to publish a book with Addison Wesley. Justin Williams at <a href='http://www.secondgearsoftware.com/'>SecondGear</a> put it best when he asked, &#8220;ARE YOU NUTS!?&#8221; Yep, apparently I am. And signing the book contract is my proof.</p>
+    <h2>Friday, May 28, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/28/its-official-im-nuts/">It's Official. I'm Nuts.</a></h1>
+    <div class="entry-content"><p>Turns out I&#8217;m nuts, and I can prove it. Last week a signed a contract to publish a book with Addison Wesley. Justin Williams at <a href='http://www.secondgearsoftware.com/'>SecondGear</a> put it best when he asked, &#8220;ARE YOU NUTS!?&#8221; Yep, apparently I am. And signing the book contract is my proof.</p>
 
 <p>Kidding aside, I&#8217;m very excited about this opportunity to contribute back to iPhone development community, a community that has been extremely helpful to me over the last couple of years. The book is on learning iPad programming. It will focus on the unique aspects of programming for the iPad and will hopefully serve as a launch pad for many new iPad programmer entering the space.</p>
 
 <p>Writing on the book has just begun, and I have a very aggressive 6-month delivery schedule. My life is going to be busier than ever over the next 6 months, but it will be a good busy as this is something I have wanted to do for a long time. So if you don&#8217;t hear from me much between now and November, you know why.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -137,11 +204,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Thursday, May 20, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/20/learning-while-watching-myself/">Learning While Watching Myself</a></h1>
-<div class="entry-content"><p>The <a href='http://www.360conferences.com/conference-videos#360idevsanjose2010'>video recording of my 360idev</a> talk &#8220;Building Web Service Powered iPhone Apps&#8221; is now available from 360idev (free to attendees, for purchase for non-attendees). This was the first time a presentation I gave was recorded, and for the first time ever I get to see my own talk. I watched the video yesterday and overall I&#8217;m happy with the results. The best part for me, however, is using the video to learn from my mistakes.</p>
+    <h2>Thursday, May 20, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/20/learning-while-watching-myself/">Learning While Watching Myself</a></h1>
+    <div class="entry-content"><p>The <a href='http://www.360conferences.com/conference-videos#360idevsanjose2010'>video recording of my 360idev</a> talk &#8220;Building Web Service Powered iPhone Apps&#8221; is now available from 360idev (free to attendees, for purchase for non-attendees). This was the first time a presentation I gave was recorded, and for the first time ever I get to see my own talk. I watched the video yesterday and overall I&#8217;m happy with the results. The best part for me, however, is using the video to learn from my mistakes.</p>
 
 <p>A mistake I repeatedly made was not repeating questions asked by the audience. Repeating the question is an age old speaker tip, but the tip is easily forgotten during an actual presentation. Repeating the question is helpful to others in the audience who may not have heard the original question. Repeating the question also gives you a chance to make sure you understand the question, and it buys you a few more seconds while you think of an answer.</p>
 
@@ -150,6 +217,13 @@
 <p>The other lesson I learned by watching my session is to not do live coding. Live coding can be impressive, earning you some respect points with audience members. But live coding can also slow down the presentation. This is what happened in my session. There are lulls during my talk while I type code from memory. Also audience members will often see mistakes in your code as you type and shout out tips. This can break your thought process causing confusion and delay.</p>
 
 <p>Having now watched my session video I have decided to no longer do live coding in these types of sessions. The extra time spent typing on the keyboard is better spent sharing additional knowledge with the audience.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -162,11 +236,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Tuesday, May 18, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/18/follow-up-on-my-fight-with-microsoft/">Follow up on My Fight with Microsoft</a></h1>
-<div class="entry-content"><p>A few weeks ago I posted a story of how <a href='http://blog.whitepeaksoftware.com/2010/04/26/i-paid-for-microsofts-mistake/'>Microsoft turned me over to a collection agency</a> for a past due invoice that 1) I never originally received, 2) for an account canceled a year before the said invoice was issued, and 3) no one from Microsoft is willing to talk with me about to answer my questions. As a final straw and an attempt to put the matter behind me, I paid the invoice even though I still feel the invoice is the result of an accounting error made by Microsoft.</p>
+    <h2>Tuesday, May 18, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/18/follow-up-on-my-fight-with-microsoft/">Follow up on My Fight with Microsoft</a></h1>
+    <div class="entry-content"><p>A few weeks ago I posted a story of how <a href='http://blog.whitepeaksoftware.com/2010/04/26/i-paid-for-microsofts-mistake/'>Microsoft turned me over to a collection agency</a> for a past due invoice that 1) I never originally received, 2) for an account canceled a year before the said invoice was issued, and 3) no one from Microsoft is willing to talk with me about to answer my questions. As a final straw and an attempt to put the matter behind me, I paid the invoice even though I still feel the invoice is the result of an accounting error made by Microsoft.</p>
 
 <p>The blog post got the attention of a large number of people. People were tweeting about my story and some popular web sites picked up the story. The increased traffic to my web site brought down my server for 4 hours and I scrambled to get the site up and running again as quickly as possible. But more importantly the blog post caught the attention of some Microsoft employees.</p>
 
@@ -181,6 +255,13 @@
 <p>The fact that Microsoft will not talk with me directly makes me trust Microsoft less. Because I do not like doing business with companies I do not trust, it is likely the $134 I paid last month will be the last dollar Microsoft ever receives from me. The ironic part in all of this mess is Microsoft could have saved my trust in them as a consumer with a simple phone call.</p>
 
 <p>At the end of the day it is about providing great customer service and this is something that Microsoft has failed to do.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -193,15 +274,22 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Monday, May 17, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/17/building-web-service-powered-iphone-apps/">Building Web Service Powered iPhone Apps</a></h1>
-<div class="entry-content"><p>Tags: 360idev, Last month I had the fortunate opportunity to talk at <a href='http://www.360idev.com/'>360idev</a>. My talk was on using web services in iPhone apps. The talk got off to a bad start due to various technical issues, the biggest issue caused when my MacBook Pro and the projector would not talk with one another. This caused my talk to start late which meant I had to skip some of the details I wanted to cover.</p>
+    <h2>Monday, May 17, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/17/building-web-service-powered-iphone-apps/">Building Web Service Powered iPhone Apps</a></h1>
+    <div class="entry-content"><p>Tags: 360idev, Last month I had the fortunate opportunity to talk at <a href='http://www.360idev.com/'>360idev</a>. My talk was on using web services in iPhone apps. The talk got off to a bad start due to various technical issues, the biggest issue caused when my MacBook Pro and the projector would not talk with one another. This caused my talk to start late which meant I had to skip some of the details I wanted to cover.</p>
 
 <p>Another issue came up with I tried to demo a RESTful web service call to Twitter using <a href='http://ditchnet.org/httpclient/'>HTTP Client</a>. Twitter reported the request limit had been reached for the IP address. This meant I had to skip over the Twitter related demos. Lucky for me, the rest of the presentation and demos ran smoothly.</p>
 
 <p>For those who may have missed the presentation, the fine folks at 360idev have posted a <a href='http://www.360conferences.com/conference-videos#360idevsanjose2010'>video recording of the session</a> available for purchase. You can also download the sample source code and the Keynote presentation file from my <a href='http://github.com/kirbyt/360idev'>360idev repository</a> hosted on github.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -214,11 +302,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Friday, May 07, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/07/a-day-with-my-ipad/">A Day with My iPad</a></h1>
-<div class="entry-content"><p>I decided to do a little experiment earlier this week. I spent the day in Boston so instead of taking my laptop I decided to take only my iPad. I had no plans to write code that day but I had a number of other things I needed to do. Specifically write a new blog post, work on a book outline, and review and edits some documents. All the tasks can be accomplished on an iPad but what I wanted to know is how easy is it and how productive can I be.</p>
+    <h2>Friday, May 07, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/07/a-day-with-my-ipad/">A Day with My iPad</a></h1>
+    <div class="entry-content"><p>I decided to do a little experiment earlier this week. I spent the day in Boston so instead of taking my laptop I decided to take only my iPad. I had no plans to write code that day but I had a number of other things I needed to do. Specifically write a new blog post, work on a book outline, and review and edits some documents. All the tasks can be accomplished on an iPad but what I wanted to know is how easy is it and how productive can I be.</p>
 
 <p>Long story short, the experience was not good. I definitely wasn&#8217;t as productive as I am with a laptop. The problem isn&#8217;t with the device. The iPad is truly awesome and I believe it represents the future. The problem was inconsistencies with the various apps I used combined with the lack of features and or weird behaviors.</p>
 
@@ -243,6 +331,13 @@
 <p>This brings up another issue. Apps on the iPad behave differently. For example the Wordpress app uses an edit screen with a Save button at the top. As I painfully learned the app does not autosave so I must touch the Save button, which I find myself doing often. Pages on the other hand autosaves. There is no explicit save action. This means my behaviors when using Pages must be different when compared to using the Wordpress app. It becomes annoying that different behaviors at required for different apps and this can hurt productivity.</p>
 
 <p>Overall the experiment was useful. It opened my eyes up to the challenges we third party developers have when trying to create really useful apps. I also learned that while I can do many tasks on my iPad I&#8217;m still not as productive as I am on my laptop. I don&#8217;t fault the device for this. It&#8217;s the apps that are to blame. Inconsistent app behavior and lack of sharing data between apps impact productivity. But the good news is, this is only the beginning. The experience is only going to get better. Apps are going to get better. And it is only a matter of time before my iPad replaces my laptop for most of my daily activities.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -255,11 +350,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Tuesday, May 04, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/05/04/section-3-3-1-does-not-prevent-cross-platform-development/">Section 3.3.1 Does Not Prevent Cross Platform Development</a></h1>
-<div class="entry-content"><p>Apple has come under fire over its latest developer agreement for iPhone OS developers. The section causing concern is 3.3.1 which says applications must be originally written in Objective-C, C, and C++ (or JavaScript when using the WebKit engine). This restricts developers from using other cross-platform development tools such as Adobe&#8217;s Flash CS5 packager.</p>
+    <h2>Tuesday, May 04, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/05/04/section-3-3-1-does-not-prevent-cross-platform-development/">Section 3.3.1 Does Not Prevent Cross Platform Development</a></h1>
+    <div class="entry-content"><p>Apple has come under fire over its latest developer agreement for iPhone OS developers. The section causing concern is 3.3.1 which says applications must be originally written in Objective-C, C, and C++ (or JavaScript when using the WebKit engine). This restricts developers from using other cross-platform development tools such as Adobe&#8217;s Flash CS5 packager.</p>
 
 <p>Steve Jobs has clearly explained his <a href='http://www.apple.com/hotnews/thoughts-on-flash/'>thoughts on Flash</a>, but more importantly he talks about the impact felt from third party cross platform development tools. Those of us who have been in the software industry long enough will likely agree with Steve&#8217;s comments regarding the impact cross platform development tools have on software development.</p>
 
@@ -302,6 +397,13 @@
 <p>Ah, but you say you want native built apps that take advantage of the platform. That&#8217;s cool. You can have that too. But this notation that you can have a native built app that is also platform neutral is just crazy talk. It&#8217;s not going to happen anytime soon and it shouldn&#8217;t be Apple sole responsibility to make it happen.</p>
 
 <p>I wonder, if Objective-C were more popular would the torch carrying mob go after Google, Research in Motion, and Microsoft for not supporting it on their mobile devices?</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -314,11 +416,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Monday, April 26, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/04/26/i-paid-for-microsofts-mistake/">I Paid for Microsoft's Mistake</a></h1>
-<div class="entry-content"><p>It&#8217;s no secret that my dislike for Microsoft has grown in recent years, but today that dislike skyrocketed to a new level of anger that is rare for me. My growing dislike for Microsoft is centered around my belief that Microsoft&#8217;s operating systems are not as good as the alternatives, their developer tools are not as good as the alternatives, and their productivity software programs are not as good as the alternatives. But today I&#8217;m angered not by Microsoft&#8217;s technologies but by their unacceptable customer service. I&#8217;m upset because I&#8217;m left with no other option than to pay for a mistake caused by Microsoft, and after dealing with the issue for years, I have yet to receive a single reply from a Microsoft employee.</p>
+    <h2>Monday, April 26, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/04/26/i-paid-for-microsofts-mistake/">I Paid for Microsoft's Mistake</a></h1>
+    <div class="entry-content"><p>It&#8217;s no secret that my dislike for Microsoft has grown in recent years, but today that dislike skyrocketed to a new level of anger that is rare for me. My growing dislike for Microsoft is centered around my belief that Microsoft&#8217;s operating systems are not as good as the alternatives, their developer tools are not as good as the alternatives, and their productivity software programs are not as good as the alternatives. But today I&#8217;m angered not by Microsoft&#8217;s technologies but by their unacceptable customer service. I&#8217;m upset because I&#8217;m left with no other option than to pay for a mistake caused by Microsoft, and after dealing with the issue for years, I have yet to receive a single reply from a Microsoft employee.</p>
 
 <p>The story begins in the fall of 2004. Microsoft acquires Placeware, Inc and its online meeting solution now called Live Meeting. I had recently started working full time for White Peak Software and was looking for an online meeting solution. Microsoft ran a special in December 2004 for it&#8217;s newly acquired solution Live Meeting, $99 for a 1-year, 5-seat subscription. For me it was a no brainer. I signed up as soon as I heard about the offer.</p>
 
@@ -349,43 +451,13 @@
 <p>I would love to talk with someone at Microsoft regarding this matter, not an Accenture contractor, not a collection agency, but a real live person from Microsoft. I would love to hear the reasons why my emails were never answered years ago. I would love to hear why the records show my account was re-opened in 2005 and was never charged (obvious proof they screwed up). And I would love to hear why out of the blue I was invoiced in December 2006 for the period December 2006 through December 2007 despite having canceled my account in December 2005.</p>
 
 <p>I doubt I will ever hear from Microsoft. Meanwhile I paid the invoice. I guess Microsoft needs the money more than I do.</p></div>
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
-  
-    <article>
-      <div class="grid_2 alpha">   
-<h2>Wednesday, April 21, 2010</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2010/04/21/nsiphonedevs-is-now-nshappyhour/">NSiPhoneDevs is Now NSHappyHour</a></h1>
-<div class="entry-content"><p>A few weeks ago I renamed the iPhone developer meet-up from NSiPhoneDevs to NSHappyHour. When I announced the name change I said I would follow up with the reasons behind the name change but I totally spaced and forgot. Thanks to <a href='http://twitter.com/jlbruno'>@jlbruno</a> for reminding me to explain the reasons behind the change.</p>
-
-<p>I came up with the name NSiPhoneDevs back at the beginning of the year. I like the name because it&#8217;s a good play on words, or rather a good play on prefixes. &#8220;NS&#8221; is the class name prefix in the foundation framework used by iPhone and Mac developers, but &#8220;NS&#8221; also stands for North Shore. For those who don&#8217;t know, Salem MA is located in Boston&#8217;s North Shore area. So NSiPhoneDevs is short for North Shore iPhone Developers.</p>
-
-<p>While I like the name it is not without it&#8217;s problems. First, NSiPhoneDevs doesn&#8217;t exactly roll off the tongue. I for one am guilty of saying &#8220;NSiDevs&#8221; on more than one occasion. Another issue with the name is some may believe it excludes iPad developers. This is a stretch I know but I&#8217;m sure with the release of the iPad there will be more new developers entering the space who consider themselves iPad developers.</p>
-
-<p>The third, and most important reason for the name change, is the name NSiPhoneDevs excludes a major developer group, the Mac developer. I talked with many Mac developers who said they are not interested in the group because it&#8217;s iPhone only, and this includes Mac developers who also do iPhone development. My intentions were never to exclude Mac developers. On the contrary, I want more Mac developers to come especially given that I&#8217;m doing more Mac desktop development these days.</p>
-
-<p>The iPhone has attracted a large number of developers who come from other platforms including Windows, .NET, and Java. The reasons for moving from another platform to the iPhone varies by developer. Some are interested in mobile development. Some are interested in joining in on the gold rush. For others, including me, the reason is out of love for Cocoa, Objective-C, Xcode, and OS X.</p>
-
-<p>I switched from Windows and web development to work in the world of Apple because, in my opinion, it provides the best developer experience. Programming on my Mac, whether for the desktop or for the devices, is way more fun for me then in Windows, and I find the developer tools to be far better than anything else I have used in recent years.</p>
-
-<p>So back to the NSHappyHour name change. As someone who is also doing Mac development I did not want others in the Mac developer community to feel excluded. After all, we all use a Mac for programming, we use Xcode as our developer IDE, and we work with many of the same core frameworks.</p>
-
-<p>This point hit home for me at <a href='http://nsconference.com/'>NSConference</a> 2010 where I met a lot of people who share the same passion and love for the developer experience provided by the fruit company. It was at this time I realized NSiPhoneDevs is the wrong name.</p>
-
-<p>The NSiPhoneDevs name is good because it builds off the hype that is the iPhone, but at the same time the name is bad because it does not recognized the development community as a whole. At the end of the day we all work with pretty much the same tools and we can learn a lot from one another whether you are writing iPhone/iPad only apps, desktop only apps, or doing all of the above.</p>
-
-<p>So the group is now called NSHappyHour. After all, that&#8217;s what the group is really about. Getting together with fellow Cocoa developers to talk shop over a few beers. So if you are writing code and producing apps for the iPhone, iPad and or Mac then NSHappyHour is the perfect gathering for you to socialize, learn, and network while enjoying tasty adult beverages.</p>
-
-<p>For more information about NSHappyHour, visit <a href='http://nshappyhour.org'>http://nshappyhour.org</a>.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -422,6 +494,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/08/20/office-closed/">Office Closed August 22 Through End of September</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice/">Prolonging My Laptop's Battery with FruitJuice</a>
       </li>
     
@@ -435,10 +511,6 @@
     
       <li class="post">
         <a href="/2011/04/11/great-time-at-vtm/">Great Time at VTM</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/03/29/todays-email-outage/">Today's Email Outage </a>
       </li>
     
   </ul>
@@ -483,14 +555,13 @@ new TWTR.Widget({
 </div>
 <!-- End L2 Box -->
 
-<div class="clear">&nbsp;</div>
-<div class="container_16" id="copyright">
-   <div class="grid_16">
-   <p class="copied" style="text-align:center;">Copyright &copy; 2003-2012 <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+
+   <div class="clear">&nbsp;</div>
+   <div class="container_16" id="copyright">
+      <div class="grid_16">
+      <p class="copied" style="text-align:center;">Copyright &copy; 2003-2012 <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+      </div>
    </div>
-</div>
-
-
 
    <script src="/scripts/jquery.js" type="text/javascript"></script>
    <script type="/fancybox/jquery.fancybox-1.2.1.pack.js"></script>

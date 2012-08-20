@@ -21,6 +21,8 @@
    
    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.css" media="screen" />
 
+   <link rel="alternate" type="application/atom+xml" title="White Peak Software Blog Feed" href="http://blog.whitepeaksoftware.com/atom.xml/" />
+
    
 </head>
 <body>
@@ -58,11 +60,44 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Sunday, October 25, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/10/25/labor-mate-v1-4-available-in-the-app-store/">Labor Mate v1.4 Available in the App Store</a></h1>
-<div class="entry-content"><p>The newest version of Labor Mate, version 1.4, is now available in the App Store. This new release includes an improved user interface as well as some bug fixes.</p></div>
+    <h2>Friday, November 06, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/11/06/how-to-translate-an-iphone-app-name/">How to Translate an iPhone App Name</a></h1>
+    <div class="entry-content"><p><img alt='' src='/images/blog/2009-11-06-iPhoneJapanese1.png' /></p>
+
+<p>I recently went through the process of translating Labor Mate into 8 different languages. Unfortunately the phrase &#8220;Labor Mate&#8221; doesn&#8217;t translate well into other languages such as Japanese and Germany so the translators came up with new localized app names. The problem I had though was displaying the translated app name on the iPhone&#8217;s springboard.</p>
+
+<p>After a bit of experimenting I finally got the translated app name to display. Turns out the steps are fairly simple. Here are the steps I took to localize the app name:</p>
+
+<p>1. Added the property LSHasLocalizedDisplayName to Info.plist and set to True (mark the checkbox). Note that Xcode might change the property name to &#8220;Application has localized display name&#8221;.</p>
+
+<p>2. Add a new strings file called InfoPlist.strings.</p>
+
+<p>3. Make the file InfoPlist.strings localizable.</p>
+
+<p>4. Add the languages that will have a translated app name.</p>
+
+<p>5. For each localized version of the InfoPlist.strings file, add the follow string key/value pair: CFBundleDisplayName = &#8220;App Name&#8221;;</p>
+
+<p>6. Be sure to set &#8220;App Name&#8221; to the translated value.</p>
+
+<p>That&#8217;s it.</p>
+
+<p><img alt='Info.plist' src='/images/blog/2009-11-06-Info.plist.png' /></p>
+
+<p><img alt='InfoPlist.strings' src='/images/blog/2009-11-06-InfoPlist.strings.png' /></p>
+
+<p>Speaking of language translation, I hired the fine folks over at <a href='http://iphone-i18n.com/'>iphone-i18n.com</a> to translate the app description, keywords, and in-app strings for Labor Mate. I met Chuck and Judith of iphone-i18n.com at <a href='http://www.360idev.com/'>360iDev|Denver</a>. They impressed me with their knowledge of internationalizing and localizing applications as well as their specific technical how to knowledge for the iPhone.</p>
+
+<p>If you are an iPhone developer looking to <a href='http://iphone-i18n.com/'>translate your iPhone application</a> into other languages then I highly recommend talking with Chuck and Judith at iphone-i18n.com.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -75,11 +110,35 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Tuesday, October 13, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/10/13/360idev-denver-a-personal-review/">360idev Denver: A Personal Review</a></h1>
-<div class="entry-content"><p>A couple of weeks ago I attended <a href='http://www.360idev.com/'>360idev</a> in Denver. The conference was one of the best developer conferences I have ever attended and the best one I have attended in recent years. What made this conference so good? A number of things (in no particular order):</p>
+    <h2>Sunday, October 25, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/10/25/labor-mate-v1-4-available-in-the-app-store/">Labor Mate v1.4 Available in the App Store</a></h1>
+    <div class="entry-content"><p>The newest version of Labor Mate, version 1.4, is now available in the App Store. This new release includes an improved user interface as well as some bug fixes.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
+    <h2>Tuesday, October 13, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/10/13/360idev-denver-a-personal-review/">360idev Denver: A Personal Review</a></h1>
+    <div class="entry-content"><p>A couple of weeks ago I attended <a href='http://www.360idev.com/'>360idev</a> in Denver. The conference was one of the best developer conferences I have ever attended and the best one I have attended in recent years. What made this conference so good? A number of things (in no particular order):</p>
 
 <p>1) The people</p>
 
@@ -104,6 +163,13 @@
 <p>If I had to pick the one thing I liked the most about the conference I would have to say the sense of community. It has been a long time since I felt like a part of a community. This is due in part to me working from home for a number of years, but also in part to the difficulties finding a group of people who share a common interesting and passion. In ways it reminded me how I felt in the 90s attending BorCons and discovering the Delphi community. But this new iPhone developer community that I discovered at 360idev is different. Like me, almost everyone I met is an indie developer or is working for a small (2 to 5) person company. Also I was surprised, and a bit jealous, of the number of husband wife teams present at the conference.</p>
 
 <p>As I said, 360idev Denver was the best developer conference I have attended in recent years. The people, the sessions, the community all helped make it a great conference. I&#8217;m not sure if I will be able to attend the next 360idev conference. I&#8217;m hoping to attend NSConference in February and I&#8217;m saving money for next year&#8217;s WWDC, which I definitely will be attending. But with luck I will hopefully make it to San Jose in April.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -116,11 +182,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Friday, August 21, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/08/21/chart-coming-to-labor-mate-finally/">Chart Coming to Labor Mate...Finally</a></h1>
-<div class="entry-content"><p>Wow, has it really been 3 months since my last blog post. I&#8217;ve gotta work on improving that.</p>
+    <h2>Friday, August 21, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/08/21/chart-coming-to-labor-mate-finally/">Chart Coming to Labor Mate...Finally</a></h1>
+    <div class="entry-content"><p>Wow, has it really been 3 months since my last blog post. I&#8217;ve gotta work on improving that.</p>
 
 <p>Speaking of improvements, a new enhancement is finally coming to Labor Mate. The next release will finally include a chart showing the duration and frequency of contractions over the last hour. Here is an sample of what the chart will look like:</p>
 
@@ -133,6 +199,13 @@
 <p>Obviously these sample screen shots are not from an iPhone or iPod touch. I decided to prototype the chart in a Mac desktop app, which is what you see pictured here.</p>
 
 <p>I hope to have the updated app submitted to Apple before the end of the month. Stay tune for more.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -145,15 +218,22 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Wednesday, May 20, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/05/20/averaging-labor-contraction-times/">Averaging Labor Contraction Times</a></h1>
-<div class="entry-content"><p>stevenwt2 writes this about Labor Mate in his feedback at the App Store, &#8220;Used it throughout a night of contractions and it worked flawlessly. No crashes, no problems, and it was easy to keep track of an average. If there was anything to update about the app, I would want the &#8216;Summary&#8217; screen to be able to average based on a time period or number of contractions (average over last 5 contractions or over last hour, etc.) as an average over the entire night can be a little misleading. However, that is looking to the next version - good luck.&#8221;</p>
+    <h2>Wednesday, May 20, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/05/20/averaging-labor-contraction-times/">Averaging Labor Contraction Times</a></h1>
+    <div class="entry-content"><p>stevenwt2 writes this about Labor Mate in his feedback at the App Store, &#8220;Used it throughout a night of contractions and it worked flawlessly. No crashes, no problems, and it was easy to keep track of an average. If there was anything to update about the app, I would want the &#8216;Summary&#8217; screen to be able to average based on a time period or number of contractions (average over last 5 contractions or over last hour, etc.) as an average over the entire night can be a little misleading. However, that is looking to the next version - good luck.&#8221;</p>
 
 <p>Good news, stevenwt2. The average is already calculated based on the number of contractions.  In fact, the duration average shown on the summary screen is based on the last 3 contractions and the average frequency is based on the last 6 contractions.</p>
 
 <p>Thanks for the great feedback and congratulations on the arrival of your new little one!!</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -166,15 +246,22 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Monday, May 04, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/05/04/how-to-delete-a-contraction-item/">How To Delete a Contraction Item</a></h1>
-<div class="entry-content"><p>Tags: how-to, wayneeglonbrown posted the comment &#8220;would be good to be able to delete one put in in error&#8221; in the App Store. This is not the first time someone has asked for this feature or asked the question &#8220;how to delete.&#8221;  Good news is this feature already exists. Labor Mate provides 2 ways to delete a recorded contraction.</p>
+    <h2>Monday, May 04, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/05/04/how-to-delete-a-contraction-item/">How To Delete a Contraction Item</a></h1>
+    <div class="entry-content"><p>Tags: how-to, wayneeglonbrown posted the comment &#8220;would be good to be able to delete one put in in error&#8221; in the App Store. This is not the first time someone has asked for this feature or asked the question &#8220;how to delete.&#8221;  Good news is this feature already exists. Labor Mate provides 2 ways to delete a recorded contraction.</p>
 
 <p>One option is to use the swipe delete feature common to many iPhone applications. Simply slide your finger across the item and a Delete button will appear. Touch the Delete button and the contraction is removed.</p>
 
 <p>The other option is to tap the contraction item. This takes you to a second screen. At the bottom of this screen is a Delete Contraction button. Touch this button to delete the individual contraction.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -187,11 +274,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Tuesday, April 07, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/04/07/quick-status-update-on-killink-csv-editor/">Quick Status Update on Killink CSV Editor </a></h1>
-<div class="entry-content"><p>Recently dutchguru mentioned the limited, or &#8220;few&#8221;, software updates for Killink CSV Editor.  He is right.  There have been far too few updates recently and I have no one to blame but myself.  I started explaining the situation in my reply to dutchguru but decided a blog posting is also in order.</p>
+    <h2>Tuesday, April 07, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/04/07/quick-status-update-on-killink-csv-editor/">Quick Status Update on Killink CSV Editor </a></h1>
+    <div class="entry-content"><p>Recently dutchguru mentioned the limited, or &#8220;few&#8221;, software updates for Killink CSV Editor.  He is right.  There have been far too few updates recently and I have no one to blame but myself.  I started explaining the situation in my reply to dutchguru but decided a blog posting is also in order.</p>
 
 <p>Why hasn&#8217;t there been any new updates to Killink CSV Editor in recent months?  And what of these new features I keep hearing about coming in Version 2.0?  The short answer is, I&#8217;ve been stuck on one problem, providing support for very large files.  This challenging problem has zapped all the time I have for working on Killink CSV Editor.  Hindsight now tells me I should have moved on but I didn&#8217;t and as a result I have been slow to push out new updates.</p>
 
@@ -204,6 +291,13 @@
 <p>That&#8217;s the longer answer.  Great!  So now what?  First starters I&#8217;m going to stop work on very large file support.  This one feature is probably needed by less than 5 percent of the current user base while other features such as Unicode support is needed by a much larger percentage of users.  With this one item off my plate I can once again return to adding new features to Killink CSV Editor in a quick, timely manner.  I cannot yet provide a time line for the next update but I can tell you progress will finally be made.</p>
 
 <p>Now that I have decided to drop very large file support my next step will be to complete the re-write of Killink CSV Editor.  The re-write is needed to support Unicode and to make it easier to include new features and push out more frequent updates.  The good news is the re-write is almost complete.  It was near completion last fall when I got side tracked by the very large file support problem.  Once the re-write is done I will push out a new beta update as soon as I can.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -216,11 +310,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Monday, April 06, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/04/06/labor-mate-13-in-the-app-store/">Labor Mate 1.3 in the App Store</a></h1>
-<div class="entry-content"><p>I&#8217;m happy to announce Labor Mate 1.3 is finally in the iPhone App Store as of last night.  The review time took longer than the time needed to make the code changes, but that was partly my fault.  I introduced a bug that crashed the app.  Luckily the crashing version of the app was rejected by Apple so that release never made it to users&#8217; iPhones and iPod touches.</p>
+    <h2>Monday, April 06, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/04/06/labor-mate-13-in-the-app-store/">Labor Mate 1.3 in the App Store</a></h1>
+    <div class="entry-content"><p>I&#8217;m happy to announce Labor Mate 1.3 is finally in the iPhone App Store as of last night.  The review time took longer than the time needed to make the code changes, but that was partly my fault.  I introduced a bug that crashed the app.  Luckily the crashing version of the app was rejected by Apple so that release never made it to users&#8217; iPhones and iPod touches.</p>
 
 <p>This latest release adds two new features:</p>
 
@@ -229,6 +323,13 @@
 <p>2. Easy-touch button - The entire timer area is now one big button.  Touch anywhere in the timer area to start and stop the timer.</p>
 
 <p>If you are already a Labor Mate users then be sure to down this latest version free of charge. And if you are not then become a user.  Labor Mate only costs $0.99.  I also have a limited number of available version 1.3 <a href='http://www.whitepeaksoftware.com/main/labor-mate/faq'>promo codes</a> for taking.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -241,15 +342,22 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Friday, March 27, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/03/27/labor-mate-13-rejected-due-to-crash/">Labor Mate 1.3 Rejected Due to Crash</a></h1>
-<div class="entry-content"><p>I received an email from Apple today saying that the recent submission of Labor Mate 1.3 has been rejected due to a crash. The crash apparently is happening during the launch. Now of course I went through extensive testing with the app prior to submitting it and my debug and release builds never crashed. That was until today.</p>
+    <h2>Friday, March 27, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/03/27/labor-mate-13-rejected-due-to-crash/">Labor Mate 1.3 Rejected Due to Crash</a></h1>
+    <div class="entry-content"><p>I received an email from Apple today saying that the recent submission of Labor Mate 1.3 has been rejected due to a crash. The crash apparently is happening during the launch. Now of course I went through extensive testing with the app prior to submitting it and my debug and release builds never crashed. That was until today.</p>
 
 <p>This morning I installed the iPhone OS 3.0 SDK and tried running Labor Mate in the simulator.  I didn&#8217;t recompile it.  It was already installed from previous sessions. So guess what. It crashes on launch. How strange is that?  Coincidence? Me doesn&#8217;t think so.</p>
 
 <p>Update: Definitely a coincidence. There is one particular scenarion that I failed to test, and sure enough the app is crashing in that scenarion. Apple&#8217;s review process saved me from an embarrassing moment.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -262,11 +370,11 @@
   
     <article>
       <div class="grid_2 alpha">   
-<h2>Wednesday, March 11, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/03/11/facelift-at-whitepeaksoftwarecom/">Facelift at WhitePeakSoftware.com</a></h1>
-<div class="entry-content"><p>Last week I flipped the switch on the White Peak Software website rolling out the new site design. If you are reading this in a RSS feed reader then pop over to <a href='http://www.whitepeaksoftware.com/'>whitepeaksoftware.com</a> to check out the new website design. The new design was done by Michael and Jeff over at <a href='http://ocupop.com/'>Ocupop</a>, the same design company that designed the new Labor Mate app icon.  I highly recommend these guys.</p>
+    <h2>Wednesday, March 11, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/03/11/facelift-at-whitepeaksoftwarecom/">Facelift at WhitePeakSoftware.com</a></h1>
+    <div class="entry-content"><p>Last week I flipped the switch on the White Peak Software website rolling out the new site design. If you are reading this in a RSS feed reader then pop over to <a href='http://www.whitepeaksoftware.com/'>whitepeaksoftware.com</a> to check out the new website design. The new design was done by Michael and Jeff over at <a href='http://ocupop.com/'>Ocupop</a>, the same design company that designed the new Labor Mate app icon.  I highly recommend these guys.</p>
 
 <p>The roll out of the new website did not go as smooth as I had hoped, but it did go well.  A lot of work was done behind the scenes so the roll out could potentially have had many more problems then it did.  The site was moved from Microsoft Windows server running IIS to a new Ubuntu (Linux) server running apache2.  This meant I needed to copy over a number of download files, pad files, xml version files, and so on.  It also meant I needed to map old URLs to new URLs so bookmarks, old links, and so on take the  visitor to the correct web page.  This caused at least 1 known hiccup for a customer who had just purchased a license for SMTP Diagnostics and was trying to download the latest version as I was rolling out the new website.</p>
 
@@ -277,31 +385,13 @@
 <p>So as you can see a number of things were included in the roll out beyond just a new look.  The site was moved to a new server running a different operating system.  The code base was moved to a new programming language and platform.  And a new look was applied to the website, store front, and blog. [Note: I still need to update the <a href='http://forum.whitepeaksoftware.com/forums/'>support forums</a> with the new look, but that&#8217;s a topic for a different posting.]</p>
 
 <p>Despite the number of things that had to happen, I felt the roll out for the new site went as well as can be expected. As I said I wish it had been a bit smoother but there could have been a lot more problems.  The lesson learned from the experience: Don&#8217;t try to do so much in a single roll out.</p></div>
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
-  
-    <article>
-      <div class="grid_2 alpha">   
-<h2>Saturday, February 28, 2009</h2>
-</div>   
-<div class="grid_9 omega">   
-<h1 class="entry-title"><a href="/2009/02/28/labor-mate-12-is-in-the-app-store/">Labor Mate 1.2 is in the App Store</a></h1>
-<div class="entry-content"><p>At long last Labor Mate 1.2 is in the App Store.  Only 6 weeks later then I originally hoped, but better late then never. Why did it take so long? Good question.</p>
-
-<p>The version 1.2 release of Labor Mate took longer then expected because it is basically a re-write from the original. I probably should have labeled it version 2.0 but I decided against it because there are only a handful of new features.  The re-write was needed to give the app greater stability especially in low memory conditions.  The re-write will also make it easier for me to add new features going forward.</p>
-
-<p>So what new features are included? Well, my favorite is the new contraction detail screen that allows users to enter notes about the contraction or delete the contraction from the log.  Adding notes will be handy for when you need to remember something about the particular contraction.  And yes, the notes are included in the email that is sent from Labor Mate.</p>
-
-<p><img alt='' src='http://www.whitepeaksoftware.com/main/static/images/labor-mate/laborMate.png' />Some users might notice the new app icon.  Jeff and Michael over at <a href='http://ocupop.com/'>Ocupop</a> did an outstanding job coming up with the new icon, which really captures the primary purpose of Labor Mate.  I highly recommend these guys if you are looking for a design company.</p>
-
-<p>What&#8217;s next? I already have ideas for the next release of Labor Mate. The top priority is charting, or a graph representing a set of contractions over time. I have a couple of other ideas too but I&#8217;m keeping those to myself at the moment. I want to make sure they are doable before making any promises.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
 </div> 
 <div class="clear"></div>
     </article>
@@ -338,6 +428,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/08/20/office-closed/">Office Closed August 22 Through End of September</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice/">Prolonging My Laptop's Battery with FruitJuice</a>
       </li>
     
@@ -351,10 +445,6 @@
     
       <li class="post">
         <a href="/2011/04/11/great-time-at-vtm/">Great Time at VTM</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/03/29/todays-email-outage/">Today's Email Outage </a>
       </li>
     
   </ul>
@@ -399,14 +489,13 @@ new TWTR.Widget({
 </div>
 <!-- End L2 Box -->
 
-<div class="clear">&nbsp;</div>
-<div class="container_16" id="copyright">
-   <div class="grid_16">
-   <p class="copied" style="text-align:center;">Copyright &copy; 2003-2012 <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+
+   <div class="clear">&nbsp;</div>
+   <div class="container_16" id="copyright">
+      <div class="grid_16">
+      <p class="copied" style="text-align:center;">Copyright &copy; 2003-2012 <a href="http://www.whitepeaksoftware.com/about">White Peak Software Inc.</a> All Rights Reserved.</p>
+      </div>
    </div>
-</div>
-
-
 
    <script src="/scripts/jquery.js" type="text/javascript"></script>
    <script type="/fancybox/jquery.fancybox-1.2.1.pack.js"></script>

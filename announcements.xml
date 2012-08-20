@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[White Peak Software Blog]]></title>
+  <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
+  <link href="http://blog.whitepeaksoftware.com/"/>
+  <updated>2012-08-20T00:03:54-04:00</updated>
+  <id>http://blog.whitepeaksoftware.com/</id>
+  <author>
+    <name><![CDATA[Kirby Turner]]></name>
+    
+  </author>
+  <rights>Copyright (c) 2003-2012 White Peak Software Inc</rights>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Office Closed August 22 Through End of September]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/08/20/office-closed/"/>
+    <updated>2012-08-20T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/08/20/office-closed</id>
+    <content type="html"><![CDATA[<p>The White Peak Software office will be closed from Wednesday, August 22, through the end of September.</p>
+
+<p>I am leaving for a month long backpacking trip starting on August 22, and I plan to return by the end of September. Unfortunately I will not have Internet access during this trip, which is why the office will be closed. I apologize in advance for any inconvenience this might cause.</p>
+
+<p>All support emails will be answered in the order they are received once I return.</p>
+
+<p>If you have lost your license information and need it re-sent, click <a href='http://www.whitepeaksoftware.com/support/licenselookup'>here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
+
+<p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>]]></content>
+  </entry>
+  
+</feed>

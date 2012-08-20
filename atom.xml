@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[White Peak Software Blog]]></title>
+  <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
+  <link href="http://blog.whitepeaksoftware.com/"/>
+  <updated>2012-08-20T00:03:54-04:00</updated>
+  <id>http://blog.whitepeaksoftware.com/</id>
+  <author>
+    <name><![CDATA[Kirby Turner]]></name>
+    
+  </author>
+  <rights>Copyright (c) 2003-2012 White Peak Software Inc</rights>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Office Closed August 22 Through End of September]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/08/20/office-closed/"/>
+    <updated>2012-08-20T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/08/20/office-closed</id>
+    <content type="html"><![CDATA[<p>The White Peak Software office will be closed from Wednesday, August 22, through the end of September.</p>
+
+<p>I am leaving for a month long backpacking trip starting on August 22, and I plan to return by the end of September. Unfortunately I will not have Internet access during this trip, which is why the office will be closed. I apologize in advance for any inconvenience this might cause.</p>
+
+<p>All support emails will be answered in the order they are received once I return.</p>
+
+<p>If you have lost your license information and need it re-sent, click <a href='http://www.whitepeaksoftware.com/support/licenselookup'>here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
+
+<p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Prolonging My Laptop's Battery with FruitJuice]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice/"/>
+    <updated>2012-08-14T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice</id>
+    <content type="html"><![CDATA[<p>For more than 10 years my primary dev machines have been laptops. The mobility provided by a laptop has changed the way, and where, I work. However, an unfortunate downside of me using a laptop as my primary machine is the number of batteries I go through. On average a laptop battery will last me about a year before I need to order a replacement. It&#8217;s common for battery life to degrade some after a year, but for me it&#8217;s common to see &#8220;Service Battery&#8221; around the 1-year mark.</p>
+
+<p>Why do I burn through so many laptop batteries? It&#8217;s the way I use my laptop.</p>
+
+<p>I often times treat my laptop as a desktop leaving it plugged into power for days, and sometimes even weeks at a time. But laptops are not designed for this kind of usage. The battery, like a muscle in your body, needs to be exercised. For a lithium-ion battery - found in most if not all laptops today - this means <a href='http://www.ehow.com/how_7259005_condition-laptop-battery.html'>conditioning the battery</a>.</p>
+
+<p>To condition a battery, you need to regularly run your laptop on battery power using only a portion of the battery&#8217;s power, and then charge the battery as often as possible before the battery fully discharges. After about 30 charge cycles you want to do a full discharge of the battery followed by a full recharge.</p>
+
+<p>Whew! That&#8217;s a lot of work to exercise a laptop battery. Well okay, it&#8217;s not a lot of work, but it does require some discipline. And history has proven I don&#8217;t have the discipline to properly condition my laptop&#8217;s battery.</p>
+
+<p>So now I&#8217;m faced with a dilemma. I have a shinny, new MacBook Pro that doesn&#8217;t have a swappable battery. The battery can be replaced, but it must be replaced by Apple. I can&#8217;t simply buy a replacement battery online and pop it in when I need it. So I&#8217;m trying to change my ways to prolong the battery life for my new MacBook Pro, and I&#8217;m using <a href='http://fruitjuiceapp.com'>FruitJuice</a> to help me along the way.</p>
+
+<p><a href='http://fruitjuiceapp.com'>FruitJuice</a> is a combination Mac app and web service that helps extend the life of your laptop&#8217;s battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.</p>
+
+<p><img alt='' src='/images/blog/2012-08-14-FruitJuice.png' /></p>
+
+<p>It&#8217;s this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone. The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.</p>
+
+<p>Using FruitJuice comes with another benefit. It keeps a complete history of battery usage and conditioning. This information can be useful when it’s time to ask Apple for a replacement battery, should you need to prove you have been operating your laptop based on <a href='http://www.apple.com/batteries/notebooks.html'>Apple’s own recommended usage and maintenance</a>.</p>
+
+<p>FruitJuice comes with a free 30-day trial, and cost $9.99 per year for one computer. Each additional computer costs $4.99 per year. This is cheap when you compare it to the cost of a new battery, which costs me $129 the last time I bought one for my older MacBook Pro.</p>
+
+<p>So is FruitJuice saving me money? It&#8217;s too early to tell since my MacBook Pro is only a couple of weeks old. But I&#8217;m hopeful that a year from now I will not see the dreaded &#8220;Service Battery&#8221; condition that I&#8217;ve seen over and over the past few years.</p>
+
+<p>Disclaimer: I was not asked or paid to do this review. I was an early beta tester for FruitJuice, and I continue to be a FruitJuice user.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Impressions: MacBook Pro with Retina Display]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/07/31/first-impressions-macbook-pro-with-retina-display/"/>
+    <updated>2012-07-31T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/07/31/first-impressions-macbook-pro-with-retina-display</id>
+    <content type="html"><![CDATA[<p>In July 2007 I bought a fully loaded MacBook Pro. It was by far the best computer I have ever owned. And that isn&#8217;t just my opinion. PC World said the Apple MacBook Pro was the <a href='http://www.pcworld.com/article/136649-3/in_pictures_the_most_notable_notebooks_of_2007.html'>fastest Windows Vista notebook</a> at the time.</p>
+
+<p>My MacBook Pro was also the most expensive computer I have ever bought. The high price tag wasn&#8217;t because of the perceived &#8220;Mac tax.&#8221; The high price tag was due to hardware cost. In fact, I looked at what it would cost to buy the same set of hardware from Dell at the time, and Dell&#8217;s price was $200 more than Apple&#8217;s.</p>
+
+<p>My MacBook Pro has served me well for 5 years, which is a long time especially for a laptop. But it has reached its limits. The machine, while still usable, is just too slow for the work I do daily. I might be able to squeeze out another year if I could bump up the RAM to 8 GB or even 16 GB, but sadly, that model only goes to 4 GB. (Yes, I know there is a non-Apple recommended way to bump up to 6 GB, but let&#8217;s face it. Five years is a long time for a laptop.) So nearly 5 years to the date, I got myself a new MacBook Pro. (My previous MBP arrived July 25, 2007, and my latest one arrived July 30, 3012.)</p>
+
+<p>It&#8217;s too early to say if I will get 5 years of service out of this latest MBP, but I&#8217;m hopeful I will. And while my latest MBP is expensive, it still costed less than the one I bought in 2007 - by nearly $700 if I remember correctly. Though admittedly I did not get the maxed out MBP this time around. I got the 2.6 GHz Intel Core i7 with 16 GB RAM, 512 GB flash storage, and retina display.</p>
+
+<p>My first impression of the new MacBook Pro: It&#8217;s a sweet machine.</p>
+
+<p>It feels heavier than I expected, but it&#8217;s still lighter than my 2007 MBP. It&#8217;s super quiet especially compared to my 2007 MBP. My 2007 MBP&#8217;s fan runs non-stop when attached to the power cord. This started when I updated to Lion and has annoyed me ever since. (Thankfully my Bose noise canceling headphones drown out the fan noise from my old MBP.) And my new MBP doesn&#8217;t heat up like my old one does.</p>
+
+<p>My new MBP is fast, really fast compared to my 2007 MBP. This is most noticeable for me when compiling projects in Xcode. A project that would take a minute and a half to do a clean compile now takes 10 seconds. And iPhoto, with my 40 GB library, is once again useable. iPhoto was so painfully slow on my other MBP that I only used it to import photos and that was it. But last night I was tagging faces, looking at photos from places, and doing some minor cropping and editing on my shinny, new MBP.</p>
+
+<p>While I knew the new MBP would be faster, lighter, and better than my previous MBP, the one feature I was lukewarm on is the retina display. If the non-retina MBP supported 16 GB of RAM then I might have bought one of them instead of the retina MBP. However, after using my new MBP for a day, I so glad I went with the retina display. Text on the new retina display is crisp, clear, and much more readable than on the non-retina display. And as someone who has to stare at text all day, this was a welcome surprise for me. I was indifferent about the retina display before buying my MBP, but now, I can&#8217;t imaging buy a new MBP without the retina display.</p>
+
+<p>The retina display also provides one additional benefit for me. I&#8217;m currently working on the second addition of my book <a href='http://amzn.to/ipadprogbook'>Learning iPad Programming</a>. My publisher prefers screenshots for figure images to be at 150 ppi minimum, but normal computer displays are only 72 ppi. With the new retina display, I can take screenshots that are 144 ppi. Still not quite 150 ppi, but a lot closer, which should make my publisher happier.</p>
+
+<p>So after only a day of playing on the new MBP with retina display, was the purchase worth well for me? Absolutely. There&#8217;s no doubt in my mind that going with the MBP with retina display was the right choice for me. That said, if my previous MBP were only a year or so old, I might have held off on the purchase until the price drops a bit. But for me, at this time, the new MBP with retina display is the idea machine for me. The 16 GB of RAM, faster CPU and flash storage, and of course the retina display are vast improvements needed for my daily work.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wanted: Beta Testers for Killink CSV Editor]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor/"/>
+    <updated>2011-06-28T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor</id>
+    <content type="html"><![CDATA[<p>I posted a new beta for Killink CSV Editor v2 today. The big feature added to version 2 is Unicode support. This means Killink CSV Editor can now read and write not only ASCII files but UTF-8 and UTF-16 files.</p>
+
+<p>If you&#8217;re a Killink CSV Editor user and you want to live life on the edge, please <a href='http://cdn.whitepeaksoftware.com/downloads/setup-killinkcsv-250.exe'>download beta 2</a>, give it a test drive, and send email to <em>support at white peak software dot com</em> if you encounter any issues. Note this build of Killink CSV Editor installs, by default, in a separate directory allowing both Version 1.14 and Version 2.0 to co-exists on the same computer.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Great Time at VTM]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/04/11/great-time-at-vtm/"/>
+    <updated>2011-04-11T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/04/11/great-time-at-vtm</id>
+    <content type="html"><![CDATA[<p>This weekend was <a href='http://voicesthatmatter.com/'>Voices That Matter</a> Seattle. It was my second time attending VTM and second time speaking. I have to say this latest installment of VTM was even better than the last one in Philly.</p>
+
+<p>My conference weekend kicked off on Friday with a full day workshop learning <a href='http://www.cocos2d-iphone.org/'>Cocos2D</a>. This workshop was full of juicy awesome goodness, and for the first time in my career I feel like I now know how to write a game. In fact I have a new game idea brewing in my head as I type this. <a href='http://twitter.com/rodstrougo'>Rod Strougo</a> and <a href='http://twitter.com/rwenderlich'>Ray Wenderlich</a> did an outstanding job putting together and teaching the full day workshop.</p>
+
+<p>VTM continued to impress for the next two days. Some highlights for me included:</p>
+
+<p>* <a href='http://twitter.com/bmf'>Mike Lee&#8217;s</a> keynote. I was especially moved by the part where Mike talked about our wonderful iOS and Mac developer community.</p>
+
+<p>* Hearing <a href='http://twitter.com/zaphodgjd'>Graeme Devine</a> talk on Game Center and the Art of Addictive Games and getting to meet him. We had some good chats. It wasn&#8217;t until later I found out <a href='http://en.wikipedia.org/wiki/Graeme_Devine'>who he really is</a>.</p>
+
+<p>* Meeting <a href='http://www.kevincallahan.org/'>Kevin Callahan</a> and getting the one-on-one demo of <a href='http://www.kevincallahan.org/software/accessorizer.html'>Accessorizer</a>. This app is awesome and does so much to make you more productive in Xcode.</p>
+
+<p>* And of course catching up with old friends and making new ones (too many to list here).</p>
+
+<p>Thanks to the <a href='http://twitter.com/vtm_iphone'>VTM organizers</a> for putting on a great event, and special thanks to <a href='http://twitter.com/chuckdude'>Chuck</a> for getting me from and to the airport.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Today's Email Outage ]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/03/29/todays-email-outage/"/>
+    <updated>2011-03-29T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/03/29/todays-email-outage</id>
+    <content type="html"><![CDATA[<p>White Peak Software suffered a major email server outage earlier today. Server hardware at the hosting provider died a horrible death causing the outage. I believe the outage started around 10:30 am Eastern and continued until almost 8:00 pm Eastern.</p>
+
+<p>After a few hours and reports of emails bouncing back with &#8220;invalid email address&#8221; errors, I decided to move the White Peak Software mail server to a new hosting provider. This meant email was once again flowing even while the original hosting provider tried to solve the hardware problems.</p>
+
+<p>Email seems to be stable again. However, if you sent an email to White Peak or me any time today and I have not responded then please resend the email. It&#8217;s likely the email fell into a black hole.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Discoloration on the New iPad 2 is No Reason to Panic]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic/"/>
+    <updated>2011-03-16T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic</id>
+    <content type="html"><![CDATA[<p>I received my shinny, new iPad 2 yesterday. When I turned it on I immediately saw yellowish discolorations along the top, right, and bottom edges. The discoloration at the top right corner is the worse and is about the size of my thumb. I tweeted about the problem to see if others have seen the same issue. A friend pointed me to <a href='http://www.theipadfan.com/ipad-2-screen/'>this site</a> which describes the problem and shows a picture of the discoloration.</p>
+
+<p>So apparently this is a problem with the new iPad 2, but I don&#8217;t think it&#8217;s a major problem. Nor do I think it&#8217;s a problem with iPad 2 only. Here&#8217;s why.</p>
+
+<p>It seems that many iPads will show some slight discoloration when displaying an all black screen with full brightness while in the dark. I see this on my first generation iPads, so this is not a new problem with the iPad 2. And I don&#8217;t see this as a major problem because under normal use you do not see the discoloration. I have used my first generation iPads (I have two of them) for nearly a year, and I have never noticed this problem. I can only see it when I display an all black screen with full brightness while in the dark, which is not a normal use case scenario.</p>
+
+<p>With that said, the problem with my new iPad 2 is different. Yes, it&#8217;s the same yellowish discoloration, but in my particular case the discoloration is noticeable when using the iPad under normal conditions. The discoloration is visible on my device when running apps with black backgrounds (such as Kindle and Instapaper) with the brightness set to a low level while sitting in a room with natural daytime light. This is why I have asked Apple for a replacement. I wouldn&#8217;t care about the discoloration if it wasn&#8217;t noticeable under normal use, but for my particular device it is noticeable under normal use.</p>
+
+<p>So before you panic and think you have a defective iPad 2 because you can see some discoloration when looking at an all black screen with full brightness while in the dark, see if the discoloration is noticeable under normal conditions. I&#8217;m willing to bet your iPad is perfectly fine.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Joining Forces with Outer Level]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level/"/>
+    <updated>2011-02-24T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
+    <content type="html"><![CDATA[<img src='/images/blog/2011-02-24-Knapsack.png' align='left' />
+<p>I&#8217;m very excited to announce a new partnership between <a href='http://outerlevel.com/'>Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href='http://outerlevel.com/licensekeeper/'>LicenseKeeper</a>, <a href='http://outerlevel.com/bullfrog-mac/'>Bullfrog</a>, and (my personal favorite) <a href='http://outerlevel.com/knapsack/'>Knapsack</a>. Outer Level&#8217;s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out.</p>
+
+<p>I&#8217;m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level&#8217;s <a href='http://outerlevel.com/knapsack/'>travel app</a>.</p>
+
+<p>What impact will this have on White Peak Software? None. I will continue working for White Peak Software as I have for the last 7 and a half years (Wow! It&#8217;s been that long?!). This partnership will, however, reduce my availability for consulting work, but this is a good thing as it fits within my long term goals for White Peak.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Adding Placeholder Text to UITextView]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/12/08/adding-placeholder-text-to-uitextview/"/>
+    <updated>2010-12-08T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/12/08/adding-placeholder-text-to-uitextview</id>
+    <content type="html"><![CDATA[<p>I decided one of my apps should display placeholder text in a text view. Unfortunately UITextView does not have a placeholder property. I&#8217;ve always thought this is odd especially given the fact that UITextField has a placeholder property.</p>
+
+<p>I googled to see what others have done. I found <a href='http://stackoverflow.com/questions/1328638/placeholder-in-uitextview'>some good approaches</a> but no one solution that I liked. So I decided to write my own borrowing from the various ideas of others. The end result is KTTextView.</p>
+
+<p><a href='https://github.com/kirbyt/KTTextView'>KTTextView</a> derives from UITextView and enhances it with new features. At the moment the only new feature is the placeholder text. The <strong>placeholderText</strong> property works same as UITextField&#8217;s placeholder property. I also added the property <strong>placeholderColor</strong> in case an app has the need to use a color different then the default placeholder color.</p>
+
+<p>KTTextView is hosted on <a href='https://github.com/kirbyt/KTTextView'>github</a>. The project includes a sample app showing how to use KTTextView. I plan to add more features as time allows. One feature I want to add is an option to display the text view in a rounded rectangle giving it a similar look to UITextField. In the meantime, I hope you find the KTTextView&#8217;s current implementation useful.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Exciting Opportunity or a Nightmare in the Making?]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/11/22/an-exciting-opportunity-or-a-nightmare-in-the-making/"/>
+    <updated>2010-11-22T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/11/22/an-exciting-opportunity-or-a-nightmare-in-the-making</id>
+    <content type="html"><![CDATA[<p>I received an email in August from a large company. A gentleman from the company wanted to talk with me about an opportunity for White Peak Software and Labor Mate. The company wanted to rebrand Labor Mate as one of their own iOS apps. As part of the deal they would do various marketing campaigns including print ads, exposure on high traffic web sites, and announcements in email newsletters. The market efforts would potentially reach millions of people that I otherwise would not reach unless I invested large sums of my own money in my own marketing efforts. Needless to say, I was very excited.</p>
+
+<p>In exchange for the additional exposure Labor Mate would receive, I would rebrand Labor Mate to look like an app from the large company and part of the net revenue from sales would be split. Best of all I remain owner of the app and I have final say in what goes into the app. The deal could be looked at, in some ways, as corporate sponsorship for Labor Mate. And I was stoked!</p>
+
+<p>Over the next few months we negotiated the terms of the agreement. At the same time, we worked on rebranding Labor Mate. I was pleased with the final results, which was a much nicer looking Labor Mate. And the corporate branding was done in a very tasteful, non-intrusive manner. My only complaints, which were minor, were the desire to include a splash screen and the new look was a little too foo-foo looking for my liking. Still, I was excited about the opportunity.</p>
+
+<p>It wasn&#8217;t until about a month ago that my opinions about the deal started changing from excitement to concerns. Contract negotiations were slow and becoming much more complex. Lawyers got involved turning a &#8220;no nonsense&#8221; agreement into a 3 year commitment with requirements for various liability insurance, errors and omissions insurance, service level agreements, and more. Assuming Labor Mate sales remain the same for first 12 months of the agreement, I would pay out roughly 25% of net revenue just in legal and insurance fees. The deal was no longer feeling like a great opportunity.</p>
+
+<p>The slow progress on contract negotiations wasn&#8217;t the only thing changing my mind about the opportunity. I starting feeling as if I would not have final say in Labor Mate&#8217;s functionality. Also, receiving visual assets from the large company was slower then I&#8217;m use to, and the extra time needed for internal approval of the app before submitting to Apple was dragging. My concerns grew as a result. I set aside time to work on a White Peak Software products, and I often don&#8217;t have time or patience for these types of delays. Was this something I could expect in the coming years?</p>
+
+<p>As the weeks went by I was starting to feel like the once great opportunity was raising too many warning flags indicating a nightmare in the making. Now please note, what I would call a nightmare business arrangement might be a walk in the park for others. I&#8217;m set in my ways. I&#8217;m an indie dev. I work from home. I make the decisions. I control what I work on and when. I have my own way of working, providing support, and determining success. And I don&#8217;t like making compromises on matters I disagree with. Anything that changes this for me is a nightmare in the making.</p>
+
+<p>I started feeling the deal would mean giving up the control and freedom I enjoy as an indie dev. I felt I might be expected to drop everything when the large company decided changes were needed for the app. And I would need approval from the large company on any and all changes I want to make to the app. There was also a good amount of monthly reporting required, beyond financial reporting, that is not uncommon in Corporate America. The deal would mean I have a bond with a large corporate business partner regarding this one app and as my past has repeatedly shown, I don&#8217;t function well in Corporate America.</p>
+
+<p>To make matters worse, there was no long term plan for the rebranded Labor Mate. What happens if the agreement is terminated early? Would that be the end of Labor Mate? Would I be required to pull it from the App Store or would I only need to remove the branding elements from the app? Would there be pressure to support other mobile platforms? And what if my vision for Labor Mate&#8217;s future differs from the large company&#8217;s vision? What would be my options going forward with Labor Mate?</p>
+
+<p>There were too many unanswered questions for my liking. What was once an exciting opportunity was already causing undo stress and concerns for me. In the 3 months that past, things didn&#8217;t get better. They got worse, from my point of view. And if that can happen in a short 3 months, what would the next 3 years be like? My gut kept telling me it would be a 3 year nightmare.</p>
+
+<p>Everyone I talked to about this deal agreed, it sounded like a great opportunity in the beginning but not so great in the end. Everyone also agreed I should walk away from the deal before it was too late.</p>
+
+<p>So today I talked with my contacts at the large company. I explained that this opportunity wasn&#8217;t right for White Peak Software and that I am stepping away from the deal. To my surprise, it came as no surprise. I guess that means I did a good job communicating my concerns over the last couple of months. It also might mean they recognize indie devs and Corporate America don&#8217;t always mix.</p>
+
+<p>I should note the individuals at the large company were friendly, understanding, and tried their best to make the deal work. They too were feeling the stress and were annoyed with the lengthy negotiations. In the end, though, I had to decide what&#8217;s best for my company, and this deal wasn&#8217;t in White Peak Software&#8217;s best interest.</p>
+
+<p>Despite the distractions of this deal over the last 3 months, all is not lost. I did learn, and re-learn, some valuable lessons.</p>
+
+<p>1. If it sounds too good to be true then it probably is.</p>
+
+<p>2. Lawyers for the other side suck because they are not looking out for your best interest. Lawyers for your side are awesome because they are looking out for the your best interest.</p>
+
+<p>3. Talk to friends, peers, business associates and colleagues, and anyone else who will listen about any major business deal. They will often provide insight and points of view you will never think of.</p>
+
+<p>4. Don&#8217;t get distracted by too good to be true opportunities that do not fit into your business plan. And don&#8217;t try to make the opportunity fit into your business plan just because it sounds too good to pass up. It&#8217;s either a natural fit for your business or it is not.</p>
+
+<p>5. Stand by your principles</p>
+
+<p>6. It&#8217; okay to say &#8220;No&#8221; even if no comes 3 months down the road.</p>
+
+<p>7. And lastly, if it sounds too good to be true then it probably is.</p>
+
+<p>So what&#8217;s next for Labor Mate? I&#8217;m going to take the money I would have spent on extra insurance, hire a kick-ass designer, and get to work on Labor Mate 2.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Turbo Pascal on iPad]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/10/26/turbo-pascal-on-ipad/"/>
+    <updated>2010-10-26T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/10/26/turbo-pascal-on-ipad</id>
+    <content type="html"><![CDATA[<p>Isn&#8217;t not like I need a distraction from work, but I couldn&#8217;t resist this one. I saw a tweet about iDOS, a DOS emulator app just released for iPad and iPhone. For fear the app will be pulled from the App Store, I bought it right away. Besides, it&#8217;s only 99 cent.</p>
+
+<p>I read a story about someone <a href='http://toucharcade.com/2010/10/26/idos/'>installing Windows 3.0 inside of iDOS</a>. Sounds cool but I&#8217;m not interested in Windows 3.0. Instead, I decided to install Turbo Pascal. Embarcadero recently posted <a href='http://edn.embarcadero.com/article/20803'>Turbo Pascal v5.5 as a free download</a> so the first thing I did was to grab a copy of it. Next, I grabbed an <a href='http://www.info-zip.org/UnZip.html#Downloads'>unzip program</a> so I can unzip TP55.zip in iDOS. (Save time and <a href='ftp://ftp.info-zip.org/pub/infozip/msdos/'>go here</a> to download unz552x3.exe.)</p>
+
+<p>Here are the remaining steps I followed to get Turbo Pascal up and running on my iPad.</p>
+
+<p>* Connect the iPad to iTunes.</p>
+
+<p>* In iTunes, go to the Apps tab for the connected iPad and scroll down to the file sharing section.</p>
+
+<p>* Drag and drop TP55.zip and unz552x3.exe to iDOS.</p>
+
+<p>* Sync the device.</p>
+
+<p>* Once sync is complete, launch iDOS on the iPad. You&#8217;ll find the two files in the root directory.</p>
+
+<p>* Copy unz552x3.exe to a new directory, or just run it in the root directory. This will uncompress the unzip utility files. I prefer running it in a separate directory to keep the root clean.</p>
+
+<p>* Unzip TP55.zip. This will create two directories, DISK1 and DISK2. Again, I copied TP55.zip to a temp directory before unzip.</p>
+
+<p>* Run install.exe found in the DISK1 directory. If your experience is similar to mine, you will get a message saying to insert the oop/demos/bgi/doc diskette. I&#8217;m guessing the installer can&#8217;t find the directory DISK2.</p>
+
+<p>* At this point, I aborted the install. Not to worry. Turbo Pascal&#8217;s IDE, compiler, etc have been installed.</p>
+
+<p>* By default, the IDE can be found in c:\TP. The program file to run is turbo.exe.</p>
+
+<p>That&#8217;s it. Happy coding!</p>
+
+<p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href='http://code.google.com/p/dospad/'>download the source code for DOSPad</a> and build your own version.</p>
+
+<p><img alt='photo-4.PNG' src='/images/blog/2010-10-26-photo-41.PNG' /></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Initial Thoughts on the Mac App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/10/21/my-initial-thoughts-of-the-mac-app-store/"/>
+    <updated>2010-10-21T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/10/21/my-initial-thoughts-of-the-mac-app-store</id>
+    <content type="html"><![CDATA[<p>Yesterday Apple announced the Mac App Store, which will be available in 90 days. The Mac App Store is modeled after the iOS App Store. The store provides customers a trusted way to buy and download safe, quality software for the Mac OS X desktop. As with the iOS App Store, software developers must submit their apps to Apple for review, <a href='http://developer.apple.com/appstore/mac/resources/approval/guidelines.html'>apps must adhere to a list of rules</a>, and Apple gets 30% of the app price for each unit sold.</p>
+
+<p>My first impression when reading about the announcement was 30% is too high. E-commerce providers such as Fastspring and eSellerate charge a much lower percentage. But the Mac App Store does do a few things that other e-commerce providers do not. The Mac App Store has the potential to reach many more users given that the app will be available on the desktop. Also, the Mac App Store will host the download file. But when I think about it, none of this is new. The only thing new is Apple.</p>
+
+<p>Download sites have existed for years. The <a href='http://pad.asp-software.org/spec/spec.php'>PAD specification</a>, which has been available for years, provides a mechanism for software vendors to publish app metadata and be discovered by download sites, and ultimately by customers. And many download sites and e-commerce providers provide hosting of the app. Even Microsoft gave it a try with its web-based app store concept called <a href='http://www.windowsmarketplace.com/'>Microsoft Marketplace</a>, which after many years is no more. So it seems to me, the only thing new and different about the Mac App Store is the review process.</p>
+
+<p>Downloading desktop software from download sites can be risky. You never know if the software you download contains a virus or malware. Attempts such as pre-scanning software for viruses by download sites have been made to instill trust but at the end of the day it&#8217;s hard to trust software downloaded from these sites. The <a href='http://www.asp-software.org/'>Association of Software Professionals</a> have attempted tackling the trust issue for years and has had some success. Still, at the end of the day, gaining customer trust with an online business is challenging.</p>
+
+<p>Personally, I never download software from download sites but I buy a lot of software online. I only buy and download software from the vendor&#8217;s own web site, and I&#8217;ll only do it when I feel I can trust the vendor. The vendor earns my trust by having a professional online presence, provides contact information with bonus points for having a physical address and phone number, offers a money back guarantee, and most importantly digitally signing the software with a certificate from a trusted CA. If you browse the White Peak Software web site, you&#8217;ll see I follow these trust rules myself.</p>
+
+<p>Trust is important when doing business in the online world, and the Mac App Store will help gain customer trust. This should, in turn, help encourage customers who have never bought desktop software online to final do so. The added level of trust and the potential reach to new customers makes the 30% cut to Apple worth while in my opinion. But I still have concerns, from a developer&#8217;s point of view, about the Mac App Store.</p>
+
+<p>Many existing, and popular, apps sold today including some from Apple will be rejected from the store based on the list of <a href='http://developer.apple.com/appstore/mac/resources/approval/guidelines.html'>review rules</a>. But a bigger concern for me is that software vendors wishing to sell through the Mac App Store as well as through their own company web site will be required to maintain two different versions of the same app. Mac App Store apps cannot be self updating, cannot be trial version, and cannot use its own licensing scheme. These three things are key components to selling desktop software on the Internet today. This means a software vendor wishing to sell an app through the Mac App Store as well as through its own company store must have two separate builds of the app, one build without the self updating, trial version, and licensing scheme for the Mac App Store, and one build containing these features for sell through one&#8217;s own online store.</p>
+
+<p>Another concern I have with the Mac App Store is the lack of pricing and licensing options. For example, Killink CSV is a business app bought by individuals and large companies alike. By selling directly to the customer, I can offer various pricing and licensing options. I offer a volume discount on purchases. The more single user licenses you buy, the lower the per unit cost. I offer a site license option too, which allows customers to pay a lower price while being able to install the software on a greater number of computers. Then there are coupons. I use coupons to offer discount pricing for a variety of reasons. It&#8217;s doubtful the Mac App Store will support coupons in the next 90 days. Then there are affiliates. While sells from affiliates represents only a small portion of my product revenue, affiliates do bring in additional customers. Come to think of it, in a way, one could think of the Mac App Store as an affiliate with review process.</p>
+
+<p>I can&#8217;t help but wonder&#8230;giving the fact that I have more control over pricing, can offer discounts, and run sales using coupons&#8230;will customers become annoyed when they pay one price for my app in the Mac App Store only to find out they could have saved money by buying directly? And how will customer support change with the introduction of the Mac App Store? I&#8217;m assuming Apple will not provide any customer information after a purchase to the software vendor. What happens when a customer calls or emails me about re-installing the app on a new computer? I&#8217;ll have to first find out how they purchased the app, through the Mac App Store or through my web site. I can see it now, a customer responds with, &#8220;I don&#8217;t remember.&#8221; And what about refunds? Direct purchases can be refunded, Mac App Store purchases, well, &#8220;You&#8217;ll have to talk with Apple.&#8221;</p>
+
+<p>Overall, I can see the Mac App Store leading to confusion and delay.</p>
+
+<p>Oh, and then there is the concern of paid upgrades. Many, if not most, desktop software vendors count on revenue earned by paid upgrades. Paid upgrades are currently not supported in the iOS App Store, so I have to think the same will be true of the Mac App Store.</p>
+
+<p>And let&#8217;s not forget the trial versions of the app. A customer can come to my web site and download a free 30-day trial of my software. This gives the user time to evaluate the app before making a purchasing decision. This is not going to happen, at least not initially, with the Mac App Store. Will this lead to users demanding lower prices and if so will software vendors given in starting a new race to the bottom. I certainly hope not. Software vendors need to stay their ground and price their products based on the value of the app.</p>
+
+<p>Will my app be rejected from the Mac App Store if I include in the app description, &#8220;Come to my web site to download a free 30-day trial&#8221;? And what of cross-platform apps? Say I write a version of Killink CSV for the Mac. According to the list of review rules, I cannot mention the availability of the Windows version in the app&#8217;s metadata. If I do, it will be rejected even if this is a key selling point of the app.</p>
+
+<p>I welcome the Mac App Store. It has great potential for tapping into a customer base that otherwise would be un-tappable. But I worry the Mac App Store is not the right place for many desktop app and by not being in the Mac App Store sells will suffer. Only time will tell if the Mac App Store will help software vendors, especially the indie shops like White Peak Software, to succeed.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Feeling Overwhelmed is an Understatement]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/10/03/feeling-overwhelmed-is-an-understatement/"/>
+    <updated>2010-10-03T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/10/03/feeling-overwhelmed-is-an-understatement</id>
+    <content type="html"><![CDATA[<p>Life has been crazy busy recently. Of course it seems my life is always crazy busy, and just when I think it can&#8217;t get any more crazy busy, it does. I&#8217;m behind on a number of things, and I can&#8217;t help but feel overwhelmed. Heck, feeling overwhelmed is probably an understatement for how I feel right now.</p>
+
+<p>This year has been an amazing year for me, work-wise. I reinvented White Peak Software last year as company focused on iOS, and this year is shaping up to be my most exciting and enjoyable year in the company&#8217;s (almost) 7 year history. But a number of things are suffering as well. Progress on the book is suffering. Product updates are suffering. New product releases are suffering. Even client work is suffering because there&#8217;s simply no way for me to keep up with the demands. Despite of all this, I feel a bit better this evening after reading a posting from Jeff LaMarche.</p>
+
+<p>I look up to Jeff, and I&#8217;m amazed at how much work he pumps out. I often wonder where he finds the time - not having a two year old in the house probably helps - and I&#8217;m convinced he never sleeps. In his posting <a href='http://iphonedevelopment.blogspot.com/2010/09/complaining-about-success.html'>Complaining About Success</a>, Jeff mentions &#8220;time has become a scarce commodity.&#8221;</p>
+
+<p>Ah, he is human. He does fall behind from time to time.</p>
+
+<p>While I feel for Jeff, I admit reading his post makes me feel a bit relieved that I&#8217;m not alone.</p>
+
+<p>And Jeff, if you are reading this, I plan to stick with the <a href='http://iphonedevelopment.blogspot.com/2010/09/dealloc.html'>release then nil</a> approach. It&#8217;s the approach I learned when first diving into Objective-C. Old habits are sometimes hard to break.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Customizing the Look of UINavigationBar and UINavigationController]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller/"/>
+    <updated>2010-09-11T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller</id>
+    <content type="html"><![CDATA[<img src='/images/blog/2010-09-11-CustomNavBar.png' align='left' />
+<p>I&#8217;ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar.</p>
+
+<p>Let&#8217;s take a look at the various ways to customize the navigation bar.</p>
+
+<p>The UINavigationBar has a style property called barStyle. barStyle can be set to UIBarStyleDefault or UIBarStyleBlack. The default uses a blue gradient background. When using UIBarStyleBlack you can also set the translucent property to YES to give the navigation bar a partially opaque look. If you are using Interface Builder, then you will set the Style property in the Inspector window. Here you have the option to style the navigation bar as Default, Black Opaque, and Black Translucent.</p>
+
+<p>What if you want a color other than blue and black? You can set the tintColor property (aka Tint in IB) to any color you like. This changes the navigation bar&#8217;s color. Best of all, setting the tintColor will also change the background color used by the bar button items displayed within the navigation bar.</p>
+
+<p>Sometimes, however, just changing the tint of the UINavigationBar isn&#8217;t enough. Sometimes you want to have a fancier background. Maybe the background you want has a different gradient style or lighting effect, or maybe you want a title displayed in the center of the navigation bar to use a font not available in iOS. How would you change the look of the navigation bar for these scenarios? Simple. You use an image that is drawn on the navigation bar.</p>
+
+<p>There are two approaches you can use to draw an image on the navigation bar. You can create a new class that inherits from UINavigationBar and override the drawRect method. For example:</p>
+
+<pre><code>@interface KTNavigationBar : UINavigationBar {
+
+}
+@end
+
+@implementation KTNavigationBar
+
+- (void) drawRect:(CGRect)rect
+{
+    [super drawRect:rect];
+
+    UIImage *image = [UIImage imageNamed: @&amp;amp;amp;quot;navbar.png&amp;amp;amp;quot;];
+    [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+}
+
+@end</code></pre>
+
+<p>In this example, the image navbar.png is used to customize, or skin, the UINavigationBar. This is a nice, clean, object orientated way to customize the look of your navigation bar. The only thing you must remember to do is to use your custom UINavigationBar class within your application. This means changing the class type for those of us using IB.</p>
+
+<p>Another trick you can use that doesn&#8217;t require changing the class type is to use a category. For example:</p>
+
+<pre><code>@interface UINavigationBar (KTCustomLook)
+
+- (void) drawRect:(CGRect)rect;
+
+@end
+
+@implementation UINavigationBar (KTCustomLook)
+
+- (void) drawRect:(CGRect)rect
+{
+
+    UIImage *image = [UIImage imageNamed: @&amp;amp;amp;quot;navbar.png&amp;amp;amp;quot;];
+    [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+}
+
+@end</code></pre>
+
+<p>I admit I have used this approach in more than one project, but doesn&#8217;t feel right to me. It feels more like using voodoo or black magic then following good OO design. But this approach does work and it does save you time by eliminating the need to change the class type for each instance of UINavigationBar within your app. [Update: This approach doesn&#8217;t feel right because it overrides a method in a category. You should know this is a bad, bad thing, and I don&#8217;t encourage others to do it. That said, it does work.]</p>
+
+<p>One thing to note when using an image to customize the UINavigationBar, you still want to set the tintColor for the navigation bar. As I mentioned, setting this property will also change the background color used by the bar button items. So you want to set the tintColor to the appropriate color making the button color fit in with the navigation bar color style.</p>
+
+<p>For those of you who want to see these concepts in action, I posted a <a href='http://github.com/kirbyt/CustomNavBar'>sample project, called CustomNavBar</a>, on github. Enjoy.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Speaking at VTM and 360iDev This Fall]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/09/10/speaking-at-vtm-and-360idev-this-fall/"/>
+    <updated>2010-09-10T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/09/10/speaking-at-vtm-and-360idev-this-fall</id>
+    <content type="html"><![CDATA[<p>Fall is almost here and it&#8217;s going to be a busy on for me. Not only will I be heads down trying to finish my upcoming book, I will be speaking at two iOS developer conferences. The first conference is <a href='http://www.voicesthatmatter.com/iphonefall2010/'>Voices That Matter</a> in Philadelphia on October 16 and 17. This will be my first VTM, and I&#8217;m very excited to be apart of the event. There are a lot of great talks planned for the 2-day conference. My talk will be on the advantages of writing universal apps for iPad and iPhone. Early bird pricing ends today so register now to save money. Use the discount code PHASPKR to save even more money.</p>
+
+<p>The second conference I&#8217;m speaking at this fall is <a href='http://www.360idev.com/'>360iDev Austin</a>. It&#8217;s no secret that 360iDev is one of my favorite developer conferences. I have made numerous friends since attending my first 360iDev last year, and the networking I&#8217;ve done at past 360iDev conferences has help land me paying gigs. My session at 360iDev will be on the fundamentals of iPad programming. This session is intended for anyone just starting out with iPad programming. Earlier bird pricing as already ended for 360iDev Austin but even at the full price of $599, it is money well spent if you are serious about iOS programming.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My App Store Pricing Experiment: The Final Chapter]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/09/01/my-app-store-pricing-experiment-the-final-chapter/"/>
+    <updated>2010-09-01T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/09/01/my-app-store-pricing-experiment-the-final-chapter</id>
+    <content type="html"><![CDATA[<p>Today is my final update on the pricing experiment I started back in May. You can read the previous posts <a href='http://blog.whitepeaksoftware.com/2010/06/01/sales-are-down-but-revenue-is-up/'>here</a> and <a href='http://blog.whitepeaksoftware.com/2010/07/02/sale-numbers-are-in-an-update-on-my-app-store-pricing-experiment/'>here</a>. The goal of the experiment was to see if the sales trend for Labor Mate would continue at the higher price of $1.99. After three full months, I can say the higher price has done more harm than good.</p>
+
+<p>Labor Mate continues to bring in over $1K per month despite the higher price, but the trend doesn&#8217;t look good. Over the last few weeks, the number of sales has decreased everywhere except in Japan. For some reason, sales are up in Japan and if not for Japanese sales in August, Labor Mate would have posted it&#8217;s worse sales month in 6 months.</p>
+
+<p>Since it&#8217;s inception date, revenue for Labor Mate has been on a slow but steady rise. The higher price has reversed that trend. Labor Mate now appears to be on a slow but steady fall. Not only that, Labor Mate, which at one time was in the Health and Fitness Top 100 category in App Stores throughout the world, is not longer visible on any Top 100 chart, anywhere. This three month pricing experiment maybe the start of a slow death for Labor Mate, but it&#8217;s not done for yet.</p>
+
+<p>I have big plans in the works, and a new update is just around the corner. I was planning a big release in a few weeks that would hopefully justify the $1.99 price tag in the eyes of consumers but I&#8217;m changing my strategy. Starting today, Labor Mate is back down to 99 cents, and instead of a big update in a few weeks, I&#8217;m going to release 3 or 4 updates over the next 1 to 2 months. My goal here is to get Labor Mate back on track and return to the trend I was seeing before the price increase.</p>
+
+<p>Update: One thing I should point out is Labor Mate has a lot of competition. The other similar apps cost between free and 99 cents. This maybe a key reason why a $1.99 Labor Mate cannot sustain the slow but steady growth seen by the 99 cent Labor Mate.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad Stylus Review]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/29/ipad-stylus-review/"/>
+    <updated>2010-08-29T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/29/ipad-stylus-review</id>
+    <content type="html"><![CDATA[<p>I admit I don&#8217;t have a strong need for a stylus when using my iPad, but there have been occasions when I wish I had one. Using my finger to take notes in a drawing app is sometimes frustrating to me. My finger drawn text is usually too large, and on hot summer days, my finger doesn&#8217;t always glide smoothly over the surface of my iPad. So I decided to give an stylus a try. The problem was, which stylus to buy.</p>
+
+<p>I narrowed my search down to two styluses, the <a href='http://www.tenonedesign.com/sketch.php'>Pogo Sketch</a> from Ten One Design and the <a href='http://www.boxwave.com/products/capacitivestylus/apple-ipad-capacitive-stylus_3779.htm'>Boxwave Capacitive iPad Stylus</a>. I spent more time than I should have reading reviews of both only to come to the conclusion: I don&#8217;t know which one to buy. So I bought both.</p>
+
+<p>The Pogo Sketch gets points for price ($10.78 on Amazon at the time), which is much less than the Boxwave ($20.95 plus $4 shipping). Both work well on my iPad. The Pogo Sketch is longer and thinner, and felt cheaper than the Boxwave. The Boxwave stylus is heavier and thicker, much like a nice ball point pen, but it is short. I personally don&#8217;t mind the shortness since I&#8217;ve carried short pens in my pocket for most of my life, but others might not care for it.</p>
+
+<p>The tip on the Pogo is shaped differently than on the Boxwave. With the Pogo tip, I can hold the stylus in different positions as I draw, sort of like a pencil. The Boxwave, on the other hand, is like using a pen. I find myself holding it in the same position as I would a pen.</p>
+
+<p>The Pogo tip also looks like it could wear out quickly. With both styluses I must use more pressure to draw than I would with pencil and paper. I can&#8217;t help but feel I will flatten out the Pogo tip quickly with regular use. On the other hand, the Boxwave tip looks and feels solid, and I don&#8217;t have the same concern of it wearing out.</p>
+
+<p>After spending time with both, I decided I prefer the Boxwave Capacitive iPad Stylus over the Pogo Sketch. I like the thickness and weight of the Boxwave, and it doesn&#8217;t have that cheap feel that the Pogo does. But $25 is a lot to spend. Given the amount of time I will use a stylus and having played with both, I know I would have been happy with the Pogo Sketch. But since I bought both, I will continue using the Boxwave stylus, and I will likely give away the Pogo Sketch at an <a href='http://nshappyhour.org/'>NSHappyHour</a> or similar event.</p>
+
+<p>Speaking of NSHappyHour, I brought both styluses with me to the July NSHappyHour for others to try out. Jon Lee was kind enough to email me his own review, which I&#8217;ve included here. I love his final verdict.</p>
+
+<blockquote>
+<p><em>Finger:</em></p>
+
+<p>Pros: Always available when you need it. If you lose one, there is always another.</p>
+
+<p>Cons: Pen tip is too squishy, and big. Writing by finger is an awkward user experience.</p>
+
+<p><em>Pogo Sktech</em></p>
+
+<p>Pros: Tip feels smaller, like you&#8217;re drawing with a thin Crayola marker. Using a stylus is familiar as a experience, as compared to finger painting.</p>
+
+<p>Cons: The squishy sponge material makes me afraid that if I press too hard I will scratch the iPad surface with the edge of the ring that holds the sponge. Sponge feels very rippable after continued use.</p>
+
+<p><em>Boxwave Capacitive iPad Stylus</em></p>
+
+<p>Pros: Good weight, feels substantial. The tip, being rubber, feels like it could last longer than the Pogo.</p>
+
+<p>Cons: The rubber end is like the bulb end of a turkey baster. And it feels like you&#8217;re writing with one. The thicker footprint does not make me feel like I have a high chance of being accurate when I draw. And $20? Really?</p>
+
+<p>Verdict:</p>
+
+<p><a href='http://blog.makezine.com/archive/2010/05/collins_lab_diy_ipad_stylus.html'>Make your own</a>.</p>
+</blockquote>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Hey Peanut 1.3 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store/"/>
+    <updated>2010-08-26T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>Hey Peanut 1.3 is now available in the App Store. The 1.3 update to Hey Peanut includes a new safari theme and all new animal sound effects.</p>
+
+<p>What is Hey Peanut? Hey Peanut is a photo app for toddlers available on iPhone and iPad. Parents add pictures to Hey Peanut and optionally record a message on each picture. Then your 1 to 3 year old can flip through the pictures, touching each one to hear the recorded message. Hey Peanut also includes colorful themes with fun sound effects to entertain your child.</p>
+
+<p>Keep an eye on the <a href='http://twitter.com/heypeanutapp'>@HeyPeanutApp</a> and <a href='http://twitter.com/whitepeak'>@WhitePeak</a> Twitter feeds for free promo codes.</p>
+
+<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Don't Rely on UIDevice orientation for Rotation]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation/"/>
+    <updated>2010-08-23T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation</id>
+    <content type="html"><![CDATA[<p>Last week I tweeted about having rotation issues with an iPad app I&#8217;m working on. This is the second time in recent weeks I&#8217;ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
+
+<p>For those who don&#8217;t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it&#8217;s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
+
+<p>As the device is rotated from portrait to landscape, or vice versa, my view must resize and adjust the layout of the CALayers. Because <code>UIView</code> does not receive the rotation notifications I decided to be smart and use the <a href='http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/doc/uid/TP40006902-CH3-SW3'>orientation property</a> from <code>UIDevice</code>. So in my view I had code similar to this:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>What I failed to realize, however, is that the property <code>orientation</code> will <strong>always</strong> return 0 unless orientation notifications are enabled. Here is a quote directly from the Developer Documentation:</p>
+
+<p>&#8220;The value of this property always returns 0 unless orientation notifications have been enabled by calling beginGeneratingDeviceOrientationNotifications.&#8221;</p>
+
+<p>Doh! Guess I should have RTFM sooner.</p>
+
+<p>Because the <code>orientation</code> property will return 0, sometimes the view in my app would not rotate. But I didn&#8217;t know this was the source of the problem at the time.</p>
+
+<p>After banging my head over and over on the wall, I decided to investigate exactly what was happening. I never suspected <code>[[UIDevice currentDevice] orientation]</code> but eventually I noticed it was returning 0. This seemed odd so I checked the Developer Documentation. I wasn&#8217;t expecting to learn anything new. Boy, was I wrong. I was surprised when I read the property always returns 0 when orientation notifications are not enabled.</p>
+
+<p>I now knew the source of my rotation problems, and a likely quick fix to the problem would have been to call <code>beginGeneratingDeviceOrientationNotifications</code>, get the device orientation, then call <code>endGeneratingDeviceOrientationNotifications</code>. But this just seemed wrong to me. The better fix, in my opinion, is to rely on the rotation notifications received by the view controller, so that&#8217;s exactly what I did.</p>
+
+<p>Now in my particular situation, there are two times I want to resize and layout the CALayers in the <code>UIView</code>. One of those times is when the device is rotated, which is when the view controller receives the <code>willRotateToInterfaceOrientation:duration:</code> message. This was easy to solve. I added an <code>adjustLayoutToInterfaceOrientation:</code> method to my <code>UIView</code> and I call the method inside the UIViewController&#8217;s <code>willRotateToInterfaceOrientation:duration:</code> method. For example:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+}</code></pre>
+
+<p>The other time my <em>UIView</em> needs to adjust the layout of the CALayers is when the <em>UIScrollView</em> scrolls. I&#8217;m using a modified version of Matt Gallagher&#8217;s <a href='http://cocoawithlove.com/2009/01/multiple-virtual-pages-in-uiscrollview.html'>virtual pages in a UIScrollView</a> approach, so the contents of my view changes as the user scrolls. This is where, previously, I was trying to be smart and use the <em>orientation</em> property from <em>UIDevice</em>. But what I really need is the current orientation as received in the most recent call to <code>willRotateToInterfaceOrientation:duration:</code>.</p>
+
+<p>My solution was to add the ivar currentOrientation to my view controller. My view already has a reference to the view controller. I exposed currentOrientation so my view can retrieve the property value. This allowed me to replace the <code>[[UIDevice currentDevice] orientation]</code> code with <code>[controller currentOrientation]</code>. Now the view always knows the current orientation and the app does not need to enable orientation notification in code.</p>
+
+<p>As a result, the first code snippet in this posting changes to:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [controller_ currentOrientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>And the <code>willRotateToInterfaceOrientation:duration:</code> implementation changes to:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+
+    currentOrientation_ = toInterfaceOrientation;
+
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+
+}</code></pre>
+
+<p>This has been an eye opener for me, and I now have a new rule of thumb. Never use <code>UIDevice orientation</code> in code that is responsible for the resizing and layouts of subviews and CALayers.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Safari Theme for Hey Peanut]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2010/08/21/new-safari-theme-for-hey-peanut/"/>
+    <updated>2010-08-21T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2010/08/21/new-safari-theme-for-hey-peanut</id>
+    <content type="html"><![CDATA[<p>At long last, a new theme is coming to Hey Peanut. Hey Peanut 1.3 was submitted to Apple today. This update includes a new safari theme for toddlers to enjoy. There is a hippo, giraffe, zebra, and a friendly lion. Also included in this update are all new animal sounds recorded from actual animal.</p>
+
+<p>Previous releases of Hey Peanut used family-made sounds. What do I mean by &#8220;family-made&#8221; sounds? Well, the animal sounds were recordings of my wife and me attempting to mimic each of the farm animals. The sounds were silly but lacked a certain level of professionalism. Hey Peanut 1.3 will use all new sounds, and this time the animal sounds are the actual sounds from real animals, with one exception. A giraffe doesn&#8217;t really make a sound, so in Hey Peanut the giraffe sounds like a giggling kid. Of course, that kid giggling is my son, <a href='http://www.rowanturner.net/'>Rowan</a>, so there is still a family touch in this new release.</p>
+
+<p>Hey Peanut 1.3 should be available for download from the App Store very soon. Meanwhile, keep an eye on the White Peak Software Twitter account, <a href='http://twitter.com/whitepeak'>@whitepeak</a>, for promo codes to redeem a free copy of Hey Peanut (U.S. App Store only).</p>
+
+<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-21-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+  </entry>
+  
+</feed>
