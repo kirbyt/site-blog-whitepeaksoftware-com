@@ -4,13 +4,21 @@
   <title><![CDATA[Category: announcements | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/announcements/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2012-08-20T01:17:14-04:00</updated>
+  <updated>2012-09-11T00:10:45-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Office is Open]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/09/11/Office+is+Open/"/>
+    <updated>2012-09-11T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/09/11/Office is Open</id>
+    <content type="html"><![CDATA[<p>The White Peak Software office is once again open. It&#8217;s back to business as usual.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Office Closed August 22 Through End of September]]></title>
@@ -58,14 +66,6 @@
     <updated>2010-07-07T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store</id>
     <content type="html"><![CDATA[<p>I&#8217;m happy to announce version 1.2 of Hey Peanut, the photo app for toddlers available on the iPhone and iPad, is now available in the App Store. This update fixes bugs reported on iOS4 and adds new HD artwork for iPhone 4.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ANN: Labor Mate 1.7 is in the App Store]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store/"/>
-    <updated>2010-07-02T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/07/02/ann-labor-mate-1-7-is-in-the-app-store</id>
-    <content type="html"><![CDATA[<p>The latest version of Labor Mate, the best dang labor contraction timer for the iPhone and iPod touch, is now available in the App Store. This update is FREE to existing user. The update includes a much improved UI, compatibility with iOS4 and multitasking, and support for the new retina display on iPhone 4.</p>]]></content>
   </entry>
   
 </feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2012-08-20T01:17:14-04:00</updated>
+  <updated>2012-09-11T00:10:45-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,15 @@
   </author>
   <rights>Copyright (c) 2003-2012 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Office is Open]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2012/09/11/Office+is+Open/"/>
+    <published>2012-09-11T00:00:00-04:00</published>
+    <updated>2012-09-11T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/09/11/Office is Open</id>
+    <content type="html"><![CDATA[<p>The White Peak Software office is once again open. It&#8217;s back to business as usual.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Office Closed August 22 Through End of September]]></title>
