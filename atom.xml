@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2012-09-11T00:10:45-04:00</updated>
+  <updated>2012-09-11T10:49:37-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[ANN: Office is Open]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2012/09/11/Office+is+Open/"/>
-    <published>2012-09-11T00:00:00-04:00</published>
-    <updated>2012-09-11T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2012/09/11/Office is Open</id>
+    <link href="http://blog.whitepeaksoftware.com/2012/09/10/office-is-open/"/>
+    <published>2012-09-10T00:00:00-04:00</published>
+    <updated>2012-09-10T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2012/09/10/office-is-open</id>
     <content type="html"><![CDATA[<p>The White Peak Software office is once again open. It&#8217;s back to business as usual.</p>]]></content>
   </entry>
   
@@ -59,7 +59,7 @@
 
 <p><a href='http://fruitjuiceapp.com'>FruitJuice</a> is a combination Mac app and web service that helps extend the life of your laptop&#8217;s battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.</p>
 
-<p><img alt='' src='/images/blog/2012-08-14-FruitJuice.png' /></p>
+<p><img src='/images/blog/2012-08-14-FruitJuice.png' alt='' /></p>
 
 <p>It&#8217;s this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone. The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.</p>
 
@@ -169,7 +169,7 @@
     <published>2011-02-24T00:00:00-05:00</published>
     <updated>2011-02-24T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
-    <content type="html"><![CDATA[<img align='left' src='/images/blog/2011-02-24-Knapsack.png' />
+    <content type="html"><![CDATA[<img src='/images/blog/2011-02-24-Knapsack.png' align='left' />
 <p>I&#8217;m very excited to announce a new partnership between <a href='http://outerlevel.com/'>Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href='http://outerlevel.com/licensekeeper/'>LicenseKeeper</a>, <a href='http://outerlevel.com/bullfrog-mac/'>Bullfrog</a>, and (my personal favorite) <a href='http://outerlevel.com/knapsack/'>Knapsack</a>. Outer Level&#8217;s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out.</p>
 
 <p>I&#8217;m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level&#8217;s <a href='http://outerlevel.com/knapsack/'>travel app</a>.</p>
@@ -277,7 +277,7 @@
 
 <p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href='http://code.google.com/p/dospad/'>download the source code for DOSPad</a> and build your own version.</p>
 
-<p><img alt='photo-4.PNG' src='/images/blog/2010-10-26-photo-41.PNG' /></p>]]></content>
+<p><img src='/images/blog/2010-10-26-photo-41.PNG' alt='photo-4.PNG' /></p>]]></content>
   </entry>
   
   <entry>
@@ -340,7 +340,7 @@
     <published>2010-09-11T00:00:00-04:00</published>
     <updated>2010-09-11T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller</id>
-    <content type="html"><![CDATA[<img align='left' src='/images/blog/2010-09-11-CustomNavBar.png' />
+    <content type="html"><![CDATA[<img src='/images/blog/2010-09-11-CustomNavBar.png' align='left' />
 <p>I&#8217;ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar.</p>
 
 <p>Let&#8217;s take a look at the various ways to customize the navigation bar.</p>
@@ -483,7 +483,7 @@
 
 <p>Keep an eye on the <a href='http://twitter.com/heypeanutapp'>@HeyPeanutApp</a> and <a href='http://twitter.com/whitepeak'>@WhitePeak</a> Twitter feeds for free promo codes.</p>
 
-<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+<p><img src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' alt='HeyPeanut-1.3-preview2.png' /></p>]]></content>
   </entry>
   
   <entry>
