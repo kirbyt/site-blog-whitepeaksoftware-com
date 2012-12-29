@@ -60,6 +60,98 @@
   
     <article>
       <div class="grid_2 alpha">   
+    <h2>Monday, August 23, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation/">Don't Rely on UIDevice orientation for Rotation</a></h1>
+    <div class="entry-content"><p>Last week I tweeted about having rotation issues with an iPad app I&#8217;m working on. This is the second time in recent weeks I&#8217;ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
+
+<p>For those who don&#8217;t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it&#8217;s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
+
+<p>As the device is rotated from portrait to landscape, or vice versa, my view must resize and adjust the layout of the CALayers. Because <code>UIView</code> does not receive the rotation notifications I decided to be smart and use the <a href='http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/doc/uid/TP40006902-CH3-SW3'>orientation property</a> from <code>UIDevice</code>. So in my view I had code similar to this:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>What I failed to realize, however, is that the property <code>orientation</code> will <strong>always</strong> return 0 unless orientation notifications are enabled. Here is a quote directly from the Developer Documentation:</p>
+
+<p>&#8220;The value of this property always returns 0 unless orientation notifications have been enabled by calling beginGeneratingDeviceOrientationNotifications.&#8221;</p>
+
+<p>Doh! Guess I should have RTFM sooner.</p>
+
+<p>Because the <code>orientation</code> property will return 0, sometimes the view in my app would not rotate. But I didn&#8217;t know this was the source of the problem at the time.</p>
+
+<p>After banging my head over and over on the wall, I decided to investigate exactly what was happening. I never suspected <code>[[UIDevice currentDevice] orientation]</code> but eventually I noticed it was returning 0. This seemed odd so I checked the Developer Documentation. I wasn&#8217;t expecting to learn anything new. Boy, was I wrong. I was surprised when I read the property always returns 0 when orientation notifications are not enabled.</p>
+
+<p>I now knew the source of my rotation problems, and a likely quick fix to the problem would have been to call <code>beginGeneratingDeviceOrientationNotifications</code>, get the device orientation, then call <code>endGeneratingDeviceOrientationNotifications</code>. But this just seemed wrong to me. The better fix, in my opinion, is to rely on the rotation notifications received by the view controller, so that&#8217;s exactly what I did.</p>
+
+<p>Now in my particular situation, there are two times I want to resize and layout the CALayers in the <code>UIView</code>. One of those times is when the device is rotated, which is when the view controller receives the <code>willRotateToInterfaceOrientation:duration:</code> message. This was easy to solve. I added an <code>adjustLayoutToInterfaceOrientation:</code> method to my <code>UIView</code> and I call the method inside the UIViewController&#8217;s <code>willRotateToInterfaceOrientation:duration:</code> method. For example:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+}</code></pre>
+
+<p>The other time my <em>UIView</em> needs to adjust the layout of the CALayers is when the <em>UIScrollView</em> scrolls. I&#8217;m using a modified version of Matt Gallagher&#8217;s <a href='http://cocoawithlove.com/2009/01/multiple-virtual-pages-in-uiscrollview.html'>virtual pages in a UIScrollView</a> approach, so the contents of my view changes as the user scrolls. This is where, previously, I was trying to be smart and use the <em>orientation</em> property from <em>UIDevice</em>. But what I really need is the current orientation as received in the most recent call to <code>willRotateToInterfaceOrientation:duration:</code>.</p>
+
+<p>My solution was to add the ivar currentOrientation to my view controller. My view already has a reference to the view controller. I exposed currentOrientation so my view can retrieve the property value. This allowed me to replace the <code>[[UIDevice currentDevice] orientation]</code> code with <code>[controller currentOrientation]</code>. Now the view always knows the current orientation and the app does not need to enable orientation notification in code.</p>
+
+<p>As a result, the first code snippet in this posting changes to:</p>
+
+<pre><code>UIInterfaceOrientation interfaceOrientation = [controller_ currentOrientation];
+
+if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
+
+    // Adjust for landscape.
+
+} else {
+
+    // Adjust for portrait.
+
+}</code></pre>
+
+<p>And the <code>willRotateToInterfaceOrientation:duration:</code> implementation changes to:</p>
+
+<pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
+
+{
+
+    currentOrientation_ = toInterfaceOrientation;
+
+    [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
+
+}</code></pre>
+
+<p>This has been an eye opener for me, and I now have a new rule of thumb. Never use <code>UIDevice orientation</code> in code that is responsible for the resizing and layouts of subviews and CALayers.</p></div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
     <h2>Saturday, August 21, 2010</h2>
     </div>   
     <div class="grid_9 omega">   
@@ -323,30 +415,6 @@
     </div>
     <div class="clear"></div>
   
-  
-    <article>
-      <div class="grid_2 alpha">   
-    <h2>Monday, June 21, 2010</h2>
-    </div>   
-    <div class="grid_9 omega">   
-    <h1 class="entry-title"><a href="/2010/06/21/hey-peanut-bug-fix-coming/">Hey Peanut Bug Fix Coming</a></h1>
-    <div class="entry-content"><p>I discovered a bug in Hey Peanut running under iOS 4, which Apple released to the public today. The bug has been fixed. I had hoped to get an update to the App Store before today but I&#8217;ve been waiting for the new artwork for iPhone 4. I will be submitting the update to Apple as soon as possible. The bug, for those curious, causes Hey Peanut to crash when you touch the camera icon to add new photos.</p></div>
-     
-    <p class="postmetadata">
-        <small>
-        Posted in .
-        </small>
-    </p>
-    
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
 </div>
 
 <div class="clear"></div>
@@ -374,6 +442,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/12/29/year-in-review/">2012 Year in Review</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/10/office-is-open/">ANN: Office is Open</a>
       </li>
     
@@ -387,10 +459,6 @@
     
       <li class="post">
         <a href="/2012/07/31/first-impressions-macbook-pro-with-retina-display/">First Impressions: MacBook Pro with Retina Display</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/06/28/wanted-beta-testers-for-killink-csv-editor/">Wanted: Beta Testers for Killink CSV Editor</a>
       </li>
     
   </ul>
