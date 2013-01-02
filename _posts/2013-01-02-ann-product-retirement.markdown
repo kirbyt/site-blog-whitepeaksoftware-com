@@ -3,8 +3,8 @@ layout: post
 title: "ANN: Product Retirements"
 categories:
     - announcements
-    - heypeanut
-    - smtpdiagnostics
+    - hey peanut
+    - smtp diagnostics
 ---
 It's a brand new year, and as the saying goes, out with the old and in with the new. 
 
