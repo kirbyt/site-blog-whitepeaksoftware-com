@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2013-01-02T13:23:06-05:00</updated>
+  <updated>2013-04-30T00:02:41-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,25 @@
   </author>
   <rights>Copyright (c) 2003-2013 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[360intersect was Great]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2013/04/29/360intersect-was-great/"/>
+    <published>2013-04-29T00:00:00-04:00</published>
+    <updated>2013-04-29T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2013/04/29/360intersect-was-great</id>
+    <content type="html"><![CDATA[<p>I had the pleasure of speaking at the inaugural <a href='http://www.360intersect.com'>360|intersect</a>, but even better I got the opportunity to attend this new, unique conference. As one attendee said to me - and I&#8217;m paraphrasing here - tech conferences are usually about professional development, but this event was more about personal development. And this was indeed the case. The speakers shared personal stories that were inspirational and highlighted the diversity of the tech community.</p>
+
+<p>On Day 1, Victor Agreda, Jr, talked about his love for magic. Robi Ganguly talked about going from being told throughout his childhood that he cannot run to becoming an avid runner who has completed a marathon. I spoke about my Long Trail hike from last fall. And Michelle Yaiser talked about being an amateur race car driver, a musician, and dancer.</p>
+
+<p>On Day 2, Doug McCune talked about using his love for maps and data to create art in the physical world. Jon Carroll shared stories about his love for video games, farts, and augmented reality. Josh Michaels talked about his long journey to blend his love for art and photography into a career as an app developer. And the day wrapped up with an emotional talk by Mike Lee as his reflected on his life over the past year.</p>
+
+<p>What made all these talks great wasn&#8217;t just hearing the personal stories, but seeing how each speaker blends their various loves into what they do for a living. For instance, Robi&#8217;s talk illustrated how preparing for the marathon also prepared him to be CEO and vice versa. Michelle related race car driving to how one should to approach work and focus. Josh said don&#8217;t wait, pursue your dreams now. And I said don&#8217;t work so hard.</p>
+
+<p>The turnout for this first 360|intersect was small, but that was expected. Personally I think the size was perfect because it gave everyone an opportunity to meet and chat with one another. And it made it possible to have group activities such as the duck boat tour of Seattle, the Saturday night dinner at Pike Brewing Company, and the straggler&#8217;s dinner at Mama&#8217;s on Sunday.</p>
+
+<p>I thoroughly enjoyed the outstanding talks, the cool venture, seeing old friend, and making new ones. And I&#8217;m already looking forward to the next 360|intersect. Big thanks goes out to John and Nicole for putting on this great event.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Product Retirements]]></title>
@@ -159,7 +178,7 @@
 
 <p><a href='http://fruitjuiceapp.com'>FruitJuice</a> is a combination Mac app and web service that helps extend the life of your laptop&#8217;s battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.</p>
 
-<p><img src='/images/blog/2012-08-14-FruitJuice.png' alt='' /></p>
+<p><img alt='' src='/images/blog/2012-08-14-FruitJuice.png' /></p>
 
 <p>It&#8217;s this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone. The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.</p>
 
@@ -269,7 +288,7 @@
     <published>2011-02-24T00:00:00-05:00</published>
     <updated>2011-02-24T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
-    <content type="html"><![CDATA[<img src='/images/blog/2011-02-24-Knapsack.png' align='left' />
+    <content type="html"><![CDATA[<img align='left' src='/images/blog/2011-02-24-Knapsack.png' />
 <p>I&#8217;m very excited to announce a new partnership between <a href='http://outerlevel.com/'>Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href='http://outerlevel.com/licensekeeper/'>LicenseKeeper</a>, <a href='http://outerlevel.com/bullfrog-mac/'>Bullfrog</a>, and (my personal favorite) <a href='http://outerlevel.com/knapsack/'>Knapsack</a>. Outer Level&#8217;s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out.</p>
 
 <p>I&#8217;m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level&#8217;s <a href='http://outerlevel.com/knapsack/'>travel app</a>.</p>
@@ -377,7 +396,7 @@
 
 <p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href='http://code.google.com/p/dospad/'>download the source code for DOSPad</a> and build your own version.</p>
 
-<p><img src='/images/blog/2010-10-26-photo-41.PNG' alt='photo-4.PNG' /></p>]]></content>
+<p><img alt='photo-4.PNG' src='/images/blog/2010-10-26-photo-41.PNG' /></p>]]></content>
   </entry>
   
   <entry>
@@ -440,7 +459,7 @@
     <published>2010-09-11T00:00:00-04:00</published>
     <updated>2010-09-11T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller</id>
-    <content type="html"><![CDATA[<img src='/images/blog/2010-09-11-CustomNavBar.png' align='left' />
+    <content type="html"><![CDATA[<img align='left' src='/images/blog/2010-09-11-CustomNavBar.png' />
 <p>I&#8217;ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar.</p>
 
 <p>Let&#8217;s take a look at the various ways to customize the navigation bar.</p>
@@ -524,51 +543,6 @@
 <p>I have big plans in the works, and a new update is just around the corner. I was planning a big release in a few weeks that would hopefully justify the $1.99 price tag in the eyes of consumers but I&#8217;m changing my strategy. Starting today, Labor Mate is back down to 99 cents, and instead of a big update in a few weeks, I&#8217;m going to release 3 or 4 updates over the next 1 to 2 months. My goal here is to get Labor Mate back on track and return to the trend I was seeing before the price increase.</p>
 
 <p>Update: One thing I should point out is Labor Mate has a lot of competition. The other similar apps cost between free and 99 cents. This maybe a key reason why a $1.99 Labor Mate cannot sustain the slow but steady growth seen by the 99 cent Labor Mate.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iPad Stylus Review]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/08/29/ipad-stylus-review/"/>
-    <published>2010-08-29T00:00:00-04:00</published>
-    <updated>2010-08-29T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/08/29/ipad-stylus-review</id>
-    <content type="html"><![CDATA[<p>I admit I don&#8217;t have a strong need for a stylus when using my iPad, but there have been occasions when I wish I had one. Using my finger to take notes in a drawing app is sometimes frustrating to me. My finger drawn text is usually too large, and on hot summer days, my finger doesn&#8217;t always glide smoothly over the surface of my iPad. So I decided to give an stylus a try. The problem was, which stylus to buy.</p>
-
-<p>I narrowed my search down to two styluses, the <a href='http://www.tenonedesign.com/sketch.php'>Pogo Sketch</a> from Ten One Design and the <a href='http://www.boxwave.com/products/capacitivestylus/apple-ipad-capacitive-stylus_3779.htm'>Boxwave Capacitive iPad Stylus</a>. I spent more time than I should have reading reviews of both only to come to the conclusion: I don&#8217;t know which one to buy. So I bought both.</p>
-
-<p>The Pogo Sketch gets points for price ($10.78 on Amazon at the time), which is much less than the Boxwave ($20.95 plus $4 shipping). Both work well on my iPad. The Pogo Sketch is longer and thinner, and felt cheaper than the Boxwave. The Boxwave stylus is heavier and thicker, much like a nice ball point pen, but it is short. I personally don&#8217;t mind the shortness since I&#8217;ve carried short pens in my pocket for most of my life, but others might not care for it.</p>
-
-<p>The tip on the Pogo is shaped differently than on the Boxwave. With the Pogo tip, I can hold the stylus in different positions as I draw, sort of like a pencil. The Boxwave, on the other hand, is like using a pen. I find myself holding it in the same position as I would a pen.</p>
-
-<p>The Pogo tip also looks like it could wear out quickly. With both styluses I must use more pressure to draw than I would with pencil and paper. I can&#8217;t help but feel I will flatten out the Pogo tip quickly with regular use. On the other hand, the Boxwave tip looks and feels solid, and I don&#8217;t have the same concern of it wearing out.</p>
-
-<p>After spending time with both, I decided I prefer the Boxwave Capacitive iPad Stylus over the Pogo Sketch. I like the thickness and weight of the Boxwave, and it doesn&#8217;t have that cheap feel that the Pogo does. But $25 is a lot to spend. Given the amount of time I will use a stylus and having played with both, I know I would have been happy with the Pogo Sketch. But since I bought both, I will continue using the Boxwave stylus, and I will likely give away the Pogo Sketch at an <a href='http://nshappyhour.org/'>NSHappyHour</a> or similar event.</p>
-
-<p>Speaking of NSHappyHour, I brought both styluses with me to the July NSHappyHour for others to try out. Jon Lee was kind enough to email me his own review, which I&#8217;ve included here. I love his final verdict.</p>
-
-<blockquote>
-<p><em>Finger:</em></p>
-
-<p>Pros: Always available when you need it. If you lose one, there is always another.</p>
-
-<p>Cons: Pen tip is too squishy, and big. Writing by finger is an awkward user experience.</p>
-
-<p><em>Pogo Sktech</em></p>
-
-<p>Pros: Tip feels smaller, like you&#8217;re drawing with a thin Crayola marker. Using a stylus is familiar as a experience, as compared to finger painting.</p>
-
-<p>Cons: The squishy sponge material makes me afraid that if I press too hard I will scratch the iPad surface with the edge of the ring that holds the sponge. Sponge feels very rippable after continued use.</p>
-
-<p><em>Boxwave Capacitive iPad Stylus</em></p>
-
-<p>Pros: Good weight, feels substantial. The tip, being rubber, feels like it could last longer than the Pogo.</p>
-
-<p>Cons: The rubber end is like the bulb end of a turkey baster. And it feels like you&#8217;re writing with one. The thicker footprint does not make me feel like I have a high chance of being accurate when I draw. And $20? Really?</p>
-
-<p>Verdict:</p>
-
-<p><a href='http://blog.makezine.com/archive/2010/05/collins_lab_diy_ipad_stylus.html'>Make your own</a>.</p>
-</blockquote>]]></content>
   </entry>
   
 </feed>
