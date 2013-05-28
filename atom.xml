@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2013-04-30T00:05:23-04:00</updated>
+  <updated>2013-05-28T09:31:24-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,15 @@
   </author>
   <rights>Copyright (c) 2003-2013 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Learning iPad Programming, 2nd Edition, is on Sale Now]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2013/05/28/learning-ipad-programming-on-sale-now/"/>
+    <published>2013-05-28T00:00:00-04:00</published>
+    <updated>2013-05-28T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2013/05/28/learning-ipad-programming-on-sale-now</id>
+    <content type="html"><![CDATA[<p>I&#8217;m happy to announce the second edition of <a href='http://www.amazon.com/gp/product/0321885716/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321885716&amp;linkCode=as2&amp;tag=whitepeaksoft-20'>Learning iPad Programming</a> is now available at your favorite book store.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[360intersect was Great]]></title>
@@ -526,23 +535,6 @@
     <content type="html"><![CDATA[<p>Fall is almost here and it&#8217;s going to be a busy on for me. Not only will I be heads down trying to finish my upcoming book, I will be speaking at two iOS developer conferences. The first conference is <a href='http://www.voicesthatmatter.com/iphonefall2010/'>Voices That Matter</a> in Philadelphia on October 16 and 17. This will be my first VTM, and I&#8217;m very excited to be apart of the event. There are a lot of great talks planned for the 2-day conference. My talk will be on the advantages of writing universal apps for iPad and iPhone. Early bird pricing ends today so register now to save money. Use the discount code PHASPKR to save even more money.</p>
 
 <p>The second conference I&#8217;m speaking at this fall is <a href='http://www.360idev.com/'>360iDev Austin</a>. It&#8217;s no secret that 360iDev is one of my favorite developer conferences. I have made numerous friends since attending my first 360iDev last year, and the networking I&#8217;ve done at past 360iDev conferences has help land me paying gigs. My session at 360iDev will be on the fundamentals of iPad programming. This session is intended for anyone just starting out with iPad programming. Earlier bird pricing as already ended for 360iDev Austin but even at the full price of $599, it is money well spent if you are serious about iOS programming.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My App Store Pricing Experiment: The Final Chapter]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/09/01/my-app-store-pricing-experiment-the-final-chapter/"/>
-    <published>2010-09-01T00:00:00-04:00</published>
-    <updated>2010-09-01T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/09/01/my-app-store-pricing-experiment-the-final-chapter</id>
-    <content type="html"><![CDATA[<p>Today is my final update on the pricing experiment I started back in May. You can read the previous posts <a href='http://blog.whitepeaksoftware.com/2010/06/01/sales-are-down-but-revenue-is-up/'>here</a> and <a href='http://blog.whitepeaksoftware.com/2010/07/02/sale-numbers-are-in-an-update-on-my-app-store-pricing-experiment/'>here</a>. The goal of the experiment was to see if the sales trend for Labor Mate would continue at the higher price of $1.99. After three full months, I can say the higher price has done more harm than good.</p>
-
-<p>Labor Mate continues to bring in over $1K per month despite the higher price, but the trend doesn&#8217;t look good. Over the last few weeks, the number of sales has decreased everywhere except in Japan. For some reason, sales are up in Japan and if not for Japanese sales in August, Labor Mate would have posted it&#8217;s worse sales month in 6 months.</p>
-
-<p>Since it&#8217;s inception date, revenue for Labor Mate has been on a slow but steady rise. The higher price has reversed that trend. Labor Mate now appears to be on a slow but steady fall. Not only that, Labor Mate, which at one time was in the Health and Fitness Top 100 category in App Stores throughout the world, is not longer visible on any Top 100 chart, anywhere. This three month pricing experiment maybe the start of a slow death for Labor Mate, but it&#8217;s not done for yet.</p>
-
-<p>I have big plans in the works, and a new update is just around the corner. I was planning a big release in a few weeks that would hopefully justify the $1.99 price tag in the eyes of consumers but I&#8217;m changing my strategy. Starting today, Labor Mate is back down to 99 cents, and instead of a big update in a few weeks, I&#8217;m going to release 3 or 4 updates over the next 1 to 2 months. My goal here is to get Labor Mate back on track and return to the trend I was seeing before the price increase.</p>
-
-<p>Update: One thing I should point out is Labor Mate has a lot of competition. The other similar apps cost between free and 99 cents. This maybe a key reason why a $1.99 Labor Mate cannot sustain the slow but steady growth seen by the 99 cent Labor Mate.</p>]]></content>
   </entry>
   
 </feed>

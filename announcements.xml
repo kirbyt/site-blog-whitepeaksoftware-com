@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2013-04-30T00:05:23-04:00</updated>
+  <updated>2013-05-28T09:31:24-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,15 @@
   </author>
   <rights>Copyright (c) 2003-2013 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Learning iPad Programming, 2nd Edition, is on Sale Now]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2013/05/28/learning-ipad-programming-on-sale-now/"/>
+    <published>2013-05-28T00:00:00-04:00</published>
+    <updated>2013-05-28T00:00:00-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2013/05/28/learning-ipad-programming-on-sale-now</id>
+    <content type="html"><![CDATA[<p>I&#8217;m happy to announce the second edition of <a href='http://www.amazon.com/gp/product/0321885716/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321885716&amp;linkCode=as2&amp;tag=whitepeaksoft-20'>Learning iPad Programming</a> is now available at your favorite book store.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Product Retirements]]></title>
