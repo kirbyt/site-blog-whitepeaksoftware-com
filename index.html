@@ -22,7 +22,7 @@ layout: layoutBlogIndex
 
 <div class="grid_2 alpha">   
     {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+      <a class="prev" href="/{{paginator.next_page_path}}">&larr; Older</a>
     {% endif %}
 </div>   
 <div class="grid_7" align="center">
@@ -30,7 +30,11 @@ layout: layoutBlogIndex
 </div>
 <div class="grid_2 omega">   
     {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Newer &rarr;</a>
+        {% else %}
+            <a class="next" href="/{{paginator.previous_page_path}}">Newer &rarr;</a>
+        {% endif %}
     {% endif %}
 </div> 
 <div class="clear"></div>
