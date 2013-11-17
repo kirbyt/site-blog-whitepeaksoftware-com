@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2013-05-28T09:31:24-04:00</updated>
+  <updated>2013-11-17T13:07:54-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,21 @@
   </author>
   <rights>Copyright (c) 2003-2013 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Big Screen Out in the Wild Early]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2013/11/17/big-screen-out-in-the-wild-early/"/>
+    <published>2013-11-17T00:00:00-05:00</published>
+    <updated>2013-11-17T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2013/11/17/big-screen-out-in-the-wild-early</id>
+    <content type="html"><![CDATA[<p>Last night I made a <a href='https://twitter.com/kirbyt/status/401882700048781312'>teaser tweet</a> about <a href='http://www.whitepeaksoftware.com/big-screen'>Big Screen</a> being approved by Apple. The idea was to pique interest in the app I plan to release in a few weeks. But silly me, I forgot to set the available date to a date in the future, and soon after my tweet people were downloading Big Screen. As my friend <a href='http://www.goldenhillsoftware.com'>John Brayton</a> said, I need to “think of it as extending a beta to anyone on the app store.” So with that, I’m happy to announce Big Screen is now available to everyone.</p>
+
+<p>Big Screen is a new app for iOS that displays the camera’s video stream to any AirPlay receive (i.e., AppleTV). What makes Big Screen different from using, say the built-in Camera app, is that Big Screen does not display any application chrome on the AirPlay receiver. This makes Big Screen ideal for presentations, conferences, and other types of gatherings where large TV monitors are used to show what’s happening on stage to the folks sitting in the back of the room.</p>
+
+<p>There are other uses for Big Screen as well. My son, and other kids, have been using it to play a version of hide and seek. And kids in general seem to enjoy seeing themselves on TV and are finding ways to have fun with Big Screen that I never thought of. I should also mention that while Big Screen is free, I do have plans to hopefully make a few bucks off the app. The next update will include ads (that are displays on the device, not on the AirPlay receiver) and an In-App Purchase option to remove the ads from the app.</p>
+
+<p>So go grab a copy of <a href='http://www.whitepeaksoftware.com/main/store/buy/big-screen'>Big Screen</a>, and let me know what you think.</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Learning iPad Programming, 2nd Edition, is on Sale Now]]></title>
@@ -297,7 +312,7 @@
     <published>2011-02-24T00:00:00-05:00</published>
     <updated>2011-02-24T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
-    <content type="html"><![CDATA[<img src='/images/blog/2011-02-24-Knapsack.png' align='left' />
+    <content type="html"><![CDATA[<img align='left' src='/images/blog/2011-02-24-Knapsack.png' />
 <p>I&#8217;m very excited to announce a new partnership between <a href='http://outerlevel.com/'>Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href='http://outerlevel.com/licensekeeper/'>LicenseKeeper</a>, <a href='http://outerlevel.com/bullfrog-mac/'>Bullfrog</a>, and (my personal favorite) <a href='http://outerlevel.com/knapsack/'>Knapsack</a>. Outer Level&#8217;s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out.</p>
 
 <p>I&#8217;m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level&#8217;s <a href='http://outerlevel.com/knapsack/'>travel app</a>.</p>
@@ -468,7 +483,7 @@
     <published>2010-09-11T00:00:00-04:00</published>
     <updated>2010-09-11T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller</id>
-    <content type="html"><![CDATA[<img src='/images/blog/2010-09-11-CustomNavBar.png' align='left' />
+    <content type="html"><![CDATA[<img align='left' src='/images/blog/2010-09-11-CustomNavBar.png' />
 <p>I&#8217;ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar.</p>
 
 <p>Let&#8217;s take a look at the various ways to customize the navigation bar.</p>
@@ -524,17 +539,6 @@
 <p>One thing to note when using an image to customize the UINavigationBar, you still want to set the tintColor for the navigation bar. As I mentioned, setting this property will also change the background color used by the bar button items. So you want to set the tintColor to the appropriate color making the button color fit in with the navigation bar color style.</p>
 
 <p>For those of you who want to see these concepts in action, I posted a <a href='http://github.com/kirbyt/CustomNavBar'>sample project, called CustomNavBar</a>, on github. Enjoy.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Speaking at VTM and 360iDev This Fall]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/09/10/speaking-at-vtm-and-360idev-this-fall/"/>
-    <published>2010-09-10T00:00:00-04:00</published>
-    <updated>2010-09-10T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/09/10/speaking-at-vtm-and-360idev-this-fall</id>
-    <content type="html"><![CDATA[<p>Fall is almost here and it&#8217;s going to be a busy on for me. Not only will I be heads down trying to finish my upcoming book, I will be speaking at two iOS developer conferences. The first conference is <a href='http://www.voicesthatmatter.com/iphonefall2010/'>Voices That Matter</a> in Philadelphia on October 16 and 17. This will be my first VTM, and I&#8217;m very excited to be apart of the event. There are a lot of great talks planned for the 2-day conference. My talk will be on the advantages of writing universal apps for iPad and iPhone. Early bird pricing ends today so register now to save money. Use the discount code PHASPKR to save even more money.</p>
-
-<p>The second conference I&#8217;m speaking at this fall is <a href='http://www.360idev.com/'>360iDev Austin</a>. It&#8217;s no secret that 360iDev is one of my favorite developer conferences. I have made numerous friends since attending my first 360iDev last year, and the networking I&#8217;ve done at past 360iDev conferences has help land me paying gigs. My session at 360iDev will be on the fundamentals of iPad programming. This session is intended for anyone just starting out with iPad programming. Earlier bird pricing as already ended for 360iDev Austin but even at the full price of $599, it is money well spent if you are serious about iOS programming.</p>]]></content>
   </entry>
   
 </feed>
