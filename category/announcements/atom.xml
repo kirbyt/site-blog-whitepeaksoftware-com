@@ -4,7 +4,7 @@
   <title><![CDATA[Category: announcements | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/announcements/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2013-11-17T13:07:54-05:00</updated>
+  <updated>2013-11-18T11:53:25-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -19,7 +19,7 @@
     <id>http://blog.whitepeaksoftware.com/2013/11/17/big-screen-out-in-the-wild-early</id>
     <content type="html"><![CDATA[<p>Last night I made a <a href='https://twitter.com/kirbyt/status/401882700048781312'>teaser tweet</a> about <a href='http://www.whitepeaksoftware.com/big-screen'>Big Screen</a> being approved by Apple. The idea was to pique interest in the app I plan to release in a few weeks. But silly me, I forgot to set the available date to a date in the future, and soon after my tweet people were downloading Big Screen. As my friend <a href='http://www.goldenhillsoftware.com'>John Brayton</a> said, I need to “think of it as extending a beta to anyone on the app store.” So with that, I’m happy to announce Big Screen is now available to everyone.</p>
 
-<p>Big Screen is a new app for iOS that displays the camera’s video stream to any AirPlay receive (i.e., AppleTV). What makes Big Screen different from using, say the built-in Camera app, is that Big Screen does not display any application chrome on the AirPlay receiver. This makes Big Screen ideal for presentations, conferences, and other types of gatherings where large TV monitors are used to show what’s happening on stage to the folks sitting in the back of the room.</p>
+<p>Big Screen is a new app for iOS that displays the camera’s video stream to any AirPlay receiver (i.e., AppleTV). What makes Big Screen different from using, say the built-in Camera app, is that Big Screen does not display any application chrome on the AirPlay receiver. This makes Big Screen ideal for presentations, conferences, and other types of gatherings where large TV monitors are used to show what’s happening on stage to the folks sitting in the back of the room.</p>
 
 <p>There are other uses for Big Screen as well. My son, and other kids, have been using it to play a version of hide and seek. And kids in general seem to enjoy seeing themselves on TV and are finding ways to have fun with Big Screen that I never thought of. I should also mention that while Big Screen is free, I do have plans to hopefully make a few bucks off the app. The next update will include ads (that are displays on the device, not on the AirPlay receiver) and an In-App Purchase option to remove the ads from the app.</p>
 
