@@ -5,7 +5,7 @@ categories:
     - programming
     - ios
 ---
-Earlier today I was asked if I'm exclusively iOS with regard to the work I do. My initial response was "yes", but it occurred to me that I'm not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.
+Earlier today I was [asked][tweet] if I'm exclusively iOS with regard to the work I do. My initial response was "yes", but it occurred to me that I'm not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.
 
 Prior to 2007, I'm focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.
 
@@ -22,3 +22,4 @@ So while it seems I'm exclusively an iOS developer, I'm not really. I build apps
 [killink]: http://www.whitepeaksoftware.com/killink-csv-editor
 [360idev]: http://www.360idev.com
 [wps]: http://www.whitepeaksoftware.com
+[tweet]: https://twitter.com/williamdnapier/status/445563171659849728
