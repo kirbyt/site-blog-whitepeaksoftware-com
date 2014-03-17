@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2014-03-17T11:31:14-04:00</updated>
+  <updated>2014-03-17T11:35:53-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -19,7 +19,7 @@
     <published>2014-03-17T00:00:00-04:00</published>
     <updated>2014-03-17T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2014/03/17/exclusive-ios-not-really</id>
-    <content type="html"><![CDATA[<p>Earlier today I was asked if I&#8217;m exclusively iOS with regard to the work I do. My initial response was &#8220;yes&#8221;, but it occurred to me that I&#8217;m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
+    <content type="html"><![CDATA[<p>Earlier today I was <a href='https://twitter.com/williamdnapier/status/445563171659849728'>asked</a> if I&#8217;m exclusively iOS with regard to the work I do. My initial response was &#8220;yes&#8221;, but it occurred to me that I&#8217;m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
 
 <p>Prior to 2007, I&#8217;m focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.</p>
 
