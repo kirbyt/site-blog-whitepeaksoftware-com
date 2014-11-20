@@ -57,11 +57,11 @@
          <div class="grid_10 suffix_1">
          <h2><a href="/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation/">Don't Rely on UIDevice orientation for Rotation</a></h2>
  
-<p>Last week I tweeted about having rotation issues with an iPad app I&#8217;m working on. This is the second time in recent weeks I&#8217;ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
+<p>Last week I tweeted about having rotation issues with an iPad app I’m working on. This is the second time in recent weeks I’ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
 
-<p>For those who don&#8217;t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it&#8217;s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
+<p>For those who don’t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it’s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
 
-<p>As the device is rotated from portrait to landscape, or vice versa, my view must resize and adjust the layout of the CALayers. Because <code>UIView</code> does not receive the rotation notifications I decided to be smart and use the <a href='http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/doc/uid/TP40006902-CH3-SW3'>orientation property</a> from <code>UIDevice</code>. So in my view I had code similar to this:</p>
+<p>As the device is rotated from portrait to landscape, or vice versa, my view must resize and adjust the layout of the CALayers. Because <code>UIView</code> does not receive the rotation notifications I decided to be smart and use the <a href="http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIDevice_Class/Reference/UIDevice.html#//apple_ref/doc/uid/TP40006902-CH3-SW3">orientation property</a> from <code>UIDevice</code>. So in my view I had code similar to this:</p>
 
 <pre><code>UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
 
@@ -73,29 +73,31 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
 
     // Adjust for portrait.
 
-}</code></pre>
+}
+</code></pre>
 
 <p>What I failed to realize, however, is that the property <code>orientation</code> will <strong>always</strong> return 0 unless orientation notifications are enabled. Here is a quote directly from the Developer Documentation:</p>
 
-<p>&#8220;The value of this property always returns 0 unless orientation notifications have been enabled by calling beginGeneratingDeviceOrientationNotifications.&#8221;</p>
+<p>“The value of this property always returns 0 unless orientation notifications have been enabled by calling beginGeneratingDeviceOrientationNotifications.”</p>
 
 <p>Doh! Guess I should have RTFM sooner.</p>
 
-<p>Because the <code>orientation</code> property will return 0, sometimes the view in my app would not rotate. But I didn&#8217;t know this was the source of the problem at the time.</p>
+<p>Because the <code>orientation</code> property will return 0, sometimes the view in my app would not rotate. But I didn’t know this was the source of the problem at the time.</p>
 
-<p>After banging my head over and over on the wall, I decided to investigate exactly what was happening. I never suspected <code>[[UIDevice currentDevice] orientation]</code> but eventually I noticed it was returning 0. This seemed odd so I checked the Developer Documentation. I wasn&#8217;t expecting to learn anything new. Boy, was I wrong. I was surprised when I read the property always returns 0 when orientation notifications are not enabled.</p>
+<p>After banging my head over and over on the wall, I decided to investigate exactly what was happening. I never suspected <code>[[UIDevice currentDevice] orientation]</code> but eventually I noticed it was returning 0. This seemed odd so I checked the Developer Documentation. I wasn’t expecting to learn anything new. Boy, was I wrong. I was surprised when I read the property always returns 0 when orientation notifications are not enabled.</p>
 
-<p>I now knew the source of my rotation problems, and a likely quick fix to the problem would have been to call <code>beginGeneratingDeviceOrientationNotifications</code>, get the device orientation, then call <code>endGeneratingDeviceOrientationNotifications</code>. But this just seemed wrong to me. The better fix, in my opinion, is to rely on the rotation notifications received by the view controller, so that&#8217;s exactly what I did.</p>
+<p>I now knew the source of my rotation problems, and a likely quick fix to the problem would have been to call <code>beginGeneratingDeviceOrientationNotifications</code>, get the device orientation, then call <code>endGeneratingDeviceOrientationNotifications</code>. But this just seemed wrong to me. The better fix, in my opinion, is to rely on the rotation notifications received by the view controller, so that’s exactly what I did.</p>
 
-<p>Now in my particular situation, there are two times I want to resize and layout the CALayers in the <code>UIView</code>. One of those times is when the device is rotated, which is when the view controller receives the <code>willRotateToInterfaceOrientation:duration:</code> message. This was easy to solve. I added an <code>adjustLayoutToInterfaceOrientation:</code> method to my <code>UIView</code> and I call the method inside the UIViewController&#8217;s <code>willRotateToInterfaceOrientation:duration:</code> method. For example:</p>
+<p>Now in my particular situation, there are two times I want to resize and layout the CALayers in the <code>UIView</code>. One of those times is when the device is rotated, which is when the view controller receives the <code>willRotateToInterfaceOrientation:duration:</code> message. This was easy to solve. I added an <code>adjustLayoutToInterfaceOrientation:</code> method to my <code>UIView</code> and I call the method inside the UIViewController’s <code>willRotateToInterfaceOrientation:duration:</code> method. For example:</p>
 
 <pre><code>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration 
 
 {
     [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
-}</code></pre>
+}
+</code></pre>
 
-<p>The other time my <em>UIView</em> needs to adjust the layout of the CALayers is when the <em>UIScrollView</em> scrolls. I&#8217;m using a modified version of Matt Gallagher&#8217;s <a href='http://cocoawithlove.com/2009/01/multiple-virtual-pages-in-uiscrollview.html'>virtual pages in a UIScrollView</a> approach, so the contents of my view changes as the user scrolls. This is where, previously, I was trying to be smart and use the <em>orientation</em> property from <em>UIDevice</em>. But what I really need is the current orientation as received in the most recent call to <code>willRotateToInterfaceOrientation:duration:</code>.</p>
+<p>The other time my <em>UIView</em> needs to adjust the layout of the CALayers is when the <em>UIScrollView</em> scrolls. I’m using a modified version of Matt Gallagher’s <a href="http://cocoawithlove.com/2009/01/multiple-virtual-pages-in-uiscrollview.html">virtual pages in a UIScrollView</a> approach, so the contents of my view changes as the user scrolls. This is where, previously, I was trying to be smart and use the <em>orientation</em> property from <em>UIDevice</em>. But what I really need is the current orientation as received in the most recent call to <code>willRotateToInterfaceOrientation:duration:</code>.</p>
 
 <p>My solution was to add the ivar currentOrientation to my view controller. My view already has a reference to the view controller. I exposed currentOrientation so my view can retrieve the property value. This allowed me to replace the <code>[[UIDevice currentDevice] orientation]</code> code with <code>[controller currentOrientation]</code>. Now the view always knows the current orientation and the app does not need to enable orientation notification in code.</p>
 
@@ -111,7 +113,8 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
 
     // Adjust for portrait.
 
-}</code></pre>
+}
+</code></pre>
 
 <p>And the <code>willRotateToInterfaceOrientation:duration:</code> implementation changes to:</p>
 
@@ -123,9 +126,11 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
 
     [view_ adjustLayoutToInterfaceOrientation:toInterfaceOrientation];
 
-}</code></pre>
+}
+</code></pre>
 
 <p>This has been an eye opener for me, and I now have a new rule of thumb. Never use <code>UIDevice orientation</code> in code that is responsible for the resizing and layouts of subviews and CALayers.</p>
+
 
 <p class="postmetadata">
     <small>
@@ -157,6 +162,10 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
+      </li>
+    
+      <li class="post">
         <a href="/2014/03/17/exclusive-ios-not-really/">iOS Exclusive, Well, Not Really</a>
       </li>
     
@@ -172,22 +181,19 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
         <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/04/29/360intersect-was-great/">360intersect was Great</a>
-      </li>
-    
   </ul>
 </section>
 
             <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (20)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (1)</a></li>
+<li class='category'><a href='/category/ios/'>ios (2)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>

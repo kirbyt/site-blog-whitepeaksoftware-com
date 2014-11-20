@@ -60,17 +60,51 @@
   
     <article>
       <div class="grid_2 alpha">   
+    <h2>Tuesday, February 02, 2010</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2010/02/02/switching-the-xcode-path-using-xcode-select/">Switching the Xcode Path using xcode-select</a></h1>
+    <div class="entry-content"><p>I currently have two versions of Xcode installed on my primary development machine. One version is the official release from Apple and the other version is a beta version. I install the latest release in the default directory /Developer and I install beta releases in a parallel directory, /Developer-n.n.n where “n.n.n” is the Xcode version number. </p>
+
+<p>I also have a number of different distribution certificates for making adhoc and distribution builds for my iPhone apps and client apps. I use different keychains to manage the multiple certificates. Because of this I rely on bash scripts to make adhoc and distribution builds of the different iPhone apps that I am responsible for. </p>
+
+<p>The latest Xcode beta release does not include iPhone OS SDK 2.2.1. Not really a big deal for me since the SDK is included in Xcode 3.2.1. However, to my surprise when I ran a script for a 2.2.1 app the build failed to find the 2.2.1 SDK. Turns out installing the latest beta release replaces the <em>/usr/bin/xcodebuild</em> command. Oh know! My build script no longer works for 2.2.1 apps. </p>
+
+<p>Thanks to a tip from <a href="http://twitter.com/joar_at_work">@joar_at_work</a> on Twitter I was able to solve the problem. The magical command I needed was <em>/usr/bin/xcode-select</em>. This command allows you to change the Xcode directory used by xcodebuild. For instance, in my situation xcodebuild was looking at /Developer-3.2.2 which does not include iPhone OS SDK 2.2.1. By using xcode-select I was able to point xcodebuild to the /Developer directory. </p>
+
+<p>Switching directories is simple with xcode-select. Just use the -switch option. For example: <strong>xcode-select -switch /Developer</strong>. This did the trick for me and my build scripts were once again working with the correct Xcode environment.</p>
+</div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
     <h2>Monday, February 01, 2010</h2>
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/02/01/reviewing-daily-iphone-app-sales/">Reviewing Daily iPhone App Sales</a></h1>
-    <div class="entry-content"><p><a href='http://twitter.com/rsachdeva'>@rsachdeva</a> asked, &#8220;How do you know when someone buys the app?&#8221; Of course, he is referring to an iPhone. Here is a list of tools I use to reviewing my daily iPhone sales figures:</p>
+    <div class="entry-content"><p><a href="http://twitter.com/rsachdeva">@rsachdeva</a> asked, “How do you know when someone buys the app?” Of course, he is referring to an iPhone. Here is a list of tools I use to reviewing my daily iPhone sales figures: </p>
 
-<p><a href='http://www.ideaswarm.com/products/appviz/'>AppViz</a>: AppViz is a brilliant piece of Mac software that allows iPhone developers to download and review their app sales. It also supports ranking and review downloads. AppViz sells for $29.95 (USD) and is well worth the price in my opinion.</p>
+<p><a href="http://www.ideaswarm.com/products/appviz/">AppViz</a>: AppViz is a brilliant piece of Mac software that allows iPhone developers to download and review their app sales. It also supports ranking and review downloads. AppViz sells for $29.95 (USD) and is well worth the price in my opinion. </p>
 
-<p><a href='http://code.google.com/p/appdailysales/'>AppDailySales</a>: This is a python script that downloads daily sales reports. It&#8217;s open source and written by yours truly. I have the script setup to run daily on a server. This ensures I never miss a daily report even when I&#8217;m away from the computer for a few days.</p>
+<p><a href="http://code.google.com/p/appdailysales/">AppDailySales</a>: This is a python script that downloads daily sales reports. It’s open source and written by yours truly. I have the script setup to run daily on a server. This ensures I never miss a daily report even when I’m away from the computer for a few days. </p>
 
-<p><a href='http://github.com/omz/AppSales-Mobile'>AppSales Mobile</a>: An open source iPhone application that is great for looking at daily sales when on the road.</p></div>
+<p><a href="http://github.com/omz/AppSales-Mobile">AppSales Mobile</a>: An open source iPhone application that is great for looking at daily sales when on the road.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -94,27 +128,37 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/21/donating-150-to-haiti-as-part-of-indierelief/">Donating $150 to Haiti as Part of Indie+Relief</a></h1>
-    <div class="entry-content"><p>The final sales numbers are in for White Peak Software. $150 was raised by our customers as part of <a href='http://www.indierelief.com/'>Indie+Relief</a>. A big THANKS to all who participated.</p>
+    <div class="entry-content"><p>The final sales numbers are in for White Peak Software. $150 was raised by our customers as part of <a href="http://www.indierelief.com/">Indie+Relief</a>. A big THANKS to all who participated. </p>
 
-<p>Because it is such a good cause I decided to do something a little different. The original plan was to donate all proceeds from the sales on January 20. However, additional processing fees are taken out of each transaction - 30% to Apple and 15% to eSellerate. I decided I will donate the cost of the transaction fees myself.</p>
+<p>Because it is such a good cause I decided to do something a little different. The original plan was to donate all proceeds from the sales on January 20. However, additional processing fees are taken out of each transaction - 30% to Apple and 15% to eSellerate. I decided I will donate the cost of the transaction fees myself. </p>
 
-<p>Here is a breakdown of sales for the donation:</p>
+<p>Here is a breakdown of sales for the donation: </p>
 
 <p>ProductUnits SoldUnit CostTotal</p>
 
-<p>Labor Mate 42 $0.99 $41.58</p>
+<p>Labor Mate
+42
+$0.99
+$41.58</p>
 
-<p>Killink CSV Editor 3 $27.00 $81.00</p>
+<p>Killink CSV Editor
+3
+$27.00
+$81.00</p>
 
-<p>SMTP Diagnostics 2 $11.95 $23.90</p>
+<p>SMTP Diagnostics
+2
+$11.95
+$23.90</p>
 
 <p><strong>Grand Total</strong></p>
 
 <p><strong>$146.48</strong></p>
 
-<p>I rounded the grand total up to <strong>$150</strong>. The money has been donated to <a href='http://www.doctorswithoutborders.org/'>Doctors Without Borders</a> as part of the emergency relief for Haiti.</p>
+<p>I rounded the grand total up to <strong>$150</strong>. The money has been donated to <a href="http://www.doctorswithoutborders.org/">Doctors Without Borders</a> as part of the emergency relief for Haiti. </p>
 
-<p>Finally, I want to send a big THANKS for <a href='http://twitter.com/justin'>Justin Williams</a> of <a href='http://www.secondgearsoftware.com/'>Second Gear Software</a> for coming up with the idea and <a href='http://twitter.com/garrettmurray'>Garrett Murray</a> who built the Indie+Relief web site. Both individuals put a great deal of time and effort to make this event happen in just a matter of days.</p></div>
+<p>Finally, I want to send a big THANKS for <a href="http://twitter.com/justin">Justin Williams</a> of <a href="http://www.secondgearsoftware.com/">Second Gear Software</a> for coming up with the idea and <a href="http://twitter.com/garrettmurray">Garrett Murray</a> who built the Indie+Relief web site. Both individuals put a great deal of time and effort to make this event happen in just a matter of days.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -138,21 +182,22 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/18/quickly-create-new-fogbugz-cases-with-tickets/">Quickly Create New FogBugz Cases with Tickets</a></h1>
-    <div class="entry-content"><p>I&#8217;ve been a <a href='http://www.fogcreek.com/FogBugz/'>FogBugz</a> user for <a href='http://www.thecave.com/archive/2005/02/28/fogbugz.aspx'>nearly 5 years</a>. To say I rely on FogBugz is an understatement. It is a critical component in my software development process allowing me to track bugs, feature requests, communicate with customers and more across multiple client and internal projects. To date I have logged over 22,000 cases in FogBugz, which I feel is a lot for a solo developer. And yet, if I had a better, more efficient way to create new cases I might have many more in FogBugz today.</p>
+    <div class="entry-content"><p>I’ve been a <a href="http://www.fogcreek.com/FogBugz/">FogBugz</a> user for <a href="http://www.thecave.com/archive/2005/02/28/fogbugz.aspx">nearly 5 years</a>. To say I rely on FogBugz is an understatement. It is a critical component in my software development process allowing me to track bugs, feature requests, communicate with customers and more across multiple client and internal projects. To date I have logged over 22,000 cases in FogBugz, which I feel is a lot for a solo developer. And yet, if I had a better, more efficient way to create new cases I might have many more in FogBugz today.</p>
 
-<p>The inefficiency of creating new cases in FogBugz comes from the fact that FogBugz is a web-based application meaning you need a web browser. Web-base apps are not always the most efficient way to do something and FogBugz is no exception despite having a really nice web UI. Entering a batch of new cases is slow and having to launch a web browser, go to a web site, etc just to enter a new case is not the quickest process. What is needed is a desktop application that allows me to quickly create new cases in FogBugz. Lucky for me and other power FogBugz users out there, <a href='http://manicwave.com/'>Manicwave</a> has a solution.</p>
+<p>The inefficiency of creating new cases in FogBugz comes from the fact that FogBugz is a web-based application meaning you need a web browser. Web-base apps are not always the most efficient way to do something and FogBugz is no exception despite having a really nice web UI. Entering a batch of new cases is slow and having to launch a web browser, go to a web site, etc just to enter a new case is not the quickest process. What is needed is a desktop application that allows me to quickly create new cases in FogBugz. Lucky for me and other power FogBugz users out there, <a href="http://manicwave.com/">Manicwave</a> has a solution.</p>
 
-<p>Last week Manicwave released it&#8217;s first version of a new <a href='http://manicwave.com/products/tickets'>FogBugz desktop client for the Mac</a> called <a href='http://manicwave.com/products/tickets'>Tickets</a>. Tickets is by far the easiest, fastest way to create new FogBugz cases.</p>
+<p>Last week Manicwave released it’s first version of a new <a href="http://manicwave.com/products/tickets">FogBugz desktop client for the Mac</a> called <a href="http://manicwave.com/products/tickets">Tickets</a>. Tickets is by far the easiest, fastest way to create new FogBugz cases. </p>
 
-<p>I had the fortunate opportunity to beta test Tickets prior to the official release. I was hooked within a couple of minutes. The rate at which I can create new cases is simply amazing. Before I started using Tickets there were times I would not create a case. Say for example I&#8217;m deep in code and I encounter a bug. Sometimes it was just too much trouble to launch a web browser, go to the FogBugz web site, click New Case, select the project, area, etc, and enter the bug information. Since I rely on FogBugz to track all my work, especially client-specific work, not logging a task or bug was a big no no for me. But I admit there were times when I didn&#8217;t create a new case just to save a minute or two. Tickets changes this.</p>
+<p>I had the fortunate opportunity to beta test Tickets prior to the official release. I was hooked within a couple of minutes. The rate at which I can create new cases is simply amazing. Before I started using Tickets there were times I would not create a case. Say for example I’m deep in code and I encounter a bug. Sometimes it was just too much trouble to launch a web browser, go to the FogBugz web site, click New Case, select the project, area, etc, and enter the bug information. Since I rely on FogBugz to track all my work, especially client-specific work, not logging a task or bug was a big no no for me. But I admit there were times when I didn’t create a new case just to save a minute or two. Tickets changes this. </p>
 
-<p>With Tickets I&#8217;m only a shortcut keystroke away from creating a new case. Now when I encounter a bug, think of a new feature, or just need to log a task I type the global shortcut key combination and Tickets instantly gives me a new case window. Say I encounter a bug or need to log a task while in Xcode. I type the shortcut key and bam! Tickets displays a new case window for me. The time it takes me to create a new case is only slightly longer than adding a <code>// TODO:</code> to the source code itself. No more of this launch the web browser, go to the web site, etc, etc, etc.</p>
+<p>With Tickets I’m only a shortcut keystroke away from creating a new case. Now when I encounter a bug, think of a new feature, or just need to log a task I type the global shortcut key combination and Tickets instantly gives me a new case window. Say I encounter a bug or need to log a task while in Xcode. I type the shortcut key and bam! Tickets displays a new case window for me. The time it takes me to create a new case is only slightly longer than adding a <code>// TODO:</code> to the source code itself. No more of this launch the web browser, go to the web site, etc, etc, etc.</p>
 
 <p>Tickets allows you to rapidly create new cases with attachments. Just drag and drop the files you want to attach. Tickets even includes it own screenshot feature allowing you to capture the full screen, capture a window, capture an area, or capture a timed screenshot.</p>
 
 <p>Tickets is the most efficient way to create new FogBugz cases on the Mac desktop. If you regularly use FogBugz you owe it to yourself to try Tickets.</p>
 
-<p><em>Disclosure: I was not paid nor asked to post this review. I did beta test Tickets prior to the public release and I did receive a complimentary license for my feedback and participation in the beta program.</em></p></div>
+<p><em>Disclosure: I was not paid nor asked to post this review. I did beta test Tickets prior to the public release and I did receive a complimentary license for my feedback and participation in the beta program.</em></p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -176,9 +221,10 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/18/need-your-help-with-a-new-iphone-app-idea/">Need Your Help with a New iPhone App Idea</a></h1>
-    <div class="entry-content"><p>I&#8217;m exploring a new iPhone app idea and I need your help. I&#8217;m looking for parents who use day care services to answer this <a href='http://www.surveymonkey.com/s/857YTSY'>short survey</a>. The feedback will help me decide what features to included as well as whether I should pursue the app idea.</p>
+    <div class="entry-content"><p>I’m exploring a new iPhone app idea and I need your help. I’m looking for parents who use day care services to answer this <a href="http://www.surveymonkey.com/s/857YTSY">short survey</a>. The feedback will help me decide what features to included as well as whether I should pursue the app idea.</p>
 
-<p>In a nutshell, the app idea is a daycare cost calculator. The app will help parents calculate daycare costs and is ideal for parents who pay different amounts each month.</p></div>
+<p>In a nutshell, the app idea is a daycare cost calculator. The app will help parents calculate daycare costs and is ideal for parents who pay different amounts each month.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -202,15 +248,16 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/15/works-great-so-why-give-a-1-star-rating/">Works Great so Why Give a 1-Star Rating</a></h1>
-    <div class="entry-content"><p>User feedback in iTunes for Labor Mate is typically good. Most user rate Labor Mate with 4 and 5 stars. But every now and then a bad review comes in. A bad review is expected from time to time. After all the app isn&#8217;t for everyone. Still, there are times when I&#8217;m confused by user feedback. Take for example this feedback from Whidbey Island Filkin-in-Law:</p>
+    <div class="entry-content"><p>User feedback in iTunes for Labor Mate is typically good. Most user rate Labor Mate with 4 and 5 stars. But every now and then a bad review comes in. A bad review is expected from time to time. After all the app isn’t for everyone. Still, there are times when I’m confused by user feedback. Take for example this feedback from Whidbey Island Filkin-in-Law:</p>
 
-<p>&#8220;This works great for false labor; I used it every night for a week - sometimes for three hours at a time and I thought it would be neat to mail the info to our midwife. However, when my labor actually started and my water broke two days ago, I thought of this AP and how it would be the last thing I&#8217;d do @ 3 min apart &amp; how my review might say: if you&#8217;re using this, it is false labor&#8230;&#8221;</p>
+<p>“This works great for false labor; I used it every night for a week - sometimes for three hours at a time and I thought it would be neat to mail the info to our midwife. However, when my labor actually started and my water broke two days ago, I thought of this AP and how it would be the last thing I’d do @ 3 min apart &amp; how my review might say: if you’re using this, it is false labor…”</p>
 
-<p>I admit I would not expect my wife to use Labor Mate while she is having contractions. That&#8217;s why I tell people Labor Mate is typically used by the expecting mom&#8217;s birthing partner, be it her husband, boyfriend, life partner, a friend, and so on. A mom-to-be has too much going on to worry about timing contractions. Let someone else do it. (Though there is nothing wrong with a single mom timing her own contractions. Everyone&#8217;s experience is different.)</p>
+<p>I admit I would not expect my wife to use Labor Mate while she is having contractions. That’s why I tell people Labor Mate is typically used by the expecting mom’s birthing partner, be it her husband, boyfriend, life partner, a friend, and so on. A mom-to-be has too much going on to worry about timing contractions. Let someone else do it. (Though there is nothing wrong with a single mom timing her own contractions. Everyone’s experience is different.)</p>
 
-<p>So while I agree with Whidbey Island Filkin-in-Law that the last thing a woman would want to do when contractions are 3 minutes apart is to touch a start and stop button on an iPhone, I don&#8217;t understand the 1-star rating. Whidbey Island Filkin-in-Law used the app every night for a week up to 3 hours at a time. She obviously found value in the app and yet she rated it with a single star.</p>
+<p>So while I agree with Whidbey Island Filkin-in-Law that the last thing a woman would want to do when contractions are 3 minutes apart is to touch a start and stop button on an iPhone, I don’t understand the 1-star rating. Whidbey Island Filkin-in-Law used the app every night for a week up to 3 hours at a time. She obviously found value in the app and yet she rated it with a single star.</p>
 
-<p>Reviews like this one aways leave me scratching my head and wondering.</p></div>
+<p>Reviews like this one aways leave me scratching my head and wondering.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -234,13 +281,14 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/14/donate-to-haiti-relief-efforts-and-get-great-software/">Donate to Haiti Relief Efforts and Get Great Software</a></h1>
-    <div class="entry-content"><p>I will be donating all proceeds from White Peak Software product sales on Wednesday, January 20, 2010, as part of the <a href='http://www.indierelief.com/'>Indie+Relief</a> program. The proceeds will be donated to <a href='http://doctorswithoutborders.org/'>Doctors Without Borders</a> to assist with their efforts in Haiti.</p>
+    <div class="entry-content"><p>I will be donating all proceeds from White Peak Software product sales on Wednesday, January 20, 2010, as part of the <a href="http://www.indierelief.com/">Indie+Relief</a> program. The proceeds will be donated to <a href="http://doctorswithoutborders.org/">Doctors Without Borders</a> to assist with their efforts in Haiti.</p>
 
-<h2 id='how_can_you_help'>How can you help?</h2>
+<h2 id="how-can-you-help">How can you help?</h2>
 
-<p>You can help by purchasing one of our products: Labor Mate, Killink CSV Editor, or SMTP Diagnostics. Don&#8217;t have a need for one of our products? Then visit the <a href='http://www.indierelief.com/'>Indie+Relief</a> website for a list of other independent software companies participating in this Haiti relief program.</p>
+<p>You can help by purchasing one of our products: Labor Mate, Killink CSV Editor, or SMTP Diagnostics. Don’t have a need for one of our products? Then visit the <a href="http://www.indierelief.com/">Indie+Relief</a> website for a list of other independent software companies participating in this Haiti relief program. </p>
 
-<p><a href='http://www.indierelief.com/'>Get great software and help with efforts in Haiti at the same time.</a></p></div>
+<p><a href="http://www.indierelief.com/">Get great software and help with efforts in Haiti at the same time.</a></p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -264,17 +312,18 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/08/coming-soon-nsiphonedevs/">Coming Soon: NSiPhoneDevs</a></h1>
-    <div class="entry-content"><p>Over the last few months I have been inspired by different iPhone developer community events including <a href='http://www.360idev.com/'>360iDev</a> and <a href='http://drinksontap.org/'>DrinksOnTap</a>. So much so I have decided to start my own monthly <a href='http://nsiphonedevs.org'>event for Boston area iPhone developers</a>.</p>
+    <div class="entry-content"><p>Over the last few months I have been inspired by different iPhone developer community events including <a href="http://www.360idev.com/">360iDev</a> and <a href="http://drinksontap.org/">DrinksOnTap</a>. So much so I have decided to start my own monthly <a href="http://nsiphonedevs.org">event for Boston area iPhone developers</a>.</p>
 
-<p>The opportunity to meet fellow iPhone developers and form new friendships is very exciting to me and it motivates me to do more with White Peak Software. Working from home is a wonderful perk of being an indie developer but it can be lonely at times. Meetup events, conferences, and so on are great ways for me to feel connected. And it gives my wife a needed break from my geek talk, which she doesn&#8217;t always understand but always happily smiles and acts like she is interested.</p>
+<p>The opportunity to meet fellow iPhone developers and form new friendships is very exciting to me and it motivates me to do more with White Peak Software. Working from home is a wonderful perk of being an indie developer but it can be lonely at times. Meetup events, conferences, and so on are great ways for me to feel connected. And it gives my wife a needed break from my geek talk, which she doesn’t always understand but always happily smiles and acts like she is interested.</p>
 
-<p>The Boston area has a number of meetup events but it is not always possible for me to get into Boston. And let&#8217;s face it. <a href='http://mbta.com/'>MBTA</a> ain&#8217;t the <a href='http://mta.info/'>MTA</a>. I missed the 10:40 pm train to Salem at the last event I attended in Cambridge. This meant waiting until the 12:10 am train. I finally got home at 1 am.</p>
+<p>The Boston area has a number of meetup events but it is not always possible for me to get into Boston. And let’s face it. <a href="http://mbta.com/">MBTA</a> ain’t the <a href="http://mta.info/">MTA</a>. I missed the 10:40 pm train to Salem at the last event I attended in Cambridge. This meant waiting until the 12:10 am train. I finally got home at 1 am. </p>
 
-<p>So what&#8217;s a North Shore iPhone developer who can&#8217;t always make it into Boston to do? Start a monthly gathering in the North Shore of course.</p>
+<p>So what’s a North Shore iPhone developer who can’t always make it into Boston to do? Start a monthly gathering in the North Shore of course.</p>
 
-<p>Over the New Year&#8217;s weekend I <a href='http://twitter.com/kirbyt/status/7305792560'>tweeted</a> about a new group I&#8217;m creating called <a href='http://nsiphonedevs.org/'>NSiPhoneDevs</a>. The NS prefix is a fun play on the prefix for many of the foundation classes from Apple, but the NS prefix also stands for &#8220;North Shore&#8221;. The North Shore iPhone Developers or NSiPhoneDevs for short.</p>
+<p>Over the New Year’s weekend I <a href="http://twitter.com/kirbyt/status/7305792560">tweeted</a> about a new group I’m creating called <a href="http://nsiphonedevs.org/">NSiPhoneDevs</a>. The NS prefix is a fun play on the prefix for many of the foundation classes from Apple, but the NS prefix also stands for “North Shore”. The North Shore iPhone Developers or NSiPhoneDevs for short.</p>
 
-<p>I&#8217;m still working out the details including the exact location. What I do know is the events will be held in downtown Salem, the events will be monthly, and the first event will be this spring. Stay tune for more NSiPhoneDevs news from the official website (<a href='http://nsiphonedevs.org/'>http://nsiphonedevs.org/</a>) or follow <a href='http://twitter.com/nsiphonedevs'>@NSiPhoneDevs</a> on Twitter.</p></div>
+<p>I’m still working out the details including the exact location. What I do know is the events will be held in downtown Salem, the events will be monthly, and the first event will be this spring. Stay tune for more NSiPhoneDevs news from the official website (<a href="http://nsiphonedevs.org/">http://nsiphonedevs.org/</a>) or follow <a href="http://twitter.com/nsiphonedevs">@NSiPhoneDevs</a> on Twitter.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -298,13 +347,14 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/07/selected-as-a-360idev-san-jose-speaker/">Selected as a 360iDev San Jose Speaker</a></h1>
-    <div class="entry-content"><p>Yesterday I was having a very good day but around 5:45 pm my day got even better. I received an email from the fine folks at 360iDev that my topic &#8220;Building Web Service Powered iPhone Apps&#8221; has been selected. Yep, that&#8217;s right folks. I will be speaking at the upcoming <a href='http://www.360idev.com/'>360iDev San Jose</a> (April 11-14).</p>
+    <div class="entry-content"><p>Yesterday I was having a very good day but around 5:45 pm my day got even better. I received an email from the fine folks at 360iDev that my topic “Building Web Service Powered iPhone Apps” has been selected. Yep, that’s right folks. I will be speaking at the upcoming <a href="http://www.360idev.com/">360iDev San Jose</a> (April 11-14).</p>
 
-<p>I&#8217;m very excited about this opportunity for a number of reasons. First and foremost, speaking at the conference gives me a chance to share what I have learned over the recents months about leveraging web services within iPhone applications. I have worked with web services in some form for over a decade now so it&#8217;s only natural that I would gravitate towards using them in iPhone applications. I also plan to blog more on the topic as I prepare my materials for the conference.</p>
+<p>I’m very excited about this opportunity for a number of reasons. First and foremost, speaking at the conference gives me a chance to share what I have learned over the recents months about leveraging web services within iPhone applications. I have worked with web services in some form for over a decade now so it’s only natural that I would gravitate towards using them in iPhone applications. I also plan to blog more on the topic as I prepare my materials for the conference.</p>
 
-<p>Another reason I&#8217;m excited about speaking at 360iDev this spring is I get to attend the conference. I was on the fence about going. I&#8217;m already registered for <a href='http://nsconference.com/'>NSConference 2010 USA</a> and I plan to attend this year&#8217;s WWDC. I actually was planning to email John at 360iDev to ask if there are plans for another event later in the year. 360iDev Denver was such an incredible experience I knew I didn&#8217;t want to go the entire year without attending at least one event. But before I got the chance to ask about another event this year I received the email accepting me as a speaker. This of course made my decision easy. Heck yeah I&#8217;m going in April!</p>
+<p>Another reason I’m excited about speaking at 360iDev this spring is I get to attend the conference. I was on the fence about going. I’m already registered for <a href="http://nsconference.com/">NSConference 2010 USA</a> and I plan to attend this year’s WWDC. I actually was planning to email John at 360iDev to ask if there are plans for another event later in the year. 360iDev Denver was such an incredible experience I knew I didn’t want to go the entire year without attending at least one event. But before I got the chance to ask about another event this year I received the email accepting me as a speaker. This of course made my decision easy. Heck yeah I’m going in April!</p>
 
-<p>And the final reason I&#8217;m excited about this opportunity, 360iDev events are the best. Granted I have attended only 1 and that was last fall, but it was by far the best developer conference I have attended in recent years. And definitely one of the top conferences I have ever attended. I posted <a href='http://blog.whitepeaksoftware.com/2009/10/13/360idev-denver-a-personal-review/'>my comments about 360iDev Denver</a> back in October so I will not repeat myself here. What I will say, though, is if you are an iPhone developer then you should attend 360iDev San Jose. I guarantee you will pick up a trick or two or twelve and best of all you will get to meet other awesome iPhone developers.</p></div>
+<p>And the final reason I’m excited about this opportunity, 360iDev events are the best. Granted I have attended only 1 and that was last fall, but it was by far the best developer conference I have attended in recent years. And definitely one of the top conferences I have ever attended. I posted <a href="http://blog.whitepeaksoftware.com/2009/10/13/360idev-denver-a-personal-review/">my comments about 360iDev Denver</a> back in October so I will not repeat myself here. What I will say, though, is if you are an iPhone developer then you should attend 360iDev San Jose. I guarantee you will pick up a trick or two or twelve and best of all you will get to meet other awesome iPhone developers.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -328,43 +378,8 @@
     </div>   
     <div class="grid_9 omega">   
     <h1 class="entry-title"><a href="/2010/01/07/nsconference/">NSConference</a></h1>
-    <div class="entry-content"><p>Earlier today I mentioned being selected as a speaker at <a href='http://www.360idev.com/'>360iDev San Jose</a> in April. But before I fly out to San Jose, I fly down to Atlanta for <a href='http://nsconference.com/'>NSConference</a>. I&#8217;m looking forward to attending this event. For those wondering about NSConference, check out this promo video.</p></div>
-     
-    <p class="postmetadata">
-        <small>
-        Posted in .
-        </small>
-    </p>
-    
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
-  
-    <article>
-      <div class="grid_2 alpha">   
-    <h2>Wednesday, January 06, 2010</h2>
-    </div>   
-    <div class="grid_9 omega">   
-    <h1 class="entry-title"><a href="/2010/01/06/labor-mates-fail-from-grace/">Labor Mate's Fail From Grace</a></h1>
-    <div class="entry-content"><p>Labor Mate was originally release in October 2008. My expectations for it were low. If it sold 100 units in the first year then I would consider it a success. But my expectation were exceeded. Labor Mate sold 4997 units in the first year, and it has sold 9201 units in all as of yesterday.</p>
-
-<p>In January 2009 Labor Mate broke into the Top 100 for the Health and Fitness category in the U.S. store. It stayed in the Top 100 daily for nearly 11 straight months peaking at <a href='http://emberapp.com/kirbyt/images/labormate-rank34-us'>number 34</a> in the U.S. store. Labor Mate has also been in the Top 100 for the Health and Fitness category in a number of other stores including the U.K., Japan, Sweden, Netherlands, and Italy among others. All of this changed in mid-November. Labor Mate&#8217;s fall from grace had started.</p>
-
-<p>A couple of things happened in November bumping Labor Mate out of the Top 100 in its category. First, it received a couple of ridiculous, negative comments in iTunes. I&#8217;m not sure of the real impact but the slide from the Top 100 started at the time of the comments. Second and only a day or two later, <a href='http://click.linksynergy.com/fs-bin/stat?id=joxFicmfXq8&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbabybump-pregnancy-app%252Fid332366275%253Fmt%253D8%2526uo%253D6%2526partnerId%253D30'>BabyBump</a> made the What&#8217;s Hot list. I believe it is this second point that has taken the biggest toll on Labor Mate&#8217;s Top 100 streak.</p>
-
-<p>BabyBump was released in October 2009, just over a year since the initial release of Labor Mate. BabyBump includes features that I have long planned for Labor Mate but have yet to implement. And honestly it looks better than Labor Mate in my opinion. Creative design has always been a weak skill set of mine.</p>
-
-<p>At the end of the day, BabyBump did it better. This was a major wakeup call for me. I let Labor Mate, the one time market leader in its space, grow stale. I had a top ranking and it was mine to lose. And lose it I did.</p>
-
-<p>A major mistake I made in 2009 was to focus most of my attention on contract work and not enough time on my own company. This lack of focus was a setback but also a major kick in my ass. Unfortunately it took Labor Mate&#8217;s fall from grace to light the fire under me (and in me). I have learned from this lesson and will do better going forward. For starters, I have since hired a part-time designer as the &#8220;Creative Director&#8221; for White Peak Software and the first project we worked on together looks great. It will be in the app store soon.</p>
-
-<p>So what about Labor Mate? Is Labor Mate dead? No, far from it. Just a few weeks before the fall from grace, version 1.5 of Labor Mate was approved. This release added support for 8 additional languages, Dutch, French, German, Italian, Japanese, Spanish, Swedish, and Russian. So while sales in the U.S. have dropped, sales worldwide have improved and Labor Mate continues to sell an average of 31 units per day worldwide. So despite not being in the Top 100 of the Health and Fitness category in the U.S., sales remain steady. Also, I have big plans for Labor Mate 2, which I will start working on soon.</p></div>
+    <div class="entry-content"><p>Earlier today I mentioned being selected as a speaker at <a href="http://www.360idev.com/">360iDev San Jose</a> in April. But before I fly out to San Jose, I fly down to Atlanta for <a href="http://nsconference.com/">NSConference</a>. I’m looking forward to attending this event. For those wondering about NSConference, check out this promo video.</p>
+</div>
      
     <p class="postmetadata">
         <small>
@@ -388,7 +403,7 @@
 
 <div class="grid_2 alpha">   
     
-      <a class="prev" href="/page8">&larr; Older</a>
+      <a class="prev" href="//page8">&larr; Older</a>
     
 </div>   
 <div class="grid_7" align="center">
@@ -397,7 +412,7 @@
 <div class="grid_2 omega">   
     
         
-            <a class="next" href="/page6">Newer &rarr;</a>
+            <a class="next" href="//page6">Newer &rarr;</a>
         
     
 </div> 
@@ -408,6 +423,10 @@
               <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
+      </li>
     
       <li class="post">
         <a href="/2014/03/17/exclusive-ios-not-really/">iOS Exclusive, Well, Not Really</a>
@@ -425,22 +444,19 @@
         <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/04/29/360intersect-was-great/">360intersect was Great</a>
-      </li>
-    
   </ul>
 </section>
 
               <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (20)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (1)</a></li>
+<li class='category'><a href='/category/ios/'>ios (2)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>

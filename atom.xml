@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2014-03-17T11:35:53-04:00</updated>
+  <updated>2014-11-20T12:15:47-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -14,24 +14,41 @@
   
   
   <entry>
+    <title type="html"><![CDATA[ANN: Cross Post, Sharing Across Social Sites Made Simple]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/"/>
+    <published>2014-11-20T00:00:00-05:00</published>
+    <updated>2014-11-20T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple</id>
+    <content type="html"><![CDATA[<p>&lt;img src=”http://257bf79813094f196f16-bc6ead213ec900841fcf0484ae93cd9e.r62.cf2.rackcdn.com/images/cross-post/crosspost-screenshot.png” height=200 border=”0” style=”float: left; margin: 0 1em 1em 0;” /&gt;I am thrilled to announce the release of <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a>, a new app for iPhone and iPad that makes it simple to share your post, photos, and links to Facebook, Twitter, and App.net. I talk in detail <a href="http://www.thecave.com/2014/09/14/cross-posting-to-app.net-facebook-and-twitter/">why I decided to write Cross Post</a> over on my personal blog site, but long story short, I wanted a better way to share my thoughts and photos across different social media sites. And <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a> is that better way.</p>
+
+<p>Cross Post is free to download and use, but it has limits. You can post to only one social media site at a time using the free version. This gives you a chance to try out Cross Post without spending a cent. If you decide Cross Post is right for you and you want to post to multiple social media sites at the same time, then unlock everything the app has to offer for just $2.99.</p>
+
+<p>What are you waiting for? <a href="https://itunes.apple.com/us/app/cross-post/id872543786?mt=8&amp;uo=4&amp;at=11lcj9&amp;ct=blog">Download Cross Post</a> from the App Store now.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[iOS Exclusive, Well, Not Really]]></title>
     <link href="http://blog.whitepeaksoftware.com/2014/03/17/exclusive-ios-not-really/"/>
     <published>2014-03-17T00:00:00-04:00</published>
     <updated>2014-03-17T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2014/03/17/exclusive-ios-not-really</id>
-    <content type="html"><![CDATA[<p>Earlier today I was <a href='https://twitter.com/williamdnapier/status/445563171659849728'>asked</a> if I&#8217;m exclusively iOS with regard to the work I do. My initial response was &#8220;yes&#8221;, but it occurred to me that I&#8217;m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
+    <content type="html"><![CDATA[<p>Earlier today I was <a href="https://twitter.com/williamdnapier/status/445563171659849728">asked</a> if I’m exclusively iOS with regard to the work I do. My initial response was “yes”, but it occurred to me that I’m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
 
-<p>Prior to 2007, I&#8217;m focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.</p>
+<p>Prior to 2007, I’m focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.</p>
 
-<p>In 2007, I started experimenting with Xcode in hopes of porting <a href='http://www.whitepeaksoftware.com/killink-csv-editor'>Killink CSV Editor</a> to the Mac. In the spring of 2008 I started playing with the first public beta release of the iPhone SDK. And by the fall of 2008 I released my first iPhone app.</p>
+<p>In 2007, I started experimenting with Xcode in hopes of porting <a href="http://www.whitepeaksoftware.com/killink-csv-editor">Killink CSV Editor</a> to the Mac. In the spring of 2008 I started playing with the first public beta release of the iPhone SDK. And by the fall of 2008 I released my first iPhone app.</p>
 
-<p>It was clear to me at this time that I was hooked on Objective-C. I told my clients that I would be moving away from Microsoft technologies by the start of 2009 to focus on iPhone and Mac development. The transition was a tough one because at the time none of my clients were interested in mobile (though that has since changed and I&#8217;m now doing iOS work for some of those same clients). But thanks to the Cocoa developer community and events like <a href='http://www.360idev.com'>360idev</a>, I weathered the worse of transition and I now focus my time on writing iOS and Mac apps. However, iOS and Mac apps are different today than they were back in 2008.</p>
+<p>It was clear to me at this time that I was hooked on Objective-C. I told my clients that I would be moving away from Microsoft technologies by the start of 2009 to focus on iPhone and Mac development. The transition was a tough one because at the time none of my clients were interested in mobile (though that has since changed and I’m now doing iOS work for some of those same clients). But thanks to the Cocoa developer community and events like <a href="http://www.360idev.com">360idev</a>, I weathered the worse of transition and I now focus my time on writing iOS and Mac apps. However, iOS and Mac apps are different today than they were back in 2008.</p>
 
-<p>Most iOS and Mac apps today are connected apps, meaning they interact with a server. I haven&#8217;t written a single app in the last 2 years that didn&#8217;t have some sort of interaction with a server. And given my past experience with server work, I have made a point to keep up with what&#8217;s happening on the server side of things.</p>
+<p>Most iOS and Mac apps today are connected apps, meaning they interact with a server. I haven’t written a single app in the last 2 years that didn’t have some sort of interaction with a server. And given my past experience with server work, I have made a point to keep up with what’s happening on the server side of things.</p>
 
-<p>More recently I have been doing server work using Node.js primarily as a means to implement web services needed for the iOS and Mac apps that I work on. I also use python for a number of task, mainly for local scripts such as build scripts for my Xcode projects, but also I use python for the <a href='http://www.whitepeaksoftware.com'>White Peak Software</a> company web site and for some Google App Engine work I&#8217;ve done as the backend for iOS apps.</p>
+<p>More recently I have been doing server work using Node.js primarily as a means to implement web services needed for the iOS and Mac apps that I work on. I also use python for a number of task, mainly for local scripts such as build scripts for my Xcode projects, but also I use python for the <a href="http://www.whitepeaksoftware.com">White Peak Software</a> company web site and for some Google App Engine work I’ve done as the backend for iOS apps.</p>
 
-<p>So while it seems I&#8217;m exclusively an iOS developer, I&#8217;m not really. I build apps for iOS and Mac using Objective-C, and backend web services for those apps using python and Node.js. And I&#8217;m sure this too will change over time.</p>]]></content>
+<p>So while it seems I’m exclusively an iOS developer, I’m not really. I build apps for iOS and Mac using Objective-C, and backend web services for those apps using python and Node.js. And I’m sure this too will change over time.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -46,15 +63,15 @@
 
 <p>I started the process of incorporating the moment we returned from our honeymoon, and on November 23, 2003, White Peak Software was born. The problem was, I didn’t know what I wanted to do with White Peak. The company was born out of frustration more than anything else. I had a good paying, six-figure job, a nice two-bedroom West Village apartment, and no debt. Life was good, but I had become very bitter towards the company I was working for. I knew I needed a change and starting my own company seemed like the right thing to do at the time.</p>
 
-<h2 id='my_first_client'>My First Client</h2>
+<h2 id="my-first-client">My First Client</h2>
 
-<p>Within a couple of weeks of White Peak’s official start I had my first part-time consulting gig. I wasn’t sure what I wanted to do with my company, so I took advantage of the fact that I had been a consultant for most of my career. This was how I was able to land the contract gig so quickly. However as quickly as I got the contract, I quickly realized the client wasn’t the ideal client for me so I fire them.</p>
+<p>Within a couple of weeks of White Peak’s official start I had my first part-time consulting gig. I wasn’t sure what I wanted to do with my company, so I took advantage of the fact that I had been a consultant for most of my career. This was how I was able to land the contract gig so quickly. However as quickly as I got the contract, I quickly realized the client wasn’t the ideal client for me so I fire them. </p>
 
 <p>Firing my first client wasn’t a big deal at the time because I was still employed full time with my previous employer. I hadn’t quit my full-time job because I was in the middle of a project. I didn’t want to abandon the project, so I agreed I would stay on until the end of the project. Given the experience with my first White Peak Software client and the fact that I still had my full-time job elsewhere, I decided to put White Peak on hold until I could work on it full time.</p>
 
 <p>I used this “on-hold” time to get affairs in order for White Peak. I worked on building the company website, I setup a corporate bank account, hired an accountant, bought computer equipment, read many books on building a company, and did other tasks so that when the time came White Peak would be ready for me to start full-time.</p>
 
-<h2 id='fulltime_finally'>Full-time Finally</h2>
+<h2 id="full-time-finally">Full-time Finally</h2>
 
 <p>My first day as a full-time employee at White Peak Software came on Monday, August 2, 2004. I remember the day like it was yesterday. I was sitting in my “office,” which was actually our spare bedroom overlooking Christopher Street in the West Village. I thought to myself, “Now what?” I sat in my office all day just starring at a blank screen on my computer. Occasionally I would spin my chair towards the window to watch the many people walking up and down Christopher Street.</p>
 
@@ -62,7 +79,7 @@
 
 <p>I went 3 months without any income, and I blew through all of our savings during that time, most of which was my wife’s money. It was probably around this time when she first started worrying about what she had agreed to and helped encourage a year earlier at that swim-up bar in Hawaii.</p>
 
-<h2 id='a_turning_point'>A Turning Point</h2>
+<h2 id="a-turning-point">A Turning Point</h2>
 
 <p>Things did start turning around during the second 3 months. I signed up on websites like guru.com to find freelance projects. I didn’t land anything big, but I had a little cash rolling in. My big break came 7 or 8 months after I started working full-time. A friend of my wife’s family owned a web design studio and they needed a contract programmer to do some ASP.NET work. I jumped on the opportunity, and I was finally feeling busy. In fact, it was around this time that more work started coming in, even from my old St. Louis contacts. A year after going full-time I had more work than I could handle.</p>
 
@@ -70,57 +87,57 @@
 
 <p>I hired freelancers to handle the growing demand for project work, but I found myself doing exactly what past bosses were doing with me. I was moving myself into a higher role, managing other developers and doing business development work to land new business deals. This wasn’t what I wanted to do with my company, but at the same time I didn’t know exactly what I wanted to do. All I knew was I needed to make money if I was going to continue being self-employed.</p>
 
-<h2 id='in_need_of_therapy'>In Need of Therapy</h2>
+<h2 id="in-need-of-therapy">In Need of Therapy</h2>
 
-<p>It was around this time that I hired a good friend of mine, Brian Harp. I hired Brian to be my small business coach, and each week for three months we met and talked about what I needed to do with my business. It was like going to therapy sessions but for my business. In the end, Brian helped me realize that what I needed to do was turn White Peak Software into a product company. It would be a small company, a company of one, focused on making and selling software products. Back then (and still today), those in the Microsoft world called this type of company a Micro-ISV, but I preferred the Mac community term of indie developer.</p>
+<p>It was around this time that I hired a good friend of mine, Brian Harp. I hired Brian to be my small business coach, and each week for three months we met and talked about what I needed to do with my business. It was like going to therapy sessions but for my business. In the end, Brian helped me realize that what I needed to do was turn White Peak Software into a product company. It would be a small company, a company of one, focused on making and selling software products. Back then (and still today), those in the Microsoft world called this type of company a Micro-ISV, but I preferred the Mac community term of indie developer. </p>
 
-<p>The term “indie developer” resonated with me. It conjured up thoughts of indie musicians, artists, and movie directors, people who are independent, people who pursue a love, a passion instead of focusing on making tons of money. Even to this day, I would rather do what I love than have infinite amounts of cash. Sure, having tons of cash makes it easier to do what you love, and most people think they have to pursue and acquire that large amount of cash before doing what they love. But I believe differently and I follow a different path. I&#8217;d rather do what I love today and be broke than to do what I hate just to make money so that hopefully, some day in the future, I might be able to do what I love.</p>
+<p>The term “indie developer” resonated with me. It conjured up thoughts of indie musicians, artists, and movie directors, people who are independent, people who pursue a love, a passion instead of focusing on making tons of money. Even to this day, I would rather do what I love than have infinite amounts of cash. Sure, having tons of cash makes it easier to do what you love, and most people think they have to pursue and acquire that large amount of cash before doing what they love. But I believe differently and I follow a different path. I’d rather do what I love today and be broke than to do what I hate just to make money so that hopefully, some day in the future, I might be able to do what I love. </p>
 
-<p>My sessions with Brian made it clear to me what I wanted out of White Peak Software. I want to do what I love, which is to write code and build software that I care about. Also I want to make enough money to pay the bills by selling my own software. So in the summer of 2005 I released my first software product, SMTP Diagnostics.</p>
+<p>My sessions with Brian made it clear to me what I wanted out of White Peak Software. I want to do what I love, which is to write code and build software that I care about. Also I want to make enough money to pay the bills by selling my own software. So in the summer of 2005 I released my first software product, SMTP Diagnostics. </p>
 
-<h2 id='my_first_product'>My First Product</h2>
+<h2 id="my-first-product">My First Product</h2>
 
 <p>SMTP Diagnostics was a tool I had written for myself to test email connections between web services and mail hosts. I found that often times while working in the corporate world, the web server didn’t have access to mail server, and yet, the web applications I worked on needed to send emails. And often times the IT infrastructure guy responsible for configuring the server, firewall, and so on would forget about email. So I wrote this little tool to test the connectivity between the web and mail servers. I would then report my findings back to the Mr. IT Infrastructure Guy proving the two servers were not in communicating with each other.</p>
 
 <p>I enhanced and polished SMTP Diagnostics, then I released it into the wild. I didn’t really expect a lot of people to buy it. Instead I used the app as an opportunity to learn what is needed to sell software online. I learned how to implement trial periods, licensing keys, hosting an online shopping cart, payment processing, and most importantly handling customer support. To my surprise people did buy SMTP Diagnostics though not a lot. Still I deemed the app a success because I learned what I needed to take on a bigger product.</p>
 
-<h2 id='my_second_product'>My Second Product</h2>
+<h2 id="my-second-product">My Second Product</h2>
 
 <p>With my first product out the door and people buying it, it was time to start work on my second app. At the same time contract work and the cash that comes with it distracted me. It would be almost two years later before I shipped my second product.</p>
 
 <p>Killink CSV Editor was released in March 2007. My dev friends made fun of me, and still do, for releasing a CSV editor. We dev types think of CSV as being an out of date file format. JSON and XML are where it’s at. But the truth is, many large corporations including banks, hospitals, and online marketing companies use CSV files every day, and the people who deal with CSV files need a better way to edit their files. Killink CSV Editor was a great success, and it has been White Peak Software’s flag ship product since 2007.</p>
 
-<h2 id='returning_to_fulltime_consulting'>Returning to Full-time Consulting</h2>
+<h2 id="returning-to-full-time-consulting">Returning to Full-time Consulting</h2>
 
 <p>With the excitement of Killink CSV Editor I decided to make a key decision about the future of White Peak Software. I told myself that if I hit a certain financial goal by the end of June 2007, I will stop providing consulting services for the rest of the year with the goal of focusing on improving Killink CSV Editor and starting work on my third product. If I missed my financial goal, then my plan would be to provide consulting services full time for 6 months to raise cash. This cash would allow me to focus on product development throughout 2008 without needing to do any consulting.</p>
 
-<p>Unfortunately I missed my financial goal by a couple of thousands of dollars. Because I missed my financial goal I accepted a full-time consulting gig that would have me splitting my time between New York City and Bermuda. Not a bad gig, and it paid well.</p>
+<p>Unfortunately I missed my financial goal by a couple of thousands of dollars. Because I missed my financial goal I accepted a full-time consulting gig that would have me splitting my time between New York City and Bermuda. Not a bad gig, and it paid well. </p>
 
-<h2 id='big_life_change'>Big Life Change</h2>
+<h2 id="big-life-change">Big Life Change</h2>
 
-<p>A week after accepting the gig I found out my wife was pregnant. Within a couple of months the nesting feelings started to take effect on my wife and me. Long story short, I ended the gig early and instead of using the cash to invest in my business we bought a house in Salem, Massachusetts.</p>
+<p>A week after accepting the gig I found out my wife was pregnant. Within a couple of months the nesting feelings started to take effect on my wife and me. Long story short, I ended the gig early and instead of using the cash to invest in my business we bought a house in Salem, Massachusetts. </p>
 
-<p>To this day, I have mixed emotions about buying the house. We bought it in December 2007 just as the market was crashing. It was not a good time to buy, but at the same time, I felt it might be the last time an indie developer could get a <a href='http://en.wikipedia.org/wiki/No_doc_loan'>“no-doc” loan</a>. By the way, the name no-doc isn’t a fitting name because I had to provide hundreds of pages of documentation including statements from my accountant explaining my income, where the money for the down payment was coming from, and how we would be able to make monthly payments. Needless to say, it was a very stressful time.</p>
+<p>To this day, I have mixed emotions about buying the house. We bought it in December 2007 just as the market was crashing. It was not a good time to buy, but at the same time, I felt it might be the last time an indie developer could get a <a href="http://en.wikipedia.org/wiki/No_doc_loan">“no-doc” loan</a>. By the way, the name no-doc isn’t a fitting name because I had to provide hundreds of pages of documentation including statements from my accountant explaining my income, where the money for the down payment was coming from, and how we would be able to make monthly payments. Needless to say, it was a very stressful time.</p>
 
-<p>By December 2007 I owned a house, had zero cash because we spent it all as the down payment on the house, and I had left a great consulting gig. Oh, and we had a baby coming. On top of this I took 6 weeks off from work to get the house ready for us to move into.</p>
+<p>By  December 2007 I owned a house, had zero cash because we spent it all as the down payment on the house, and I had left a great consulting gig. Oh, and we had a baby coming. On top of this I took 6 weeks off from work to get the house ready for us to move into. </p>
 
 <p>We finally moved into our house at the end of January 2008, and with the kid due in 2 months I decided to avoid any long term client projects. Because of the extended time off, I let the pipeline of work dry up. Between leaving the gig early and focusing all my time and energy on preparing the house, I put myself into a situation where I had no potential client work and the only income I was earning was from my software product. It would seem I was living the dream, but unfortunately my two apps were not making enough money for us to live on.</p>
 
-<h2 id='the_first_iphone_sdk_beta'>The First iPhone SDK Beta</h2>
+<h2 id="the-first-iphone-sdk-beta">The First iPhone SDK Beta</h2>
 
 <p>It was around this time, March 2008 to be exact, that I learned about the iPhone SDK beta. I had made the move to the Mac in 2007, and I was planning to release a Mac version of my CSV editor. A neighbor of mine was a Apple fanboy who was super excited about the potential opportunity with the App Store. I wasn’t doing any client work at the time, and my son Rowan had just been born. I thought it was the perfect time to partner with my neighbor and get an app into the App Store just in time for the store’s launch.</p>
 
 <p>After a couple of months it was clear to me the partnership wasn’t working out. My neighbor wasn’t doing anything to help build our app. I was doing all the work while he day dreamed about us making tons of money. I decided it was time to step away from our project, but there wasn’t enough time remaining for me to create my own app before launch day of the App Store, so I returned to consulting.</p>
 
-<p>In August 2008, I won an iPod touch as a door prize for the second ever <a href='http://buildguild.org'>Build Guild</a>. Up until this time I didn’t own an iPhone or an iPod touch. I relied on the iPhone Simulator and my neighbor’s iPhone for testing. But ending our partnership meant I had no test device. I felt winning the prize was a sign that I needed to revisit the iPhone SDK, and in October 2008 I released my first iPhone app, Labor Mate.</p>
+<p>In August 2008, I won an iPod touch as a door prize for the second ever <a href="http://buildguild.org">Build Guild</a>. Up until this time I didn’t own an iPhone or an iPod touch. I relied on the iPhone Simulator and my neighbor’s iPhone for testing. But ending our partnership meant I had no test device. I felt winning the prize was a sign that I needed to revisit the iPhone SDK, and in October 2008 I released my first iPhone app, Labor Mate. </p>
 
-<h2 id='my_third_product'>My Third Product</h2>
+<h2 id="my-third-product">My Third Product</h2>
 
-<p>Labor Mate is a contraction timer for pregnant women. The first version, which was never submitted to Apple, took me a weekend to write. That was enough time to realize I needed to make the app real. Plus, the app was the perfect small app for me to work on since the whole experience with having a kid was still fresh in my mind.</p>
+<p>Labor Mate is a contraction timer for pregnant women. The first version, which was never submitted to Apple, took me a weekend to write. That was enough time to realize I needed to make the app real. Plus, the app was the perfect small app for me to work on since the whole experience with having a kid was still fresh in my mind. </p>
 
 <p>The goals for Labor Mate were similar to SMTP Diagnostics, to learn the ins and outs of the App Store. I didn’t expect it to sell. But to my surprise, people did buy it. In fact, this 99 cent app started making more money per month than the CSV editor. Ah, the good ole days of the App Store…</p>
 
-<h2 id='starting_over'>Starting Over</h2>
+<h2 id="starting-over">Starting Over</h2>
 
 <p>It was around this time I decided I needed to refocus on my goal of turning White Peak Software into a product company. I set a company goal of releasing a new product each year. My thinking was to offer 5 to 7 apps total with hopes of having at least 4 of them bring in between $700 to $1500 per month in net revenue. This would put me well beyond the financial goal I set back in 2007, and once I met that goal I could stop consulting. However, I had a problem. I still didn’t feel comfortable with Cocoa, Objective-C, and the iPhone SDK. And without the necessary knowledge, I knew it would take me a lot of time to write those additional apps.</p>
 
@@ -128,71 +145,77 @@
 
 <p>I didn’t exactly fire them, but I told all my clients that I would be transitioning from web development to mobile development targeting the iPhone. If they had a need for a mobile (or Mac) app, then I was their guy. But if they did not have a need, then I would help them find a replacement. Unfortunately none of my clients were interested in mobile development at that time. (Side note, that has since changed and I have built iOS apps for some of them in recent years.)</p>
 
-<p>In many ways, my decision to focus on mobile development meant I was starting over with my company. My goal was to write and sell my own apps, but I also had to pay the bills. We owned a house and had a kid. I couldn’t just live on pennies eating nothing more than ramen noodles every day. So I used my consulting skills and started looking for work as an iPhone developer.</p>
+<p>In many ways, my decision to focus on mobile development meant I was starting over with my company. My goal was to write and sell my own apps, but I also had to pay the bills. We owned a house and had a kid. I couldn’t just live on pennies eating nothing more than ramen noodles every day. So I used my consulting skills and started looking for work as an iPhone developer. </p>
 
-<h2 id='game_changer'>Game Changer</h2>
+<h2 id="game-changer">Game Changer</h2>
 
-<p>Similar to when I started working for White Peak Software full time in August 2004, I went nearly 6 months before I started making money as an app developer. The game changer for me was <a href='http://www.360idev.com'>360|idev</a>. The people I met and the connections I made at my first 360, as well as at other 360|idev conferences, made it possible for me to make a living as an app developer.</p>
+<table>
+  <tbody>
+    <tr>
+      <td>Similar to when I started working for White Peak Software full time in August 2004, I went nearly 6 months before I started making money as an app developer. The game changer for me was [360</td>
+      <td>idev]<a href="http://www.360idev.com">360idev</a>. The people I met and the connections I made at my first 360, as well as at other 360</td>
+      <td>idev conferences, made it possible for me to make a living as an app developer.</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>By 2010 I had released a number of apps into the App Store. Granted these apps were for clients, but still, I was writing apps and loving it. I was also getting more involved in the Mac and iOS developer communities. I not only attended more conferences, such as <a href='http://nsconference.com'>NSConference</a> and <a href='https://developer.apple.com/wwdc/'>WWDC</a>, I started speaking at conferences. I also got involved with the local <a href='http://www.cocoaheadsboston.org'>Boston CocoaHeads</a>, and eventually I started my own monthly gathering of Mac and iOS developers in Salem called <a href='http://www.nshappyhour.org'>NSHappyHour</a>. My career was booming, so much so that I was approached to write a book for Addison Wesley on <a href='http://www.learningipadprogramming.com'>learning iPad programming</a>. I also released White Peak Software’s third app, Hey Peanut, which was a photo app for toddlers (and a total flop).</p>
+<p>By 2010 I had released a number of apps into the App Store. Granted these apps were for clients, but still, I was writing apps and loving it. I was also getting more involved in the Mac and iOS developer communities. I not only attended more conferences, such as <a href="http://nsconference.com">NSConference</a> and <a href="https://developer.apple.com/wwdc/">WWDC</a>, I started speaking at conferences. I also got involved with the local <a href="http://www.cocoaheadsboston.org">Boston CocoaHeads</a>, and eventually I started my own monthly gathering of Mac and iOS developers in Salem called <a href="http://www.nshappyhour.org">NSHappyHour</a>. My career was booming, so much so that I was approached to write a book for Addison Wesley on <a href="http://www.learningipadprogramming.com">learning iPad programming</a>. I also released White Peak Software’s third app, Hey Peanut, which was a photo app for toddlers (and a total flop).</p>
 
-<h2 id='the_book_oh_the_book'>The Book, Oh The Book</h2>
+<h2 id="the-book-oh-the-book">The Book, Oh The Book</h2>
 
 <p>The original hope for the book was to have it completed in 6 months. I viewed it as another product, and I felt it fit into my goal of having 5 to 7 products. Friends and family, including my wife, suggested I not pursue the book idea. But writing a tech book was a goal of mine, it had been for years. Even back in 2005 I had typed up an outline for a programming how-to book, but I never got around to submitting the proposal to publishers. Here was an opportunity for me to write a book, and the publisher had approached me. I saw this as a once in a life time opportunity with a well respected publisher. How could I say no?</p>
 
-<p>I was thrilled about writing the book, but it turned out I had no clue what I was doing. I knew how to write software and more specifically I knew the iOS SDK — by this time Apple renamed iPhone SDK to iOS SDK — inside and out, but I didn’t know a damn thing about writing a book. I got a couple of chapters out quickly then I hit a block. I’ll save the details of my writing experience for another time, but suffice to say, I didn’t finish the book in 6 months. Instead it took me 18 months.</p>
+<p>I was thrilled about writing the book, but it turned out I had no clue what I was doing. I knew how to write software and more specifically I knew the iOS SDK — by this time Apple renamed iPhone SDK to iOS SDK — inside and out, but I didn’t know a damn thing about writing a book. I got a couple of chapters out quickly then I hit a block. I’ll save the details of my writing experience for another time, but suffice to say, I didn’t finish the book in 6 months. Instead it took me 18 months. </p>
 
-<p>Riding the buzz of finishing the book, I agreed to do a video training session based on the book, which was released a few months after the book. Woohoo! Another product in my mind. I then started thinking about the second edition of the book. In all, I devoted two and half years to <a href='http://www.learningipadprogramming.com'>Learning iPad Programming</a>.</p>
+<p>Riding the buzz of finishing the book, I agreed to do a video training session based on the book, which was released a few months after the book. Woohoo! Another product in my mind. I then started thinking about the second edition of the book. In all, I devoted two and half years to <a href="http://www.learningipadprogramming.com">Learning iPad Programming</a>. </p>
 
-<p>The time spent on the book wasn’t a full-time gig. There were small periods of time when I did consulting work to help pay the bills, and I had a couple of really good years selling my software products. While it seemed like I was living the dream, I made one critical mistake. I was ignoring White Peak Software.</p>
+<p>The time spent on the book wasn’t a full-time gig. There were small periods of time when I did consulting work to help pay the bills, and I had a couple of really good years selling my software products. While it seemed like I was living the dream, I made one critical mistake. I was ignoring White Peak Software. </p>
 
-<p>In December 2012, I finished the manuscript for the second edition of the book. It was finally time to return my focus on White Peak Software. And so here we are, the year 2013.</p>
+<p>In December 2012, I finished the manuscript for the second edition of the book. It was finally time to return my focus on White Peak Software. And so here we are, the year 2013. </p>
 
-<h2 id='start_overagain'>Start Over…Again</h2>
+<h2 id="start-overagain">Start Over…Again</h2>
 
 <p>2013 has been a rough year, and I’m paying the price for ignoring White Peak Software while working on the both editions of the book. App sells are way down, and even the second edition of the book isn’t selling well. I’ve had some success this year with client work, but over all this year hasn’t gone as planned. Not only that, I’ve lost the momentum, and product revenue, that grew each year up through 2011.</p>
 
-<p>I decided 2013 would be a reboot year for White Peak Software. It’s my third time starting over. I retired two apps at the first of the year. This action might seem sad, but it wasn’t. In fact it felt good to say bye to those apps, and it lifted a mental burden from my shoulders. Also this summer I started work on a new app, but I realized it will take me a lot of time to finish the app given its size.</p>
+<p>I decided 2013 would be a reboot year for White Peak Software. It’s my third time starting over. I retired two apps at the first of the year. This action might seem sad, but it wasn’t. In fact it felt good to say bye to those apps, and it lifted a mental burden from my shoulders. Also this summer I started work on a new app, but I realized it will take me a lot of time to finish the app given its size. </p>
 
-<p>Deciding I needed a quick win and a motivational boost, I wrote and released <a href='http://www.whitepeaksoftware.com/big-screen'>Big Screen</a> a couple of weeks ago. I don’t know if Big Screen will be a hit or a dud, but it doesn’t matter. My goal with this app was to get me back into the “ship it” mindset and to remind me how great it feels to create and release my own app. Just the simple act of shipping Big Screen had already made it a success for me.</p>
+<p>Deciding I needed a quick win and a motivational boost, I wrote and released <a href="http://www.whitepeaksoftware.com/big-screen">Big Screen</a> a couple of weeks ago. I don’t know if Big Screen will be a hit or a dud, but it doesn’t matter. My goal with this app was to get me back into the “ship it” mindset and to remind me how great it feels to create and release my own app. Just the simple act of shipping Big Screen had already made it a success for me.</p>
 
 <p>So that’s the 10 year history of White Peak Software. Things haven’t gone quite as planned, and there are times when I thought of calling it quits. But looking back I see I’m happier than ever working for White Peak Software. It’s been an amazing 10 years, and I’m looking forward to another 10 years.</p>
 
-<h2 id='lessons_learned'>Lessons Learned</h2>
+<h2 id="lessons-learned">Lessons Learned</h2>
 
 <p>Before I go, I would like to share a few key things I have learned over the last 10 years in hopes that it will help others succeed at being an independent software developer.</p>
 
 <ol>
-<li>
-<p>Don’t give up. There are going to be some hard times, and giving up will seem like the easy way out. Giving up is easy to do and very tempting, but as Kevin Hoctor recently said on <a href='https://alpha.app.net/kevinhoctor/post/15283389'>ADN</a>, “The only true failure is giving up.”</p>
-</li>
+  <li>
+    <p>Don’t give up. There are going to be some hard times, and giving up will seem like the easy way out. Giving up is easy to do and very tempting, but as Kevin Hoctor recently said on <a href="https://alpha.app.net/kevinhoctor/post/15283389">ADN</a>, “The only true failure is giving up.”</p>
+  </li>
+  <li>
+    <p>Learn from your mistakes. You’re going to make mistakes, and you’re going to have setbacks. But without them you will never learn. You learned to walk by first falling, and you’ll learn to succeed by making mistakes and having setbacks.</p>
+  </li>
+  <li>
+    <p>Seek feedback, advice, and opinions from others, but make your own decisions. I have found seeking the advice from other indie developers, business owners, and entrepreneurs helps me see all points of view. But at the end of the day, it’s up to me to make the decisions. If I always listened to and followed the advice from others, then I would have never created apps like Killink CSV Editor and Labor Mate. Listen to what others have to say, but make the decisions you feel are right for you.</p>
+  </li>
+  <li>
+    <p>Take chances. My second passion in life is snowboarding. One of the things I’ve learned from snowboarding is to push myself beyond my comfort zone. If I never pushed myself, I would never have discovered the joys of snowboarding. Likewise, if I didn’t take chances, if I didn’t push myself beyond my comfort zone, I would not be sitting here writing about the 10th anniversary of White Peak Software. </p>
 
-<li>
-<p>Learn from your mistakes. You’re going to make mistakes, and you’re going to have setbacks. But without them you will never learn. You learned to walk by first falling, and you’ll learn to succeed by making mistakes and having setbacks.</p>
-</li>
-
-<li>
-<p>Seek feedback, advice, and opinions from others, but make your own decisions. I have found seeking the advice from other indie developers, business owners, and entrepreneurs helps me see all points of view. But at the end of the day, it’s up to me to make the decisions. If I always listened to and followed the advice from others, then I would have never created apps like Killink CSV Editor and Labor Mate. Listen to what others have to say, but make the decisions you feel are right for you.</p>
-</li>
-
-<li>
-<p>Take chances. My second passion in life is snowboarding. One of the things I’ve learned from snowboarding is to push myself beyond my comfort zone. If I never pushed myself, I would never have discovered the joys of snowboarding. Likewise, if I didn’t take chances, if I didn’t push myself beyond my comfort zone, I would not be sitting here writing about the 10th anniversary of White Peak Software.</p>
-
-<p>You never know if your app will be a hit or not. This is also true for your business or whatever else it is you want to pursue. You just don’t know what will work and what will fail. But I can guarantee you instant failure if you never take a chance and try. You’ll never know if you can write a hit app if you never take the chance to write the app. You’ll never know if you can survive as an indie developer or business owner, if you never take the chance to work for yourself. Take chances and push yourself beyond your comfort zone. The worse can happen is you fail, but that’s a good thing because we learn from our failures. Taking chances and pushing yourself out of your comfort zone will make you that much better in whatever you pursue.</p>
-</li>
-
-<li>
-<p>Define what success means to you, and don’t be swayed by others telling you their definition of success. Success means different things to different people, and one person’s definition of success might not align with your definition. For some, success means making a ton of money. For others, it is spending quality time with family. What does success mean to you?</p>
-</li>
+    <p>You never know if your app will be a hit or not. This is also true for your business or whatever else it is you want to pursue. You just don’t know what will work and what will fail. But I can guarantee you instant failure if you never take a chance and try. You’ll never know if you can write a hit app if you never take the chance to write the app. You’ll never know if you can survive as an indie developer or business owner, if you never take the chance to work for yourself. Take chances and push yourself beyond your comfort zone. The worse can happen is you fail, but that’s a good thing because we learn from our failures. Taking chances and pushing yourself out of your comfort zone will make you that much better in whatever you pursue.</p>
+  </li>
+  <li>
+    <p>Define what success means to you, and don’t be swayed by others telling you their definition of success. Success means different things to different people, and one person’s definition of success might not align with your definition. For some, success means making a ton of money. For others, it is spending quality time with family. What does success mean to you?</p>
+  </li>
 </ol>
 
-<p>You may have picked up on the fact that I define what success means for each of my apps and the definition isn’t necessarily the same for each app. Success doesn’t have to mean millions of downloads or thousands of dollars earned. Success can be based on what you learned, experience or how the experience motivates you to do more.</p>
+<p>You may have picked up on the fact that I define what success means for each of my apps and the definition isn’t necessarily the same for each app. Success doesn’t have to mean millions of downloads or thousands of dollars earned. Success can be based on what you learned, experience or how the experience motivates you to do more. </p>
 
 <p>My definition for success with White Peak Software is to live the life I want here and now, today, and not wait for some future time after I have, quote un-quote, retired. Sure, I’m not where I thought I would be with White Peak Software after 10 years and we’re definitely not living on Easy Street with regard to our finances, but the last 10 years have still been successful. This year, for example, is the year my family and I moved to a ski town, which has been a goal of ours for years. The likelihood of this happening would have been much less if I hadn’t taken the chance of starting White Peak Software 10 years ago.</p>
 
 <p>White Peak Software has been successful in helping me reach my goals in life, and it will continue to help me reach new goals…hopefully for at least another 10 years if not longer.</p>
 
-<p>Happy anniversary, White Peak Software.</p>]]></content>
+<p>Happy anniversary, White Peak Software.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -201,13 +224,16 @@
     <published>2013-11-17T00:00:00-05:00</published>
     <updated>2013-11-17T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2013/11/17/big-screen-out-in-the-wild-early</id>
-    <content type="html"><![CDATA[<p>Last night I made a <a href='https://twitter.com/kirbyt/status/401882700048781312'>teaser tweet</a> about <a href='http://www.whitepeaksoftware.com/big-screen'>Big Screen</a> being approved by Apple. The idea was to pique interest in the app I plan to release in a few weeks. But silly me, I forgot to set the available date to a date in the future, and soon after my tweet people were downloading Big Screen. As my friend <a href='http://www.goldenhillsoftware.com'>John Brayton</a> said, I need to “think of it as extending a beta to anyone on the app store.” So with that, I’m happy to announce Big Screen is now available to everyone.</p>
+    <content type="html"><![CDATA[<p>Last night I made a <a href="https://twitter.com/kirbyt/status/401882700048781312">teaser tweet</a> about <a href="http://www.whitepeaksoftware.com/big-screen">Big Screen</a> being approved by Apple. The idea was to pique interest in the app I plan to release in a few weeks. But silly me, I forgot to set the available date to a date in the future, and soon after my tweet people were downloading Big Screen. As my friend <a href="http://www.goldenhillsoftware.com">John Brayton</a> said, I need to “think of it as extending a beta to anyone on the app store.” So with that, I’m happy to announce Big Screen is now available to everyone. </p>
 
 <p>Big Screen is a new app for iOS that displays the camera’s video stream to any AirPlay receiver (i.e., AppleTV). What makes Big Screen different from using, say the built-in Camera app, is that Big Screen does not display any application chrome on the AirPlay receiver. This makes Big Screen ideal for presentations, conferences, and other types of gatherings where large TV monitors are used to show what’s happening on stage to the folks sitting in the back of the room.</p>
 
-<p>There are other uses for Big Screen as well. My son, and other kids, have been using it to play a version of hide and seek. And kids in general seem to enjoy seeing themselves on TV and are finding ways to have fun with Big Screen that I never thought of. I should also mention that while Big Screen is free, I do have plans to hopefully make a few bucks off the app. The next update will include ads (that are displays on the device, not on the AirPlay receiver) and an In-App Purchase option to remove the ads from the app.</p>
+<p>There are other uses for Big Screen as well. My son, and other kids, have been using it to play a version of hide and seek. And kids in general seem to enjoy seeing themselves on TV and are finding ways to have fun with Big Screen that I never thought of. 
+I should also mention that while Big Screen is free, I do have plans to hopefully make a few bucks off the app. The next update will include ads (that are displays on the device, not on the AirPlay receiver) and an In-App Purchase option to remove the ads from the app.</p>
 
-<p>So go grab a copy of <a href='http://www.whitepeaksoftware.com/main/store/buy/big-screen'>Big Screen</a>, and let me know what you think.</p>]]></content>
+<p>So go grab a copy of <a href="http://www.whitepeaksoftware.com/main/store/buy/big-screen">Big Screen</a>, and let me know what you think.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -216,7 +242,9 @@
     <published>2013-05-28T00:00:00-04:00</published>
     <updated>2013-05-28T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2013/05/28/learning-ipad-programming-on-sale-now</id>
-    <content type="html"><![CDATA[<p>I&#8217;m happy to announce the second edition of <a href='http://www.amazon.com/gp/product/0321885716/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321885716&amp;linkCode=as2&amp;tag=whitepeaksoft-20'>Learning iPad Programming</a> is now available at your favorite book store.</p>]]></content>
+    <content type="html"><![CDATA[<p>I’m happy to announce the second edition of <a href="http://www.amazon.com/gp/product/0321885716/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321885716&amp;linkCode=as2&amp;tag=whitepeaksoft-20">Learning iPad Programming</a> is now available at your favorite book store.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -225,17 +253,19 @@
     <published>2013-04-29T00:00:00-04:00</published>
     <updated>2013-04-29T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2013/04/29/360intersect-was-great</id>
-    <content type="html"><![CDATA[<p>I had the pleasure of speaking at the inaugural <a href='http://www.360intersect.com'>360intersect</a>, but even better I got the opportunity to attend this new, unique conference. As one attendee said to me - and I&#8217;m paraphrasing here - tech conferences are usually about professional development, but this event was more about personal development. And this was indeed the case. The speakers shared personal stories that were inspirational and highlighted the diversity of the tech community.</p>
+    <content type="html"><![CDATA[<p>I had the pleasure of speaking at the inaugural <a href="http://www.360intersect.com">360intersect</a>, but even better I got the opportunity to attend this new, unique conference. As one attendee said to me - and I’m paraphrasing here - tech conferences are usually about professional development, but this event was more about personal development. And this was indeed the case. The speakers shared personal stories that were inspirational and highlighted the diversity of the tech community.</p>
 
-<p>On Day 1, Victor Agreda, Jr, talked about his love for magic. Robi Ganguly talked about going from being told throughout his childhood that he cannot run to becoming an avid runner who has completed a marathon. I spoke about my Long Trail hike from last fall. And Michelle Yaiser talked about being an amateur race car driver, a musician, and dancer.</p>
+<p>On Day 1, Victor Agreda, Jr, talked about his love for magic. Robi Ganguly talked about going from being told throughout his childhood that he cannot run to becoming an avid runner who has completed a marathon. I spoke about my Long Trail hike from last fall. And Michelle Yaiser talked about being an amateur race car driver, a musician, and dancer. </p>
 
 <p>On Day 2, Doug McCune talked about using his love for maps and data to create art in the physical world. Jon Carroll shared stories about his love for video games, farts, and augmented reality. Josh Michaels talked about his long journey to blend his love for art and photography into a career as an app developer. And the day wrapped up with an emotional talk by Mike Lee as his reflected on his life over the past year.</p>
 
-<p>What made all these talks great wasn&#8217;t just hearing the personal stories, but seeing how each speaker blends their various loves into what they do for a living. For instance, Robi&#8217;s talk illustrated how preparing for the marathon also prepared him to be CEO and vice versa. Michelle related race car driving to how one should to approach work and focus. Josh said don&#8217;t wait, pursue your dreams now. And I said don&#8217;t work so hard.</p>
+<p>What made all these talks great wasn’t just hearing the personal stories, but seeing how each speaker blends their various loves into what they do for a living. For instance, Robi’s talk illustrated how preparing for the marathon also prepared him to be CEO and vice versa. Michelle related race car driving to how one should to approach work and focus. Josh said don’t wait, pursue your dreams now. And I said don’t work so hard.</p>
 
-<p>The turnout for this first 360intersect was small, but that was expected. Personally I think the size was perfect because it gave everyone an opportunity to meet and chat with one another. And it made it possible to have group activities such as the duck boat tour of Seattle, the Saturday night dinner at Pike Brewing Company, and the straggler&#8217;s dinner at Mama&#8217;s on Sunday.</p>
+<p>The turnout for this first 360intersect was small, but that was expected. Personally I think the size was perfect because it gave everyone an opportunity to meet and chat with one another. And it made it possible to have group activities such as the duck boat tour of Seattle, the Saturday night dinner at Pike Brewing Company, and the straggler’s dinner at Mama’s on Sunday. </p>
 
-<p>I thoroughly enjoyed the outstanding talks, the cool venture, seeing old friend, and making new ones. And I&#8217;m already looking forward to the next 360intersect. Big thanks goes out to John and Nicole for putting on this great event.</p>]]></content>
+<p>I thoroughly enjoyed the outstanding talks, the cool venture, seeing old friend, and making new ones. And I’m already looking forward to the next 360intersect. Big thanks goes out to John and Nicole for putting on this great event.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -244,15 +274,17 @@
     <published>2013-01-02T00:00:00-05:00</published>
     <updated>2013-01-02T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2013/01/02/ann-product-retirement</id>
-    <content type="html"><![CDATA[<p>It&#8217;s a brand new year, and as the saying goes, out with the old and in with the new.</p>
+    <content type="html"><![CDATA[<p>It’s a brand new year, and as the saying goes, out with the old and in with the new. </p>
 
-<p>I mentioned in my <a href='/2012/12/29/year-in-review/'>2012 Year in Review</a> post that I&#8217;m re-focusing my intention on White Peak Software this year. In some was this re-focus is like a re-boot for WPS. This means exciting new things for the company going forward, but it also means it&#8217;s time to good bye a couple of products.</p>
+<p>I mentioned in my <a href="/2012/12/29/year-in-review/">2012 Year in Review</a> post that I’m re-focusing my intention on White Peak Software this year. In some was this re-focus is like a re-boot for WPS. This means exciting new things for the company going forward, but it also means it’s time to good bye a couple of products.</p>
 
-<p>The first product retiring is SMTP Diagnostics. SMTP Diagnostics was White Peak Software&#8217;s very first product. I honestly did not know if the app would sell or not, nor did I care. I released it because, at the time, it was an app I needed and used regularly. The release of SMTP Diagnostics also gave me the opportunity to learn how to sell software online. Without SMTP Diagnostics, I would not have been as prepared for the other White Peak Software apps.</p>
+<p>The first product retiring is SMTP Diagnostics. SMTP Diagnostics was White Peak Software’s very first product. I honestly did not know if the app would sell or not, nor did I care. I released it because, at the time, it was an app I needed and used regularly. The release of SMTP Diagnostics also gave me the opportunity to learn how to sell software online. Without SMTP Diagnostics, I would not have been as prepared for the other White Peak Software apps.</p>
 
 <p>The second product retiring today is Hey Peanut. Hey Peanut was written for my son Rowan, who was only one and a half at the time. I had high hopes for Hey Peanut. My son loved the app, and I thought other kids would enjoy it as well. I invested time and money into the app, but unfortunately I missed the mark with it. All is not lost though. I learned a lot from the mistakes I made with Hey Peanut that will help me going forward.</p>
 
-<p>It saddens me to see these two apps removed from the White Peak Software home page. Both are very special to me in their own ways. But it is a new year, so out with the old and in with the new.</p>]]></content>
+<p>It saddens me to see these two apps removed from the White Peak Software home page. Both are very special to me in their own ways. But it is a new year, so out with the old and in with the new.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -261,81 +293,73 @@
     <published>2012-12-29T00:00:00-05:00</published>
     <updated>2012-12-29T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2012/12/29/year-in-review</id>
-    <content type="html"><![CDATA[<p>Three years ago I wrote my first, and last, <a href='http://blog.whitepeaksoftware.com/2009/12/30/white-peak-software-year-in-review-2009/'>year in review</a> for White Peak Software. I had hoped I would continue doing a year in review each year, but life, and the <a href='http://www.learningipadprogramming.com'>book</a>, got in the way. A lot has happened in the last three years, but I want to focus on this last year, 2012.</p>
+    <content type="html"><![CDATA[<p>Three years ago I wrote my first, and last, <a href="http://blog.whitepeaksoftware.com/2009/12/30/white-peak-software-year-in-review-2009/">year in review</a> for White Peak Software. I had hoped I would continue doing a year in review each year, but life, and the <a href="http://www.learningipadprogramming.com">book</a>, got in the way. A lot has happened in the last three years, but I want to focus on this last year, 2012.</p>
 
-<p>I&#8217;ve been disappointed throughout most of 2012, but looking back, I&#8217;m not sure why. Overall it&#8217;s been a good year, and I realized I have accomplished quite a bit in very little time. But since starting on the book back in mid-2010, I have felt like I can&#8217;t deliver, missing one milestone after another after another. And this is why I have felt disappointed throughout 2012.</p>
+<p>I’ve been disappointed throughout most of 2012, but looking back, I’m not sure why. Overall it’s been a good year, and I realized I have accomplished quite a bit in very little time. But since starting on the book back in mid-2010, I have felt like I can’t deliver, missing one milestone after another after another. And this is why I have felt disappointed throughout 2012.</p>
 
-<h1 id='a_quick_look_back'>A Quick Look Back</h1>
+<h1 id="a-quick-look-back">A Quick Look Back</h1>
 
-<p>I started writing <a href='http://www.learningipadprogramming.com'>Learning iPad Programming</a> in May 2010. My original goal was to have the manuscript complete by November 2010, a lofty goal for a first time writer. The manuscript, which was more than 700 pages, was completed in September 2011, nearly a year late. I sunk into a depression over the delays in finishing the book, which of course led to more delays. I stopped work on all other projects so I could focus on the book, but it didn&#8217;t really help. If not for <a href='https://twitter.com/atomicbird'>Tom Harrington</a>, who agreed to co-author the book with me in June 2011, I don&#8217;t think I would have ever finished the book.</p>
+<p>I started writing <a href="http://www.learningipadprogramming.com">Learning iPad Programming</a> in May 2010. My original goal was to have the manuscript complete by November 2010, a lofty goal for a first time writer. The manuscript, which was more than 700 pages, was completed in September 2011, nearly a year late. I sunk into a depression over the delays in finishing the book, which of course led to more delays. I stopped work on all other projects so I could focus on the book, but it didn’t really help. If not for <a href="https://twitter.com/atomicbird">Tom Harrington</a>, who agreed to co-author the book with me in June 2011, I don’t think I would have ever finished the book.</p>
 
 <p>Working with Tom gave me the motivation I needed to crank out chapters from June through the beginning of September, and crank out chapters we did, writing over fifty percent of the book during that time.</p>
 
-<p>The book was finally published in December 2011, and I planned to return my focus on White Peak Software. But I was once again distracted, this time by a <a href='http://my.safaribooksonline.com/9780132981163'>video project</a> related to the book.</p>
+<p>The book was finally published in December 2011, and I planned to return my focus on White Peak Software. But I was once again distracted, this time by a <a href="http://my.safaribooksonline.com/9780132981163">video project</a> related to the book.</p>
 
-<p>A week before the book was available in bookstores, I went to Chicago to record the <a href='http://my.safaribooksonline.com/9780132981163'>Learning iPad Programming LiveLessons</a>, a training video based on the book. Like writing the book, this was the first time I had ever done anything like this, and I was ill prepared. I thought I would knock out the recording in a couple of days, but that didn&#8217;t happen. But unlike the book, I didn&#8217;t have months and months to record. I had to finish the project by the end of the week. This meant very little sleep for me each night as I re-thought and re-worked the topics that I planned to cover the following day. I left Chicago completely exhausted, but I was very happy with what had been accomplished.</p>
+<p>A week before the book was available in bookstores, I went to Chicago to record the <a href="http://my.safaribooksonline.com/9780132981163">Learning iPad Programming LiveLessons</a>, a training video based on the book. Like writing the book, this was the first time I had ever done anything like this, and I was ill prepared. I thought I would knock out the recording in a couple of days, but that didn’t happen. But unlike the book, I didn’t have months and months to record. I had to finish the project by the end of the week. This meant very little sleep for me each night as I re-thought and re-worked the topics that I planned to cover the following day. I left Chicago completely exhausted, but I was very happy with what had been accomplished.</p>
 
-<p>At this point I had basically ignored White Peak Software for over a year and a half. Not good for business. Product sales had declined by nearly fifty percent, and we were cash poor (&#8220;we&#8221; being my family and me). I took on a client project in October 2011, which shipped February 2012. The project was suppose to help us with cash, but the project was for a startup that had its own cash problems. The project ended up hurt us more than helping us.</p>
+<p>At this point I had basically ignored White Peak Software for over a year and a half. Not good for business. Product sales had declined by nearly fifty percent, and we were cash poor (“we” being my family and me). I took on a client project in October 2011, which shipped February 2012. The project was suppose to help us with cash, but the project was for a startup that had its own cash problems. The project ended up hurt us more than helping us.</p>
 
-<h1 id='in_tough_time_go_snowboarding'>In Tough Time, Go Snowboarding</h1>
+<h1 id="in-tough-time-go-snowboarding">In Tough Time, Go Snowboarding</h1>
 
-<p>Despite the struggles, the family and I packed our bags and headed to Killington, VT, for a month. We were broke, but living the dream getting to ski and snowboard almost daily. Unfortunately it was one of the worse winter seasons in recorded history for Killington, which meant there was very little snow. On the plus side, the temperatures were warmer than expected, which was perfect for Rowan, age 3 at the time, to learn how to ski.</p>
+<p>Despite the struggles, the family and I packed our bags and headed to Killington, VT, for a month. We were broke, but living the dream getting to ski and snowboard almost daily. Unfortunately it was one of the worse winter seasons in recorded history for Killington, which meant there was very little snow. On the plus side, the temperatures were warmer than expected, which was perfect for Rowan, age 3 at the time, to learn how to ski. </p>
 
-<p>Returning from Killington, I took on one more book related project. As the saying goes, &#8220;Fool me once, shame on you. Fool me twice, shame on me.&#8221; I guess I was in the need of more personal shame.</p>
+<p>Returning from Killington, I took on one more book related project. As the saying goes, “Fool me once, shame on you. Fool me twice, shame on me.” I guess I was in the need of more personal shame. </p>
 
-<p>I needed cash, and I needed to focus on the business, but I, shamefully, decided to do one more book related project, an enhanced epub version of the book. The enhanced epub version would include audio and video to enhance the book&#8217;s content. I had produced over four and a half hours of edited video and audio by the time I finished my part of the project. Unfortunately the enhanced epub book never happened due to production problems by the publisher.</p>
+<p>I needed cash, and I needed to focus on the business, but I, shamefully, decided to do one more book related project, an enhanced epub version of the book. The enhanced epub version would include audio and video to enhance the book’s content. I had produced over four and a half hours of edited video and audio by the time I finished my part of the project. Unfortunately the enhanced epub book never happened due to production problems by the publisher. </p>
 
-<p>To help with cash, I took on a few short (40 hours or less) client projects. But even better was the first royalty check for the book. Turns out the book is a hit, and while I went broke writing it, I was very happy to finally see some money coming in from that effort. Granted the book hasn&#8217;t earned me a lot of money, but I have been able to pay some bills with the two royalty checks I&#8217;ve received so far. (Thank you, readers!)</p>
+<p>To help with cash, I took on a few short (40 hours or less) client projects. But even better was the first royalty check for the book. Turns out the book is a hit, and while I went broke writing it, I was very happy to finally see some money coming in from that effort. Granted the book hasn’t earned me a lot of money, but I have been able to pay some bills with the two royalty checks I’ve received so far. (Thank you, readers!)</p>
 
-<p>This encouraged me to do a second edition of the book. Yes, fool me a fourth time. Instead of focusing on my business and getting back on track, I decided to do more writing. But first, I needed a break.</p>
+<p>This encouraged me to do a second edition of the book. Yes, fool me a fourth time. Instead of focusing on my business and getting back on track, I decided to do more writing. But first, I needed a break. </p>
 
-<h1 id='take_a_hike'>Take a Hike</h1>
+<h1 id="take-a-hike">Take a Hike</h1>
 
-<p>I decided to take a month off from everything and attempt a thru hike of the Long Trail in Vermont. The Long Trail is a 272 mile hiking trail that starts at the Canadian border and runs the length of Vermont to the Massachusetts border. I disconnected from the world and set off on a <a href='http://www.thecave.com/2012/09/25/back-from-the-long-trail-hike/'>four week journey</a>. Unfortunately I injured my knee and had to stop after two weeks of hiking and covering nearly 100 miles.</p>
+<p>I decided to take a month off from everything and attempt a thru hike of the Long Trail in Vermont. The Long Trail is a 272 mile hiking trail that starts at the Canadian border and runs the length of Vermont to the Massachusetts border. I disconnected from the world and set off on a <a href="http://www.thecave.com/2012/09/25/back-from-the-long-trail-hike/">four week journey</a>. Unfortunately I injured my knee and had to stop after two weeks of hiking and covering nearly 100 miles.</p>
 
-<p>I returned from the hike with new energy and motivation (and a lot of pain in my left knee). I also came back with a different outlook on life and business. I realized I shouldn&#8217;t be disappointed about what I perceived as a lack of accomplishment and failure. Instead I realized that despite how much it seems like I&#8217;m working and un-delivering, I&#8217;m actually enjoying life at lot more.</p>
+<p>I returned from the hike with new energy and motivation (and a lot of pain in my left knee). I also came back with a different outlook on life and business. I realized I shouldn’t be disappointed about what I perceived as a lack of accomplishment and failure. Instead I realized that despite how much it seems like I’m working and un-delivering, I’m actually enjoying life at lot more.</p>
 
-<h1 id='accomplishments'>Accomplishments</h1>
+<h1 id="accomplishments">Accomplishments</h1>
 
-<p>The disappointment I felt over much of 2012, as well as in 2010 and 2011, was caused by the transition I was going through, a transition from being a workaholic to a successful slacker. I felt disappointed about the last year, feeling like I can&#8217;t deliver. But here is the list of what I&#8217;ve done since December 2011:</p>
+<p>The disappointment I felt over much of 2012, as well as in 2010 and 2011, was caused by the transition I was going through, a transition from being a workaholic to a successful slacker. I felt disappointed about the last year, feeling like I can’t deliver. But here is the list of what I’ve done since December 2011:</p>
 
 <ul>
-<li>Published a book (yes, the book was written before December 2011, but the fact that it was actually published and made available in bookstores across the country gave me a huge sense of accomplishment, bigger than finishing the manuscript).</li>
-
-<li>Recorded and published an 8-hour training video.</li>
-
-<li>Recorded 4.5 hours of audio and video for an enhanced epub.</li>
-
-<li>Shipped a client app.</li>
-
-<li>Completed multiple small client projects.</li>
-
-<li>Wrote an article on <a href='http://www.informit.com/articles/article.aspx?p=1914191'>Xcode code snippets</a>.</li>
-
-<li>Released two updates to <a href='http://www.whitepeaksoftware.com/main/labor-mate/index'>Labor Mate</a></li>
-
-<li>Spent a month living in a ski town.</li>
-
-<li>Spent 2 weeks hiking the Long Trail, followed by two more weeks of traveling for fun.</li>
-
-<li>Completed the second edition of <a href='http://www.learningipadprogramming.com'>Learning iPad Programming</a></li>
-
-<li>Re-wrote <a href='http://www.photowheelapp.com'>PhotoWheel</a> for iOS 6.</li>
+  <li>Published a book (yes, the book was written before December 2011, but the fact that it was actually published and made available in bookstores across the country gave me a huge sense of accomplishment, bigger than finishing the manuscript).</li>
+  <li>Recorded and published an 8-hour training video.</li>
+  <li>Recorded 4.5 hours of audio and video for an enhanced epub.</li>
+  <li>Shipped a client app.</li>
+  <li>Completed multiple small client projects.</li>
+  <li>Wrote an article on <a href="http://www.informit.com/articles/article.aspx?p=1914191">Xcode code snippets</a>.</li>
+  <li>Released two updates to <a href="http://www.whitepeaksoftware.com/main/labor-mate/index">Labor Mate</a></li>
+  <li>Spent a month living in a ski town.</li>
+  <li>Spent 2 weeks hiking the Long Trail, followed by two more weeks of traveling for fun.</li>
+  <li>Completed the second edition of <a href="http://www.learningipadprogramming.com">Learning iPad Programming</a></li>
+  <li>Re-wrote <a href="http://www.photowheelapp.com">PhotoWheel</a> for iOS 6.</li>
 </ul>
 
-<p>And I&#8217;m a few weeks away from shipping another client app. I&#8217;ve also been hosting a monthly happy hour for Mac and iOS developers called <a href='http://www.nshappyhour.org'>NSHappyHour</a>, and I co-organize the CocoaHeads Boston monthly meeting.</p>
+<p>And I’m a few weeks away from shipping another client app. I’ve also been hosting a monthly happy hour for Mac and iOS developers called <a href="http://www.nshappyhour.org">NSHappyHour</a>, and I co-organize the CocoaHeads Boston monthly meeting.</p>
 
-<p>I look at this list, and I think, &#8220;Wow! What a great set of accomplishments.&#8221; Others have done more, a lot more, and this is where I start to feel disappointed. The workaholic in me wants to accomplishment more, but then I remind myself this one interesting little fact. I have tracked a total of 1,293.75 hours for 2012 in <a href='http://www.getharvest.com'>Harvest</a>.</p>
+<p>I look at this list, and I think, “Wow! What a great set of accomplishments.” Others have done more, a lot more, and this is where I start to feel disappointed. The workaholic in me wants to accomplishment more, but then I remind myself this one interesting little fact. I have tracked a total of 1,293.75 hours for 2012 in <a href="http://www.getharvest.com">Harvest</a>.</p>
 
-<p>Based on a 50-work week year (giving 2 weeks off for vacation), the 1,293.75 hours comes out to a weekly average of 25.88 hours. That means I&#8217;m working just under 26 hours a week on average. Granted, that&#8217;s not what is really happening. Instead I have weeks were I work 50 hours or more, but I also have weeks where I work no hours at all. Also the list above includes the video I recorded in Chicago, but the time recording the video was not logged in 2012. The 1,293.75 hours is for time logged in 2012, but my accomplishment list covers 13 months. Still, I list it here because the video was released in February 2012.</p>
+<p>Based on a 50-work week year (giving 2 weeks off for vacation), the 1,293.75 hours comes out to a weekly average of 25.88 hours. That means I’m working just under 26 hours a week on average. Granted, that’s not what is really happening. Instead I have weeks were I work 50 hours or more, but I also have weeks where I work no hours at all. Also the list above includes the video I recorded in Chicago, but the time recording the video was not logged in 2012. The 1,293.75 hours is for time logged in 2012, but my accomplishment list covers 13 months. Still, I list it here because the video was released in February 2012.</p>
 
-<p>Also, there are times when I answer support email, a minute here and there, that I don&#8217;t log to my time sheet. So maybe there is an additional 20 to 40 hours not represented in my 2012 timesheet. Still, keeping in mind the amount of hours I devoted to work related activities, which is low compared to most, I don&#8217;t feel as disappointed when I look back over the last year. I feel like I have accomplished quite a bit while only working part-time. I&#8217;m well on my way to becoming a successful slacker, as I like to call it.</p>
+<p>Also, there are times when I answer support email, a minute here and there, that I don’t log to my time sheet. So maybe there is an additional 20 to 40 hours not represented in my 2012 timesheet. Still, keeping in mind the amount of hours I devoted to work related activities, which is low compared to most, I don’t feel as disappointed when I look back over the last year. I feel like I have accomplished quite a bit while only working part-time. I’m well on my way to becoming a successful slacker, as I like to call it.</p>
 
-<h1 id='whats_next'>What&#8217;s Next?</h1>
+<h1 id="whats-next">What’s Next?</h1>
 
-<p>So this brings me to the end of 2012, a year that had me feeling disappointed through most of it only to realize I don&#8217;t have anything to be disappointed about. Well, that&#8217;s not exactly true. While I&#8217;m happy with my accomplishments over the last year, I am still disappointed that I have ignored White Peak Software for most of the year. So that&#8217;s what&#8217;s next for me&#8230;a returned focus on White Peak Software in 2013. This mean some changes to existing products - some good, some bad depending on your point of view. It also means some new products. But most importantly, it means I return to my number one passion, writing code.</p>
+<p>So this brings me to the end of 2012, a year that had me feeling disappointed through most of it only to realize I don’t have anything to be disappointed about. Well, that’s not exactly true. While I’m happy with my accomplishments over the last year, I am still disappointed that I have ignored White Peak Software for most of the year. So that’s what’s next for me…a returned focus on White Peak Software in 2013. This mean some changes to existing products - some good, some bad depending on your point of view. It also means some new products. But most importantly, it means I return to my number one passion, writing code. </p>
 
-<p>I&#8217;m looking forward to seeing what I&#8217;m able to accomplish in 2013 while maintaining my status as a successful slacker.</p>]]></content>
+<p>I’m looking forward to seeing what I’m able to accomplish in 2013 while maintaining my status as a successful slacker.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -344,7 +368,8 @@
     <published>2012-09-10T00:00:00-04:00</published>
     <updated>2012-09-10T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2012/09/10/office-is-open</id>
-    <content type="html"><![CDATA[<p>The White Peak Software office is once again open. It&#8217;s back to business as usual.</p>]]></content>
+    <content type="html"><![CDATA[<p>The White Peak Software office is once again open. It’s back to business as usual.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -353,15 +378,16 @@
     <published>2012-08-20T00:00:00-04:00</published>
     <updated>2012-08-20T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2012/08/20/office-closed</id>
-    <content type="html"><![CDATA[<p>The White Peak Software office will be closed from Wednesday, August 22, through the end of September.</p>
+    <content type="html"><![CDATA[<p>The White Peak Software office will be closed from Wednesday, August 22, through the end of September. </p>
 
-<p>I am leaving for a month long backpacking trip starting on August 22, and I plan to return by the end of September. Unfortunately I will not have Internet access during this trip, which is why the office will be closed. I apologize in advance for any inconvenience this might cause.</p>
+<p>I am leaving for a month long backpacking trip starting on August 22, and I plan to return by the end of September. Unfortunately I will not have Internet access during this trip, which is why the office will be closed. I apologize in advance for any inconvenience this might cause. </p>
 
-<p>All support emails will be answered in the order they are received once I return.</p>
+<p>All support emails will be answered in the order they are received once I return. </p>
 
-<p>If you have lost your license information and need it re-sent, click <a href='http://www.whitepeaksoftware.com/support/licenselookup'>here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
+<p>If you have lost your license information and need it re-sent, click <a href="http://www.whitepeaksoftware.com/support/licenselookup">here</a> and provide the email address used when the order was placed. Your license information will be retrieved and sent to you via email.</p>
 
-<p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>]]></content>
+<p>An update to this blog will be posted as soon as the White Peak Software office returned to normal operations.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -370,31 +396,33 @@
     <published>2012-08-14T00:00:00-04:00</published>
     <updated>2012-08-14T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2012/08/14/Prolonging-My-Laptops-Battery-with-FruitJuice</id>
-    <content type="html"><![CDATA[<p>For more than 10 years my primary dev machines have been laptops. The mobility provided by a laptop has changed the way, and where, I work. However, an unfortunate downside of me using a laptop as my primary machine is the number of batteries I go through. On average a laptop battery will last me about a year before I need to order a replacement. It&#8217;s common for battery life to degrade some after a year, but for me it&#8217;s common to see &#8220;Service Battery&#8221; around the 1-year mark.</p>
+    <content type="html"><![CDATA[<p>For more than 10 years my primary dev machines have been laptops. The mobility provided by a laptop has changed the way, and where, I work. However, an unfortunate downside of me using a laptop as my primary machine is the number of batteries I go through. On average a laptop battery will last me about a year before I need to order a replacement. It’s common for battery life to degrade some after a year, but for me it’s common to see “Service Battery” around the 1-year mark.</p>
 
-<p>Why do I burn through so many laptop batteries? It&#8217;s the way I use my laptop.</p>
+<p>Why do I burn through so many laptop batteries? It’s the way I use my laptop. </p>
 
-<p>I often times treat my laptop as a desktop leaving it plugged into power for days, and sometimes even weeks at a time. But laptops are not designed for this kind of usage. The battery, like a muscle in your body, needs to be exercised. For a lithium-ion battery - found in most if not all laptops today - this means <a href='http://www.ehow.com/how_7259005_condition-laptop-battery.html'>conditioning the battery</a>.</p>
+<p>I often times treat my laptop as a desktop leaving it plugged into power for days, and sometimes even weeks at a time. But laptops are not designed for this kind of usage. The battery, like a muscle in your body, needs to be exercised. For a lithium-ion battery - found in most if not all laptops today - this means <a href="http://www.ehow.com/how_7259005_condition-laptop-battery.html">conditioning the battery</a>. </p>
 
-<p>To condition a battery, you need to regularly run your laptop on battery power using only a portion of the battery&#8217;s power, and then charge the battery as often as possible before the battery fully discharges. After about 30 charge cycles you want to do a full discharge of the battery followed by a full recharge.</p>
+<p>To condition a battery, you need to regularly run your laptop on battery power using only a portion of the battery’s power, and then charge the battery as often as possible before the battery fully discharges. After about 30 charge cycles you want to do a full discharge of the battery followed by a full recharge. </p>
 
-<p>Whew! That&#8217;s a lot of work to exercise a laptop battery. Well okay, it&#8217;s not a lot of work, but it does require some discipline. And history has proven I don&#8217;t have the discipline to properly condition my laptop&#8217;s battery.</p>
+<p>Whew! That’s a lot of work to exercise a laptop battery. Well okay, it’s not a lot of work, but it does require some discipline. And history has proven I don’t have the discipline to properly condition my laptop’s battery.</p>
 
-<p>So now I&#8217;m faced with a dilemma. I have a shinny, new MacBook Pro that doesn&#8217;t have a swappable battery. The battery can be replaced, but it must be replaced by Apple. I can&#8217;t simply buy a replacement battery online and pop it in when I need it. So I&#8217;m trying to change my ways to prolong the battery life for my new MacBook Pro, and I&#8217;m using <a href='http://fruitjuiceapp.com'>FruitJuice</a> to help me along the way.</p>
+<p>So now I’m faced with a dilemma. I have a shinny, new MacBook Pro that doesn’t have a swappable battery. The battery can be replaced, but it must be replaced by Apple. I can’t simply buy a replacement battery online and pop it in when I need it. So I’m trying to change my ways to prolong the battery life for my new MacBook Pro, and I’m using <a href="http://fruitjuiceapp.com">FruitJuice</a> to help me along the way.</p>
 
-<p><a href='http://fruitjuiceapp.com'>FruitJuice</a> is a combination Mac app and web service that helps extend the life of your laptop&#8217;s battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.</p>
+<p><a href="http://fruitjuiceapp.com">FruitJuice</a> is a combination Mac app and web service that helps extend the life of your laptop’s battery by guiding you through the battery conditioning steps. It works by not only reminding you to condition your battery, it steps you through the conditioning process with convention and helpful email and SMS notifications. And when you are between conditioning periods, you can use FruitJuice to see how well you are exercising your battery by alternating between running on battery power and charging the battery.</p>
 
-<p><img alt='' src='/images/blog/2012-08-14-FruitJuice.png' /></p>
+<p><img src="/images/blog/2012-08-14-FruitJuice.png" alt="" /></p>
 
-<p>It&#8217;s this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone. The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.</p>
+<p>It’s this last feature that I like the most. I find myself checking my plugged in percentage a few times a day to make sure I stay in the green zone.  The green zone is the ideal combination of running on battery power and plugged into a power source. Hopefully a future version of FruitJuice will notify me when I’ve been out of the green zone for too long, reminding me to unplug and run off the battery. But until such feature exists, I’ll keep an eye on my plugged in percentage.</p>
 
-<p>Using FruitJuice comes with another benefit. It keeps a complete history of battery usage and conditioning. This information can be useful when it’s time to ask Apple for a replacement battery, should you need to prove you have been operating your laptop based on <a href='http://www.apple.com/batteries/notebooks.html'>Apple’s own recommended usage and maintenance</a>.</p>
+<p>Using FruitJuice comes with another benefit. It keeps a complete history of battery usage and conditioning. This information can be useful when it’s time to ask Apple for a replacement battery, should you need to prove you have been operating your laptop based on <a href="http://www.apple.com/batteries/notebooks.html">Apple’s own recommended usage and maintenance</a>.</p>
 
 <p>FruitJuice comes with a free 30-day trial, and cost $9.99 per year for one computer. Each additional computer costs $4.99 per year. This is cheap when you compare it to the cost of a new battery, which costs me $129 the last time I bought one for my older MacBook Pro.</p>
 
-<p>So is FruitJuice saving me money? It&#8217;s too early to tell since my MacBook Pro is only a couple of weeks old. But I&#8217;m hopeful that a year from now I will not see the dreaded &#8220;Service Battery&#8221; condition that I&#8217;ve seen over and over the past few years.</p>
+<p>So is FruitJuice saving me money? It’s too early to tell since my MacBook Pro is only a couple of weeks old. But I’m hopeful that a year from now I will not see the dreaded “Service Battery” condition that I’ve seen over and over the past few years. </p>
 
-<p>Disclaimer: I was not asked or paid to do this review. I was an early beta tester for FruitJuice, and I continue to be a FruitJuice user.</p>]]></content>
+<p>Disclaimer: I was not asked or paid to do this review. I was an early beta tester for FruitJuice, and I continue to be a FruitJuice user.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -403,25 +431,26 @@
     <published>2012-07-31T00:00:00-04:00</published>
     <updated>2012-07-31T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2012/07/31/first-impressions-macbook-pro-with-retina-display</id>
-    <content type="html"><![CDATA[<p>In July 2007 I bought a fully loaded MacBook Pro. It was by far the best computer I have ever owned. And that isn&#8217;t just my opinion. PC World said the Apple MacBook Pro was the <a href='http://www.pcworld.com/article/136649-3/in_pictures_the_most_notable_notebooks_of_2007.html'>fastest Windows Vista notebook</a> at the time.</p>
+    <content type="html"><![CDATA[<p>In July 2007 I bought a fully loaded MacBook Pro. It was by far the best computer I have ever owned. And that isn’t just my opinion. PC World said the Apple MacBook Pro was the <a href="http://www.pcworld.com/article/136649-3/in_pictures_the_most_notable_notebooks_of_2007.html">fastest Windows Vista notebook</a> at the time.</p>
 
-<p>My MacBook Pro was also the most expensive computer I have ever bought. The high price tag wasn&#8217;t because of the perceived &#8220;Mac tax.&#8221; The high price tag was due to hardware cost. In fact, I looked at what it would cost to buy the same set of hardware from Dell at the time, and Dell&#8217;s price was $200 more than Apple&#8217;s.</p>
+<p>My MacBook Pro was also the most expensive computer I have ever bought. The high price tag wasn’t because of the perceived “Mac tax.” The high price tag was due to hardware cost. In fact, I looked at what it would cost to buy the same set of hardware from Dell at the time, and Dell’s price was $200 more than Apple’s.</p>
 
-<p>My MacBook Pro has served me well for 5 years, which is a long time especially for a laptop. But it has reached its limits. The machine, while still usable, is just too slow for the work I do daily. I might be able to squeeze out another year if I could bump up the RAM to 8 GB or even 16 GB, but sadly, that model only goes to 4 GB. (Yes, I know there is a non-Apple recommended way to bump up to 6 GB, but let&#8217;s face it. Five years is a long time for a laptop.) So nearly 5 years to the date, I got myself a new MacBook Pro. (My previous MBP arrived July 25, 2007, and my latest one arrived July 30, 3012.)</p>
+<p>My MacBook Pro has served me well for 5 years, which is a long time especially for a laptop. But it has reached its limits. The machine, while still usable, is just too slow for the work I do daily. I might be able to squeeze out another year if I could bump up the RAM to 8 GB or even 16 GB, but sadly, that model only goes to 4 GB. (Yes, I know there is a non-Apple recommended way to bump up to 6 GB, but let’s face it. Five years is a long time for a laptop.) So nearly 5 years to the date, I got myself a new MacBook Pro. (My previous MBP arrived July 25, 2007, and my latest one arrived July 30, 3012.)</p>
 
-<p>It&#8217;s too early to say if I will get 5 years of service out of this latest MBP, but I&#8217;m hopeful I will. And while my latest MBP is expensive, it still costed less than the one I bought in 2007 - by nearly $700 if I remember correctly. Though admittedly I did not get the maxed out MBP this time around. I got the 2.6 GHz Intel Core i7 with 16 GB RAM, 512 GB flash storage, and retina display.</p>
+<p>It’s too early to say if I will get 5 years of service out of this latest MBP, but I’m hopeful I will. And while my latest MBP is expensive, it still costed less than the one I bought in 2007 - by nearly $700 if I remember correctly. Though admittedly I did not get the maxed out MBP this time around. I got the 2.6 GHz Intel Core i7 with 16 GB RAM, 512 GB flash storage, and retina display.</p>
 
-<p>My first impression of the new MacBook Pro: It&#8217;s a sweet machine.</p>
+<p>My first impression of the new MacBook Pro: It’s a sweet machine. </p>
 
-<p>It feels heavier than I expected, but it&#8217;s still lighter than my 2007 MBP. It&#8217;s super quiet especially compared to my 2007 MBP. My 2007 MBP&#8217;s fan runs non-stop when attached to the power cord. This started when I updated to Lion and has annoyed me ever since. (Thankfully my Bose noise canceling headphones drown out the fan noise from my old MBP.) And my new MBP doesn&#8217;t heat up like my old one does.</p>
+<p>It feels heavier than I expected, but it’s still lighter than my 2007 MBP. It’s super quiet especially compared to my 2007 MBP. My 2007 MBP’s fan runs non-stop when attached to the power cord. This started when I updated to Lion and has annoyed me ever since. (Thankfully my Bose noise canceling headphones drown out the fan noise from my old MBP.) And my new MBP doesn’t heat up like my old one does.</p>
 
 <p>My new MBP is fast, really fast compared to my 2007 MBP. This is most noticeable for me when compiling projects in Xcode. A project that would take a minute and a half to do a clean compile now takes 10 seconds. And iPhoto, with my 40 GB library, is once again useable. iPhoto was so painfully slow on my other MBP that I only used it to import photos and that was it. But last night I was tagging faces, looking at photos from places, and doing some minor cropping and editing on my shinny, new MBP.</p>
 
-<p>While I knew the new MBP would be faster, lighter, and better than my previous MBP, the one feature I was lukewarm on is the retina display. If the non-retina MBP supported 16 GB of RAM then I might have bought one of them instead of the retina MBP. However, after using my new MBP for a day, I so glad I went with the retina display. Text on the new retina display is crisp, clear, and much more readable than on the non-retina display. And as someone who has to stare at text all day, this was a welcome surprise for me. I was indifferent about the retina display before buying my MBP, but now, I can&#8217;t imaging buy a new MBP without the retina display.</p>
+<p>While I knew the new MBP would be faster, lighter, and better than my previous MBP, the one feature I was lukewarm on is the retina display. If the non-retina MBP supported 16 GB of RAM then I might have bought one of them instead of the retina MBP. However, after using my new MBP for a day, I so glad I went with the retina display. Text on the new retina display is crisp, clear, and much more readable than on the non-retina display. And as someone who has to stare at text all day, this was a welcome surprise for me. I was indifferent about the retina display before buying my MBP, but now, I can’t imaging buy a new MBP without the retina display.</p>
 
-<p>The retina display also provides one additional benefit for me. I&#8217;m currently working on the second addition of my book <a href='http://amzn.to/ipadprogbook'>Learning iPad Programming</a>. My publisher prefers screenshots for figure images to be at 150 ppi minimum, but normal computer displays are only 72 ppi. With the new retina display, I can take screenshots that are 144 ppi. Still not quite 150 ppi, but a lot closer, which should make my publisher happier.</p>
+<p>The retina display also provides one additional benefit for me. I’m currently working on the second addition of my book <a href="http://amzn.to/ipadprogbook">Learning iPad Programming</a>. My publisher prefers screenshots for figure images to be at 150 ppi minimum, but normal computer displays are only 72 ppi. With the new retina display, I can take screenshots that are 144 ppi. Still not quite 150 ppi, but a lot closer, which should make my publisher happier.</p>
 
-<p>So after only a day of playing on the new MBP with retina display, was the purchase worth well for me? Absolutely. There&#8217;s no doubt in my mind that going with the MBP with retina display was the right choice for me. That said, if my previous MBP were only a year or so old, I might have held off on the purchase until the price drops a bit. But for me, at this time, the new MBP with retina display is the idea machine for me. The 16 GB of RAM, faster CPU and flash storage, and of course the retina display are vast improvements needed for my daily work.</p>]]></content>
+<p>So after only a day of playing on the new MBP with retina display, was the purchase worth well for me? Absolutely. There’s no doubt in my mind that going with the MBP with retina display was the right choice for me. That said, if my previous MBP were only a year or so old, I might have held off on the purchase until the price drops a bit. But for me, at this time, the new MBP with retina display is the idea machine for me. The 16 GB of RAM, faster CPU and flash storage, and of course the retina display are vast improvements needed for my daily work.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -432,7 +461,8 @@
     <id>http://blog.whitepeaksoftware.com/2011/06/28/wanted-beta-testers-for-killink-csv-editor</id>
     <content type="html"><![CDATA[<p>I posted a new beta for Killink CSV Editor v2 today. The big feature added to version 2 is Unicode support. This means Killink CSV Editor can now read and write not only ASCII files but UTF-8 and UTF-16 files.</p>
 
-<p>If you&#8217;re a Killink CSV Editor user and you want to live life on the edge, please <a href='http://cdn.whitepeaksoftware.com/downloads/setup-killinkcsv-250.exe'>download beta 2</a>, give it a test drive, and send email to <em>support at white peak software dot com</em> if you encounter any issues. Note this build of Killink CSV Editor installs, by default, in a separate directory allowing both Version 1.14 and Version 2.0 to co-exists on the same computer.</p>]]></content>
+<p>If you’re a Killink CSV Editor user and you want to live life on the edge, please <a href="http://cdn.whitepeaksoftware.com/downloads/setup-killinkcsv-250.exe">download beta 2</a>, give it a test drive, and send email to <em>support at white peak software dot com</em> if you encounter any issues. Note this build of Killink CSV Editor installs, by default, in a separate directory allowing both Version 1.14 and Version 2.0 to co-exists on the same computer.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -441,21 +471,29 @@
     <published>2011-04-11T00:00:00-04:00</published>
     <updated>2011-04-11T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/04/11/great-time-at-vtm</id>
-    <content type="html"><![CDATA[<p>This weekend was <a href='http://voicesthatmatter.com/'>Voices That Matter</a> Seattle. It was my second time attending VTM and second time speaking. I have to say this latest installment of VTM was even better than the last one in Philly.</p>
+    <content type="html"><![CDATA[<p>This weekend was <a href="http://voicesthatmatter.com/">Voices That Matter</a> Seattle. It was my second time attending VTM and second time speaking. I have to say this latest installment of VTM was even better than the last one in Philly.</p>
 
-<p>My conference weekend kicked off on Friday with a full day workshop learning <a href='http://www.cocos2d-iphone.org/'>Cocos2D</a>. This workshop was full of juicy awesome goodness, and for the first time in my career I feel like I now know how to write a game. In fact I have a new game idea brewing in my head as I type this. <a href='http://twitter.com/rodstrougo'>Rod Strougo</a> and <a href='http://twitter.com/rwenderlich'>Ray Wenderlich</a> did an outstanding job putting together and teaching the full day workshop.</p>
+<p>My conference weekend kicked off on Friday with a full day workshop learning <a href="http://www.cocos2d-iphone.org/">Cocos2D</a>. This workshop was full of juicy awesome goodness, and for the first time in my career I feel like I now know how to write a game. In fact I have a new game idea brewing in my head as I type this. <a href="http://twitter.com/rodstrougo">Rod Strougo</a> and <a href="http://twitter.com/rwenderlich">Ray Wenderlich</a> did an outstanding job putting together and teaching the full day workshop.</p>
 
 <p>VTM continued to impress for the next two days. Some highlights for me included:</p>
 
-<p>* <a href='http://twitter.com/bmf'>Mike Lee&#8217;s</a> keynote. I was especially moved by the part where Mike talked about our wonderful iOS and Mac developer community.</p>
+<ul>
+  <li>
+    <p><a href="http://twitter.com/bmf">Mike Lee’s</a> keynote. I was especially moved by the part where Mike talked about our wonderful iOS and Mac developer community.</p>
+  </li>
+  <li>
+    <p>Hearing <a href="http://twitter.com/zaphodgjd">Graeme Devine</a> talk on Game Center and the Art of Addictive Games and getting to meet him. We had some good chats. It wasn’t until later I found out <a href="http://en.wikipedia.org/wiki/Graeme_Devine">who he really is</a>.</p>
+  </li>
+  <li>
+    <p>Meeting <a href="http://www.kevincallahan.org/">Kevin Callahan</a> and getting the one-on-one demo of <a href="http://www.kevincallahan.org/software/accessorizer.html">Accessorizer</a>. This app is awesome and does so much to make you more productive in Xcode.</p>
+  </li>
+  <li>
+    <p>And of course catching up with old friends and making new ones (too many to list here).</p>
+  </li>
+</ul>
 
-<p>* Hearing <a href='http://twitter.com/zaphodgjd'>Graeme Devine</a> talk on Game Center and the Art of Addictive Games and getting to meet him. We had some good chats. It wasn&#8217;t until later I found out <a href='http://en.wikipedia.org/wiki/Graeme_Devine'>who he really is</a>.</p>
-
-<p>* Meeting <a href='http://www.kevincallahan.org/'>Kevin Callahan</a> and getting the one-on-one demo of <a href='http://www.kevincallahan.org/software/accessorizer.html'>Accessorizer</a>. This app is awesome and does so much to make you more productive in Xcode.</p>
-
-<p>* And of course catching up with old friends and making new ones (too many to list here).</p>
-
-<p>Thanks to the <a href='http://twitter.com/vtm_iphone'>VTM organizers</a> for putting on a great event, and special thanks to <a href='http://twitter.com/chuckdude'>Chuck</a> for getting me from and to the airport.</p>]]></content>
+<p>Thanks to the <a href="http://twitter.com/vtm_iphone">VTM organizers</a> for putting on a great event, and special thanks to <a href="http://twitter.com/chuckdude">Chuck</a> for getting me from and to the airport.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -464,11 +502,12 @@
     <published>2011-03-29T00:00:00-04:00</published>
     <updated>2011-03-29T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/03/29/todays-email-outage</id>
-    <content type="html"><![CDATA[<p>White Peak Software suffered a major email server outage earlier today. Server hardware at the hosting provider died a horrible death causing the outage. I believe the outage started around 10:30 am Eastern and continued until almost 8:00 pm Eastern.</p>
+    <content type="html"><![CDATA[<p>White Peak Software suffered a major email server outage earlier today. Server hardware at the hosting provider died a horrible death causing the outage. I believe the outage started around 10:30 am Eastern and continued until almost 8:00 pm Eastern. </p>
 
-<p>After a few hours and reports of emails bouncing back with &#8220;invalid email address&#8221; errors, I decided to move the White Peak Software mail server to a new hosting provider. This meant email was once again flowing even while the original hosting provider tried to solve the hardware problems.</p>
+<p>After a few hours and reports of emails bouncing back with “invalid email address” errors, I decided to move the White Peak Software mail server to a new hosting provider. This meant email was once again flowing even while the original hosting provider tried to solve the hardware problems.</p>
 
-<p>Email seems to be stable again. However, if you sent an email to White Peak or me any time today and I have not responded then please resend the email. It&#8217;s likely the email fell into a black hole.</p>]]></content>
+<p>Email seems to be stable again. However, if you sent an email to White Peak or me any time today and I have not responded then please resend the email. It’s likely the email fell into a black hole.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -477,15 +516,16 @@
     <published>2011-03-16T00:00:00-04:00</published>
     <updated>2011-03-16T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic</id>
-    <content type="html"><![CDATA[<p>I received my shinny, new iPad 2 yesterday. When I turned it on I immediately saw yellowish discolorations along the top, right, and bottom edges. The discoloration at the top right corner is the worse and is about the size of my thumb. I tweeted about the problem to see if others have seen the same issue. A friend pointed me to <a href='http://www.theipadfan.com/ipad-2-screen/'>this site</a> which describes the problem and shows a picture of the discoloration.</p>
+    <content type="html"><![CDATA[<p>I received my shinny, new iPad 2 yesterday. When I turned it on I immediately saw yellowish discolorations along the top, right, and bottom edges. The discoloration at the top right corner is the worse and is about the size of my thumb. I tweeted about the problem to see if others have seen the same issue. A friend pointed me to <a href="http://www.theipadfan.com/ipad-2-screen/">this site</a> which describes the problem and shows a picture of the discoloration.</p>
 
-<p>So apparently this is a problem with the new iPad 2, but I don&#8217;t think it&#8217;s a major problem. Nor do I think it&#8217;s a problem with iPad 2 only. Here&#8217;s why.</p>
+<p>So apparently this is a problem with the new iPad 2, but I don’t think it’s a major problem. Nor do I think it’s a problem with iPad 2 only. Here’s why.</p>
 
-<p>It seems that many iPads will show some slight discoloration when displaying an all black screen with full brightness while in the dark. I see this on my first generation iPads, so this is not a new problem with the iPad 2. And I don&#8217;t see this as a major problem because under normal use you do not see the discoloration. I have used my first generation iPads (I have two of them) for nearly a year, and I have never noticed this problem. I can only see it when I display an all black screen with full brightness while in the dark, which is not a normal use case scenario.</p>
+<p>It seems that many iPads will show some slight discoloration when displaying an all black screen with full brightness while in the dark. I see this on my first generation iPads, so this is not a new problem with the iPad 2. And I don’t see this as a major problem because under normal use you do not see the discoloration. I have used my first generation iPads (I have two of them) for nearly a year, and I have never noticed this problem. I can only see it when I display an all black screen with full brightness while in the dark, which is not a normal use case scenario.</p>
 
-<p>With that said, the problem with my new iPad 2 is different. Yes, it&#8217;s the same yellowish discoloration, but in my particular case the discoloration is noticeable when using the iPad under normal conditions. The discoloration is visible on my device when running apps with black backgrounds (such as Kindle and Instapaper) with the brightness set to a low level while sitting in a room with natural daytime light. This is why I have asked Apple for a replacement. I wouldn&#8217;t care about the discoloration if it wasn&#8217;t noticeable under normal use, but for my particular device it is noticeable under normal use.</p>
+<p>With that said, the problem with my new iPad 2 is different. Yes, it’s the same yellowish discoloration, but in my particular case the discoloration is noticeable when using the iPad under normal conditions. The discoloration is visible on my device when running apps with black backgrounds (such as Kindle and Instapaper) with the brightness set to a low level while sitting in a room with natural daytime light. This is why I have asked Apple for a replacement. I wouldn’t care about the discoloration if it wasn’t noticeable under normal use, but for my particular device it is noticeable under normal use.</p>
 
-<p>So before you panic and think you have a defective iPad 2 because you can see some discoloration when looking at an all black screen with full brightness while in the dark, see if the discoloration is noticeable under normal conditions. I&#8217;m willing to bet your iPad is perfectly fine.</p>]]></content>
+<p>So before you panic and think you have a defective iPad 2 because you can see some discoloration when looking at an all black screen with full brightness while in the dark, see if the discoloration is noticeable under normal conditions. I’m willing to bet your iPad is perfectly fine.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -494,12 +534,13 @@
     <published>2011-02-24T00:00:00-05:00</published>
     <updated>2011-02-24T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
-    <content type="html"><![CDATA[<img align='left' src='/images/blog/2011-02-24-Knapsack.png' />
-<p>I&#8217;m very excited to announce a new partnership between <a href='http://outerlevel.com/'>Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href='http://outerlevel.com/licensekeeper/'>LicenseKeeper</a>, <a href='http://outerlevel.com/bullfrog-mac/'>Bullfrog</a>, and (my personal favorite) <a href='http://outerlevel.com/knapsack/'>Knapsack</a>. Outer Level&#8217;s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out.</p>
+    <content type="html"><![CDATA[<p><img src="/images/blog/2011-02-24-Knapsack.png" align="left" />
+I’m very excited to announce a new partnership between <a href="http://outerlevel.com/">Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href="http://outerlevel.com/licensekeeper/">LicenseKeeper</a>, <a href="http://outerlevel.com/bullfrog-mac/">Bullfrog</a>, and (my personal favorite) <a href="http://outerlevel.com/knapsack/">Knapsack</a>. Outer Level’s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out. </p>
 
-<p>I&#8217;m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level&#8217;s <a href='http://outerlevel.com/knapsack/'>travel app</a>.</p>
+<p>I’m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level’s <a href="http://outerlevel.com/knapsack/">travel app</a>. </p>
 
-<p>What impact will this have on White Peak Software? None. I will continue working for White Peak Software as I have for the last 7 and a half years (Wow! It&#8217;s been that long?!). This partnership will, however, reduce my availability for consulting work, but this is a good thing as it fits within my long term goals for White Peak.</p>]]></content>
+<p>What impact will this have on White Peak Software? None. I will continue working for White Peak Software as I have for the last 7 and a half years (Wow! It’s been that long?!). This partnership will, however, reduce my availability for consulting work, but this is a good thing as it fits within my long term goals for White Peak.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -508,13 +549,14 @@
     <published>2010-12-08T00:00:00-05:00</published>
     <updated>2010-12-08T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/12/08/adding-placeholder-text-to-uitextview</id>
-    <content type="html"><![CDATA[<p>I decided one of my apps should display placeholder text in a text view. Unfortunately UITextView does not have a placeholder property. I&#8217;ve always thought this is odd especially given the fact that UITextField has a placeholder property.</p>
+    <content type="html"><![CDATA[<p>I decided one of my apps should display placeholder text in a text view. Unfortunately UITextView does not have a placeholder property. I’ve always thought this is odd especially given the fact that UITextField has a placeholder property. </p>
 
-<p>I googled to see what others have done. I found <a href='http://stackoverflow.com/questions/1328638/placeholder-in-uitextview'>some good approaches</a> but no one solution that I liked. So I decided to write my own borrowing from the various ideas of others. The end result is KTTextView.</p>
+<p>I googled to see what others have done. I found <a href="http://stackoverflow.com/questions/1328638/placeholder-in-uitextview">some good approaches</a> but no one solution that I liked. So I decided to write my own borrowing from the various ideas of others. The end result is KTTextView.</p>
 
-<p><a href='https://github.com/kirbyt/KTTextView'>KTTextView</a> derives from UITextView and enhances it with new features. At the moment the only new feature is the placeholder text. The <strong>placeholderText</strong> property works same as UITextField&#8217;s placeholder property. I also added the property <strong>placeholderColor</strong> in case an app has the need to use a color different then the default placeholder color.</p>
+<p><a href="https://github.com/kirbyt/KTTextView">KTTextView</a> derives from UITextView and enhances it with new features. At the moment the only new feature is the placeholder text. The <strong>placeholderText</strong> property works same as UITextField’s placeholder property. I also added the property <strong>placeholderColor</strong> in case an app has the need to use a color different then the default placeholder color.</p>
 
-<p>KTTextView is hosted on <a href='https://github.com/kirbyt/KTTextView'>github</a>. The project includes a sample app showing how to use KTTextView. I plan to add more features as time allows. One feature I want to add is an option to display the text view in a rounded rectangle giving it a similar look to UITextField. In the meantime, I hope you find the KTTextView&#8217;s current implementation useful.</p>]]></content>
+<p>KTTextView is hosted on <a href="https://github.com/kirbyt/KTTextView">github</a>. The project includes a sample app showing how to use KTTextView. I plan to add more features as time allows. One feature I want to add is an option to display the text view in a rounded rectangle giving it a similar look to UITextField. In the meantime, I hope you find the KTTextView’s current implementation useful.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -529,41 +571,52 @@
 
 <p>Over the next few months we negotiated the terms of the agreement. At the same time, we worked on rebranding Labor Mate. I was pleased with the final results, which was a much nicer looking Labor Mate. And the corporate branding was done in a very tasteful, non-intrusive manner. My only complaints, which were minor, were the desire to include a splash screen and the new look was a little too foo-foo looking for my liking. Still, I was excited about the opportunity.</p>
 
-<p>It wasn&#8217;t until about a month ago that my opinions about the deal started changing from excitement to concerns. Contract negotiations were slow and becoming much more complex. Lawyers got involved turning a &#8220;no nonsense&#8221; agreement into a 3 year commitment with requirements for various liability insurance, errors and omissions insurance, service level agreements, and more. Assuming Labor Mate sales remain the same for first 12 months of the agreement, I would pay out roughly 25% of net revenue just in legal and insurance fees. The deal was no longer feeling like a great opportunity.</p>
+<p>It wasn’t until about a month ago that my opinions about the deal started changing from excitement to concerns. Contract negotiations were slow and becoming much more complex. Lawyers got involved turning a “no nonsense” agreement into a 3 year commitment with requirements for various liability insurance, errors and omissions insurance, service level agreements, and more. Assuming Labor Mate sales remain the same for first 12 months of the agreement, I would pay out roughly 25% of net revenue just in legal and insurance fees. The deal was no longer feeling like a great opportunity.</p>
 
-<p>The slow progress on contract negotiations wasn&#8217;t the only thing changing my mind about the opportunity. I starting feeling as if I would not have final say in Labor Mate&#8217;s functionality. Also, receiving visual assets from the large company was slower then I&#8217;m use to, and the extra time needed for internal approval of the app before submitting to Apple was dragging. My concerns grew as a result. I set aside time to work on a White Peak Software products, and I often don&#8217;t have time or patience for these types of delays. Was this something I could expect in the coming years?</p>
+<p>The slow progress on contract negotiations wasn’t the only thing changing my mind about the opportunity. I starting feeling as if I would not have final say in Labor Mate’s functionality. Also, receiving visual assets from the large company was slower then I’m use to, and the extra time needed for internal approval of the app before submitting to Apple was dragging. My concerns grew as a result. I set aside time to work on a White Peak Software products, and I often don’t have time or patience for these types of delays. Was this something I could expect in the coming years?</p>
 
-<p>As the weeks went by I was starting to feel like the once great opportunity was raising too many warning flags indicating a nightmare in the making. Now please note, what I would call a nightmare business arrangement might be a walk in the park for others. I&#8217;m set in my ways. I&#8217;m an indie dev. I work from home. I make the decisions. I control what I work on and when. I have my own way of working, providing support, and determining success. And I don&#8217;t like making compromises on matters I disagree with. Anything that changes this for me is a nightmare in the making.</p>
+<p>As the weeks went by I was starting to feel like the once great opportunity was raising too many warning flags indicating a nightmare in the making. Now please note, what I would call a nightmare business arrangement might be a walk in the park for others. I’m set in my ways. I’m an indie dev. I work from home. I make the decisions. I control what I work on and when. I have my own way of working, providing support, and determining success. And I don’t like making compromises on matters I disagree with. Anything that changes this for me is a nightmare in the making.</p>
 
-<p>I started feeling the deal would mean giving up the control and freedom I enjoy as an indie dev. I felt I might be expected to drop everything when the large company decided changes were needed for the app. And I would need approval from the large company on any and all changes I want to make to the app. There was also a good amount of monthly reporting required, beyond financial reporting, that is not uncommon in Corporate America. The deal would mean I have a bond with a large corporate business partner regarding this one app and as my past has repeatedly shown, I don&#8217;t function well in Corporate America.</p>
+<p>I started feeling the deal would mean giving up the control and freedom I enjoy as an indie dev. I felt I might be expected to drop everything when the large company decided changes were needed for the app. And I would need approval from the large company on any and all changes I want to make to the app. There was also a good amount of monthly reporting required, beyond financial reporting, that is not uncommon in Corporate America. The deal would mean I have a bond with a large corporate business partner regarding this one app and as my past has repeatedly shown, I don’t function well in Corporate America.</p>
 
-<p>To make matters worse, there was no long term plan for the rebranded Labor Mate. What happens if the agreement is terminated early? Would that be the end of Labor Mate? Would I be required to pull it from the App Store or would I only need to remove the branding elements from the app? Would there be pressure to support other mobile platforms? And what if my vision for Labor Mate&#8217;s future differs from the large company&#8217;s vision? What would be my options going forward with Labor Mate?</p>
+<p>To make matters worse, there was no long term plan for the rebranded Labor Mate. What happens if the agreement is terminated early? Would that be the end of Labor Mate? Would I be required to pull it from the App Store or would I only need to remove the branding elements from the app? Would there be pressure to support other mobile platforms? And what if my vision for Labor Mate’s future differs from the large company’s vision? What would be my options going forward with Labor Mate? </p>
 
-<p>There were too many unanswered questions for my liking. What was once an exciting opportunity was already causing undo stress and concerns for me. In the 3 months that past, things didn&#8217;t get better. They got worse, from my point of view. And if that can happen in a short 3 months, what would the next 3 years be like? My gut kept telling me it would be a 3 year nightmare.</p>
+<p>There were too many unanswered questions for my liking. What was once an exciting opportunity was already causing undo stress and concerns for me. In the 3 months that past, things didn’t get better. They got worse, from my point of view. And if that can happen in a short 3 months, what would the next 3 years be like? My gut kept telling me it would be a 3 year nightmare.</p>
 
 <p>Everyone I talked to about this deal agreed, it sounded like a great opportunity in the beginning but not so great in the end. Everyone also agreed I should walk away from the deal before it was too late.</p>
 
-<p>So today I talked with my contacts at the large company. I explained that this opportunity wasn&#8217;t right for White Peak Software and that I am stepping away from the deal. To my surprise, it came as no surprise. I guess that means I did a good job communicating my concerns over the last couple of months. It also might mean they recognize indie devs and Corporate America don&#8217;t always mix.</p>
+<p>So today I talked with my contacts at the large company. I explained that this opportunity wasn’t right for White Peak Software and that I am stepping away from the deal. To my surprise, it came as no surprise. I guess that means I did a good job communicating my concerns over the last couple of months. It also might mean they recognize indie devs and Corporate America don’t always mix.</p>
 
-<p>I should note the individuals at the large company were friendly, understanding, and tried their best to make the deal work. They too were feeling the stress and were annoyed with the lengthy negotiations. In the end, though, I had to decide what&#8217;s best for my company, and this deal wasn&#8217;t in White Peak Software&#8217;s best interest.</p>
+<p>I should note the individuals at the large company were friendly, understanding, and tried their best to make the deal work. They too were feeling the stress and were annoyed with the lengthy negotiations. In the end, though, I had to decide what’s best for my company, and this deal wasn’t in White Peak Software’s best interest.</p>
 
 <p>Despite the distractions of this deal over the last 3 months, all is not lost. I did learn, and re-learn, some valuable lessons.</p>
 
-<p>1. If it sounds too good to be true then it probably is.</p>
+<ol>
+  <li>
+    <p>If it sounds too good to be true then it probably is.</p>
+  </li>
+  <li>
+    <p>Lawyers for the other side suck because they are not looking out for your best interest. Lawyers for your side are awesome because they are looking out for the your best interest.</p>
+  </li>
+  <li>
+    <p>Talk to friends, peers, business associates and colleagues, and anyone else who will listen about any major business deal. They will often provide insight and points of view you will never think of.</p>
+  </li>
+  <li>
+    <p>Don’t get distracted by too good to be true opportunities that do not fit into your business plan. And don’t try to make the opportunity fit into your business plan just because it sounds too good to pass up. It’s either a natural fit for your business or it is not.</p>
+  </li>
+  <li>
+    <p>Stand by your principles</p>
+  </li>
+  <li>
+    <p>It’ okay to say “No” even if no comes 3 months down the road.</p>
+  </li>
+  <li>
+    <p>And lastly, if it sounds too good to be true then it probably is.</p>
+  </li>
+</ol>
 
-<p>2. Lawyers for the other side suck because they are not looking out for your best interest. Lawyers for your side are awesome because they are looking out for the your best interest.</p>
-
-<p>3. Talk to friends, peers, business associates and colleagues, and anyone else who will listen about any major business deal. They will often provide insight and points of view you will never think of.</p>
-
-<p>4. Don&#8217;t get distracted by too good to be true opportunities that do not fit into your business plan. And don&#8217;t try to make the opportunity fit into your business plan just because it sounds too good to pass up. It&#8217;s either a natural fit for your business or it is not.</p>
-
-<p>5. Stand by your principles</p>
-
-<p>6. It&#8217; okay to say &#8220;No&#8221; even if no comes 3 months down the road.</p>
-
-<p>7. And lastly, if it sounds too good to be true then it probably is.</p>
-
-<p>So what&#8217;s next for Labor Mate? I&#8217;m going to take the money I would have spent on extra insurance, hire a kick-ass designer, and get to work on Labor Mate 2.</p>]]></content>
+<p>So what’s next for Labor Mate? I’m going to take the money I would have spent on extra insurance, hire a kick-ass designer, and get to work on Labor Mate 2.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -572,72 +625,51 @@
     <published>2010-10-26T00:00:00-04:00</published>
     <updated>2010-10-26T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/10/26/turbo-pascal-on-ipad</id>
-    <content type="html"><![CDATA[<p>Isn&#8217;t not like I need a distraction from work, but I couldn&#8217;t resist this one. I saw a tweet about iDOS, a DOS emulator app just released for iPad and iPhone. For fear the app will be pulled from the App Store, I bought it right away. Besides, it&#8217;s only 99 cent.</p>
+    <content type="html"><![CDATA[<p>Isn’t not like I need a distraction from work, but I couldn’t resist this one. I saw a tweet about iDOS, a DOS emulator app just released for iPad and iPhone. For fear the app will be pulled from the App Store, I bought it right away. Besides, it’s only 99 cent.</p>
 
-<p>I read a story about someone <a href='http://toucharcade.com/2010/10/26/idos/'>installing Windows 3.0 inside of iDOS</a>. Sounds cool but I&#8217;m not interested in Windows 3.0. Instead, I decided to install Turbo Pascal. Embarcadero recently posted <a href='http://edn.embarcadero.com/article/20803'>Turbo Pascal v5.5 as a free download</a> so the first thing I did was to grab a copy of it. Next, I grabbed an <a href='http://www.info-zip.org/UnZip.html#Downloads'>unzip program</a> so I can unzip TP55.zip in iDOS. (Save time and <a href='ftp://ftp.info-zip.org/pub/infozip/msdos/'>go here</a> to download unz552x3.exe.)</p>
+<p>I read a story about someone <a href="http://toucharcade.com/2010/10/26/idos/">installing Windows 3.0 inside of iDOS</a>. Sounds cool but I’m not interested in Windows 3.0. Instead, I decided to install Turbo Pascal. Embarcadero recently posted <a href="http://edn.embarcadero.com/article/20803">Turbo Pascal v5.5 as a free download</a> so the first thing I did was to grab a copy of it. Next, I grabbed an <a href="http://www.info-zip.org/UnZip.html#Downloads">unzip program</a> so I can unzip TP55.zip in iDOS. (Save time and <a href="ftp://ftp.info-zip.org/pub/infozip/msdos/">go here</a> to download unz552x3.exe.)</p>
 
 <p>Here are the remaining steps I followed to get Turbo Pascal up and running on my iPad.</p>
 
-<p>* Connect the iPad to iTunes.</p>
+<ul>
+  <li>
+    <p>Connect the iPad to iTunes.</p>
+  </li>
+  <li>
+    <p>In iTunes, go to the Apps tab for the connected iPad and scroll down to the file sharing section.</p>
+  </li>
+  <li>
+    <p>Drag and drop TP55.zip and unz552x3.exe to iDOS.</p>
+  </li>
+  <li>
+    <p>Sync the device.</p>
+  </li>
+  <li>
+    <p>Once sync is complete, launch iDOS on the iPad. You’ll find the two files in the root directory.</p>
+  </li>
+  <li>
+    <p>Copy unz552x3.exe to a new directory, or just run it in the root directory. This will uncompress the unzip utility files. I prefer running it in a separate directory to keep the root clean.</p>
+  </li>
+  <li>
+    <p>Unzip TP55.zip. This will create two directories, DISK1 and DISK2. Again, I copied TP55.zip to a temp directory before unzip.</p>
+  </li>
+  <li>
+    <p>Run install.exe found in the DISK1 directory. If your experience is similar to mine, you will get a message saying to insert the oop/demos/bgi/doc diskette. I’m guessing the installer can’t find the directory DISK2.</p>
+  </li>
+  <li>
+    <p>At this point, I aborted the install. Not to worry. Turbo Pascal’s IDE, compiler, etc have been installed.</p>
+  </li>
+  <li>
+    <p>By default, the IDE can be found in c:\TP. The program file to run is turbo.exe.</p>
+  </li>
+</ul>
 
-<p>* In iTunes, go to the Apps tab for the connected iPad and scroll down to the file sharing section.</p>
+<p>That’s it. Happy coding!</p>
 
-<p>* Drag and drop TP55.zip and unz552x3.exe to iDOS.</p>
+<p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href="http://code.google.com/p/dospad/">download the source code for DOSPad</a> and build your own version. </p>
 
-<p>* Sync the device.</p>
-
-<p>* Once sync is complete, launch iDOS on the iPad. You&#8217;ll find the two files in the root directory.</p>
-
-<p>* Copy unz552x3.exe to a new directory, or just run it in the root directory. This will uncompress the unzip utility files. I prefer running it in a separate directory to keep the root clean.</p>
-
-<p>* Unzip TP55.zip. This will create two directories, DISK1 and DISK2. Again, I copied TP55.zip to a temp directory before unzip.</p>
-
-<p>* Run install.exe found in the DISK1 directory. If your experience is similar to mine, you will get a message saying to insert the oop/demos/bgi/doc diskette. I&#8217;m guessing the installer can&#8217;t find the directory DISK2.</p>
-
-<p>* At this point, I aborted the install. Not to worry. Turbo Pascal&#8217;s IDE, compiler, etc have been installed.</p>
-
-<p>* By default, the IDE can be found in c:\TP. The program file to run is turbo.exe.</p>
-
-<p>That&#8217;s it. Happy coding!</p>
-
-<p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href='http://code.google.com/p/dospad/'>download the source code for DOSPad</a> and build your own version.</p>
-
-<p><img alt='photo-4.PNG' src='/images/blog/2010-10-26-photo-41.PNG' /></p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Initial Thoughts on the Mac App Store]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/10/21/my-initial-thoughts-of-the-mac-app-store/"/>
-    <published>2010-10-21T00:00:00-04:00</published>
-    <updated>2010-10-21T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/10/21/my-initial-thoughts-of-the-mac-app-store</id>
-    <content type="html"><![CDATA[<p>Yesterday Apple announced the Mac App Store, which will be available in 90 days. The Mac App Store is modeled after the iOS App Store. The store provides customers a trusted way to buy and download safe, quality software for the Mac OS X desktop. As with the iOS App Store, software developers must submit their apps to Apple for review, <a href='http://developer.apple.com/appstore/mac/resources/approval/guidelines.html'>apps must adhere to a list of rules</a>, and Apple gets 30% of the app price for each unit sold.</p>
-
-<p>My first impression when reading about the announcement was 30% is too high. E-commerce providers such as Fastspring and eSellerate charge a much lower percentage. But the Mac App Store does do a few things that other e-commerce providers do not. The Mac App Store has the potential to reach many more users given that the app will be available on the desktop. Also, the Mac App Store will host the download file. But when I think about it, none of this is new. The only thing new is Apple.</p>
-
-<p>Download sites have existed for years. The <a href='http://pad.asp-software.org/spec/spec.php'>PAD specification</a>, which has been available for years, provides a mechanism for software vendors to publish app metadata and be discovered by download sites, and ultimately by customers. And many download sites and e-commerce providers provide hosting of the app. Even Microsoft gave it a try with its web-based app store concept called <a href='http://www.windowsmarketplace.com/'>Microsoft Marketplace</a>, which after many years is no more. So it seems to me, the only thing new and different about the Mac App Store is the review process.</p>
-
-<p>Downloading desktop software from download sites can be risky. You never know if the software you download contains a virus or malware. Attempts such as pre-scanning software for viruses by download sites have been made to instill trust but at the end of the day it&#8217;s hard to trust software downloaded from these sites. The <a href='http://www.asp-software.org/'>Association of Software Professionals</a> have attempted tackling the trust issue for years and has had some success. Still, at the end of the day, gaining customer trust with an online business is challenging.</p>
-
-<p>Personally, I never download software from download sites but I buy a lot of software online. I only buy and download software from the vendor&#8217;s own web site, and I&#8217;ll only do it when I feel I can trust the vendor. The vendor earns my trust by having a professional online presence, provides contact information with bonus points for having a physical address and phone number, offers a money back guarantee, and most importantly digitally signing the software with a certificate from a trusted CA. If you browse the White Peak Software web site, you&#8217;ll see I follow these trust rules myself.</p>
-
-<p>Trust is important when doing business in the online world, and the Mac App Store will help gain customer trust. This should, in turn, help encourage customers who have never bought desktop software online to final do so. The added level of trust and the potential reach to new customers makes the 30% cut to Apple worth while in my opinion. But I still have concerns, from a developer&#8217;s point of view, about the Mac App Store.</p>
-
-<p>Many existing, and popular, apps sold today including some from Apple will be rejected from the store based on the list of <a href='http://developer.apple.com/appstore/mac/resources/approval/guidelines.html'>review rules</a>. But a bigger concern for me is that software vendors wishing to sell through the Mac App Store as well as through their own company web site will be required to maintain two different versions of the same app. Mac App Store apps cannot be self updating, cannot be trial version, and cannot use its own licensing scheme. These three things are key components to selling desktop software on the Internet today. This means a software vendor wishing to sell an app through the Mac App Store as well as through its own company store must have two separate builds of the app, one build without the self updating, trial version, and licensing scheme for the Mac App Store, and one build containing these features for sell through one&#8217;s own online store.</p>
-
-<p>Another concern I have with the Mac App Store is the lack of pricing and licensing options. For example, Killink CSV is a business app bought by individuals and large companies alike. By selling directly to the customer, I can offer various pricing and licensing options. I offer a volume discount on purchases. The more single user licenses you buy, the lower the per unit cost. I offer a site license option too, which allows customers to pay a lower price while being able to install the software on a greater number of computers. Then there are coupons. I use coupons to offer discount pricing for a variety of reasons. It&#8217;s doubtful the Mac App Store will support coupons in the next 90 days. Then there are affiliates. While sells from affiliates represents only a small portion of my product revenue, affiliates do bring in additional customers. Come to think of it, in a way, one could think of the Mac App Store as an affiliate with review process.</p>
-
-<p>I can&#8217;t help but wonder&#8230;giving the fact that I have more control over pricing, can offer discounts, and run sales using coupons&#8230;will customers become annoyed when they pay one price for my app in the Mac App Store only to find out they could have saved money by buying directly? And how will customer support change with the introduction of the Mac App Store? I&#8217;m assuming Apple will not provide any customer information after a purchase to the software vendor. What happens when a customer calls or emails me about re-installing the app on a new computer? I&#8217;ll have to first find out how they purchased the app, through the Mac App Store or through my web site. I can see it now, a customer responds with, &#8220;I don&#8217;t remember.&#8221; And what about refunds? Direct purchases can be refunded, Mac App Store purchases, well, &#8220;You&#8217;ll have to talk with Apple.&#8221;</p>
-
-<p>Overall, I can see the Mac App Store leading to confusion and delay.</p>
-
-<p>Oh, and then there is the concern of paid upgrades. Many, if not most, desktop software vendors count on revenue earned by paid upgrades. Paid upgrades are currently not supported in the iOS App Store, so I have to think the same will be true of the Mac App Store.</p>
-
-<p>And let&#8217;s not forget the trial versions of the app. A customer can come to my web site and download a free 30-day trial of my software. This gives the user time to evaluate the app before making a purchasing decision. This is not going to happen, at least not initially, with the Mac App Store. Will this lead to users demanding lower prices and if so will software vendors given in starting a new race to the bottom. I certainly hope not. Software vendors need to stay their ground and price their products based on the value of the app.</p>
-
-<p>Will my app be rejected from the Mac App Store if I include in the app description, &#8220;Come to my web site to download a free 30-day trial&#8221;? And what of cross-platform apps? Say I write a version of Killink CSV for the Mac. According to the list of review rules, I cannot mention the availability of the Windows version in the app&#8217;s metadata. If I do, it will be rejected even if this is a key selling point of the app.</p>
-
-<p>I welcome the Mac App Store. It has great potential for tapping into a customer base that otherwise would be un-tappable. But I worry the Mac App Store is not the right place for many desktop app and by not being in the Mac App Store sells will suffer. Only time will tell if the Mac App Store will help software vendors, especially the indie shops like White Peak Software, to succeed.</p>]]></content>
+<p><img src="/images/blog/2010-10-26-photo-41.PNG" alt="photo-4.PNG" /></p>
+]]></content>
   </entry>
   
 </feed>

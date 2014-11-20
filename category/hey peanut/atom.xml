@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hey peanut | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/hey peanut/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2014-03-17T11:35:53-04:00</updated>
+  <updated>2014-11-20T12:15:47-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -17,15 +17,17 @@
     <link href="http://blog.whitepeaksoftware.com/2013/01/02/ann-product-retirement/"/>
     <updated>2013-01-02T00:00:00-05:00</updated>
     <id>http://blog.whitepeaksoftware.com/2013/01/02/ann-product-retirement</id>
-    <content type="html"><![CDATA[<p>It&#8217;s a brand new year, and as the saying goes, out with the old and in with the new.</p>
+    <content type="html"><![CDATA[<p>It’s a brand new year, and as the saying goes, out with the old and in with the new. </p>
 
-<p>I mentioned in my <a href='/2012/12/29/year-in-review/'>2012 Year in Review</a> post that I&#8217;m re-focusing my intention on White Peak Software this year. In some was this re-focus is like a re-boot for WPS. This means exciting new things for the company going forward, but it also means it&#8217;s time to good bye a couple of products.</p>
+<p>I mentioned in my <a href="/2012/12/29/year-in-review/">2012 Year in Review</a> post that I’m re-focusing my intention on White Peak Software this year. In some was this re-focus is like a re-boot for WPS. This means exciting new things for the company going forward, but it also means it’s time to good bye a couple of products.</p>
 
-<p>The first product retiring is SMTP Diagnostics. SMTP Diagnostics was White Peak Software&#8217;s very first product. I honestly did not know if the app would sell or not, nor did I care. I released it because, at the time, it was an app I needed and used regularly. The release of SMTP Diagnostics also gave me the opportunity to learn how to sell software online. Without SMTP Diagnostics, I would not have been as prepared for the other White Peak Software apps.</p>
+<p>The first product retiring is SMTP Diagnostics. SMTP Diagnostics was White Peak Software’s very first product. I honestly did not know if the app would sell or not, nor did I care. I released it because, at the time, it was an app I needed and used regularly. The release of SMTP Diagnostics also gave me the opportunity to learn how to sell software online. Without SMTP Diagnostics, I would not have been as prepared for the other White Peak Software apps.</p>
 
 <p>The second product retiring today is Hey Peanut. Hey Peanut was written for my son Rowan, who was only one and a half at the time. I had high hopes for Hey Peanut. My son loved the app, and I thought other kids would enjoy it as well. I invested time and money into the app, but unfortunately I missed the mark with it. All is not lost though. I learned a lot from the mistakes I made with Hey Peanut that will help me going forward.</p>
 
-<p>It saddens me to see these two apps removed from the White Peak Software home page. Both are very special to me in their own ways. But it is a new year, so out with the old and in with the new.</p>]]></content>
+<p>It saddens me to see these two apps removed from the White Peak Software home page. Both are very special to me in their own ways. But it is a new year, so out with the old and in with the new.</p>
+
+]]></content>
   </entry>
   
   <entry>
@@ -35,11 +37,12 @@
     <id>http://blog.whitepeaksoftware.com/2010/08/26/ann-hey-peanut-1-3-is-in-the-app-store</id>
     <content type="html"><![CDATA[<p>Hey Peanut 1.3 is now available in the App Store. The 1.3 update to Hey Peanut includes a new safari theme and all new animal sound effects.</p>
 
-<p>What is Hey Peanut? Hey Peanut is a photo app for toddlers available on iPhone and iPad. Parents add pictures to Hey Peanut and optionally record a message on each picture. Then your 1 to 3 year old can flip through the pictures, touching each one to hear the recorded message. Hey Peanut also includes colorful themes with fun sound effects to entertain your child.</p>
+<p>What is Hey Peanut? Hey Peanut is a photo app for toddlers available on iPhone and iPad. Parents add pictures to Hey Peanut and optionally record a message on each picture. Then your 1 to 3 year old can flip through the pictures, touching each one to hear the recorded message. Hey Peanut also includes colorful themes with fun sound effects to entertain your child. </p>
 
-<p>Keep an eye on the <a href='http://twitter.com/heypeanutapp'>@HeyPeanutApp</a> and <a href='http://twitter.com/whitepeak'>@WhitePeak</a> Twitter feeds for free promo codes.</p>
+<p>Keep an eye on the <a href="http://twitter.com/heypeanutapp">@HeyPeanutApp</a> and <a href="http://twitter.com/whitepeak">@WhitePeak</a> Twitter feeds for free promo codes.</p>
 
-<p><img alt='HeyPeanut-1.3-preview2.png' src='/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png' /></p>]]></content>
+<p><img src="/images/blog/2010-08-26-HeyPeanut-1.3-preview2.png" alt="HeyPeanut-1.3-preview2.png" /></p>
+]]></content>
   </entry>
   
   <entry>
@@ -47,7 +50,8 @@
     <link href="http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store/"/>
     <updated>2010-07-07T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/07/07/ann-hey-peanut-1-2-is-in-the-app-store</id>
-    <content type="html"><![CDATA[<p>I&#8217;m happy to announce version 1.2 of Hey Peanut, the photo app for toddlers available on the iPhone and iPad, is now available in the App Store. This update fixes bugs reported on iOS4 and adds new HD artwork for iPhone 4.</p>]]></content>
+    <content type="html"><![CDATA[<p>I’m happy to announce version 1.2 of Hey Peanut, the photo app for toddlers available on the iPhone and iPad, is now available in the App Store. This update fixes bugs reported on iOS4 and adds new HD artwork for iPhone 4.</p>
+]]></content>
   </entry>
   
   <entry>
@@ -55,11 +59,12 @@
     <link href="http://blog.whitepeaksoftware.com/2010/04/02/hey-peanut-ipad-app-for-toddlers/"/>
     <updated>2010-04-02T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/04/02/hey-peanut-ipad-app-for-toddlers</id>
-    <content type="html"><![CDATA[<p>Hey Peanut version 1.1 has just been released and is available in the App Store. I&#8217;m very excited about this update because it adds support for the new iPad, which will be available for purchase tomorrow. Best of all the update is free to existing users, so if you already bought Hey Peanut and you are getting an iPad then you will get the iPad version of Hey Peanut for free as well.</p>
+    <content type="html"><![CDATA[<p>Hey Peanut version 1.1 has just been released and is available in the App Store. I’m very excited about this update because it adds support for the new iPad, which will be available for purchase tomorrow. Best of all the update is free to existing users, so if you already bought Hey Peanut and you are getting an iPad then you will get the iPad version of Hey Peanut for free as well.</p>
 
-<p>Haven&#8217;t bought Hey Peanut for your toddler? No worries. The price will remain $1.99 and will include both the iPhone and iPad versions. It&#8217;s like getting 2 apps for the price of 1.</p>
+<p>Haven’t bought Hey Peanut for your toddler? No worries. The price will remain $1.99 and will include both the iPhone and iPad versions. It’s like getting 2 apps for the price of 1.</p>
 
-<p><img alt='HeyPeanut-iPad-Sample.png' src='/images/blog/2010-04-02-HeyPeanut-iPad-Sample.png' /></p>]]></content>
+<p><img src="/images/blog/2010-04-02-HeyPeanut-iPad-Sample.png" alt="HeyPeanut-iPad-Sample.png" /></p>
+]]></content>
   </entry>
   
   <entry>
@@ -67,13 +72,14 @@
     <link href="http://blog.whitepeaksoftware.com/2010/03/17/hey-peanut-for-the-iphone-is-in-the-app-store/"/>
     <updated>2010-03-17T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2010/03/17/hey-peanut-for-the-iphone-is-in-the-app-store</id>
-    <content type="html"><![CDATA[<p>I&#8217;m very excited to announce the immediate availability of Hey Peanut in the App Store. Hey Peanut is a new type of photo browser on the iPhone and iPod touch designed specifically for your toddler, ages 1 to 3 years old. Hey Peanut is kid tested and parent approve. It includes fun farm animals and sound effects to entertain your little one, but the best feature is the built-in voice recorder.</p>
+    <content type="html"><![CDATA[<p>I’m very excited to announce the immediate availability of Hey Peanut in the App Store. Hey Peanut is a new type of photo browser on the iPhone and iPod touch designed specifically for your toddler, ages 1 to 3 years old. Hey Peanut is kid tested and parent approve. It includes fun farm animals and sound effects to entertain your little one, but the best feature is the built-in voice recorder.</p>
 
 <p>Add photos of family and friends then have them record a voice message for your child. When you child touches the photo the voice recording will play. This is a great way for your child to see and hear love ones who might live or be out of town.</p>
 
-<p>My son Rowan, at the age of 20 months, helped me design Hey Peanut. He played with Hey Peanut at every stage. He hated it in the beginning, always saying &#8220;No, no!&#8221; But once all the pieces were in place, the music, farm scenes, and sound effects, he loved it. He now plays with Hey Peanut often and especially enjoys seeing and hearing his mom when she is out of town working.</p>
+<p>My son Rowan, at the age of 20 months, helped me design Hey Peanut. He played with Hey Peanut at every stage. He hated it in the beginning, always saying “No, no!” But once all the pieces were in place, the music, farm scenes, and sound effects, he loved it. He now plays with Hey Peanut often and especially enjoys seeing and hearing his mom when she is out of town working.</p>
 
-<p>If you have love ones who live out of town, or a parent that travels often, then you toddler is going to love Hey Peanut.</p>]]></content>
+<p>If you have love ones who live out of town, or a parent that travels often, then you toddler is going to love Hey Peanut.</p>
+]]></content>
   </entry>
   
 </feed>

@@ -57,15 +57,16 @@
          <div class="grid_10 suffix_1">
          <h2><a href="/2010/02/02/switching-the-xcode-path-using-xcode-select/">Switching the Xcode Path using xcode-select</a></h2>
  
-<p>I currently have two versions of Xcode installed on my primary development machine. One version is the official release from Apple and the other version is a beta version. I install the latest release in the default directory /Developer and I install beta releases in a parallel directory, /Developer-n.n.n where &#8220;n.n.n&#8221; is the Xcode version number.</p>
+<p>I currently have two versions of Xcode installed on my primary development machine. One version is the official release from Apple and the other version is a beta version. I install the latest release in the default directory /Developer and I install beta releases in a parallel directory, /Developer-n.n.n where “n.n.n” is the Xcode version number. </p>
 
-<p>I also have a number of different distribution certificates for making adhoc and distribution builds for my iPhone apps and client apps. I use different keychains to manage the multiple certificates. Because of this I rely on bash scripts to make adhoc and distribution builds of the different iPhone apps that I am responsible for.</p>
+<p>I also have a number of different distribution certificates for making adhoc and distribution builds for my iPhone apps and client apps. I use different keychains to manage the multiple certificates. Because of this I rely on bash scripts to make adhoc and distribution builds of the different iPhone apps that I am responsible for. </p>
 
-<p>The latest Xcode beta release does not include iPhone OS SDK 2.2.1. Not really a big deal for me since the SDK is included in Xcode 3.2.1. However, to my surprise when I ran a script for a 2.2.1 app the build failed to find the 2.2.1 SDK. Turns out installing the latest beta release replaces the <em>/usr/bin/xcodebuild</em> command. Oh know! My build script no longer works for 2.2.1 apps.</p>
+<p>The latest Xcode beta release does not include iPhone OS SDK 2.2.1. Not really a big deal for me since the SDK is included in Xcode 3.2.1. However, to my surprise when I ran a script for a 2.2.1 app the build failed to find the 2.2.1 SDK. Turns out installing the latest beta release replaces the <em>/usr/bin/xcodebuild</em> command. Oh know! My build script no longer works for 2.2.1 apps. </p>
 
-<p>Thanks to a tip from <a href='http://twitter.com/joar_at_work'>@joar_at_work</a> on Twitter I was able to solve the problem. The magical command I needed was <em>/usr/bin/xcode-select</em>. This command allows you to change the Xcode directory used by xcodebuild. For instance, in my situation xcodebuild was looking at /Developer-3.2.2 which does not include iPhone OS SDK 2.2.1. By using xcode-select I was able to point xcodebuild to the /Developer directory.</p>
+<p>Thanks to a tip from <a href="http://twitter.com/joar_at_work">@joar_at_work</a> on Twitter I was able to solve the problem. The magical command I needed was <em>/usr/bin/xcode-select</em>. This command allows you to change the Xcode directory used by xcodebuild. For instance, in my situation xcodebuild was looking at /Developer-3.2.2 which does not include iPhone OS SDK 2.2.1. By using xcode-select I was able to point xcodebuild to the /Developer directory. </p>
 
 <p>Switching directories is simple with xcode-select. Just use the -switch option. For example: <strong>xcode-select -switch /Developer</strong>. This did the trick for me and my build scripts were once again working with the correct Xcode environment.</p>
+
 
 <p class="postmetadata">
     <small>
@@ -97,6 +98,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
+      </li>
+    
+      <li class="post">
         <a href="/2014/03/17/exclusive-ios-not-really/">iOS Exclusive, Well, Not Really</a>
       </li>
     
@@ -112,22 +117,19 @@
         <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/04/29/360intersect-was-great/">360intersect was Great</a>
-      </li>
-    
   </ul>
 </section>
 
             <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (20)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (1)</a></li>
+<li class='category'><a href='/category/ios/'>ios (2)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>

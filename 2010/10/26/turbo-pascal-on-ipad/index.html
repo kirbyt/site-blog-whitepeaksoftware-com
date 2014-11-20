@@ -57,37 +57,51 @@
          <div class="grid_10 suffix_1">
          <h2><a href="/2010/10/26/turbo-pascal-on-ipad/">Turbo Pascal on iPad</a></h2>
  
-<p>Isn&#8217;t not like I need a distraction from work, but I couldn&#8217;t resist this one. I saw a tweet about iDOS, a DOS emulator app just released for iPad and iPhone. For fear the app will be pulled from the App Store, I bought it right away. Besides, it&#8217;s only 99 cent.</p>
+<p>Isn’t not like I need a distraction from work, but I couldn’t resist this one. I saw a tweet about iDOS, a DOS emulator app just released for iPad and iPhone. For fear the app will be pulled from the App Store, I bought it right away. Besides, it’s only 99 cent.</p>
 
-<p>I read a story about someone <a href='http://toucharcade.com/2010/10/26/idos/'>installing Windows 3.0 inside of iDOS</a>. Sounds cool but I&#8217;m not interested in Windows 3.0. Instead, I decided to install Turbo Pascal. Embarcadero recently posted <a href='http://edn.embarcadero.com/article/20803'>Turbo Pascal v5.5 as a free download</a> so the first thing I did was to grab a copy of it. Next, I grabbed an <a href='http://www.info-zip.org/UnZip.html#Downloads'>unzip program</a> so I can unzip TP55.zip in iDOS. (Save time and <a href='ftp://ftp.info-zip.org/pub/infozip/msdos/'>go here</a> to download unz552x3.exe.)</p>
+<p>I read a story about someone <a href="http://toucharcade.com/2010/10/26/idos/">installing Windows 3.0 inside of iDOS</a>. Sounds cool but I’m not interested in Windows 3.0. Instead, I decided to install Turbo Pascal. Embarcadero recently posted <a href="http://edn.embarcadero.com/article/20803">Turbo Pascal v5.5 as a free download</a> so the first thing I did was to grab a copy of it. Next, I grabbed an <a href="http://www.info-zip.org/UnZip.html#Downloads">unzip program</a> so I can unzip TP55.zip in iDOS. (Save time and <a href="ftp://ftp.info-zip.org/pub/infozip/msdos/">go here</a> to download unz552x3.exe.)</p>
 
 <p>Here are the remaining steps I followed to get Turbo Pascal up and running on my iPad.</p>
 
-<p>* Connect the iPad to iTunes.</p>
+<ul>
+  <li>
+    <p>Connect the iPad to iTunes.</p>
+  </li>
+  <li>
+    <p>In iTunes, go to the Apps tab for the connected iPad and scroll down to the file sharing section.</p>
+  </li>
+  <li>
+    <p>Drag and drop TP55.zip and unz552x3.exe to iDOS.</p>
+  </li>
+  <li>
+    <p>Sync the device.</p>
+  </li>
+  <li>
+    <p>Once sync is complete, launch iDOS on the iPad. You’ll find the two files in the root directory.</p>
+  </li>
+  <li>
+    <p>Copy unz552x3.exe to a new directory, or just run it in the root directory. This will uncompress the unzip utility files. I prefer running it in a separate directory to keep the root clean.</p>
+  </li>
+  <li>
+    <p>Unzip TP55.zip. This will create two directories, DISK1 and DISK2. Again, I copied TP55.zip to a temp directory before unzip.</p>
+  </li>
+  <li>
+    <p>Run install.exe found in the DISK1 directory. If your experience is similar to mine, you will get a message saying to insert the oop/demos/bgi/doc diskette. I’m guessing the installer can’t find the directory DISK2.</p>
+  </li>
+  <li>
+    <p>At this point, I aborted the install. Not to worry. Turbo Pascal’s IDE, compiler, etc have been installed.</p>
+  </li>
+  <li>
+    <p>By default, the IDE can be found in c:\TP. The program file to run is turbo.exe.</p>
+  </li>
+</ul>
 
-<p>* In iTunes, go to the Apps tab for the connected iPad and scroll down to the file sharing section.</p>
+<p>That’s it. Happy coding!</p>
 
-<p>* Drag and drop TP55.zip and unz552x3.exe to iDOS.</p>
+<p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href="http://code.google.com/p/dospad/">download the source code for DOSPad</a> and build your own version. </p>
 
-<p>* Sync the device.</p>
+<p><img src="/images/blog/2010-10-26-photo-41.PNG" alt="photo-4.PNG" /></p>
 
-<p>* Once sync is complete, launch iDOS on the iPad. You&#8217;ll find the two files in the root directory.</p>
-
-<p>* Copy unz552x3.exe to a new directory, or just run it in the root directory. This will uncompress the unzip utility files. I prefer running it in a separate directory to keep the root clean.</p>
-
-<p>* Unzip TP55.zip. This will create two directories, DISK1 and DISK2. Again, I copied TP55.zip to a temp directory before unzip.</p>
-
-<p>* Run install.exe found in the DISK1 directory. If your experience is similar to mine, you will get a message saying to insert the oop/demos/bgi/doc diskette. I&#8217;m guessing the installer can&#8217;t find the directory DISK2.</p>
-
-<p>* At this point, I aborted the install. Not to worry. Turbo Pascal&#8217;s IDE, compiler, etc have been installed.</p>
-
-<p>* By default, the IDE can be found in c:\TP. The program file to run is turbo.exe.</p>
-
-<p>That&#8217;s it. Happy coding!</p>
-
-<p>Update: If those not lucky enough to grab a copy of iDOS from the App Store, you can <a href='http://code.google.com/p/dospad/'>download the source code for DOSPad</a> and build your own version.</p>
-
-<p><img alt='photo-4.PNG' src='/images/blog/2010-10-26-photo-41.PNG' /></p>
 
 <p class="postmetadata">
     <small>
@@ -119,6 +133,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
+      </li>
+    
+      <li class="post">
         <a href="/2014/03/17/exclusive-ios-not-really/">iOS Exclusive, Well, Not Really</a>
       </li>
     
@@ -134,22 +152,19 @@
         <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/04/29/360intersect-was-great/">360intersect was Great</a>
-      </li>
-    
   </ul>
 </section>
 
             <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (20)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (1)</a></li>
+<li class='category'><a href='/category/ios/'>ios (2)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>

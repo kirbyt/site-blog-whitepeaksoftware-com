@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ios | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/ios/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2014-03-17T11:35:53-04:00</updated>
+  <updated>2014-11-20T12:15:47-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -13,23 +13,39 @@
 
   
   <entry>
+    <title type="html"><![CDATA[ANN: Cross Post, Sharing Across Social Sites Made Simple]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/"/>
+    <updated>2014-11-20T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple</id>
+    <content type="html"><![CDATA[<p>&lt;img src=”http://257bf79813094f196f16-bc6ead213ec900841fcf0484ae93cd9e.r62.cf2.rackcdn.com/images/cross-post/crosspost-screenshot.png” height=200 border=”0” style=”float: left; margin: 0 1em 1em 0;” /&gt;I am thrilled to announce the release of <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a>, a new app for iPhone and iPad that makes it simple to share your post, photos, and links to Facebook, Twitter, and App.net. I talk in detail <a href="http://www.thecave.com/2014/09/14/cross-posting-to-app.net-facebook-and-twitter/">why I decided to write Cross Post</a> over on my personal blog site, but long story short, I wanted a better way to share my thoughts and photos across different social media sites. And <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a> is that better way.</p>
+
+<p>Cross Post is free to download and use, but it has limits. You can post to only one social media site at a time using the free version. This gives you a chance to try out Cross Post without spending a cent. If you decide Cross Post is right for you and you want to post to multiple social media sites at the same time, then unlock everything the app has to offer for just $2.99.</p>
+
+<p>What are you waiting for? <a href="https://itunes.apple.com/us/app/cross-post/id872543786?mt=8&amp;uo=4&amp;at=11lcj9&amp;ct=blog">Download Cross Post</a> from the App Store now.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[iOS Exclusive, Well, Not Really]]></title>
     <link href="http://blog.whitepeaksoftware.com/2014/03/17/exclusive-ios-not-really/"/>
     <updated>2014-03-17T00:00:00-04:00</updated>
     <id>http://blog.whitepeaksoftware.com/2014/03/17/exclusive-ios-not-really</id>
-    <content type="html"><![CDATA[<p>Earlier today I was <a href='https://twitter.com/williamdnapier/status/445563171659849728'>asked</a> if I&#8217;m exclusively iOS with regard to the work I do. My initial response was &#8220;yes&#8221;, but it occurred to me that I&#8217;m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
+    <content type="html"><![CDATA[<p>Earlier today I was <a href="https://twitter.com/williamdnapier/status/445563171659849728">asked</a> if I’m exclusively iOS with regard to the work I do. My initial response was “yes”, but it occurred to me that I’m not exclusively an iOS developer. Sure, development work on iOS is my primary source of income, but I do work with other programming languages and platforms.</p>
 
-<p>Prior to 2007, I&#8217;m focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.</p>
+<p>Prior to 2007, I’m focus was on Microsoft .NET using C#. I produced a number of B2B and back office solutions using ASP.NET with C#. I also did Windows desktop development using Delphi.</p>
 
-<p>In 2007, I started experimenting with Xcode in hopes of porting <a href='http://www.whitepeaksoftware.com/killink-csv-editor'>Killink CSV Editor</a> to the Mac. In the spring of 2008 I started playing with the first public beta release of the iPhone SDK. And by the fall of 2008 I released my first iPhone app.</p>
+<p>In 2007, I started experimenting with Xcode in hopes of porting <a href="http://www.whitepeaksoftware.com/killink-csv-editor">Killink CSV Editor</a> to the Mac. In the spring of 2008 I started playing with the first public beta release of the iPhone SDK. And by the fall of 2008 I released my first iPhone app.</p>
 
-<p>It was clear to me at this time that I was hooked on Objective-C. I told my clients that I would be moving away from Microsoft technologies by the start of 2009 to focus on iPhone and Mac development. The transition was a tough one because at the time none of my clients were interested in mobile (though that has since changed and I&#8217;m now doing iOS work for some of those same clients). But thanks to the Cocoa developer community and events like <a href='http://www.360idev.com'>360idev</a>, I weathered the worse of transition and I now focus my time on writing iOS and Mac apps. However, iOS and Mac apps are different today than they were back in 2008.</p>
+<p>It was clear to me at this time that I was hooked on Objective-C. I told my clients that I would be moving away from Microsoft technologies by the start of 2009 to focus on iPhone and Mac development. The transition was a tough one because at the time none of my clients were interested in mobile (though that has since changed and I’m now doing iOS work for some of those same clients). But thanks to the Cocoa developer community and events like <a href="http://www.360idev.com">360idev</a>, I weathered the worse of transition and I now focus my time on writing iOS and Mac apps. However, iOS and Mac apps are different today than they were back in 2008.</p>
 
-<p>Most iOS and Mac apps today are connected apps, meaning they interact with a server. I haven&#8217;t written a single app in the last 2 years that didn&#8217;t have some sort of interaction with a server. And given my past experience with server work, I have made a point to keep up with what&#8217;s happening on the server side of things.</p>
+<p>Most iOS and Mac apps today are connected apps, meaning they interact with a server. I haven’t written a single app in the last 2 years that didn’t have some sort of interaction with a server. And given my past experience with server work, I have made a point to keep up with what’s happening on the server side of things.</p>
 
-<p>More recently I have been doing server work using Node.js primarily as a means to implement web services needed for the iOS and Mac apps that I work on. I also use python for a number of task, mainly for local scripts such as build scripts for my Xcode projects, but also I use python for the <a href='http://www.whitepeaksoftware.com'>White Peak Software</a> company web site and for some Google App Engine work I&#8217;ve done as the backend for iOS apps.</p>
+<p>More recently I have been doing server work using Node.js primarily as a means to implement web services needed for the iOS and Mac apps that I work on. I also use python for a number of task, mainly for local scripts such as build scripts for my Xcode projects, but also I use python for the <a href="http://www.whitepeaksoftware.com">White Peak Software</a> company web site and for some Google App Engine work I’ve done as the backend for iOS apps.</p>
 
-<p>So while it seems I&#8217;m exclusively an iOS developer, I&#8217;m not really. I build apps for iOS and Mac using Objective-C, and backend web services for those apps using python and Node.js. And I&#8217;m sure this too will change over time.</p>]]></content>
+<p>So while it seems I’m exclusively an iOS developer, I’m not really. I build apps for iOS and Mac using Objective-C, and backend web services for those apps using python and Node.js. And I’m sure this too will change over time.</p>
+
+]]></content>
   </entry>
   
 </feed>

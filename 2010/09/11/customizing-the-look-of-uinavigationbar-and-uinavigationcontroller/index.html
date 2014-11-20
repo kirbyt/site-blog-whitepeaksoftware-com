@@ -57,16 +57,16 @@
          <div class="grid_10 suffix_1">
          <h2><a href="/2010/09/11/customizing-the-look-of-uinavigationbar-and-uinavigationcontroller/">Customizing the Look of UINavigationBar and UINavigationController</a></h2>
  
-<img align='left' src='/images/blog/2010-09-11-CustomNavBar.png' />
-<p>I&#8217;ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar.</p>
+<p><img src="/images/blog/2010-09-11-CustomNavBar.png" align="left" />
+I’ve recently worked on a number of iOS projects that require a custom background for the UINavigationBar including the navigation bar used by the UINavigationController. Customizing the look of a UINavigationBar is actually pretty simple. You can set the tintColor property to the color of your choice. But sometimes you need to do more. For example, say you want to have a title in your navigation bar that uses a font not available on iPad and iPhone. For this you will need to use an image to customize the navigation bar. </p>
 
-<p>Let&#8217;s take a look at the various ways to customize the navigation bar.</p>
+<p>Let’s take a look at the various ways to customize the navigation bar.</p>
 
-<p>The UINavigationBar has a style property called barStyle. barStyle can be set to UIBarStyleDefault or UIBarStyleBlack. The default uses a blue gradient background. When using UIBarStyleBlack you can also set the translucent property to YES to give the navigation bar a partially opaque look. If you are using Interface Builder, then you will set the Style property in the Inspector window. Here you have the option to style the navigation bar as Default, Black Opaque, and Black Translucent.</p>
+<p>The UINavigationBar has a style property called barStyle. barStyle can be set to UIBarStyleDefault or UIBarStyleBlack. The default uses a blue gradient background. When using UIBarStyleBlack you can also set the translucent property to YES to give the navigation bar a partially opaque look. If you are using Interface Builder, then you will set the Style property in the Inspector window. Here you have the option to style the navigation bar as Default, Black Opaque, and Black Translucent. </p>
 
-<p>What if you want a color other than blue and black? You can set the tintColor property (aka Tint in IB) to any color you like. This changes the navigation bar&#8217;s color. Best of all, setting the tintColor will also change the background color used by the bar button items displayed within the navigation bar.</p>
+<p>What if you want a color other than blue and black? You can set the tintColor property (aka Tint in IB) to any color you like. This changes the navigation bar’s color. Best of all, setting the tintColor will also change the background color used by the bar button items displayed within the navigation bar. </p>
 
-<p>Sometimes, however, just changing the tint of the UINavigationBar isn&#8217;t enough. Sometimes you want to have a fancier background. Maybe the background you want has a different gradient style or lighting effect, or maybe you want a title displayed in the center of the navigation bar to use a font not available in iOS. How would you change the look of the navigation bar for these scenarios? Simple. You use an image that is drawn on the navigation bar.</p>
+<p>Sometimes, however, just changing the tint of the UINavigationBar isn’t enough. Sometimes you want to have a fancier background. Maybe the background you want has a different gradient style or lighting effect, or maybe you want a title displayed in the center of the navigation bar to use a font not available in iOS. How would you change the look of the navigation bar for these scenarios? Simple. You use an image that is drawn on the navigation bar.</p>
 
 <p>There are two approaches you can use to draw an image on the navigation bar. You can create a new class that inherits from UINavigationBar and override the drawRect method. For example:</p>
 
@@ -85,11 +85,12 @@
     [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 }
 
-@end</code></pre>
+@end
+</code></pre>
 
 <p>In this example, the image navbar.png is used to customize, or skin, the UINavigationBar. This is a nice, clean, object orientated way to customize the look of your navigation bar. The only thing you must remember to do is to use your custom UINavigationBar class within your application. This means changing the class type for those of us using IB.</p>
 
-<p>Another trick you can use that doesn&#8217;t require changing the class type is to use a category. For example:</p>
+<p>Another trick you can use that doesn’t require changing the class type is to use a category. For example:</p>
 
 <pre><code>@interface UINavigationBar (KTCustomLook)
 
@@ -106,13 +107,15 @@
     [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 }
 
-@end</code></pre>
+@end
+</code></pre>
 
-<p>I admit I have used this approach in more than one project, but doesn&#8217;t feel right to me. It feels more like using voodoo or black magic then following good OO design. But this approach does work and it does save you time by eliminating the need to change the class type for each instance of UINavigationBar within your app. [Update: This approach doesn&#8217;t feel right because it overrides a method in a category. You should know this is a bad, bad thing, and I don&#8217;t encourage others to do it. That said, it does work.]</p>
+<p>I admit I have used this approach in more than one project, but doesn’t feel right to me. It feels more like using voodoo or black magic then following good OO design. But this approach does work and it does save you time by eliminating the need to change the class type for each instance of UINavigationBar within your app. [Update: This approach doesn’t feel right because it overrides a method in a category. You should know this is a bad, bad thing, and I don’t encourage others to do it. That said, it does work.]</p>
 
 <p>One thing to note when using an image to customize the UINavigationBar, you still want to set the tintColor for the navigation bar. As I mentioned, setting this property will also change the background color used by the bar button items. So you want to set the tintColor to the appropriate color making the button color fit in with the navigation bar color style.</p>
 
-<p>For those of you who want to see these concepts in action, I posted a <a href='http://github.com/kirbyt/CustomNavBar'>sample project, called CustomNavBar</a>, on github. Enjoy.</p>
+<p>For those of you who want to see these concepts in action, I posted a <a href="http://github.com/kirbyt/CustomNavBar">sample project, called CustomNavBar</a>, on github. Enjoy.</p>
+
 
 <p class="postmetadata">
     <small>
@@ -144,6 +147,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
+      </li>
+    
+      <li class="post">
         <a href="/2014/03/17/exclusive-ios-not-really/">iOS Exclusive, Well, Not Really</a>
       </li>
     
@@ -159,22 +166,19 @@
         <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/04/29/360intersect-was-great/">360intersect was Great</a>
-      </li>
-    
   </ul>
 </section>
 
             <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (20)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (1)</a></li>
+<li class='category'><a href='/category/ios/'>ios (2)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>
