@@ -13,6 +13,8 @@ The latest update to Cross Post has hit the App Store. This update fixes bugs an
 - Smart quotes and punctuations.
 - *wpscrosspost* URL scheme for Launch Center Pro support
 
+[Download Cross Post][appstore] from the App Store now.
+
 ## Smart Quotes
 
 To turn on smart quotes and punctuations, tap the post composer and select **Use Smart Quotes** in the edit menu. Select **Use Dumb Quotes** to turn it off.
@@ -32,3 +34,5 @@ To compose a new post, use:
   **wpscrosspost://compose?text=[text]&attachment=photo:last**
 
 Both parameters are optional. The parameter *text* can be any text that you want to include in the post. The parameter *attachment* lets you attach a photo to the post. At the moment **photo:last** is the only supported value for *attachment* parameter.
+
+[appstore]: https://itunes.apple.com/us/app/cross-post/id872543786?mt=8&uo=4&at=11lcj9&ct=blog
