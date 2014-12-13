@@ -17,7 +17,7 @@ The latest update to Cross Post has hit the App Store. This update fixes bugs an
 
 To turn on smart quotes and punctuations, tap the post composer and select **Use Smart Quotes** in the edit menu. Select **Use Dumb Quotes** to turn it off.
 
-![](https://farm8.staticflickr.com/7524/15392871453_65c9d32fd2_z.jpg)
+![](https://farm8.staticflickr.com/7524/15392871453_65c9d32fd2.jpg)
 
 ## URL Scheme
 
