@@ -60,6 +60,73 @@
   
     <article>
       <div class="grid_2 alpha">   
+    <h2>Friday, November 06, 2009</h2>
+    </div>   
+    <div class="grid_9 omega">   
+    <h1 class="entry-title"><a href="/2009/11/06/how-to-translate-an-iphone-app-name/">How to Translate an iPhone App Name</a></h1>
+    <div class="entry-content"><p><img src="/images/blog/2009-11-06-iPhoneJapanese1.png" alt="" /></p>
+
+<p>I recently went through the process of translating Labor Mate into 8 different languages. Unfortunately the phrase “Labor Mate” doesn’t translate well into other languages such as Japanese and Germany so the translators came up with new localized app names. The problem I had though was displaying the translated app name on the iPhone’s springboard. </p>
+
+<p>After a bit of experimenting I finally got the translated app name to display. Turns out the steps are fairly simple. Here are the steps I took to localize the app name: </p>
+
+<ol>
+  <li>
+    <p>Added the property LSHasLocalizedDisplayName to Info.plist and set to True (mark the checkbox). Note that Xcode might change the property name to “Application has localized display name”.</p>
+  </li>
+  <li>
+    <p>Add a new strings file called InfoPlist.strings.</p>
+  </li>
+  <li>
+    <p>Make the file InfoPlist.strings localizable.</p>
+  </li>
+  <li>
+    <p>Add the languages that will have a translated app name.</p>
+  </li>
+  <li>
+    <p>For each localized version of the InfoPlist.strings file, add the follow string key/value pair: CFBundleDisplayName = “App Name”;</p>
+  </li>
+  <li>
+    <p>Be sure to set “App Name” to the translated value.</p>
+  </li>
+</ol>
+
+<p>That’s it. </p>
+
+<p><img src="/images/blog/2009-11-06-Info.plist.png" alt="Info.plist" /></p>
+
+<p><img src="/images/blog/2009-11-06-InfoPlist.strings.png" alt="InfoPlist.strings" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Speaking of language translation, I hired the fine folks over at <a href="http://iphone-i18n.com/">iphone-i18n.com</a> to translate the app description, keywords, and in-app strings for Labor Mate. I met Chuck and Judith of iphone-i18n.com at [360iDev</td>
+      <td>Denver](http://www.360idev.com/). They impressed me with their knowledge of internationalizing and localizing applications as well as their specific technical how to knowledge for the iPhone.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you are an iPhone developer looking to <a href="http://iphone-i18n.com/">translate your iPhone application</a> into other languages then I highly recommend talking with Chuck and Judith at iphone-i18n.com.</p>
+</div>
+     
+    <p class="postmetadata">
+        <small>
+        Posted in .
+        </small>
+    </p>
+    
+</div> 
+<div class="clear"></div>
+    </article>
+    <div class="clear"></div>
+    <div class="grid_9 prefix_2 alpha omega">
+      <hr />
+    </div>
+    <div class="clear"></div>
+  
+  
+    <article>
+      <div class="grid_2 alpha">   
     <h2>Sunday, October 25, 2009</h2>
     </div>   
     <div class="grid_9 omega">   
@@ -366,39 +433,6 @@ wayneeglonbrown posted the comment “would be good to be able to delete one put
     </div>
     <div class="clear"></div>
   
-  
-    <article>
-      <div class="grid_2 alpha">   
-    <h2>Saturday, February 28, 2009</h2>
-    </div>   
-    <div class="grid_9 omega">   
-    <h1 class="entry-title"><a href="/2009/02/28/labor-mate-12-is-in-the-app-store/">Labor Mate 1.2 is in the App Store</a></h1>
-    <div class="entry-content"><p>At long last Labor Mate 1.2 is in the App Store.  Only 6 weeks later then I originally hoped, but better late then never. Why did it take so long? Good question. </p>
-
-<p>The version 1.2 release of Labor Mate took longer then expected because it is basically a re-write from the original. I probably should have labeled it version 2.0 but I decided against it because there are only a handful of new features.  The re-write was needed to give the app greater stability especially in low memory conditions.  The re-write will also make it easier for me to add new features going forward. </p>
-
-<p>So what new features are included? Well, my favorite is the new contraction detail screen that allows users to enter notes about the contraction or delete the contraction from the log.  Adding notes will be handy for when you need to remember something about the particular contraction.  And yes, the notes are included in the email that is sent from Labor Mate. </p>
-
-<p><img src="http://www.whitepeaksoftware.com/main/static/images/labor-mate/laborMate.png" alt="" />Some users might notice the new app icon.  Jeff and Michael over at <a href="http://ocupop.com/">Ocupop</a> did an outstanding job coming up with the new icon, which really captures the primary purpose of Labor Mate.  I highly recommend these guys if you are looking for a design company. </p>
-
-<p>What’s next? I already have ideas for the next release of Labor Mate. The top priority is charting, or a graph representing a set of contractions over time. I have a couple of other ideas too but I’m keeping those to myself at the moment. I want to make sure they are doable before making any promises.</p>
-</div>
-     
-    <p class="postmetadata">
-        <small>
-        Posted in .
-        </small>
-    </p>
-    
-</div> 
-<div class="clear"></div>
-    </article>
-    <div class="clear"></div>
-    <div class="grid_9 prefix_2 alpha omega">
-      <hr />
-    </div>
-    <div class="clear"></div>
-  
 </div>
 
 <div class="clear"></div>
@@ -428,6 +462,10 @@ wayneeglonbrown posted the comment “would be good to be able to delete one put
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2014/12/13/ann-cross-post-v1-2-is-in-the-app-store/">ANN: Cross Post v1.2 is in the App Store</a>
+      </li>
+    
+      <li class="post">
         <a href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/">ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
       </li>
     
@@ -443,23 +481,19 @@ wayneeglonbrown posted the comment “would be good to be able to delete one put
         <a href="/2013/11/17/big-screen-out-in-the-wild-early/">ANN: Big Screen Out in the Wild Early</a>
       </li>
     
-      <li class="post">
-        <a href="/2013/05/28/learning-ipad-programming-on-sale-now/">ANN: Learning iPad Programming, 2nd Edition, is on Sale Now</a>
-      </li>
-    
   </ul>
 </section>
 
               <section>
 <h1>Categories</h1>
 <ul>
-<li class='category'><a href='/category/announcements/'>announcements (21)</a></li>
+<li class='category'><a href='/category/announcements/'>announcements (22)</a></li>
 <li class='category'><a href='/category/big-screen/'>big screen (1)</a></li>
 <li class='category'><a href='/category/conferences/'>conferences (1)</a></li>
-<li class='category'><a href='/category/cross-post/'>cross post (1)</a></li>
+<li class='category'><a href='/category/cross-post/'>cross post (2)</a></li>
 <li class='category'><a href='/category/general/'>general (2)</a></li>
 <li class='category'><a href='/category/hey-peanut/'>hey peanut (5)</a></li>
-<li class='category'><a href='/category/ios/'>ios (2)</a></li>
+<li class='category'><a href='/category/ios/'>ios (3)</a></li>
 <li class='category'><a href='/category/killink-csv/'>killink csv (1)</a></li>
 <li class='category'><a href='/category/labor-mate/'>labor mate (4)</a></li>
 <li class='category'><a href='/category/programming/'>programming (1)</a></li>

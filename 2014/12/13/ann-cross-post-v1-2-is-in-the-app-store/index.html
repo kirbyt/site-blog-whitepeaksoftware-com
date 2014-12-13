@@ -5,7 +5,7 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="robots" content="index,follow" />
 
-   <title>White Peak Software Blog &raquo; Facelift at WhitePeakSoftware.com  </title>
+   <title>White Peak Software Blog &raquo; ANN: Cross Post v1.2 is in the App Store  </title>
 
    <link rel="stylesheet" media="all" type="text/css" href="/css/reset.css" />
    <link rel="stylesheet" media="all" type="text/css" href="/css/960.css" />
@@ -55,25 +55,40 @@
       <div class="container_16" id="appsRow1">
          <div class="grid_1">&nbsp;</div>
          <div class="grid_10 suffix_1">
-         <h2><a href="/2009/03/11/facelift-at-whitepeaksoftwarecom/">Facelift at WhitePeakSoftware.com</a></h2>
+         <h2><a href="/2014/12/13/ann-cross-post-v1-2-is-in-the-app-store/">ANN: Cross Post v1.2 is in the App Store</a></h2>
  
-<p>Last week I flipped the switch on the White Peak Software website rolling out the new site design. If you are reading this in a RSS feed reader then pop over to <a href="http://www.whitepeaksoftware.com/">whitepeaksoftware.com</a> to check out the new website design. The new design was done by Michael and Jeff over at <a href="http://ocupop.com/">Ocupop</a>, the same design company that designed the new Labor Mate app icon.  I highly recommend these guys. </p>
+<p>The latest update to Cross Post has hit the App Store. This update fixes bugs and adds new features including:</p>
 
-<p>The roll out of the new website did not go as smooth as I had hoped, but it did go well.  A lot of work was done behind the scenes so the roll out could potentially have had many more problems then it did.  The site was moved from Microsoft Windows server running IIS to a new Ubuntu (Linux) server running apache2.  This meant I needed to copy over a number of download files, pad files, xml version files, and so on.  It also meant I needed to map old URLs to new URLs so bookmarks, old links, and so on take the  visitor to the correct web page.  This caused at least 1 known hiccup for a customer who had just purchased a license for SMTP Diagnostics and was trying to download the latest version as I was rolling out the new website. </p>
+<ul>
+  <li>A photo album picker.</li>
+  <li>An option to attach the last photo taken.</li>
+  <li>Smart quotes and punctuations.</li>
+  <li><em>wpscrosspost</em> URL scheme for Launch Center Pro support</li>
+</ul>
 
-<p>In addition to moving the site to the new server I migrated the website application from ASP.NET/C# to <a href="http://www.python.org/">Python</a> with <a href="http://web2py.com/">web2py</a>.  This is actually something I’m very excited about.  The original system was messy and adding new features to the application was not only a pain but time consuming as well.  Moving to Python and web2py allows me to reduce the amount of source code needed to run the website.  And going forward I will be able to add new content and features faster. For instance, I can finally incorporate a lost license key retrieval feature (coming soon) and I can build a better order management backend system needed to manage orders.  Good things for both you the customer and me. </p>
+<h2 id="smart-quotes">Smart Quotes</h2>
 
-<p>The new look also meant a new look for the store front and blog sites.  The store front gave me trouble due to some limitation in the ecommerce provider’s template engine.  I’m not happy with the final results but at least the store front is functional.  And the typical site visitor will probably never notice the minor differences between the main site and the store front. </p>
+<p>To turn on smart quotes and punctuations, tap the post composer and select <strong>Use Smart Quotes</strong> in the edit menu. Select <strong>Use Dumb Quotes</strong> to turn it off.</p>
 
-<p>So as you can see a number of things were included in the roll out beyond just a new look.  The site was moved to a new server running a different operating system.  The code base was moved to a new programming language and platform.  And a new look was applied to the website, store front, and blog. [Note: I still need to update the <a href="http://forum.whitepeaksoftware.com/forums/">support forums</a> with the new look, but that’s a topic for a different posting.] </p>
+<h2 id="url-scheme">URL Scheme</h2>
 
-<p>Despite the number of things that had to happen, I felt the roll out for the new site went as well as can be expected. As I said I wish it had been a bit smoother but there could have been a lot more problems.  The lesson learned from the experience: Don’t try to do so much in a single roll out.</p>
+<p><strong>wpscrosspost</strong> has been added as the custom URL scheme for Cross Post. You can use it to launch Cross Post from other apps. There is also a compose action that lets you set the post text and even attach the last photo.</p>
+
+<p>To launch Cross Post, use the URL:</p>
+
+<p><strong>wpscrosspost://</strong></p>
+
+<p>To compose a new post, use:</p>
+
+<p><strong>wpscrosspost://compose?text=[text]&amp;attachment=photo:last</strong></p>
+
+<p>Both parameters are optional. The parameter <em>text</em> can be any text that you want to include in the post. The parameter <em>attachment</em> lets you attach a photo to the post. At the moment <strong>photo:last</strong> is the only supported value for <em>attachment</em> parameter.</p>
 
 
 <p class="postmetadata">
     <small>
-    This entry was posted on Wednesday, March 11, 2009.<br />
-     Posted in .
+    This entry was posted on Saturday, December 13, 2014.<br />
+     Posted in <a class='category' href='/category/announcements/'>announcements</a>, <a class='category' href='/category/cross post/'>cross post</a>, <a class='category' href='/category/ios/'>ios</a>.
     </small>
 </p>
 
@@ -81,13 +96,11 @@
 <div class="clear"></div>
 <div class="grid_5 alpha">   
   
-    <a class="basic-alignment left" href="/2009/02/28/labor-mate-12-is-in-the-app-store/" title="Previous Post: Labor Mate 1.2 is in the App Store">&laquo; Labor Mate 1.2 is in the App Store</a>
+    <a class="basic-alignment left" href="/2014/11/20/ann-cross-post-sharing-across-social-sites-made-simple/" title="Previous Post: ANN: Cross Post, Sharing Across Social Sites Made Simple">&laquo; ANN: Cross Post, Sharing Across Social Sites Made Simple</a>
   
 </div>
 <div class="grid_1"></div>
 <div class="grid_5 omega">   
-  
-    <a class="basic-alignment right" href="/2009/03/27/labor-mate-13-rejected-due-to-crash/" title="Next Post: Labor Mate 1.3 Rejected Due to Crash">Labor Mate 1.3 Rejected Due to Crash &raquo;</a>
   
 </div> 
 <div class="clear"></div>

@@ -4,13 +4,47 @@
   <title><![CDATA[Category: ios | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/ios/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2014-11-20T13:32:21-05:00</updated>
+  <updated>2014-12-13T11:55:47-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Cross Post v1.2 is in the App Store]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2014/12/13/ann-cross-post-v1-2-is-in-the-app-store/"/>
+    <updated>2014-12-13T00:00:00-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2014/12/13/ann-cross-post-v1-2-is-in-the-app-store</id>
+    <content type="html"><![CDATA[<p>The latest update to Cross Post has hit the App Store. This update fixes bugs and adds new features including:</p>
+
+<ul>
+  <li>A photo album picker.</li>
+  <li>An option to attach the last photo taken.</li>
+  <li>Smart quotes and punctuations.</li>
+  <li><em>wpscrosspost</em> URL scheme for Launch Center Pro support</li>
+</ul>
+
+<h2 id="smart-quotes">Smart Quotes</h2>
+
+<p>To turn on smart quotes and punctuations, tap the post composer and select <strong>Use Smart Quotes</strong> in the edit menu. Select <strong>Use Dumb Quotes</strong> to turn it off.</p>
+
+<h2 id="url-scheme">URL Scheme</h2>
+
+<p><strong>wpscrosspost</strong> has been added as the custom URL scheme for Cross Post. You can use it to launch Cross Post from other apps. There is also a compose action that lets you set the post text and even attach the last photo.</p>
+
+<p>To launch Cross Post, use the URL:</p>
+
+<p><strong>wpscrosspost://</strong></p>
+
+<p>To compose a new post, use:</p>
+
+<p><strong>wpscrosspost://compose?text=[text]&amp;attachment=photo:last</strong></p>
+
+<p>Both parameters are optional. The parameter <em>text</em> can be any text that you want to include in the post. The parameter <em>attachment</em> lets you attach a photo to the post. At the moment <strong>photo:last</strong> is the only supported value for <em>attachment</em> parameter.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Cross Post, Sharing Across Social Sites Made Simple]]></title>
