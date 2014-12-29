@@ -59,24 +59,28 @@ task :deploy do
   Rake::Task[:generate].execute
 
   puts "## Fetch git repo at #{git_repo}"
-  if not File.exist?(deploy_dir)
-    system "git clone #{git_repo} #{deploy_dir}"
-    cd "#{deploy_dir}" do 
-      system "git branch gh-pages origin/gh-pages"
+  FileUtils.mkdir_p(deploy_dir) unless File.exist?(deploy_dir)
+  cd "#{deploy_dir}" do 
+    if not File.exist?(deploy_branch)
+      system "git clone #{git_repo} #{deploy_branch}"
+      cd "#{deploy_branch}" do 
+        system "git branch #{deploy_branch} origin/#{deploy_branch}"
+      end
     end
   end
-  cd "#{deploy_dir}" do 
-    system "git checkout gh-pages"
+
+  cd "#{deploy_dir}/#{deploy_branch}" do
+    system "git checkout #{deploy_branch}"
     system "git pull"
   end
 
   # Remove the old files and directories
-  (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }  
+  (Dir["#{deploy_dir}/#{deploy_branch}/*"]).each { |f| rm_rf(f) }  
 
-  puts "## Copying #{site_dir} files to #{deploy_dir}"
-  FileUtils.cp_r(site_dir + '/.', deploy_dir)
+  puts "## Copying #{site_dir} files to #{deploy_dir}/#{deploy_branch}"
+  FileUtils.cp_r(site_dir + '/.', deploy_dir + '/' + deploy_branch)
 
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}/#{deploy_branch}" do 
     system "git add -A ."
     message = "Site updated at #{Time.now.utc}"
     puts "\n## Committing: #{message}"
