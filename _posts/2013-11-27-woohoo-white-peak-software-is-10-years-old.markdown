@@ -97,7 +97,7 @@ In many ways, my decision to focus on mobile development meant I was starting ov
 
 ## Game Changer
 
-Similar to when I started working for White Peak Software full time in August 2004, I went nearly 6 months before I started making money as an app developer. The game changer for me was [360|idev][360idev]. The people I met and the connections I made at my first 360, as well as at other 360|idev conferences, made it possible for me to make a living as an app developer. 
+Similar to when I started working for White Peak Software full time in August 2004, I went nearly 6 months before I started making money as an app developer. The game changer for me was [360idev][360idev]. The people I met and the connections I made at my first 360, as well as at other 360idev conferences, made it possible for me to make a living as an app developer. 
 
 By 2010 I had released a number of apps into the App Store. Granted these apps were for clients, but still, I was writing apps and loving it. I was also getting more involved in the Mac and iOS developer communities. I not only attended more conferences, such as [NSConference][nsconf] and [WWDC][wwdc], I started speaking at conferences. I also got involved with the local [Boston CocoaHeads][cocoaheads], and eventually I started my own monthly gathering of Mac and iOS developers in Salem called [NSHappyHour][nshappyhour]. My career was booming, so much so that I was approached to write a book for Addison Wesley on [learning iPad programming][lipad]. I also released White Peak Software’s third app, Hey Peanut, which was a photo app for toddlers (and a total flop).
 
