@@ -1,26 +1,27 @@
 ---
 layout: layoutBlogIndex
 ---
-
 <h1 class="category">{{ page.title }}</h1>
-<div class="clear"></div>
 
 {% for post in site.categories[page.category] %}
-<div class="grid_2 alpha">   
-    <h2>{{ post.date | date_to_html_string }}</h2>
-    </div>   
-    <div class="grid_9 omega">   
-    <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
 
-    <p>{{ post.content | strip_html | truncatewords:20}}</p>
+<h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
 
-    {% if post.categories %} 
-    <p class="postmetadata">
-        <small>
-        Posted in {{ post.categories | category_links }}.
-        </small>
-    </p>
-    {% endif %}
-</div> 
-<div class="clear"></div>
+<div id="tagline">
+    <h1>Posted by Kirby Turner on {{ post.date | date: "%B %d, %Y" }}</h1>
+</div>
+
+<div class="entry-content">
+<p>{{ post.excerpt | markdownify }}</p>
+<p><a href="{{ root_url }}{{ post.url }}">Read more...</a></p>
+</div>
+{% if post.categories %} 
+<p class="postmetadata">
+    <small>
+    Posted in {{ post.categories | category_links }}.
+    </small>
+</p>
+{% endif %}
+<hr />
+
 {% endfor %}
