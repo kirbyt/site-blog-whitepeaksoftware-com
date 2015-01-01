@@ -7,8 +7,10 @@ title: Blog Archive
 {% for post in site.posts reverse %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
+  {% if year %}<hr />{% endif %}
+
   {% assign year = this_year %}
-  <h2>{{ year }}</h2>
+  <h1>{{ year }}</h1>
 {% endunless %}
 <article>
   {% include archive_post.html %}
