@@ -55,8 +55,13 @@
       <div class="container_16" id="appsRow1">
          <div class="grid_1">&nbsp;</div>
          <div class="grid_10 suffix_1">
-         <h2><a href="/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation/">Don't Rely on UIDevice orientation for Rotation</a></h2>
- 
+         <h1><a href="/2010/08/23/dont-rely-on-uidevice-orientation-for-rotation/">Don't Rely on UIDevice orientation for Rotation</a></h1>
+
+
+<div id="tagline">
+<h1>Posted by Kirby Turner on August 23, 2010</h1>
+</div>
+
 <p>Last week I tweeted about having rotation issues with an iPad app I’m working on. This is the second time in recent weeks I’ve encountered rotation issues in an app. In both instances I was using a <code>UIScrollView</code> so I started thinking the <code>UIScrollView</code> was source of my problems. In the most recent instance the <code>UIScrollView</code> contains a <code>UIView</code> that uses a number of <code>CALayer</code> instances for content display.</p>
 
 <p>For those who don’t know, in Mac OS X 10.5 and greater, <code>CALayer</code> has the <code>autoresizingMask</code> property. Unfortunately this property does not exists under iOS, so it’s up to my code to do the resizing CALayers as needed. This is where the rotation issue revealed itself.</p>
@@ -200,6 +205,7 @@ if (UIInterfaceOrientationIsLandscape(interfaceOrientation) == YES) {
 <li class='category'><a href='/category/smtp%20diagnostics/'>smtp diagnostics (1)</a></li>
 
 </ul>
+<a href="/blog/archives">The Complete Blog Archives</a>
 </section>
 
             
