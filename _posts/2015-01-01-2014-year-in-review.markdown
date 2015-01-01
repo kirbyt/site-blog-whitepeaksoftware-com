@@ -3,6 +3,7 @@ layout: post
 title: "2014 Year In Review"
 date: 2015-01-01 11:09:30 -0500
 categories: 
+    - general
 ---
 Here we are, January 1, 2015. I decided not to write a 2014 Year in Review post, but then this morning I read some [2014 year in reviews][reviews] from other bootstrappers, which in turned led to me re-read my own reviews from [2009][2009], [2012][2012], and [2013][2013]. Actually the 2013 review is more of a [10 years in review][2013], but it still talks about what happened with White Peak Software in 2013. After reading these other posts, I changed my mind about writing a 2014 Year in Review post, so without further ado here is my 2014 Year in Review.
 
