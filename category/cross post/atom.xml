@@ -4,13 +4,35 @@
   <title><![CDATA[Category: cross post | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/cross post/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-02-04T21:15:22-05:00</updated>
+  <updated>2015-03-25T07:46:40-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quickly Post Photos To Facebook]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/03/25/quickly-post-photos-to-facebook/"/>
+    <updated>2015-03-25T07:40:55-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/03/25/quickly-post-photos-to-facebook</id>
+    <content type="html"><![CDATA[<p>Last night a friend of mine was trying to post photos to Facebook. We were at <a href="http://www.stowecider.com">Stowe Cider</a> for their Cider House Rules event, which, by the way, was a lot of fun. Unfortunately for my friend the Facebook app was slow to load and it crashed a few times on her iPhone. The slow Internet connection was the likely cause of the problem, but even if the Internet connection had been better, my friend would still have to wait for the Facebook app to do its thing before she could post the photos. That’s when I showed her my app, <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a>.</p>
+
+<p>Cross Post sends your post to Facebook and Twitter. It doesn’t download your timeline or stream, so you don’t have to worry about the app taking a long time to load. But there is another feature of Cross Post that makes it even easier and faster to share photos: the share extension.</p>
+
+<p>With the Cross Post share extension, you can access Cross Post from virtual any app on your iPhone and iPad. As an example I showed my friend how easy it is to share a new photo from the Camera app. I took a picture. I tapped the picture thumbnail in the lower left corner of the Camera app screen. I tapped the Share icon - that’s the one of a rectangle with an up arrow coming out of the top. I tapped the Cross Post icon, typed in a message, selected Facebook, and sent off the picture for my friends on Facebook to enjoy.</p>
+
+<p>It sounds like a lot of steps when you write it out like that, but it really isn’t as you can see in this short <a href="https://vimeo.com/123186958">video</a>.</p>
+
+<p>{% vimeo 123186958 %}</p>
+
+<p>The share extension isn’t limited to sharing photos either. You can use it to share links and text from other apps as well. </p>
+
+<p>Wanna try Cross Post for free? Just <a href="https://itunes.apple.com/us/app/cross-post/id872543786?mt=8&amp;uo=4&amp;at=11lcj9&amp;ct=blog">download it</a> from the App Store. </p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Cross Post v1.2 is in the App Store]]></title>
