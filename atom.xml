@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-02-04T21:15:22-05:00</updated>
+  <updated>2015-03-25T07:47:59-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,29 @@
   </author>
   <rights>Copyright (c) 2003-2015 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[Quickly Post Photos To Facebook]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/03/25/quickly-post-photos-to-facebook/"/>
+    <published>2015-03-25T07:40:55-04:00</published>
+    <updated>2015-03-25T07:40:55-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/03/25/quickly-post-photos-to-facebook</id>
+    <content type="html"><![CDATA[<p>Last night a friend of mine was trying to post photos to Facebook. We were at <a href="http://www.stowecider.com">Stowe Cider</a> for their Cider House Rules event, which, by the way, was a lot of fun. Unfortunately for my friend the Facebook app was slow to load and it crashed a few times on her iPhone. The slow Internet connection was the likely cause of the problem, but even if the Internet connection had been better, my friend would still have to wait for the Facebook app to do its thing before she could post the photos. That’s when I showed her my app, <a href="http://www.whitepeaksoftware.com/cross-post">Cross Post</a>.</p>
+
+<p>Cross Post sends your post to Facebook and Twitter. It doesn’t download your timeline or stream, so you don’t have to worry about the app taking a long time to load. But there is another feature of Cross Post that makes it even easier and faster to share photos: the share extension.</p>
+
+<p>With the Cross Post share extension, you can access Cross Post from virtual any app on your iPhone and iPad. As an example I showed my friend how easy it is to share a new photo from the Camera app. I took a picture. I tapped the picture thumbnail in the lower left corner of the Camera app screen. I tapped the Share icon - that’s the one of a rectangle with an up arrow coming out of the top. I tapped the Cross Post icon, typed in a message, selected Facebook, and sent off the picture for my friends on Facebook to enjoy.</p>
+
+<p>It sounds like a lot of steps when you write it out like that, but it really isn’t as you can see in this short <a href="https://vimeo.com/123186958">video</a>.</p>
+
+<div class="vimeo-video"><figure><iframe src="//player.vimeo.com/video/123186958" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></figure></div>
+
+<p>The share extension isn’t limited to sharing photos either. You can use it to share links and text from other apps as well. </p>
+
+<p>Wanna try Cross Post for free? Just <a href="https://itunes.apple.com/us/app/cross-post/id872543786?mt=8&amp;uo=4&amp;at=11lcj9&amp;ct=blog">download it</a> from the App Store. </p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2014 Year In Review]]></title>
@@ -642,22 +665,6 @@ I’m very excited to announce a new partnership between <a href="http://outerle
 <p>I’m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level’s <a href="http://outerlevel.com/knapsack/">travel app</a>. </p>
 
 <p>What impact will this have on White Peak Software? None. I will continue working for White Peak Software as I have for the last 7 and a half years (Wow! It’s been that long?!). This partnership will, however, reduce my availability for consulting work, but this is a good thing as it fits within my long term goals for White Peak.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Adding Placeholder Text to UITextView]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/12/08/adding-placeholder-text-to-uitextview/"/>
-    <published>2010-12-08T00:00:00-05:00</published>
-    <updated>2010-12-08T00:00:00-05:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/12/08/adding-placeholder-text-to-uitextview</id>
-    <content type="html"><![CDATA[<p>I decided one of my apps should display placeholder text in a text view. Unfortunately UITextView does not have a placeholder property. I’ve always thought this is odd especially given the fact that UITextField has a placeholder property. </p>
-
-<p>I googled to see what others have done. I found <a href="http://stackoverflow.com/questions/1328638/placeholder-in-uitextview">some good approaches</a> but no one solution that I liked. So I decided to write my own borrowing from the various ideas of others. The end result is KTTextView.</p>
-
-<p><a href="https://github.com/kirbyt/KTTextView">KTTextView</a> derives from UITextView and enhances it with new features. At the moment the only new feature is the placeholder text. The <strong>placeholderText</strong> property works same as UITextField’s placeholder property. I also added the property <strong>placeholderColor</strong> in case an app has the need to use a color different then the default placeholder color.</p>
-
-<p>KTTextView is hosted on <a href="https://github.com/kirbyt/KTTextView">github</a>. The project includes a sample app showing how to use KTTextView. I plan to add more features as time allows. One feature I want to add is an option to display the text view in a rounded rectangle giving it a similar look to UITextField. In the meantime, I hope you find the KTTextView’s current implementation useful.</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: cross post | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/cross post/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-03-25T07:46:40-04:00</updated>
+  <updated>2015-03-25T07:47:59-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -25,7 +25,7 @@
 
 <p>It sounds like a lot of steps when you write it out like that, but it really isn’t as you can see in this short <a href="https://vimeo.com/123186958">video</a>.</p>
 
-<p>{% vimeo 123186958 %}</p>
+<p><div class="vimeo-video"><figure><iframe src="//player.vimeo.com/video/123186958" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></figure></div></p>
 
 <p>The share extension isn’t limited to sharing photos either. You can use it to share links and text from other apps as well. </p>
 
