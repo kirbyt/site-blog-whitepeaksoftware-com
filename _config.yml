@@ -3,6 +3,8 @@ showGrid: false
 url: http://blog.whitepeaksoftware.com
 title: White Peak Software Blog
 author: Kirby Turner
+description: "Blog site for White Peak Software, Inc."
+baseurl: ""
 
 root: /
 
