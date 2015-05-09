@@ -18,19 +18,15 @@ layout: layoutBlogIndex
 
 <div class="grid_2 alpha">   
     {% if paginator.next_page %}
-      <a class="prev" href="/{{paginator.next_page_path}}">&larr; Older</a>
+      <a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Older</a>
     {% endif %}
 </div>   
-<div class="grid_7" align="center">
+<div class="grid_6" align="center">
     <a href="/blog/archives">Blog Archives</a>
 </div>
-<div class="grid_2 omega">   
+<div class="grid_2 omega" align="right">   
     {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/">Newer &rarr;</a>
-        {% else %}
-            <a class="next" href="/{{paginator.previous_page_path}}">Newer &rarr;</a>
-        {% endif %}
+        <a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer &rarr;</a>
     {% endif %}
 </div> 
 <div class="clear"></div>
