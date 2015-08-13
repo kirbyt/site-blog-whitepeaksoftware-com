@@ -4,13 +4,25 @@
   <title><![CDATA[Category: ios | White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/category/ios/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-05-09T11:12:17-04:00</updated>
+  <updated>2015-08-13T09:39:01-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Peak App Care]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care/"/>
+    <updated>2015-08-13T09:35:25-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care</id>
+    <content type="html"><![CDATA[<p>I’m excited to announce a new service from White Peak Software called <a href="https://www.peakappcare.com">Peak App Care</a>. Peak App Care is a monthly subscription service for maintaining your iOS apps. What do I mean by that? Simply put, we monitor your app for crashes and fix them as quickly as possible. Not only that, we perform small jobs such as bug fixes and enhancements to your app at your request, and we even manage the App Store for you, from updating screenshots to submitting new builds on your behalf.</p>
+
+<p>To Learn more about this new service, visit the new <a href="https://www.peakappcare.com">Peak App Care website</a>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Cross Post v1.2 is in the App Store]]></title>

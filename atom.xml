@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-05-09T11:12:17-04:00</updated>
+  <updated>2015-08-13T09:39:01-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,19 @@
   </author>
   <rights>Copyright (c) 2003-2015 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Peak App Care]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care/"/>
+    <published>2015-08-13T09:35:25-04:00</published>
+    <updated>2015-08-13T09:35:25-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care</id>
+    <content type="html"><![CDATA[<p>I’m excited to announce a new service from White Peak Software called <a href="https://www.peakappcare.com">Peak App Care</a>. Peak App Care is a monthly subscription service for maintaining your iOS apps. What do I mean by that? Simply put, we monitor your app for crashes and fix them as quickly as possible. Not only that, we perform small jobs such as bug fixes and enhancements to your app at your request, and we even manage the App Store for you, from updating screenshots to submitting new builds on your behalf.</p>
+
+<p>To Learn more about this new service, visit the new <a href="https://www.peakappcare.com">Peak App Care website</a>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quickly Post Photos To Facebook]]></title>
@@ -650,21 +663,6 @@ I should also mention that while Big Screen is free, I do have plans to hopefull
 <p>With that said, the problem with my new iPad 2 is different. Yes, it’s the same yellowish discoloration, but in my particular case the discoloration is noticeable when using the iPad under normal conditions. The discoloration is visible on my device when running apps with black backgrounds (such as Kindle and Instapaper) with the brightness set to a low level while sitting in a room with natural daytime light. This is why I have asked Apple for a replacement. I wouldn’t care about the discoloration if it wasn’t noticeable under normal use, but for my particular device it is noticeable under normal use.</p>
 
 <p>So before you panic and think you have a defective iPad 2 because you can see some discoloration when looking at an all black screen with full brightness while in the dark, see if the discoloration is noticeable under normal conditions. I’m willing to bet your iPad is perfectly fine.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Joining Forces with Outer Level]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level/"/>
-    <published>2011-02-24T00:00:00-05:00</published>
-    <updated>2011-02-24T00:00:00-05:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2011/02/24/joining-forces-with-outer-level</id>
-    <content type="html"><![CDATA[<p><img src="/images/blog/2011-02-24-Knapsack.png" align="left" />
-I’m very excited to announce a new partnership between <a href="http://outerlevel.com/">Outer Level</a> and White Peak Software. Outer Level is the maker of great Mac and iOS apps including <a href="http://outerlevel.com/licensekeeper/">LicenseKeeper</a>, <a href="http://outerlevel.com/bullfrog-mac/">Bullfrog</a>, and (my personal favorite) <a href="http://outerlevel.com/knapsack/">Knapsack</a>. Outer Level’s success over the last year has left Jon, founder and lead developer at Outer Level, with more work than he can handle by himself. So Jon has asked me to join the Outer Level development team to help out. </p>
-
-<p>I’m very excited about this opportunity to work with one of the top Mac developer in the community. And while I have a lot to offer Jon and team, I will selfishly be learning a lot from Jon as I help with new development on Knapsack, Outer Level’s <a href="http://outerlevel.com/knapsack/">travel app</a>. </p>
-
-<p>What impact will this have on White Peak Software? None. I will continue working for White Peak Software as I have for the last 7 and a half years (Wow! It’s been that long?!). This partnership will, however, reduce my availability for consulting work, but this is a good thing as it fits within my long term goals for White Peak.</p>
 ]]></content>
   </entry>
   

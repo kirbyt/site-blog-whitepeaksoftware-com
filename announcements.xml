@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-05-09T11:12:17-04:00</updated>
+  <updated>2015-08-13T09:39:01-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,19 @@
   </author>
   <rights>Copyright (c) 2003-2015 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Peak App Care]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care/"/>
+    <published>2015-08-13T09:35:25-04:00</published>
+    <updated>2015-08-13T09:35:25-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/08/13/ann-peak-app-care</id>
+    <content type="html"><![CDATA[<p>I’m excited to announce a new service from White Peak Software called <a href="https://www.peakappcare.com">Peak App Care</a>. Peak App Care is a monthly subscription service for maintaining your iOS apps. What do I mean by that? Simply put, we monitor your app for crashes and fix them as quickly as possible. Not only that, we perform small jobs such as bug fixes and enhancements to your app at your request, and we even manage the App Store for you, from updating screenshots to submitting new builds on your behalf.</p>
+
+<p>To Learn more about this new service, visit the new <a href="https://www.peakappcare.com">Peak App Care website</a>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Cross Post v1.2 is in the App Store]]></title>
@@ -479,32 +492,6 @@ $23.90</p>
 <p>Another reason I’m excited about speaking at 360iDev this spring is I get to attend the conference. I was on the fence about going. I’m already registered for <a href="http://nsconference.com/">NSConference 2010 USA</a> and I plan to attend this year’s WWDC. I actually was planning to email John at 360iDev to ask if there are plans for another event later in the year. 360iDev Denver was such an incredible experience I knew I didn’t want to go the entire year without attending at least one event. But before I got the chance to ask about another event this year I received the email accepting me as a speaker. This of course made my decision easy. Heck yeah I’m going in April!</p>
 
 <p>And the final reason I’m excited about this opportunity, 360iDev events are the best. Granted I have attended only 1 and that was last fall, but it was by far the best developer conference I have attended in recent years. And definitely one of the top conferences I have ever attended. I posted <a href="http://blog.whitepeaksoftware.com/2009/10/13/360idev-denver-a-personal-review/">my comments about 360iDev Denver</a> back in October so I will not repeat myself here. What I will say, though, is if you are an iPhone developer then you should attend 360iDev San Jose. I guarantee you will pick up a trick or two or twelve and best of all you will get to meet other awesome iPhone developers.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Suport Forums to Move to Google Groups]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2009/12/31/suport-forums-to-move-to-google-groups/"/>
-    <published>2009-12-31T00:00:00-05:00</published>
-    <updated>2009-12-31T00:00:00-05:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2009/12/31/suport-forums-to-move-to-google-groups</id>
-    <content type="html"><![CDATA[<p>On January 1, 2010, the official support groups for all White Peak Software products will moving to Google Groups. The new URLs are below:</p>
-
-<p>Labor Mate</p>
-
-<p><a href="http://groups.google.com/group/whitepeaksoftware-labormate">http://groups.google.com/group/whitepeaksoftware-labormate</a></p>
-
-<p>Killink CSV Editor</p>
-
-<p><a href="http://groups.google.com/group/whitepeaksoftware-killinkcsveditor">http://groups.google.com/group/whitepeaksoftware-killinkcsveditor</a></p>
-
-<p>Why the move? The old forum software I used was becoming a pain to host and keep running. Also, almost all support questions and bug reports I receive come via email and not via the support forum. In other words, the this support forum was rarely used. And frankly I do not like web forums. I prefer email. </p>
-
-<p>Google Groups offers the best of both, web forums for those who prefer it and email for those who rather interact with a community via email. I know the move will be a pain for the select few who use this forum especially if don’t already have a Google Account. But the small pain outweighs the benefits of the move.</p>
-
-<p>Also, I hope this move will help the online community to grow. Time will tell if that happens or not.</p>
-
-<p>No support group URL for SMTP Diagnostics? Support for SMTP Diagnostics will be email only going forward. Use the <a href="http://whitepeaksoftware.com/main/default/contact">contact us</a> page to send your questions and bug reports.</p>
 ]]></content>
   </entry>
   
