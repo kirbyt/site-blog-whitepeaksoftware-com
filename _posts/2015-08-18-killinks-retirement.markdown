@@ -16,7 +16,7 @@ The combination of falling sales, the lack of active development, the release of
 
 **What does this retirement mean for current users of Killink CSV Editor?**
 
-For the loyal customers who bought a Killink CSV Editor license, nothing changes. You can continue using the app[^1]. This includes installing and using the app on new computers. And I will continue providing support for the app by answering your questions and helping you if you happen to encounter a problem using the app. 
+For the loyal customers who bought a Killink CSV Editor license, nothing changes. You can continue using the app([^1]). This includes installing and using the app on new computers. And I will continue providing support for the app by answering your questions and helping you if you happen to encounter a problem using the app. 
 
 Nothing changes for the licensed user, but for those without a license, well, I'm sorry to say you can no longer purchase a license. As part of this retirement, new licenses are no longer available for purchase. 
 
@@ -28,7 +28,7 @@ I thought about offering Killink as a free app, but I feel this would be a metap
 
 Making the app free to everyone would mean I have to also offer support to non-paying customers as there is no easy way for me to distinguish between those who paid and those who didn't. Or the alternative would be ending support all together just so others can use the software for free, but that isn't fair either to the folks who paid for the software. So Killink will not be re-released as a free app. 
 
-To those who have purchase Killink CSV Editor and continue to use it today, I thank you for your support over the years. And please know that even though new licenses can no longer be purchased, you can continue using your license and the software for as long as you like[^1].
+To those who have purchase Killink CSV Editor and continue to use it today, I thank you for your support over the years. And please know that even though new licenses can no longer be purchased, you can continue using your license and the software for as long as you like([^1]).
 
 ---
 
