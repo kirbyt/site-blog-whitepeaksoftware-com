@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-08-13T09:39:01-04:00</updated>
+  <updated>2015-08-18T11:15:10-04:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,48 @@
   </author>
   <rights>Copyright (c) 2003-2015 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[ANN: Killink's Retirement]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement/"/>
+    <published>2015-08-18T11:03:48-04:00</published>
+    <updated>2015-08-18T11:03:48-04:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement</id>
+    <content type="html"><![CDATA[<p>The time has come to retire Killink CVS Editor. This is not an easy decision for me to make. But with the recent release of Windows 10 and the lack of active development work going into Killink, I feel it is time. </p>
+
+<p>A big part of me hates to see this product come to an end. It is a great app and many people rely on it daily. I tried multiple times over the years to find a new home for Killink, but I didn’t have any luck.</p>
+
+<p>Sales of Killink have slowly dropped over the years as well, and rightfully so. I’ve not actively worked on the app in the while nor have I actively marketed the app. </p>
+
+<p>The combination of falling sales, the lack of active development, the release of a new version of Windows and the unsuccessful attempts to find a new home for Killink CSV Editor have all led to my decision to retire it. </p>
+
+<p><strong>What does this retirement mean for current users of Killink CSV Editor?</strong></p>
+
+<p>For the loyal customers who bought a Killink CSV Editor license, nothing changes. You can continue using the app<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. This includes installing and using the app on new computers. And I will continue providing support for the app by answering your questions and helping you if you happen to encounter a problem using the app. </p>
+
+<p>Nothing changes for the licensed user, but for those without a license, well, I’m sorry to say you can no longer purchase a license. As part of this retirement, new licenses are no longer available for purchase. </p>
+
+<p>I know this decision to stop selling new licenses will disappoint some folks, and I full expect to receive some angry emails over the next few months. All I can say is I’m sorry.</p>
+
+<p><strong>Why not make the app free?</strong></p>
+
+<p>I thought about offering Killink as a free app, but I feel this would be a metaphoric slap in the face to those who paid for the software. Plus, I’m still providing support to those customers who already bought a license. </p>
+
+<p>Making the app free to everyone would mean I have to also offer support to non-paying customers as there is no easy way for me to distinguish between those who paid and those who didn’t. Or the alternative would be ending support all together just so others can use the software for free, but that isn’t fair either to the folks who paid for the software. So Killink will not be re-released as a free app. </p>
+
+<p>To those who have purchase Killink CSV Editor and continue to use it today, I thank you for your support over the years. And please know that even though new licenses can no longer be purchased, you can continue using your license and the software for as long as you like<sup id="fnref:1:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you have a paid license, you can continue using Killink CSV Editor well into the future as long as the version of Windows you are using supports running older software. Best efforts will be made to offer continuous support on newer versions of Windows, but there is no guarantee the software will run on future versions of Windows. <a href="#fnref:1" class="reversefootnote">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Peak App Care]]></title>
@@ -645,24 +687,6 @@ I should also mention that while Big Screen is free, I do have plans to hopefull
 <p>After a few hours and reports of emails bouncing back with “invalid email address” errors, I decided to move the White Peak Software mail server to a new hosting provider. This meant email was once again flowing even while the original hosting provider tried to solve the hardware problems.</p>
 
 <p>Email seems to be stable again. However, if you sent an email to White Peak or me any time today and I have not responded then please resend the email. It’s likely the email fell into a black hole.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Discoloration on the New iPad 2 is No Reason to Panic]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic/"/>
-    <published>2011-03-16T00:00:00-04:00</published>
-    <updated>2011-03-16T00:00:00-04:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2011/03/16/discoloration-on-the-new-ipad-2-is-no-reason-to-panic</id>
-    <content type="html"><![CDATA[<p>I received my shinny, new iPad 2 yesterday. When I turned it on I immediately saw yellowish discolorations along the top, right, and bottom edges. The discoloration at the top right corner is the worse and is about the size of my thumb. I tweeted about the problem to see if others have seen the same issue. A friend pointed me to <a href="http://www.theipadfan.com/ipad-2-screen/">this site</a> which describes the problem and shows a picture of the discoloration.</p>
-
-<p>So apparently this is a problem with the new iPad 2, but I don’t think it’s a major problem. Nor do I think it’s a problem with iPad 2 only. Here’s why.</p>
-
-<p>It seems that many iPads will show some slight discoloration when displaying an all black screen with full brightness while in the dark. I see this on my first generation iPads, so this is not a new problem with the iPad 2. And I don’t see this as a major problem because under normal use you do not see the discoloration. I have used my first generation iPads (I have two of them) for nearly a year, and I have never noticed this problem. I can only see it when I display an all black screen with full brightness while in the dark, which is not a normal use case scenario.</p>
-
-<p>With that said, the problem with my new iPad 2 is different. Yes, it’s the same yellowish discoloration, but in my particular case the discoloration is noticeable when using the iPad under normal conditions. The discoloration is visible on my device when running apps with black backgrounds (such as Kindle and Instapaper) with the brightness set to a low level while sitting in a room with natural daytime light. This is why I have asked Apple for a replacement. I wouldn’t care about the discoloration if it wasn’t noticeable under normal use, but for my particular device it is noticeable under normal use.</p>
-
-<p>So before you panic and think you have a defective iPad 2 because you can see some discoloration when looking at an all black screen with full brightness while in the dark, see if the discoloration is noticeable under normal conditions. I’m willing to bet your iPad is perfectly fine.</p>
 ]]></content>
   </entry>
   
