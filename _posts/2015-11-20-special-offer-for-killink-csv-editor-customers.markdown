@@ -35,5 +35,5 @@ To learn more about why I decided to retire Killink CSV Editor, read this [post]
 Finally, to Killink CSV Editor customers, thank you for your understanding with this tough decision. And thank you for your support of Killink CSV Editor over the years. It's individuals like you that keep small businesses like mine running.
 
 [1]: http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement/
-[2]: https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak
+[2]: https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak?utm_source=white-peak-software-blog&amp;utm_medium=website&amp;utm_campaign=ron-s-editor-offer-to-killink-csv-editor-users
 [3]: http://www.ronsplace.eu/Products/RonsEditor
