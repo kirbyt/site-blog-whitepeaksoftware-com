@@ -4,7 +4,7 @@
   <title><![CDATA[White Peak Software Blog]]></title>
   <link href="http://blog.whitepeaksoftware.com/atom.xml" rel="self"/>
   <link href="http://blog.whitepeaksoftware.com/"/>
-  <updated>2015-11-19T22:27:32-05:00</updated>
+  <updated>2015-11-20T11:58:29-05:00</updated>
   <id>http://blog.whitepeaksoftware.com/</id>
   <author>
     <name><![CDATA[Kirby Turner]]></name>
@@ -12,6 +12,45 @@
   </author>
   <rights>Copyright (c) 2003-2015 White Peak Software Inc</rights>
   
+  
+  <entry>
+    <title type="html"><![CDATA[Special Offer For Killink Csv Editor Customers]]></title>
+    <link href="http://blog.whitepeaksoftware.com/2015/11/20/special-offer-for-killink-csv-editor-customers/"/>
+    <published>2015-11-20T11:47:27-05:00</published>
+    <updated>2015-11-20T11:47:27-05:00</updated>
+    <id>http://blog.whitepeaksoftware.com/2015/11/20/special-offer-for-killink-csv-editor-customers</id>
+    <content type="html"><![CDATA[<p>I recently made the tough decision to <a href="http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement/">retire</a> Killink CSV Editor. This retirement means new licenses for the CSV editor are no longer available for purchase.</p>
+
+<p><strong>But what does this mean for existing Killink CSV Editor customers?</strong></p>
+
+<p>Nothing changes. If you previously purchased a Killink CSV Editor license, then you can continue using the editor. And I’m available to answer any questions you might have about the editor.</p>
+
+<p>I do understand some of you may prefer using a CSV editor that is gaining new features and improvements. That’s why I’m happy to share with you a nice offer from the makers of <a href="http://www.ronsplace.eu/Products/RonsEditor">Ron’s Editor</a>, another outstanding CSV editor for Windows.</p>
+
+<p>Existing Killink CSV Editor customer are eligible to receive a FREE license to Ron’s Editor. Claiming the free license is easy as 1-2-3.</p>
+
+<ol>
+  <li>
+    <p>Visit: <a href="https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak">https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak</a></p>
+  </li>
+  <li>
+    <p>Enter your Killink CSV Editor license key, then click Find.</p>
+  </li>
+  <li>
+    <p>Enter your name and email address, then click Send.</p>
+  </li>
+</ol>
+
+<p>That’s it. You will receive an email containing your new license key for Ron’s Editor.</p>
+
+<p>To learn more about Ron’s Editor, the Ultimate CSV Editor, visit their <a href="http://www.ronsplace.eu/Products/RonsEditor">website</a>. You can also download a trial version of the editor if you want to try it out before taking advantage of this offer.</p>
+
+<p>To learn more about why I decided to retire Killink CSV Editor, read this <a href="http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement/">post</a>.</p>
+
+<p>Finally, to Killink CSV Editor customers, thank you for your understanding with this tough decision. And thank you for your support of Killink CSV Editor over the years. It’s individuals like you that keep small businesses like mine running.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ANN: Killink's Retirement]]></title>
@@ -498,26 +537,6 @@ $23.90</p>
 <p>You can help by purchasing one of our products: Labor Mate, Killink CSV Editor, or SMTP Diagnostics. Don’t have a need for one of our products? Then visit the <a href="http://www.indierelief.com/">Indie+Relief</a> website for a list of other independent software companies participating in this Haiti relief program.</p>
 
 <p><a href="http://www.indierelief.com/">Get great software and help with efforts in Haiti at the same time.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coming Soon: NSiPhoneDevs]]></title>
-    <link href="http://blog.whitepeaksoftware.com/2010/01/08/coming-soon-nsiphonedevs/"/>
-    <published>2010-01-08T00:00:00-05:00</published>
-    <updated>2010-01-08T00:00:00-05:00</updated>
-    <id>http://blog.whitepeaksoftware.com/2010/01/08/coming-soon-nsiphonedevs</id>
-    <content type="html"><![CDATA[<p>Over the last few months I have been inspired by different iPhone developer community events including <a href="http://www.360idev.com/">360iDev</a> and <a href="http://drinksontap.org/">DrinksOnTap</a>. So much so I have decided to start my own monthly <a href="http://nsiphonedevs.org">event for Boston area iPhone developers</a>.</p>
-
-<p>The opportunity to meet fellow iPhone developers and form new friendships is very exciting to me and it motivates me to do more with White Peak Software. Working from home is a wonderful perk of being an indie developer but it can be lonely at times. Meetup events, conferences, and so on are great ways for me to feel connected. And it gives my wife a needed break from my geek talk, which she doesn’t always understand but always happily smiles and acts like she is interested.</p>
-
-<p>The Boston area has a number of meetup events but it is not always possible for me to get into Boston. And let’s face it. <a href="http://mbta.com/">MBTA</a> ain’t the <a href="http://mta.info/">MTA</a>. I missed the 10:40 pm train to Salem at the last event I attended in Cambridge. This meant waiting until the 12:10 am train. I finally got home at 1 am.</p>
-
-<p>So what’s a North Shore iPhone developer who can’t always make it into Boston to do? Start a monthly gathering in the North Shore of course.</p>
-
-<p>Over the New Year’s weekend I <a href="http://twitter.com/kirbyt/status/7305792560">tweeted</a> about a new group I’m creating called <a href="http://nsiphonedevs.org/">NSiPhoneDevs</a>. The NS prefix is a fun play on the prefix for many of the foundation classes from Apple, but the NS prefix also stands for “North Shore”. The North Shore iPhone Developers or NSiPhoneDevs for short.</p>
-
-<p>I’m still working out the details including the exact location. What I do know is the events will be held in downtown Salem, the events will be monthly, and the first event will be this spring. Stay tune for more NSiPhoneDevs news from the official website (<a href="http://nsiphonedevs.org/">http://nsiphonedevs.org/</a>) or follow <a href="http://twitter.com/nsiphonedevs">@NSiPhoneDevs</a> on Twitter.</p>
 ]]></content>
   </entry>
   
