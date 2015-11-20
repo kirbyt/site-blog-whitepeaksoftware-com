@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+{% include head.html %}
+
+<body style="padding-top: 47px;">
+  {% include navigation.html %}
+
+  <!--=== Content Part ===-->
+  <div class="container content">
+    <div class="row blog-page">
+          <!-- Left Sidebar -->
+        <div class="col-md-9">
+
+          {{ content }}
+
+        </div>
+        <!-- End Left Sidebar -->
+
+        <!-- Right Sidebar -->
+        <div class="col-md-3 magazine-page">
+
+          <!-- Posts -->
+          <div class="posts margin-bottom-40">
+              <div class="headline headline-md"><h2>Recent Posts</h2></div>
+              {% for post in site.posts limit: site.recent_posts %}
+                <ul class="list-unstyled recent-post">
+                  <li>
+                    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+                    <small>{{ post.date | date: "%B %d, %Y" }}</small>
+                  </li>
+                </ul>
+              {% endfor %}
+          </div><!--/posts-->
+          <!-- End Posts -->
+
+          <!-- Blog Tags -->
+          <div class="headline headline-md"><h2>Categories</h2></div>
+          <ul class="list-unstyled blog-tags margin-bottom-30">
+              {% category_list %}
+          </ul>
+          <!-- End Blog Tags -->
+
+
+        </div>
+        <!-- End Right Sidebar -->
+      </div><!--/row-->
+  </div><!--/container-->
+  <!--=== End Content Part ===-->
+
+
+  {% include footer.html %}
+
+  {% include js.html %}
+
+</body>
+</html>

@@ -1,22 +1,43 @@
 ---
-layout: layoutGeneral
+layout: layout
 ---
- 
-<h1><a href="{{ page.url }}">{{page.title}}</a></h1>
 
+<!--Blog Post-->
+<div class="blog margin-bottom-40">
+  <h2><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h2>
+  <div class="blog-post-tags">
+      <ul class="list-unstyled list-inline blog-info">
+          <li><i class="fa fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</li>
+          <li><i class="fa fa-pencil"></i> Kirby Turner</li>
+      </ul>
 
-<div id="tagline">
-<h1>Posted by Kirby Turner on {{ page.date | date: "%B %d, %Y" }}</h1>
+      {% if page.categories %}
+      <ul class="list-unstyled list-inline blog-tags">
+          <li>
+              <i class="fa fa-tags"></i>
+              {{ page.categories | category_links }}
+          </li>
+      </ul>
+      {% endif %}
+  </div>
+  {{ content }}
+
 </div>
+<!--End Blog Post-->
 
-{{ content }}
+<hr>
 
-<p class="postmetadata">
-    <small>
-    This entry was posted on {{ page.date | date: "%A, %B %d, %Y" }}.<br />
-    {% if page.categories %} Posted in {{ page.categories | category_links }}.{% endif %}
-    </small>
-</p>
+<div class="text-center">
+  <ul class="pagination">
+    {% if page.previous.url %}
+    <li><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&larr; Previous Post</a></li>
+    {% endif %}
 
-<hr />
-{% include previous_next_articles.html %}
+    <li><a href="/">Index</a></li>
+    <li><a href="/blog/archives">Archive</a></li>
+
+    {% if page.next.url %}
+    <li><a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Next Post &rarr;</a></li>
+    {% endif %}
+  </ul>
+</div>

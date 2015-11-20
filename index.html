@@ -1,32 +1,27 @@
 ---
-layout: layoutBlogIndex
+layout: layout
 ---
 
-<div class="blog_index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-    <hr />
-  {% endfor %}
+{% assign index = true %}
+{% for post in paginator.posts %}
+{% assign content = post.content %}
+  <article>
+    {% include article.html %}
+  </article>
+{% endfor %}
+
+
+<!--Pagination-->
+<div class="text-center">
+    <ul class="pagination">
+      {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-caret-left"></i> Older Posts</a>
+      </li>
+      {% endif %}
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts <i class="fa fa-caret-right"></i></a></li>
+      {% endif %}
+    </ul>
 </div>
-
-<div class="clear"></div>
-
-
-<div class="grid_2 alpha">   
-    {% if paginator.next_page %}
-      <a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Older</a>
-    {% endif %}
-</div>   
-<div class="grid_6" align="center">
-    <a href="/blog/archives">Blog Archives</a>
-</div>
-<div class="grid_2 omega" align="right">   
-    {% if paginator.previous_page %}
-        <a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer &rarr;</a>
-    {% endif %}
-</div> 
-<div class="clear"></div>
+<!--End Pagination-->

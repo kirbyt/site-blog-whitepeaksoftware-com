@@ -1,17 +1,22 @@
-<h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+<!--Blog Post-->
+<div class="blog margin-bottom-40">
+  <h2><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h2>
+    <div class="blog-post-tags">
+        <ul class="list-unstyled list-inline blog-info">
+            <li><i class="fa fa-calendar"></i> {{ post.date | date: "%B %d, %Y" }}</li>
+            <li><i class="fa fa-pencil"></i> Kirby Turner</li>
+        </ul>
 
-<div id="tagline">
-    <h1>Posted by Kirby Turner on {{ post.date | date: "%B %d, %Y" }}</h1>
+        {% if post.categories %}
+        <ul class="list-unstyled list-inline blog-tags">
+            <li>
+                <i class="fa fa-tags"></i>
+                {{ post.categories | category_links }}
+            </li>
+        </ul>
+        {% endif %}
+    </div>
+    <p>{{ post.excerpt }}</p>
+    <p><a class="btn-u btn-u-small" href="{{ root_url }}{{ post.url }}"><i class="fa fa-plus-sign"></i> Read More</a></p>
 </div>
-
-<div class="entry-content">
-<p>{{ post.excerpt }}</p>
-<p><a href="{{ root_url }}{{ post.url }}">Read more...</a></p>
-</div>
-{% if post.categories %} 
-<p class="postmetadata">
-    <small>
-    Posted in {{ post.categories | category_links }}.
-    </small>
-</p>
-{% endif %}
+<!--End Blog Post-->

@@ -1,27 +1,12 @@
 ---
-layout: layoutBlogIndex
+layout: layout
 ---
-<h1 class="category">{{ page.title }}</h1>
+
+<h2 class="title-v2 title-center">{{ page.title | upcase }}</h2>
 
 {% for post in site.categories[page.category] %}
-
-<h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-
-<div id="tagline">
-    <h1>Posted by Kirby Turner on {{ post.date | date: "%B %d, %Y" }}</h1>
-</div>
-
-<div class="entry-content">
-<p>{{ post.excerpt | markdownify }}</p>
-<p><a href="{{ root_url }}{{ post.url }}">Read more...</a></p>
-</div>
-{% if post.categories %} 
-<p class="postmetadata">
-    <small>
-    Posted in {{ post.categories | category_links }}.
-    </small>
-</p>
-{% endif %}
-<hr />
-
+{% assign content = post.content %}
+  <article>
+    {% include article.html %}
+  </article>
 {% endfor %}
