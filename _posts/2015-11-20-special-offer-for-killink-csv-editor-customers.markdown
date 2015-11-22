@@ -20,7 +20,7 @@ Existing Killink CSV Editor customer are eligible to receive a FREE license to R
 
 1. Visit: [https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak][2]
 
-2. Enter your Killink CSV Editor license key, then click Find.
+2. Enter your Killink CSV Editor license key, then click Find. ([Lost your license?][4])
 
 3. Enter your name and email address, then click Send.
 
@@ -37,3 +37,4 @@ Finally, to Killink CSV Editor customers, thank you for your understanding with 
 [1]: http://blog.whitepeaksoftware.com/2015/08/18/killinks-retirement/
 [2]: https://www.ronsplace.eu/Products/RonsEditor/Partner/WhitePeak?utm_source=white-peak-software-blog&amp;utm_medium=website&amp;utm_campaign=ron-s-editor-offer-to-killink-csv-editor-users
 [3]: http://www.ronsplace.eu/Products/RonsEditor
+[4]: http://www.whitepeaksoftware.com/licenselookup/
